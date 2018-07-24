@@ -1,0 +1,13 @@
+{
+    "admindisableddownload": "Vui lòng chú ý rằng Quản Trị Hệ Thống đã vô hiệu hóa tải tập tin xuống, bạn có thể duyệt tập tin nhưng không thể tải xuống.",
+    "clicktoupload": "Chọn vào nút bên dưới để tải lên tập tin riêng tư của bạn.",
+    "couldnotloadfiles": "Danh sách các tập tin không thể tải.",
+    "emptyfilelist": "Không có tập tin nào.",
+    "erroruploadnotworking": "Hiện tại không có tập tin nào có thể được tải lên.",
+    "files": "Tập tin của bạn",
+    "privatefiles": "Tập tin riêng tư",
+    "myprivatefilesdesc": "Tập tin có sẵn trong vùng riêng tư trên hệ thống.",
+    "sitefiles": "Trang tập tin",
+    "sitefilesdesc": "Các tập tin khác có sẵn trên hệ thống.",
+    "uploadfiles": "Tải tập tin lên"
+}

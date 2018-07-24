@@ -1,0 +1,22 @@
+{
+    "activitydisabled": "Bạn không thể sử dụng tính năng này trên ứng dụng di động.",
+    "activitynotyetviewableinapp": "Tính năng này đang được phát triển {{$a}}.",
+    "activitynotyetviewableremoteaddon": "Tổ chức của bạn đã cài đặt một plugin chưa được hỗ trợ.",
+    "activitynotyetviewablesiteupgradeneeded": "Việc cài đặt Moodle của tổ chức bạn cần phải được cập nhật.",
+    "allsections": "Nội dung",
+    "askadmintosupport": "Liên hệ với quản trị viên trang Web và cho họ biết bạn muốn sử dụng hoạt động này với ứng dụng Moodle Mobile.",
+    "confirmdeletemodulefiles": "Bạn có chắc chắn muốn xóa các tệp mô-đun này không?",
+    "confirmdownload": "Bạn sắp tải xuống {{size}}. Bạn có muốn tiếp tục tải?",
+    "confirmdownloadunknownsize": "Chúng tôi không thể tính toán kích thước tải xuống. Bạn có chắc chắn muốn tải xuống không?",
+    "confirmpartialdownloadsize": "Bạn sắp tải xuống <strong>tối thiểu</strong> {{size}}. Bạn có muốn tiếp tục tải?",
+    "contents": "Nội dung",
+    "couldnotloadsections": "Không thể tải các phần, vui lòng thử lại sau.",
+    "couldnotloadsectioncontent": "Không thể tải các phần, vui lòng thử lại sau.",
+    "errordownloadingsection": "Lỗi tải xuống phần.",
+    "errorgetmodule": "Lỗi nhận dữ liệu mô đun.",
+    "hiddenfromstudents": "Ẩn từ học viên",
+    "nocontentavailable": "Hiện tại chưa có nội dung",
+    "overriddennotice": "Điểm cuối cùng của bạn từ hoạt động này đã được điều chỉnh theo cách thủ công.",
+    "useactivityonbrowser": "Bạn vẫn có thể sử dụng nó bằng cách sử dụng trình duyệt thiết bị của bạn.",
+    "showall": "Hiển thị tất cả"
+}

@@ -1,0 +1,50 @@
+core-courses-course-progress {
+    .couse-item{
+        margin: 0px;
+        width: 100%;
+    }
+    
+    ion-card.card {
+        display: flex;
+        flex-direction: column;
+        .core-course-thumb {
+            height: 79.5px;
+            width: 100%;
+            overflow: hidden;
+            cursor: pointer;
+            pointer-events: auto;
+            position: relative;
+
+            @for $i from 0 to length($core-course-image-background) {
+                &.core-course-color-#{$i} {
+                    background: nth($core-course-image-background, $i + 1);
+                }
+            }
+
+            img {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+            }
+        }
+
+        .core-course-link {
+            padding: 5px;
+            height: 132.5px;
+            div {
+                height: 60px;
+                overflow: hidden;
+            }
+        }
+        .label {
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    button {
+        z-index: 1;
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "complete": "Hoàn thành",
+    "completecourse": "Hoàn thành khóa học",
+    "completed": "Đã hoàn thành",
+    "completiondate": "Ngày hoàn thành",
+    "couldnotloadreport": "Không thể tải báo cáo hoàn thành khóa học, vui lòng thử lại",
+    "criteria": "Tiêu chí",
+    "criteriagroup": "Nhóm tiêu chí",
+    "criteriarequiredall": "Tất cả tiêu chí bên dưới là yêu cầu",
+    "criteriarequiredany": "Bất kỳ tiêu chí bên dưới là yêu cầu",
+    "coursecompletion": "Hoàn thành khóa học",
+    "inprogress": "Trong tiến trình",
+    "manualselfcompletion": "Tự hoàn thành",
+    "notyetstarted": "Chưa được bắt đầu",
+    "pending": "Đang chờ xử lý",
+    "requirement": "Yêu cầu",
+    "required": "Yêu cầu",
+    "requiredcriteria": "Tiêu chí yêu cầu",
+    "status": "Trạng thái",
+    "viewcoursereport": "Xem báo cáo khóa học"
+}

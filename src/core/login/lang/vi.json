@@ -18,6 +18,7 @@
     "errordeletesite": "Đã xảy ra lỗi khi xóa trang web này. Vui lòng thử lại.",
     "errorupdatesite": "Đã xảy ra lỗi khi cập nhật mã thông báo của trang web.",
     "firsttime": "Đây có phải là lần đầu tiên bạn đến đây?",
+    "forgotten": "Quên mật khẩu?",
     "getanothercaptcha": "Lấy mã CAPTCHA khác",
     "help": "Giúp đỡ",
     "helpmelogin": "<p>Có hàng ngàn trang web Moodle trên khắp thế giới. Ứng dụng này chỉ có thể kết nối với các trang web Moodle đã bật tính năng Truy cập ứng dụng dành cho thiết bị di động.</p><p>Nếu bạn không thể kết nối với trang Moodle của mình thì bạn cần liên hệ với quản trị viên Moodle tại nơi bạn muốn kết nối và yêu cầu họ đọc <a href=\"http://docs.moodle.org/en/Mobile_app\" target=\"_blank\">http://docs.moodle.org/en/Mobile_app</a></p><p>To test the app in a Moodle demo site type <i>teacher</i> or <i>student</i> in the <i>Site address</i> field and click the <b>Connect button</b>.</p>",

@@ -8,7 +8,7 @@
 </core-navbar-buttons>
 
 <!-- Content. -->
-<core-loading [hideUntil]="loaded" class="core-loading-center">
+<!-- <core-loading [hideUntil]="loaded" class="core-loading-center">
 
     <core-course-module-description *ngIf="mode != 'iframe'" [description]="description" [component]="component" [componentId]="componentId"></core-course-module-description>
 
@@ -22,4 +22,9 @@
             {{ 'addon.mod_url.accessurl' | translate }}
         </a>
     </div>
+</core-loading> -->
+<core-loading [hideUntil]="loaded" class="core-loading-center">
+<core-iframe [src]="url" >
+    
+</core-iframe>
 </core-loading>

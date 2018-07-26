@@ -1,8 +1,8 @@
 {
     "appsettings": "Tùy chỉnh ứng dụng",
-    "changesite": "Đổi trang",
+    "changesite": "Đăng xuất",
     "help": "Hổ trợ",
-    "logout": "Đặng xuất",
+    "logout": "Đăng xuất",
     "mycourses": "Khóa học của tôi",
     "togglemenu": "Chuyển đổi menu",
     "website": "Website"

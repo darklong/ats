@@ -50,7 +50,7 @@ $core-color:          $fe-green;
 $core-color-light:    lighten($core-color, 10%);
 $core-color-dark:     darken($core-color, 10%);
 
-$core-course-image-background: #81ecec, #74b9ff, #a29bfe, #dfe6e9, #00b894, #0984e3, #b2bec3, #fdcb6e, #fd79a8, #6c5ce7;
+$core-course-image-background: #81ecec, #74b9ff, #a29bfe, #dfe6e9, $fe-green, #0984e3, #b2bec3, #fdcb6e, #fd79a8, #6c5ce7;
 
 // Shared Variables
 // --------------------------------------------------

@@ -322,7 +322,7 @@ if (hasProperty('postBuildExtras')) {
     postBuildExtras()
 }
 configurations.all {
-     resolutionStrategy.force 'com.android.support:support-v4:24.0.0'
+     resolutionStrategy.force 'com.android.support:support-v4:+'
  }
 android {
     compileSdkVersion 26

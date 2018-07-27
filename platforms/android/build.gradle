@@ -322,3 +322,7 @@ if (hasProperty('postBuildExtras')) {
 configurations.all {
      resolutionStrategy.force 'com.android.support:support-v4:24.0.0'
  }
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+}

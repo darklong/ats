@@ -36,8 +36,6 @@
     <preference name="SplashScreenDelay" value="15000" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="LoadUrlTimeoutValue" value="60000" />
-    <preference name='phonegap-version' value="cli-7.0.1" />
-    <preference name='pgb-builder-version' value="1" />
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>

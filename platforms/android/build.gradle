@@ -36,13 +36,13 @@ buildscript {
 
 // Allow plugins to declare Maven dependencies via build-extras.gradle.
 allprojects {
-    repositories {
-        jcenter()
-        maven {
+     repositories {
+         jcenter()
+         maven {
              url "https://maven.google.com"
          }
-    }
-}
+     }
+ }
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.14.1'

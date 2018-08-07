@@ -20,21 +20,8 @@
         <core-empty-box *ngIf="courses[courses.selected].length == 0 && courses.selected == 'future'" image="assets/img/icons/courses.svg" [message]="'core.courses.nocoursesfuture' | translate"></core-empty-box>
         <core-empty-box *ngIf="courses[courses.selected].length == 0 && courses.selected == 'past'" image="assets/img/icons/courses.svg" [message]="'core.courses.nocoursespast' | translate"></core-empty-box>
         <div>
-            <ion-list no-lines>
-                <div *ngFor="let category of filteredCategory" class="item-category">
-                <ion-slides   class="login-slides" slidesPerView="2" >
-
-                            <ion-slide class="common first-el">
-                                <ion-card class="card-category-title category-title-background-{{category.id % 10}}" >
-                                    <h2>{{ category.name }}</h2>
-                                </ion-card>
-                            </ion-slide>
-                            <ion-slide *ngFor="let course of category.courses" class="common" >
-                                    <core-courses-course-progress [course]="course" class="core-courseoverview"></core-courses-course-progress>
-                            </ion-slide>
-                </ion-slides>
-                </div>
-            </ion-list>
+            <core-courses-course-list-slide [categories]="filteredCategory">
+            </core-courses-course-list-slide>
         </div>
     </core-loading>
 

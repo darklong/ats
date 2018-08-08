@@ -31,6 +31,12 @@ export class CoreCoursesCourseListSlideComponent implements OnInit, OnDestroy {
     protected courseStatusObserver;
     protected siteUpdatedObserver;
     /**
+     * Component being initialized.
+     */
+    ngOnInit(): void {
+        
+    }
+    /**
      * Component destroyed.
      */
     ngOnDestroy(): void {

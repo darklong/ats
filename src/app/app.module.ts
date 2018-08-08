@@ -78,6 +78,8 @@ import { CoreCommentsModule } from '@core/comments/comments.module';
 // Addon modules.
 import { AddonBadgesModule } from '@addon/badges/badges.module';
 import { AddonCalendarModule } from '@addon/calendar/calendar.module';
+import { AddonMandatoryModule } from '@addon/mandatory/mandatory.module';
+import { AddonResourceModule } from '@addon/Resource/Resource.module';
 import { AddonCompetencyModule } from '@addon/competency/competency.module';
 import { AddonCourseCompletionModule } from '@addon/coursecompletion/coursecompletion.module';
 import { AddonUserProfileFieldModule } from '@addon/userprofilefield/userprofilefield.module';
@@ -219,6 +221,8 @@ export const CORE_PROVIDERS: any[] = [
         AddonPushNotificationsModule,
         AddonRemoteThemesModule,
         AddonQbehaviourModule,
+        AddonMandatoryModule,
+        AddonResourceModule,
         AddonQtypeModule
     ],
     bootstrap: [IonicApp],

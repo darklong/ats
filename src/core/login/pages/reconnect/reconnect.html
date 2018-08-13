@@ -13,7 +13,7 @@
 
             <!-- Show site logo or a default image. -->
             <img *ngIf="!site.avatar && logoUrl" [src]="logoUrl" core-external-content [siteId]="site.id" role="presentation">
-            <img *ngIf="!site.avatar && !logoUrl" src="assets/img/login_logo.png" class="login-logo" role="presentation">
+            <img *ngIf="!site.avatar && !logoUrl" src="assets/img/login_logo_ats.png" class="login-logo" role="presentation">
 
             <!-- If no sitename show big siteurl. -->
             <p *ngIf="!siteName" class="item-heading core-siteurl">{{siteUrl}}</p>

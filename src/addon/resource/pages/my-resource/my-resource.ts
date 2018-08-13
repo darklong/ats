@@ -22,6 +22,7 @@ import { CoreEventsProvider } from '@providers/events';
 import { CoreAppProvider } from '@providers/app';
 import { CoreCoursesMyOverviewProvider } from '@core/courses/providers/my-overview';
 import { CoreCourseHelperProvider } from '@core/course/providers/helper';
+import { CoreCourseOptionsDelegate } from '@core/course/providers/options-delegate';
 import * as moment from 'moment';
 import { CoreTabsComponent } from '@components/tabs/tabs';
 
@@ -45,6 +46,7 @@ export class AddonResourceMyResourcePage implements OnDestroy {
         inprogress: [],
         future: []
     };
+    tabShown = 'courses';
     showFilter = false;
     filteredCourses: any[];
     filteredCategory: any[];
@@ -76,7 +78,7 @@ export class AddonResourceMyResourcePage implements OnDestroy {
     constructor(private domUtils: CoreDomUtilsProvider,
             private coursesProvider: CoreCoursesProvider, private utils: CoreUtilsProvider,
             private myOverviewProvider: CoreCoursesMyOverviewProvider, private sitesProvider: CoreSitesProvider,
-            private courseHelper: CoreCourseHelperProvider,
+            private courseHelper: CoreCourseHelperProvider, private courseOptionsDelegate: CoreCourseOptionsDelegate,
             private eventsProvider: CoreEventsProvider, private navCtrl: NavController, appProvider: CoreAppProvider) {
         this.loadSiteName();
     }
@@ -301,6 +303,49 @@ export class AddonResourceMyResourcePage implements OnDestroy {
 
         });
     }
+
+    /**
+     * Refresh the data.
+     *
+     * @param {any} refresher Refresher.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    refreshMyOverview(refresher: any): Promise<any> {
+        const promises = [];
+
+        if (this.tabShown == 'timeline') {
+            promises.push(this.myOverviewProvider.invalidateActionEventsByTimesort());
+            promises.push(this.myOverviewProvider.invalidateActionEventsByCourses());
+        }
+
+        promises.push(this.coursesProvider.invalidateUserCourses());
+        promises.push(this.courseOptionsDelegate.clearAndInvalidateCoursesOptions());
+        if (this.courseIds) {
+            promises.push(this.coursesProvider.invalidateCoursesByField('ids', this.courseIds));
+        }
+
+        return Promise.all(promises).finally(() => {
+            switch (this.tabShown) {
+                case 'timeline':
+                    switch (this.timeline.sort) {
+                        case 'sortbydates':
+                            return this.fetchMyOverviewTimeline();
+                        case 'sortbycourses':
+                            return this.fetchMyOverviewTimelineByCourses();
+                        default:
+                    }
+                    break;
+                case 'courses':
+                    this.prefetchIconsInitialized = false;
+
+                    return this.fetchMyOverviewCourses();
+                default:
+            }
+        }).finally(() => {
+            refresher.complete();
+        });
+    }
+
     /**
      * Load the site name.
      */

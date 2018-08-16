@@ -1,1 +1,437 @@
-webpackJsonp([40],{1879:function(l,n,u){"use strict";function _(l){return x._42(0,[(l()(),x._16(0,0,null,null,24,"ion-item-group",[],null,null,null,null,null)),x._15(1,16384,null,0,Z.a,[],null,null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._16(3,0,null,null,7,"ion-item-divider",[["class","item item-divider"],["color","light"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(4,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],{color:[0,"color"]},null),x._37(335544320,10,{contentLabel:0}),x._37(603979776,11,{_buttons:1}),x._37(603979776,12,{_icons:1}),x._15(8,16384,null,0,al.a,[ul.a,x.p,x.K],{color:[0,"color"]},null),(l()(),x._40(9,2,["\n            ","\n        "])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,null,["\n        "])),(l()(),x._16(12,0,null,null,11,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(13,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,13,{contentLabel:0}),x._37(603979776,14,{_buttons:1}),x._37(603979776,15,{_icons:1}),x._15(17,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(19,0,null,2,3,"p",[],null,null,null,null,null)),(l()(),x._16(20,0,null,null,2,"a",[["auto-login","no"],["core-link",""]],[[8,"href",4]],null,null,null,null)),x._15(21,81920,null,0,il.a,[x.p,rl.a,cl.a,P.a,sl.a,fl.a,[2,pl.a],[2,ml.a]],null,null),(l()(),x._40(22,null,["",""])),(l()(),x._40(-1,2,["\n        "])),(l()(),x._40(-1,null,["\n    "]))],function(l,n){l(n,4,0,"light");l(n,8,0,"light"),l(n,21,0)},function(l,n){var u=n.component;l(n,9,0,x._41(n,9,0,x._29(n,10).transform("core.settings.privacypolicy")));l(n,20,0,u.privacyPolicy);l(n,22,0,u.privacyPolicy)})}function a(l){return x._42(0,[(l()(),x._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,19,{contentLabel:0}),x._37(603979776,20,{_buttons:1}),x._37(603979776,21,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.versionname")));l(n,12,0,u.versionName)})}function t(l){return x._42(0,[(l()(),x._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,22,{contentLabel:0}),x._37(603979776,23,{_buttons:1}),x._37(603979776,24,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.versioncode")));l(n,12,0,u.versionCode)})}function e(l){return x._42(0,[(l()(),x._16(0,0,null,null,2,"a",[["auto-login","no"],["core-link",""]],[[8,"href",4]],null,null,null,null)),x._15(1,81920,null,0,il.a,[x.p,rl.a,cl.a,P.a,sl.a,fl.a,[2,pl.a],[2,ml.a]],null,null),(l()(),x._40(2,null,["",""]))],function(l,n){l(n,1,0)},function(l,n){var u=n.component;l(n,0,0,u.fileSystemRoot);l(n,2,0,u.fileSystemRoot)})}function o(l){return x._42(0,[(l()(),x._16(0,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),x._40(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.fileSystemRoot)})}function i(l){return x._42(0,[(l()(),x._16(0,0,null,null,17,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,25,{contentLabel:0}),x._37(603979776,26,{_buttons:1}),x._37(603979776,27,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),x._11(16777216,null,null,1,null,e)),x._15(13,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._11(16777216,null,2,1,null,o)),x._15(16,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,2,["\n        "]))],function(l,n){var u=n.component;l(n,13,0,u.fsClickable);l(n,16,0,!u.fsClickable)},function(l,n){l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.filesystemroot")))})}function r(l){return x._42(0,[(l()(),x._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,28,{contentLabel:0}),x._37(603979776,29,{_buttons:1}),x._37(603979776,30,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.navigatoruseragent")));l(n,12,0,u.navigator.userAgent)})}function c(l){return x._42(0,[(l()(),x._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,31,{contentLabel:0}),x._37(603979776,32,{_buttons:1}),x._37(603979776,33,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.navigatorlanguage")));l(n,12,0,u.navigator.language)})}function s(l){return x._42(0,[(l()(),x._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,34,{contentLabel:0}),x._37(603979776,35,{_buttons:1}),x._37(603979776,36,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.locationhref")));l(n,12,0,u.locationHref)})}function f(l){return x._42(0,[(l()(),x._16(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,37,{contentLabel:0}),x._37(603979776,38,{_buttons:1}),x._37(603979776,39,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.appready")));l(n,12,0,x._41(n,12,0,x._29(n,13).transform(u.appReady)))})}function p(l){return x._42(0,[(l()(),x._16(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,40,{contentLabel:0}),x._37(603979776,41,{_buttons:1}),x._37(603979776,42,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.displayformat")));l(n,12,0,x._41(n,12,0,x._29(n,13).transform(u.deviceType)))})}function m(l){return x._42(0,[(l()(),x._16(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,43,{contentLabel:0}),x._37(603979776,44,{_buttons:1}),x._37(603979776,45,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.deviceos")));l(n,12,0,x._41(n,12,0,x._29(n,13).transform(u.deviceOs)))})}function b(l){return x._42(0,[(l()(),x._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,46,{contentLabel:0}),x._37(603979776,47,{_buttons:1}),x._37(603979776,48,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.currentlanguage")));l(n,12,0,u.currentLanguage)})}function g(l){return x._42(0,[(l()(),x._16(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,49,{contentLabel:0}),x._37(603979776,50,{_buttons:1}),x._37(603979776,51,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.networkstatus")));l(n,12,0,x._41(n,12,0,x._29(n,13).transform(u.networkStatus)))})}function v(l){return x._42(0,[(l()(),x._16(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,52,{contentLabel:0}),x._37(603979776,53,{_buttons:1}),x._37(603979776,54,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.wificonnection")));l(n,12,0,x._41(n,12,0,x._29(n,13).transform(u.wifiConnection)))})}function d(l){return x._42(0,[(l()(),x._16(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,55,{contentLabel:0}),x._37(603979776,56,{_buttons:1}),x._37(603979776,57,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.devicewebworkers")));l(n,12,0,x._41(n,12,0,x._29(n,13).transform(u.deviceWebWorkers)))})}function h(l){return x._42(0,[(l()(),x._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,58,{contentLabel:0}),x._37(603979776,59,{_buttons:1}),x._37(603979776,60,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.cordovaversion")));l(n,12,0,u.device.cordova)})}function k(l){return x._42(0,[(l()(),x._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,61,{contentLabel:0}),x._37(603979776,62,{_buttons:1}),x._37(603979776,63,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.cordovadeviceplatform")));l(n,12,0,u.device.platform)})}function w(l){return x._42(0,[(l()(),x._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,64,{contentLabel:0}),x._37(603979776,65,{_buttons:1}),x._37(603979776,66,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.cordovadeviceosversion")));l(n,12,0,u.device.version)})}function I(l){return x._42(0,[(l()(),x._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,67,{contentLabel:0}),x._37(603979776,68,{_buttons:1}),x._37(603979776,69,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.cordovadevicemodel")));l(n,12,0,u.device.model)})}function y(l){return x._42(0,[(l()(),x._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,70,{contentLabel:0}),x._37(603979776,71,{_buttons:1}),x._37(603979776,72,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.cordovadeviceuuid")));l(n,12,0,u.device.uuid)})}function L(l){return x._42(0,[(l()(),x._16(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(1,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,73,{contentLabel:0}),x._37(603979776,74,{_buttons:1}),x._37(603979776,75,{_icons:1}),x._15(5,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),x._40(8,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(11,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),x._40(12,null,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,2,["\n        "]))],null,function(l,n){var u=n.component;l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.localnotifavailable")));l(n,12,0,x._41(n,12,0,x._29(n,13).transform(u.localNotifAvailable)))})}function K(l){return x._42(0,[(l()(),x._16(0,0,null,null,11,"ion-header",[],null,null,null,null,null)),x._15(1,16384,null,0,gl.a,[ul.a,x.p,x.K,[2,vl.a]],null,null),(l()(),x._40(-1,null,["\n    "])),(l()(),x._16(3,0,null,null,7,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,dl.b,dl.a)),x._15(4,49152,null,0,hl.a,[kl.a,[2,vl.a],[2,pl.a],ul.a,x.p,x.K],null,null),(l()(),x._40(-1,3,["\n        "])),(l()(),x._16(6,0,null,3,3,"ion-title",[],null,null,null,wl.b,wl.a)),x._15(7,49152,null,0,Il.a,[ul.a,x.p,x.K,[2,yl.a],[2,hl.a]],null,null),(l()(),x._40(8,0,["",""])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,3,["\n    "])),(l()(),x._40(-1,null,["\n"])),(l()(),x._40(-1,null,["\n"])),(l()(),x._16(13,0,null,null,115,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ll.b,Ll.a)),x._15(14,4374528,null,0,ml.a,[ul.a,Kl.a,xl.a,x.p,x.K,kl.a,Wl.a,x.D,[2,vl.a],[2,pl.a]],null,null),(l()(),x._40(-1,1,["\n    "])),(l()(),x._16(16,0,null,1,9,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(17,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,1,{contentLabel:0}),x._37(603979776,2,{_buttons:1}),x._37(603979776,3,{_icons:1}),x._15(21,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n        "])),(l()(),x._16(23,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),x._40(24,null,[""," ",""])),(l()(),x._40(-1,2,["\n    "])),(l()(),x._40(-1,1,["\n    "])),(l()(),x._16(27,0,null,1,27,"ion-item-group",[],null,null,null,null,null)),x._15(28,16384,null,0,Z.a,[],null,null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._16(30,0,null,null,7,"ion-item-divider",[["class","item item-divider"],["color","light"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(31,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],{color:[0,"color"]},null),x._37(335544320,4,{contentLabel:0}),x._37(603979776,5,{_buttons:1}),x._37(603979776,6,{_icons:1}),x._15(35,16384,null,0,al.a,[ul.a,x.p,x.K],{color:[0,"color"]},null),(l()(),x._40(36,2,["\n            ","\n        "])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,null,["\n        "])),(l()(),x._16(39,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(40,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],null,null),x._37(335544320,7,{contentLabel:0}),x._37(603979776,8,{_buttons:1}),x._37(603979776,9,{_icons:1}),x._15(44,16384,null,0,ol.a,[],null,null),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(46,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),x._40(-1,null,["Apache 2.0"])),(l()(),x._40(-1,2,["\n            "])),(l()(),x._16(49,0,null,2,3,"p",[],null,null,null,null,null)),(l()(),x._16(50,0,null,null,2,"a",[["auto-login","no"],["core-link",""],["href","http://www.apache.org/licenses/LICENSE-2.0"]],null,null,null,null,null)),x._15(51,81920,null,0,il.a,[x.p,rl.a,cl.a,P.a,sl.a,fl.a,[2,pl.a],[2,ml.a]],null,null),(l()(),x._40(-1,null,["http://www.apache.org/licenses/LICENSE-2.0"])),(l()(),x._40(-1,2,["\n        "])),(l()(),x._40(-1,null,["\n    "])),(l()(),x._40(-1,1,["\n    "])),(l()(),x._11(16777216,null,1,1,null,_)),x._15(57,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,1,["\n    "])),(l()(),x._16(59,0,null,1,68,"ion-item-group",[],null,null,null,null,null)),x._15(60,16384,null,0,Z.a,[],null,null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._16(62,0,null,null,7,"ion-item-divider",[["class","item item-divider"],["color","light"],["text-wrap",""]],null,null,null,$.b,$.a)),x._15(63,1097728,null,3,ll.a,[nl.a,ul.a,x.p,x.K,[2,_l.a]],{color:[0,"color"]},null),x._37(335544320,16,{contentLabel:0}),x._37(603979776,17,{_buttons:1}),x._37(603979776,18,{_icons:1}),x._15(67,16384,null,0,al.a,[ul.a,x.p,x.K],{color:[0,"color"]},null),(l()(),x._40(68,2,["\n            ","\n        "])),x._32(131072,tl.a,[el.a,x.i]),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,a)),x._15(72,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,t)),x._15(75,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,i)),x._15(78,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,r)),x._15(81,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,c)),x._15(84,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,s)),x._15(87,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,f)),x._15(90,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,p)),x._15(93,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,m)),x._15(96,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,b)),x._15(99,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,g)),x._15(102,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,v)),x._15(105,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,d)),x._15(108,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,h)),x._15(111,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,k)),x._15(114,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,w)),x._15(117,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,I)),x._15(120,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,y)),x._15(123,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n        "])),(l()(),x._11(16777216,null,null,1,null,L)),x._15(126,16384,null,0,bl.k,[x.W,x.T],{ngIf:[0,"ngIf"]},null),(l()(),x._40(-1,null,["\n    "])),(l()(),x._40(-1,1,["\n"])),(l()(),x._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,31,0,"light");l(n,35,0,"light"),l(n,51,0);l(n,57,0,u.privacyPolicy);l(n,63,0,"light");l(n,67,0,"light");l(n,72,0,u.versionName);l(n,75,0,u.versionCode);l(n,78,0,u.fileSystemRoot);l(n,81,0,u.navigator&&u.navigator.userAgent);l(n,84,0,u.navigator&&u.navigator.language);l(n,87,0,u.locationHref);l(n,90,0,u.appReady);l(n,93,0,u.deviceType);l(n,96,0,u.deviceOs);l(n,99,0,u.currentLanguage);l(n,102,0,u.networkStatus);l(n,105,0,u.wifiConnection);l(n,108,0,u.deviceWebWorkers);l(n,111,0,u.device&&u.device.cordova);l(n,114,0,u.device&&u.device.platform);l(n,117,0,u.device&&u.device.version);l(n,120,0,u.device&&u.device.model);l(n,123,0,u.device&&u.device.uuid);l(n,126,0,u.localNotifAvailable)},function(l,n){var u=n.component;l(n,3,0,x._29(n,4)._hidden,x._29(n,4)._sbPadding);l(n,8,0,x._41(n,8,0,x._29(n,9).transform("core.settings.about")));l(n,13,0,x._29(n,14).statusbarPadding,x._29(n,14)._hasRefresher);l(n,24,0,u.appName,u.versionName);l(n,36,0,x._41(n,36,0,x._29(n,37).transform("core.settings.license")));l(n,68,0,x._41(n,68,0,x._29(n,69).transform("core.settings.deviceinfo")))})}Object.defineProperty(n,"__esModule",{value:!0});var x=u(1),W=(u(0),u(10),u(6)),T=u(433),C=u(12),S=u(41),N=u(152),A=u(133),R=u(128),P=u(2),O=u(124),E=function(){return function(l,n,u,_,a,t,e,o){var i=this,r=e.getCurrentSite();if(this.appName=u.isDesktop()?O.a.desktopappname:O.a.appname,this.versionName=O.a.versionname,this.versionCode=O.a.versioncode,this.privacyPolicy=r.getStoredConfig("tool_mobile_apppolicy")||r.getStoredConfig("sitepolicy")||O.a.privacypolicy,this.navigator=window.navigator,window.location&&window.location.href){var c=window.location.href;this.locationHref=c.substr(0,c.indexOf("#"))}if(this.appReady=a.isReady()?"core.yes":"core.no",this.deviceType=l.is("tablet")?"core.tablet":"core.phone",l.is("android"))this.deviceOs="core.android";else if(l.is("ios"))this.deviceOs="core.ios";else if(l.is("windows"))this.deviceOs="core.windowsphone";else{var s=navigator.userAgent.match(/\(([^\)]*)\)/);this.deviceOs=s&&s.length>1?s[1]:"core.unknown"}t.getCurrentLanguage().then(function(l){i.currentLanguage=l}),this.networkStatus=u.isOnline()?"core.online":"core.offline",this.wifiConnection=u.isNetworkAccessLimited()?"core.no":"core.yes",this.deviceWebWorkers=window.Worker&&window.URL?"core.yes":"core.no",this.device=n,_.isAvailable()&&_.getBasePath().then(function(l){i.fileSystemRoot=l,i.fsClickable=_.usesHTMLAPI()}),this.localNotifAvailable=o.isAvailable()?"core.yes":"core.no"}}(),H=u(32),M=u(31),B=function(){return function(){}}(),D=u(1284),j=u(1285),F=u(1286),J=u(1287),U=u(1288),q=u(1289),z=u(1290),G=u(1291),Q=u(1292),V=u(1295),X=u(1296),Y=u(1297),Z=u(655),$=u(34),ll=u(21),nl=u(19),ul=u(7),_l=u(29),al=u(159),tl=u(28),el=u(17),ol=u(33),il=u(198),rl=u(4),cl=u(3),sl=u(24),fl=u(23),pl=u(22),ml=u(25),bl=u(9),gl=u(419),vl=u(35),dl=u(1293),hl=u(191),kl=u(27),wl=u(1294),Il=u(326),yl=u(237),Ll=u(176),Kl=u(14),xl=u(26),Wl=u(97),Tl=x._14({encapsulation:2,styles:[],data:{}}),Cl=x._12("page-core-settings-about",E,function(l){return x._42(0,[(l()(),x._16(0,0,null,null,1,"page-core-settings-about",[],null,null,null,K,Tl)),x._15(1,49152,null,0,E,[Kl.a,T.a,C.a,S.a,N.a,A.a,P.a,R.a],null,null)],null,null)},{},{},[]),Sl=u(18),Nl=u(322),Al=u(323),Rl=u(325),Pl=u(324),Ol=u(418),El=u(638),Hl=u(107),Ml=u(238);u.d(n,"CoreSettingsAboutPageModuleNgFactory",function(){return Bl});var Bl=x._13(B,[],function(l){return x._25([x._26(512,x.n,x._6,[[8,[D.a,j.a,F.a,J.a,U.a,q.a,z.a,G.a,Q.a,V.a,X.a,Y.a,Cl]],[3,x.n],x.B]),x._26(4608,bl.m,bl.l,[x.x,[2,bl.v]]),x._26(4608,Sl.x,Sl.x,[]),x._26(4608,Sl.d,Sl.d,[]),x._26(4608,Nl.b,Nl.a,[]),x._26(4608,Al.a,Al.b,[]),x._26(4608,Rl.b,Rl.a,[]),x._26(4608,Pl.b,Pl.a,[]),x._26(4608,el.a,el.a,[Ol.a,Nl.b,Al.a,Rl.b,Pl.b,el.b,el.c]),x._26(512,bl.b,bl.b,[]),x._26(512,Sl.v,Sl.v,[]),x._26(512,Sl.i,Sl.i,[]),x._26(512,Sl.s,Sl.s,[]),x._26(512,El.a,El.a,[]),x._26(512,W.a,W.a,[]),x._26(512,M.a,M.a,[]),x._26(512,Hl.a,Hl.a,[]),x._26(512,H.a,H.a,[]),x._26(512,El.b,El.b,[]),x._26(512,B,B,[]),x._26(256,el.c,void 0,[]),x._26(256,el.b,void 0,[]),x._26(256,Ml.a,E,[])])})}});
+webpackJsonp([40],{
+
+/***/ 1873:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreEmulatorCaptureMediaPageModule", function() { return CoreEmulatorCaptureMediaPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__capture_media__ = __webpack_require__(2002);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var CoreEmulatorCaptureMediaPageModule = /** @class */ (function () {
+    function CoreEmulatorCaptureMediaPageModule() {
+    }
+    CoreEmulatorCaptureMediaPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__capture_media__["a" /* CoreEmulatorCaptureMediaPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__capture_media__["a" /* CoreEmulatorCaptureMediaPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], CoreEmulatorCaptureMediaPageModule);
+    return CoreEmulatorCaptureMediaPageModule;
+}());
+
+//# sourceMappingURL=capture-media.module.js.map
+
+/***/ }),
+
+/***/ 2002:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreEmulatorCaptureMediaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_file__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_time__ = __webpack_require__(22);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page to capture media in browser or desktop.
+ */
+var CoreEmulatorCaptureMediaPage = /** @class */ (function () {
+    function CoreEmulatorCaptureMediaPage(viewCtrl, params, domUtils, timeUtils, fileProvider, textUtils, cdr) {
+        this.viewCtrl = viewCtrl;
+        this.domUtils = domUtils;
+        this.timeUtils = timeUtils;
+        this.fileProvider = fileProvider;
+        this.textUtils = textUtils;
+        this.cdr = cdr;
+        this.window = window;
+        this.type = params.get('type');
+        this.maxTime = params.get('maxTime');
+        this.facingMode = params.get('facingMode') || 'environment';
+        this.mimetype = params.get('mimetype');
+        this.extension = params.get('extension');
+        this.quality = params.get('quality') || 0.92;
+        this.returnDataUrl = !!params.get('returnDataUrl');
+    }
+    /**
+     * Component being initialized.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.initVariables();
+        var constraints = {
+            video: this.isAudio ? false : { facingMode: this.facingMode },
+            audio: !this.isImage
+        };
+        navigator.mediaDevices.getUserMedia(constraints).then(function (stream) {
+            var chunks = [];
+            _this.localMediaStream = stream;
+            if (!_this.isImage) {
+                if (_this.isVideo) {
+                    _this.previewMedia = _this.previewVideo.nativeElement;
+                }
+                else {
+                    _this.previewMedia = _this.previewAudio.nativeElement;
+                    _this.initAudioDrawer(_this.localMediaStream);
+                    _this.audioDrawer.start();
+                }
+                _this.mediaRecorder = new _this.window.MediaRecorder(_this.localMediaStream, { mimeType: _this.mimetype });
+                // When video or audio is recorded, add it to the list of chunks.
+                _this.mediaRecorder.ondataavailable = function (e) {
+                    if (e.data.size > 0) {
+                        chunks.push(e.data);
+                    }
+                };
+                // When recording stops, create a Blob element with the recording and set it to the video or audio.
+                _this.mediaRecorder.onstop = function () {
+                    _this.mediaBlob = new Blob(chunks);
+                    chunks = [];
+                    _this.previewMedia.src = window.URL.createObjectURL(_this.mediaBlob);
+                };
+            }
+            if (_this.isImage || _this.isVideo) {
+                var hasLoaded_1 = false, waitTimeout_1;
+                // Listen for stream ready to display the stream.
+                _this.streamVideo.nativeElement.onloadedmetadata = function () {
+                    if (hasLoaded_1) {
+                        // Already loaded or timeout triggered, stop.
+                        return;
+                    }
+                    hasLoaded_1 = true;
+                    clearTimeout(waitTimeout_1);
+                    _this.readyToCapture = true;
+                    _this.streamVideo.nativeElement.onloadedmetadata = null;
+                    // Force change detection. Angular doesn't detect these async operations.
+                    _this.cdr.detectChanges();
+                };
+                // Set the stream as the source of the video.
+                _this.streamVideo.nativeElement.src = window.URL.createObjectURL(_this.localMediaStream);
+                // If stream isn't ready in a while, show error.
+                waitTimeout_1 = setTimeout(function () {
+                    if (!hasLoaded_1) {
+                        // Show error.
+                        hasLoaded_1 = true;
+                        _this.dismissWithError(-1, 'Cannot connect to webcam.');
+                    }
+                }, 10000);
+            }
+            else {
+                // It's ready to capture.
+                _this.readyToCapture = true;
+            }
+        }).catch(function (error) {
+            _this.dismissWithError(-1, error.message || error);
+        });
+    };
+    /**
+     * Initialize the audio drawer. This code has been extracted from MDN's example on MediaStream Recording:
+     * https://github.com/mdn/web-dictaphone
+     *
+     * @param {MediaStream} stream Stream returned by getUserMedia.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.initAudioDrawer = function (stream) {
+        var skip = true, running = false;
+        var audioCtx = new (this.window.AudioContext || this.window.webkitAudioContext)(), canvasCtx = this.streamAudio.nativeElement.getContext('2d'), source = audioCtx.createMediaStreamSource(stream), analyser = audioCtx.createAnalyser(), bufferLength = analyser.frequencyBinCount, dataArray = new Uint8Array(bufferLength), width = this.streamAudio.nativeElement.width, height = this.streamAudio.nativeElement.height, drawAudio = function () {
+            if (!running) {
+                return;
+            }
+            // Update the draw every animation frame.
+            requestAnimationFrame(drawAudio);
+            // Skip half of the frames to improve performance, shouldn't affect the smoothness.
+            skip = !skip;
+            if (skip) {
+                return;
+            }
+            var sliceWidth = width / bufferLength;
+            var x = 0;
+            analyser.getByteTimeDomainData(dataArray);
+            canvasCtx.fillStyle = 'rgb(200, 200, 200)';
+            canvasCtx.fillRect(0, 0, width, height);
+            canvasCtx.lineWidth = 1;
+            canvasCtx.strokeStyle = 'rgb(0, 0, 0)';
+            canvasCtx.beginPath();
+            for (var i = 0; i < bufferLength; i++) {
+                var v = dataArray[i] / 128.0, y = v * height / 2;
+                if (i === 0) {
+                    canvasCtx.moveTo(x, y);
+                }
+                else {
+                    canvasCtx.lineTo(x, y);
+                }
+                x += sliceWidth;
+            }
+            canvasCtx.lineTo(width, height / 2);
+            canvasCtx.stroke();
+        };
+        analyser.fftSize = 2048;
+        source.connect(analyser);
+        this.audioDrawer = {
+            start: function () {
+                if (running) {
+                    return;
+                }
+                running = true;
+                drawAudio();
+            },
+            stop: function () {
+                running = false;
+            }
+        };
+    };
+    /**
+     * Initialize some variables based on the params.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.initVariables = function () {
+        if (this.type == 'captureimage') {
+            this.isCaptureImage = true;
+            this.type = 'image';
+        }
+        // Initialize some data based on the type of media to capture.
+        if (this.type == 'video') {
+            this.isVideo = true;
+            this.title = 'core.capturevideo';
+        }
+        else if (this.type == 'audio') {
+            this.isAudio = true;
+            this.title = 'core.captureaudio';
+        }
+        else if (this.type == 'image') {
+            this.isImage = true;
+            this.title = 'core.captureimage';
+        }
+    };
+    /**
+     * Main action clicked: record or stop recording.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.actionClicked = function () {
+        var _this = this;
+        if (this.isCapturing) {
+            // It's capturing, stop.
+            this.stopCapturing();
+            this.cdr.detectChanges();
+        }
+        else {
+            if (!this.isImage) {
+                // Start the capture.
+                this.isCapturing = true;
+                this.resetChrono = false;
+                this.mediaRecorder.start();
+                this.cdr.detectChanges();
+            }
+            else {
+                // Get the image from the video and set it to the canvas, using video width/height.
+                var width = this.streamVideo.nativeElement.videoWidth, height = this.streamVideo.nativeElement.videoHeight, loadingModal_1 = this.domUtils.showModalLoading();
+                this.imgCanvas.nativeElement.width = width;
+                this.imgCanvas.nativeElement.height = height;
+                this.imgCanvas.nativeElement.getContext('2d').drawImage(this.streamVideo.nativeElement, 0, 0, width, height);
+                // Convert the image to blob and show it in an image element.
+                this.imgCanvas.nativeElement.toBlob(function (blob) {
+                    loadingModal_1.dismiss();
+                    _this.mediaBlob = blob;
+                    _this.previewImage.nativeElement.setAttribute('src', window.URL.createObjectURL(_this.mediaBlob));
+                    _this.hasCaptured = true;
+                }, this.mimetype, this.quality);
+            }
+        }
+    };
+    /**
+     * User cancelled.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.cancel = function () {
+        // Send a "cancelled" error like the Cordova plugin does.
+        this.dismissWithError(3, 'Canceled.', 'Camera cancelled');
+    };
+    /**
+     * Discard the captured media.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.discard = function () {
+        this.previewMedia && this.previewMedia.pause();
+        this.streamVideo && this.streamVideo.nativeElement.play();
+        this.audioDrawer && this.audioDrawer.start();
+        this.hasCaptured = false;
+        this.isCapturing = false;
+        this.resetChrono = true;
+        delete this.mediaBlob;
+        this.cdr.detectChanges();
+    };
+    /**
+     * Close the modal, returning some data (success).
+     *
+     * @param {any} data Data to return.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.dismissWithData = function (data) {
+        this.viewCtrl.dismiss(data, 'success');
+    };
+    /**
+     * Close the modal, returning an error.
+     *
+     * @param {number} code Error code. Will not be used if it's a Camera capture.
+     * @param {string} message Error message.
+     * @param {string} [cameraMessage] A specific message to use if it's a Camera capture. If not set, message will be used.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.dismissWithError = function (code, message, cameraMessage) {
+        var isCamera = this.isImage && !this.isCaptureImage, error = isCamera ? (cameraMessage || message) : { code: code, message: message };
+        this.viewCtrl.dismiss(error, 'error');
+    };
+    /**
+     * Done capturing, write the file.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.done = function () {
+        var _this = this;
+        if (this.returnDataUrl) {
+            // Return the image as a base64 string.
+            this.dismissWithData(this.imgCanvas.nativeElement.toDataURL(this.mimetype, this.quality));
+            return;
+        }
+        if (!this.mediaBlob) {
+            // Shouldn't happen.
+            this.domUtils.showErrorModal('Please capture the media first.');
+            return;
+        }
+        // Create the file and return it.
+        var fileName = this.type + '_' + this.timeUtils.readableTimestamp() + '.' + this.extension, path = this.textUtils.concatenatePaths(__WEBPACK_IMPORTED_MODULE_2__providers_file__["a" /* CoreFileProvider */].TMPFOLDER, 'media/' + fileName), loadingModal = this.domUtils.showModalLoading();
+        this.fileProvider.writeFile(path, this.mediaBlob).then(function (fileEntry) {
+            if (_this.isImage && !_this.isCaptureImage) {
+                _this.dismissWithData(fileEntry.toURL());
+            }
+            else {
+                // The capture plugin returns a MediaFile, not a FileEntry.
+                // The only difference is that it supports a new function that won't be supported in desktop.
+                fileEntry.getFormatData = function (successFn, errorFn) {
+                    // Nothing to do.
+                };
+                _this.dismissWithData([fileEntry]);
+            }
+        }).catch(function (err) {
+            _this.domUtils.showErrorModal(err);
+        }).finally(function () {
+            loadingModal.dismiss();
+        });
+    };
+    /**
+     * Stop capturing. Only for video and audio.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.stopCapturing = function () {
+        this.streamVideo && this.streamVideo.nativeElement.pause();
+        this.audioDrawer && this.audioDrawer.stop();
+        this.mediaRecorder && this.mediaRecorder.stop();
+        this.isCapturing = false;
+        this.hasCaptured = true;
+    };
+    /**
+     * Page destroyed.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.ngOnDestroy = function () {
+        var tracks = this.localMediaStream.getTracks();
+        tracks.forEach(function (track) {
+            track.stop();
+        });
+        this.streamVideo && this.streamVideo.nativeElement.pause();
+        this.previewMedia && this.previewMedia.pause();
+        this.audioDrawer && this.audioDrawer.stop();
+        delete this.mediaBlob;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('streamVideo'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "streamVideo", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewVideo'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewVideo", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('imgCanvas'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "imgCanvas", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewImage'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewImage", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('streamAudio'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "streamAudio", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewAudio'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewAudio", void 0);
+    CoreEmulatorCaptureMediaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-emulator-capture-media',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/core/emulator/pages/capture-media/capture-media.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-buttons start>\n            <button ion-button (click)="cancel()">{{ \'core.cancel\' | translate }}</button>\n        </ion-buttons>\n\n        <ion-title>{{ title | translate }}</ion-title>\n\n        <ion-buttons end>\n            <button ion-button *ngIf="hasCaptured" (click)="done()">{{ \'core.done\' | translate }}</button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="readyToCapture">\n        <div class="core-av-wrapper">\n            <!-- Video stream for image and video. -->\n            <video *ngIf="!isAudio" [hidden]="hasCaptured" class="core-webcam-stream" autoplay #streamVideo></video>\n\n            <!-- For video recording, use 2 videos and show/hide them because a CSS rule caused problems with the controls. -->\n            <video *ngIf="isVideo" [hidden]="!hasCaptured" class="core-webcam-video-captured" controls #previewVideo></video>\n\n            <!-- Canvas to treat the image and an img to show the result. -->\n            <canvas *ngIf="isImage" class="core-webcam-image-canvas" #imgCanvas></canvas>\n            <img *ngIf="isImage" [hidden]="!hasCaptured" class="core-webcam-image" alt="{{ \'core.capturedimage\' | translate }}" #previewImage>\n\n            <!-- Canvas to show audio waves when recording audio and audio player to listen to the result. -->\n            <div *ngIf="isAudio" class="core-audio-record-container">\n                <canvas [hidden]="hasCaptured" class="core-audio-canvas" #streamAudio></canvas>\n                <audio [hidden]="!hasCaptured" class="core-audio-captured" controls #previewAudio></audio>\n            </div>\n        </div>\n    </core-loading>\n</ion-content>\n\n<ion-footer>\n    <ion-row *ngIf="readyToCapture">\n        <ion-col></ion-col>\n        <ion-col text-center>\n            <button ion-button icon-only clear *ngIf="!hasCaptured" (click)="actionClicked()" [attr.aria-label]="title">\n                <ion-icon *ngIf="!isCapturing && isAudio" name="microphone"></ion-icon>\n                <ion-icon *ngIf="!isCapturing && isVideo" name="videocam"></ion-icon>\n                <ion-icon *ngIf="isImage" name="camera"></ion-icon>\n                <ion-icon *ngIf="isCapturing" name="square"></ion-icon>\n            </button>\n            <button ion-button icon-only clear *ngIf="hasCaptured" (click)="discard()" [attr.aria-label]="\'core.discard\' | translate">\n                <ion-icon name="trash"></ion-icon>\n            </button>\n        </ion-col>\n        <ion-col padding text-right class="chrono-container">\n            <core-chrono *ngIf="!isImage" [hidden]="hasCaptured" [running]="isCapturing" [reset]="resetChrono" [endTime]="maxTime" (onEnd)="stopCapturing()"></core-chrono>\n        </ion-col>\n    </ion-row>\n</ion-footer>\n\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/core/emulator/pages/capture-media/capture-media.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["B" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_time__["a" /* CoreTimeUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_file__["a" /* CoreFileProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectorRef */]])
+    ], CoreEmulatorCaptureMediaPage);
+    return CoreEmulatorCaptureMediaPage;
+}());
+
+//# sourceMappingURL=capture-media.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=40.js.map

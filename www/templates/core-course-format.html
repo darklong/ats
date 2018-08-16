@@ -6,9 +6,9 @@
 </core-navbar-buttons>
 
 <!-- Default course format. -->
-<core-dynamic-component [component]="courseFormatComponent" [data]="data">
+<core-dynamic-component [component]="courseFormatComponent" [data]="data" >
     <!-- Course summary. By default we only display the course progress. -->
-    <core-dynamic-component [component]="courseSummaryComponent" [data]="data">
+    <core-dynamic-component [component]="courseSummaryComponent" [data]="data" >
         <ion-list no-lines *ngIf="course.imageThumb || (course.progress != null && course.progress >= 0)" class="core-format-progress-list">
             <div *ngIf="course.imageThumb" class="core-course-thumb">
                 <img [src]="course.imageThumb" core-external-content alt=""/>
@@ -21,7 +21,7 @@
 
     <core-loading [hideUntil]="loaded">
         <!-- Section selector. -->
-        <core-dynamic-component [component]="sectionSelectorComponent" [data]="data">
+        <core-dynamic-component [component]="sectionSelectorComponent" [data]="data" style="display:none;">
             <div text-wrap *ngIf="displaySectionSelector && sections && sections.length" no-padding class="clearfix">
                 <button float-start ion-button (click)="showSectionSelector($event)" clear class="core-button-select button-no-uppercase">
                     {{selectedSection && (selectedSection.formattedName || selectedSection.name) || 'core.course.sections' | translate }}
@@ -33,7 +33,7 @@
         </core-dynamic-component>
 
         <!-- Single section. -->
-        <div *ngIf="selectedSection && selectedSection.id != allSectionsId">
+        <div *ngIf="selectedSection && selectedSection.id != allSectionsId" style="display:none;">
             <core-dynamic-component [component]="singleSectionComponent" [data]="data">
                 <ng-container *ngTemplateOutlet="sectionTemplate; context: {section: selectedSection}"></ng-container>
                 <core-empty-box *ngIf="!selectedSection.hasContent" icon="qr-scanner" [message]="'core.course.nocontentavailable' | translate"></core-empty-box>

@@ -1,1 +1,398 @@
-webpackJsonp([103],{1801:function(l,n,a){"use strict";function u(l){return e._42(0,[e._37(402653184,1,{chatComponent:0}),(l()(),e._16(1,0,null,null,17,"ion-header",[],null,null,null,null,null)),e._15(2,16384,null,0,C.a,[D.a,e.p,e.K,[2,P.a]],null,null),(l()(),e._40(-1,null,["\n    "])),(l()(),e._16(4,0,null,null,13,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,M.b,M.a)),e._15(5,49152,null,0,T.a,[j.a,[2,P.a],[2,k.a],D.a,e.p,e.K],null,null),(l()(),e._40(-1,3,["\n        "])),(l()(),e._16(7,0,null,3,3,"ion-title",[],null,null,null,w.b,w.a)),e._15(8,49152,null,0,A.a,[D.a,e.p,e.K,[2,B.a],[2,T.a]],null,null),(l()(),e._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),e._15(10,540672,null,0,F.a,[e.p,J.a,N.a,O.a,q.a,z.a,E.a,G.a,H.a,L.a,Q.a,S.a,[2,k.a],[2,U.a]],{text:[0,"text"]},null),(l()(),e._40(-1,3,["\n\n        "])),(l()(),e._16(12,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),e._15(13,16384,null,1,V.a,[D.a,e.p,e.K,[2,B.a],[2,T.a]],null,null),e._37(603979776,2,{_buttons:1}),(l()(),e._40(-1,null,["\n            "])),(l()(),e._40(-1,null,["\n        "])),(l()(),e._40(-1,3,["\n    "])),(l()(),e._40(-1,null,["\n"])),(l()(),e._40(-1,null,["\n"])),(l()(),e._16(20,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,W.b,W.a)),e._15(21,4374528,null,0,U.a,[D.a,z.a,X.a,e.p,e.K,j.a,Y.a,e.D,[2,P.a],[2,k.a]],null,null),(l()(),e._40(-1,1,["\n    "])),(l()(),e._16(23,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,a){var u=!0;if("ionRefresh"===n){u=!1!==l.component.chatComponent.doRefresh(a)&&u}return u},null,null)),e._15(24,212992,null,0,Z.a,[z.a,U.a,e.D,$.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),e._40(-1,null,["\n        "])),(l()(),e._16(26,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,ll.b,ll.a)),e._15(27,114688,null,0,nl.a,[Z.a,D.a],{pullingText:[0,"pullingText"]},null),e._32(131072,al.a,[q.a,e.i]),(l()(),e._40(-1,null,["\n    "])),(l()(),e._40(-1,1,["\n\n    "])),(l()(),e._16(31,0,null,1,1,"addon-mod-chat-index",[],null,[[null,"dataRetrieved"]],function(l,n,a){var u=!0;if("dataRetrieved"===n){u=!1!==l.component.updateData(a)&&u}return u},y.c,y.b)),e._15(32,245760,[[1,4]],0,r.a,[e.u,ul.a,el.a,k.a],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(l()(),e._40(-1,1,["\n"])),(l()(),e._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,10,0,a.title);l(n,24,0,a.chatComponent.loaded);l(n,27,0,e._19(1,"",e._41(n,27,0,e._29(n,28).transform("core.pulltorefresh")),""));l(n,32,0,a.module,a.courseId)},function(l,n){l(n,4,0,e._29(n,5)._hidden,e._29(n,5)._sbPadding);l(n,20,0,e._29(n,21).statusbarPadding,e._29(n,21)._hasRefresher);l(n,23,0,"inactive"!==e._29(n,24).state,e._29(n,24)._top);l(n,26,0,e._29(n,27).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var e=a(1),t=(a(0),a(10),a(6)),_=a(31),o=a(666),r=a(437),d=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},l}(),i=function(){return function(){}}(),s=a(1284),c=a(1285),b=a(1286),f=a(1287),h=a(1288),p=a(1289),m=a(1290),v=a(1291),g=a(1292),x=a(1295),R=a(1296),I=a(1297),K=a(1298),y=a(1334),C=a(419),D=a(7),P=a(35),M=a(1293),T=a(191),j=a(27),k=a(22),w=a(1294),A=a(326),B=a(237),F=a(38),J=a(2),N=a(4),O=a(11),q=a(17),z=a(14),E=a(3),G=a(24),H=a(5),L=a(16),Q=a(12),S=a(23),U=a(25),V=a(420),W=a(176),X=a(26),Y=a(97),Z=a(130),$=a(36),ll=a(192),nl=a(144),al=a(28),ul=a(332),el=a(42),tl=a(58),_l=e._14({encapsulation:2,styles:[],data:{}}),ol=e._12("page-addon-mod-chat-index",d,function(l){return e._42(0,[(l()(),e._16(0,0,null,null,1,"page-addon-mod-chat-index",[],null,null,null,u,_l)),e._15(1,49152,null,0,d,[tl.a],null,null)],null,null)},{},{},[]),rl=a(9),dl=a(18),il=a(322),sl=a(323),cl=a(325),bl=a(324),fl=a(418),hl=a(638),pl=a(107),ml=a(32),vl=a(71),gl=a(238);a.d(n,"AddonModChatIndexPageModuleNgFactory",function(){return xl});var xl=e._13(i,[],function(l){return e._25([e._26(512,e.n,e._6,[[8,[s.a,c.a,b.a,f.a,h.a,p.a,m.a,v.a,g.a,x.a,R.a,I.a,K.a,y.a,ol]],[3,e.n],e.B]),e._26(4608,rl.m,rl.l,[e.x,[2,rl.v]]),e._26(4608,dl.x,dl.x,[]),e._26(4608,dl.d,dl.d,[]),e._26(4608,il.b,il.a,[]),e._26(4608,sl.a,sl.b,[]),e._26(4608,cl.b,cl.a,[]),e._26(4608,bl.b,bl.a,[]),e._26(4608,q.a,q.a,[fl.a,il.b,sl.a,cl.b,bl.b,q.b,q.c]),e._26(512,_.a,_.a,[]),e._26(512,rl.b,rl.b,[]),e._26(512,dl.v,dl.v,[]),e._26(512,dl.i,dl.i,[]),e._26(512,dl.s,dl.s,[]),e._26(512,hl.a,hl.a,[]),e._26(512,t.a,t.a,[]),e._26(512,pl.a,pl.a,[]),e._26(512,ml.a,ml.a,[]),e._26(512,vl.a,vl.a,[]),e._26(512,o.a,o.a,[]),e._26(512,hl.b,hl.b,[]),e._26(512,i,i,[]),e._26(256,q.c,void 0,[]),e._26(256,q.b,void 0,[]),e._26(256,gl.a,d,[])])})}});
+webpackJsonp([103],{
+
+/***/ 1805:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModAssignEditPageModule", function() { return AddonModAssignEditPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(933);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__edit__ = __webpack_require__(1930);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModAssignEditPageModule = /** @class */ (function () {
+    function AddonModAssignEditPageModule() {
+    }
+    AddonModAssignEditPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__edit__["a" /* AddonModAssignEditPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* AddonModAssignComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__edit__["a" /* AddonModAssignEditPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModAssignEditPageModule);
+    return AddonModAssignEditPageModule;
+}());
+
+//# sourceMappingURL=edit.module.js.map
+
+/***/ }),
+
+/***/ 1930:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModAssignEditPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sync__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_fileuploader_providers_helper__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_assign__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_assign_offline__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_assign_sync__ = __webpack_require__(255);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_helper__ = __webpack_require__(108);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that allows adding or editing an assigment submission.
+ */
+var AddonModAssignEditPage = /** @class */ (function () {
+    function AddonModAssignEditPage(navParams, navCtrl, sitesProvider, syncProvider, domUtils, translate, fileUploaderHelper, eventsProvider, assignProvider, assignOfflineProvider, assignHelper, assignSyncProvider) {
+        this.navCtrl = navCtrl;
+        this.sitesProvider = sitesProvider;
+        this.syncProvider = syncProvider;
+        this.domUtils = domUtils;
+        this.translate = translate;
+        this.fileUploaderHelper = fileUploaderHelper;
+        this.eventsProvider = eventsProvider;
+        this.assignProvider = assignProvider;
+        this.assignOfflineProvider = assignOfflineProvider;
+        this.assignHelper = assignHelper;
+        this.assignSyncProvider = assignSyncProvider;
+        this.saveOffline = false; // Whether to save data in offline.
+        this.hasOffline = false; // Whether the assignment has offline data.
+        this.isDestroyed = false; // Whether the component has been destroyed.
+        this.forceLeave = false; // To allow leaving the page without checking for changes.
+        this.moduleId = navParams.get('moduleId');
+        this.courseId = navParams.get('courseId');
+        this.userId = sitesProvider.getCurrentSiteUserId(); // Right now we can only edit current user's submissions.
+        this.isBlind = !!navParams.get('blindId');
+        this.editText = translate.instant('addon.mod_assign.editsubmission');
+        this.title = this.editText;
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModAssignEditPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.fetchAssignment().finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
+     */
+    AddonModAssignEditPage.prototype.ionViewCanLeave = function () {
+        var _this = this;
+        if (this.forceLeave) {
+            return true;
+        }
+        // Check if data has changed.
+        return this.hasDataChanged().then(function (changed) {
+            if (changed) {
+                return _this.domUtils.showConfirm(_this.translate.instant('core.confirmcanceledit'));
+            }
+        }).then(function () {
+            // Nothing has changed or user confirmed to leave. Clear temporary data from plugins.
+            _this.assignHelper.clearSubmissionPluginTmpData(_this.assign, _this.userSubmission, _this.getInputData());
+        });
+    };
+    /**
+     * Fetch assignment data.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModAssignEditPage.prototype.fetchAssignment = function () {
+        var _this = this;
+        var currentUserId = this.sitesProvider.getCurrentSiteUserId();
+        // Get assignment data.
+        return this.assignProvider.getAssignment(this.courseId, this.moduleId).then(function (assign) {
+            _this.assign = assign;
+            _this.title = assign.name || _this.title;
+            if (!_this.isDestroyed) {
+                // Block the assignment.
+                _this.syncProvider.blockOperation(__WEBPACK_IMPORTED_MODULE_8__providers_assign__["a" /* AddonModAssignProvider */].COMPONENT, assign.id);
+            }
+            // Wait for sync to be over (if any).
+            return _this.assignSyncProvider.waitForSync(assign.id);
+        }).then(function () {
+            // Get submission status. Ignore cache to get the latest data.
+            return _this.assignProvider.getSubmissionStatus(_this.assign.id, _this.userId, _this.isBlind, false, true).catch(function (err) {
+                // Cannot connect. Get cached data.
+                return _this.assignProvider.getSubmissionStatus(_this.assign.id, _this.userId, _this.isBlind).then(function (response) {
+                    var userSubmission = _this.assignProvider.getSubmissionObjectFromAttempt(_this.assign, response.lastattempt);
+                    // Check if the user can edit it in offline.
+                    return _this.assignHelper.canEditSubmissionOffline(_this.assign, userSubmission).then(function (canEditOffline) {
+                        if (canEditOffline) {
+                            return response;
+                        }
+                        // Submission cannot be edited in offline, reject.
+                        _this.allowOffline = false;
+                        return Promise.reject(err);
+                    });
+                });
+            }).then(function (response) {
+                if (!response.lastattempt.canedit) {
+                    // Can't edit. Reject.
+                    return Promise.reject(_this.translate.instant('core.nopermissions', { $a: _this.editText }));
+                }
+                _this.userSubmission = _this.assignProvider.getSubmissionObjectFromAttempt(_this.assign, response.lastattempt);
+                _this.allowOffline = true; // If offline isn't allowed we shouldn't have reached this point.
+                // Only show submission statement if we are editing our own submission.
+                if (_this.assign.requiresubmissionstatement && !_this.assign.submissiondrafts && _this.userId == currentUserId) {
+                    _this.submissionStatement = _this.assign.submissionstatement;
+                }
+                else {
+                    _this.submissionStatement = undefined;
+                }
+                // Check if there's any offline data for this submission.
+                return _this.assignOfflineProvider.getSubmission(_this.assign.id, _this.userId).then(function (data) {
+                    _this.hasOffline = data && data.plugindata && Object.keys(data.plugindata).length > 0;
+                }).catch(function () {
+                    // No offline data found.
+                    _this.hasOffline = false;
+                });
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error getting assigment data.');
+            // Leave the player.
+            _this.leaveWithoutCheck();
+        });
+    };
+    /**
+     * Get the input data.
+     *
+     * @return {any} Input data.
+     */
+    AddonModAssignEditPage.prototype.getInputData = function () {
+        return this.domUtils.getDataFromForm(document.forms['addon-mod_assign-edit-form']);
+    };
+    /**
+     * Check if data has changed.
+     *
+     * @return {Promise<boolean>} Promise resolved with boolean: whether data has changed.
+     */
+    AddonModAssignEditPage.prototype.hasDataChanged = function () {
+        var _this = this;
+        // Usually the hasSubmissionDataChanged call will be resolved inmediately, causing the modal to be shown just an instant.
+        // We'll wait a bit before showing it to prevent this "blink".
+        var modal, showModal = true;
+        setTimeout(function () {
+            if (showModal) {
+                modal = _this.domUtils.showModalLoading();
+            }
+        }, 100);
+        var data = this.getInputData();
+        return this.assignHelper.hasSubmissionDataChanged(this.assign, this.userSubmission, data).finally(function () {
+            if (modal) {
+                modal.dismiss();
+            }
+            else {
+                showModal = false;
+            }
+        });
+    };
+    /**
+     * Leave the view without checking for changes.
+     */
+    AddonModAssignEditPage.prototype.leaveWithoutCheck = function () {
+        this.forceLeave = true;
+        this.navCtrl.pop();
+    };
+    /**
+     * Get data to submit based on the input data.
+     *
+     * @param {any} inputData The input data.
+     * @return {Promise<any>} Promise resolved with the data to submit.
+     */
+    AddonModAssignEditPage.prototype.prepareSubmissionData = function (inputData) {
+        var _this = this;
+        // If there's offline data, always save it in offline.
+        this.saveOffline = this.hasOffline;
+        return this.assignHelper.prepareSubmissionPluginData(this.assign, this.userSubmission, inputData, this.hasOffline)
+            .catch(function (error) {
+            if (_this.allowOffline && !_this.saveOffline) {
+                // Cannot submit in online, prepare for offline usage.
+                _this.saveOffline = true;
+                return _this.assignHelper.prepareSubmissionPluginData(_this.assign, _this.userSubmission, inputData, true);
+            }
+            return Promise.reject(error);
+        });
+    };
+    /**
+     * Save the submission.
+     */
+    AddonModAssignEditPage.prototype.save = function () {
+        var _this = this;
+        // Check if data has changed.
+        this.hasDataChanged().then(function (changed) {
+            if (changed) {
+                _this.saveSubmission().then(function () {
+                    _this.leaveWithoutCheck();
+                }).catch(function (error) {
+                    _this.domUtils.showErrorModalDefault(error, 'Error saving submission.');
+                });
+            }
+            else {
+                // Nothing to save, just go back.
+                _this.leaveWithoutCheck();
+            }
+        });
+    };
+    /**
+     * Save the submission.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModAssignEditPage.prototype.saveSubmission = function () {
+        var _this = this;
+        var inputData = this.getInputData();
+        if (this.submissionStatement && (!inputData.submissionstatement || inputData.submissionstatement === 'false')) {
+            return Promise.reject(this.translate.instant('addon.mod_assign.acceptsubmissionstatement'));
+        }
+        var modal = this.domUtils.showModalLoading();
+        // Get size to ask for confirmation.
+        return this.assignHelper.getSubmissionSizeForEdit(this.assign, this.userSubmission, inputData).catch(function () {
+            // Error calculating size, return -1.
+            return -1;
+        }).then(function (size) {
+            modal.dismiss();
+            // Confirm action.
+            return _this.fileUploaderHelper.confirmUploadFile(size, true, _this.allowOffline);
+        }).then(function () {
+            modal = _this.domUtils.showModalLoading('core.sending', true);
+            return _this.prepareSubmissionData(inputData).then(function (pluginData) {
+                if (!Object.keys(pluginData).length) {
+                    // Nothing to save.
+                    return;
+                }
+                var promise;
+                if (_this.saveOffline) {
+                    // Save submission in offline.
+                    promise = _this.assignOfflineProvider.saveSubmission(_this.assign.id, _this.courseId, pluginData, _this.userSubmission.timemodified, !_this.assign.submissiondrafts, _this.userId);
+                }
+                else {
+                    // Try to send it to server.
+                    promise = _this.assignProvider.saveSubmission(_this.assign.id, _this.courseId, pluginData, _this.allowOffline, _this.userSubmission.timemodified, _this.assign.submissiondrafts, _this.userId);
+                }
+                return promise.then(function () {
+                    // Submission saved, trigger event.
+                    var params = {
+                        assignmentId: _this.assign.id,
+                        submissionId: _this.userSubmission.id,
+                        userId: _this.userId,
+                    };
+                    _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_8__providers_assign__["a" /* AddonModAssignProvider */].SUBMISSION_SAVED_EVENT, params, _this.sitesProvider.getCurrentSiteId());
+                    if (!_this.assign.submissiondrafts) {
+                        // No drafts allowed, so it was submitted. Trigger event.
+                        _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_8__providers_assign__["a" /* AddonModAssignProvider */].SUBMITTED_FOR_GRADING_EVENT, params, _this.sitesProvider.getCurrentSiteId());
+                    }
+                });
+            });
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Component being destroyed.
+     */
+    AddonModAssignEditPage.prototype.ngOnDestroy = function () {
+        this.isDestroyed = true;
+        // Unblock the assignment.
+        if (this.assign) {
+            this.syncProvider.unblockOperation(__WEBPACK_IMPORTED_MODULE_8__providers_assign__["a" /* AddonModAssignProvider */].COMPONENT, this.assign.id);
+        }
+    };
+    AddonModAssignEditPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-assign-edit',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/assign/pages/edit/edit.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <button ion-button clear (click)="save()" [attr.aria-label]="\'core.save\' | translate">\n                {{ \'core.save\' | translate }}\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="loaded">\n        <ion-list>\n            <!-- @todo: plagiarism_print_disclosure -->\n            <form name="addon-mod_assign-edit-form" *ngIf="userSubmission && userSubmission.plugins && userSubmission.plugins.length">\n                <!-- Submission statement. -->\n                <ion-item text-wrap *ngIf="submissionStatement">\n                    <ion-label><core-format-text [text]="submissionStatement"></core-format-text></ion-label>\n                    <ion-checkbox item-end name="submissionstatement" [(ngModel)]="submissionStatementAccepted"></ion-checkbox>\n\n                    <!-- ion-checkbox doesn\'t use an input. Create a hidden input to hold the value. -->\n                    <input item-content type="hidden" [ngModel]="submissionStatementAccepted" name="submissionstatement">\n                </ion-item>\n\n                <addon-mod-assign-submission-plugin *ngFor="let plugin of userSubmission.plugins" [assign]="assign" [submission]="userSubmission" [plugin]="plugin" [edit]="true" [allowOffline]="allowOffline"></addon-mod-assign-submission-plugin>\n            </form>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/assign/pages/edit/edit.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */], __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_sync__["a" /* CoreSyncProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_7__core_fileuploader_providers_helper__["a" /* CoreFileUploaderHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_assign__["a" /* AddonModAssignProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_assign_offline__["a" /* AddonModAssignOfflineProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_helper__["a" /* AddonModAssignHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__providers_assign_sync__["a" /* AddonModAssignSyncProvider */]])
+    ], AddonModAssignEditPage);
+    return AddonModAssignEditPage;
+}());
+
+//# sourceMappingURL=edit.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=103.js.map

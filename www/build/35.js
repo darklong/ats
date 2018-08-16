@@ -1,1 +1,343 @@
-webpackJsonp([35],{1887:function(l,n,a){"use strict";function u(l){return e._42(0,[e._37(402653184,1,{content:0}),(l()(),e._16(1,0,null,null,16,"ion-header",[],null,null,null,null,null)),e._15(2,16384,null,0,B.a,[C.a,e.p,e.K,[2,F.a]],null,null),(l()(),e._40(-1,null,["\n    "])),(l()(),e._16(4,0,null,null,12,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,J.b,J.a)),e._15(5,49152,null,0,L.a,[N.a,[2,F.a],[2,O.a],C.a,e.p,e.K],null,null),(l()(),e._40(-1,3,["\n        "])),(l()(),e._16(7,0,null,3,2,"ion-title",[],null,null,null,S.b,S.a)),e._15(8,49152,null,0,q.a,[C.a,e.p,e.K,[2,z.a],[2,L.a]],null,null),(l()(),e._40(9,0,["",""])),(l()(),e._40(-1,3,["\n\n        "])),(l()(),e._16(11,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),e._15(12,16384,null,1,A.a,[C.a,e.p,e.K,[2,z.a],[2,L.a]],null,null),e._37(603979776,2,{_buttons:1}),(l()(),e._40(-1,null,["\n            "])),(l()(),e._40(-1,null,["\n        "])),(l()(),e._40(-1,3,["\n    "])),(l()(),e._40(-1,null,["\n"])),(l()(),e._40(-1,null,["\n"])),(l()(),e._16(19,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,E.b,E.a)),e._15(20,4374528,null,0,G.a,[C.a,H.a,Q.a,e.p,e.K,N.a,U.a,e.D,[2,F.a],[2,O.a]],null,null),(l()(),e._40(-1,1,["\n    "])),(l()(),e._16(22,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,a){var u=!0;if("ionRefresh"===n){u=!1!==l.component.refreshData(a)&&u}return u},null,null)),e._15(23,212992,null,0,V.a,[H.a,G.a,e.D,W.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),e._40(-1,null,["\n        "])),(l()(),e._16(25,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,X.b,X.a)),e._15(26,114688,null,0,Y.a,[V.a,C.a],{pullingText:[0,"pullingText"]},null),e._32(131072,Z.a,[$.a,e.i]),(l()(),e._40(-1,null,["\n    "])),(l()(),e._40(-1,1,["\n    "])),(l()(),e._16(30,0,null,1,1,"core-site-plugins-module-index",[],null,null,null,R.c,R.b)),e._15(31,245760,[[1,4]],0,_.a,[ll.a,nl.a,al.a,ul.a,$.a],{module:[0,"module"],courseId:[1,"courseId"]},null),(l()(),e._40(-1,1,["\n"])),(l()(),e._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,23,0,a.content&&a.content.content&&a.content.content.dataLoaded);l(n,26,0,e._19(1,"",e._41(n,26,0,e._29(n,27).transform("core.pulltorefresh")),""));l(n,31,0,a.module,a.courseId)},function(l,n){var a=n.component;l(n,4,0,e._29(n,5)._hidden,e._29(n,5)._sbPadding);l(n,9,0,a.title);l(n,19,0,e._29(n,20).statusbarPadding,e._29(n,20)._hasRefresher);l(n,22,0,"inactive"!==e._29(n,23).state,e._29(n,23)._top);l(n,25,0,e._29(n,26).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var e=a(1),t=(a(0),a(10),a(6)),_=a(346),o=function(){function l(l){this.title=l.get("title"),this.module=l.get("module"),this.courseId=l.get("courseId")}return l.prototype.refreshData=function(l){this.content.doRefresh().finally(function(){l.complete()})},l}(),r=a(654),i=function(){return function(){}}(),s=a(1284),c=a(1285),d=a(1286),f=a(1287),b=a(1288),p=a(1289),h=a(1290),g=a(1291),m=a(1292),v=a(1295),x=a(1296),I=a(1297),R=a(1324),y=a(1356),K=a(1357),P=a(1358),D=a(1359),M=a(1360),T=a(1361),j=a(1362),k=a(1363),w=a(1364),B=a(419),C=a(7),F=a(35),J=a(1293),L=a(191),N=a(27),O=a(22),S=a(1294),q=a(326),z=a(237),A=a(420),E=a(176),G=a(25),H=a(14),Q=a(26),U=a(97),V=a(130),W=a(36),X=a(192),Y=a(144),Z=a(28),$=a(17),ll=a(53),nl=a(43),al=a(50),ul=a(11),el=a(58),tl=e._14({encapsulation:2,styles:[],data:{}}),_l=e._12("page-core-site-plugins-module-index",o,function(l){return e._42(0,[(l()(),e._16(0,0,null,null,1,"page-core-site-plugins-module-index",[],null,null,null,u,tl)),e._15(1,49152,null,0,o,[el.a],null,null)],null,null)},{},{},[]),ol=a(9),rl=a(18),il=a(322),sl=a(323),cl=a(325),dl=a(324),fl=a(418),bl=a(638),pl=a(31),hl=a(107),gl=a(32),ml=a(421),vl=a(238);a.d(n,"CoreSitePluginsModuleIndexPageModuleNgFactory",function(){return xl});var xl=e._13(i,[],function(l){return e._25([e._26(512,e.n,e._6,[[8,[s.a,c.a,d.a,f.a,b.a,p.a,h.a,g.a,m.a,v.a,x.a,I.a,R.a,y.a,K.a,P.a,D.a,M.a,T.a,j.a,k.a,w.a,_l]],[3,e.n],e.B]),e._26(4608,ol.m,ol.l,[e.x,[2,ol.v]]),e._26(4608,rl.x,rl.x,[]),e._26(4608,rl.d,rl.d,[]),e._26(4608,il.b,il.a,[]),e._26(4608,sl.a,sl.b,[]),e._26(4608,cl.b,cl.a,[]),e._26(4608,dl.b,dl.a,[]),e._26(4608,$.a,$.a,[fl.a,il.b,sl.a,cl.b,dl.b,$.b,$.c]),e._26(512,ol.b,ol.b,[]),e._26(512,rl.v,rl.v,[]),e._26(512,rl.i,rl.i,[]),e._26(512,rl.s,rl.s,[]),e._26(512,bl.a,bl.a,[]),e._26(512,t.a,t.a,[]),e._26(512,pl.a,pl.a,[]),e._26(512,hl.a,hl.a,[]),e._26(512,gl.a,gl.a,[]),e._26(512,ml.a,ml.a,[]),e._26(512,r.a,r.a,[]),e._26(512,bl.b,bl.b,[]),e._26(512,i,i,[]),e._26(256,$.c,void 0,[]),e._26(256,$.b,void 0,[]),e._26(256,vl.a,o,[])])})}});
+webpackJsonp([35],{
+
+/***/ 1878:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginCredentialsPageModule", function() { return CoreLoginCredentialsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__credentials__ = __webpack_require__(2007);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(15);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var CoreLoginCredentialsPageModule = /** @class */ (function () {
+    function CoreLoginCredentialsPageModule() {
+    }
+    CoreLoginCredentialsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__credentials__["a" /* CoreLoginCredentialsPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__credentials__["a" /* CoreLoginCredentialsPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], CoreLoginCredentialsPageModule);
+    return CoreLoginCredentialsPageModule;
+}());
+
+//# sourceMappingURL=credentials.module.js.map
+
+/***/ }),
+
+/***/ 2007:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreLoginCredentialsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_helper__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_contentlinks_providers_delegate__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_contentlinks_providers_helper__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_forms__ = __webpack_require__(20);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page to enter the user credentials.
+ */
+var CoreLoginCredentialsPage = /** @class */ (function () {
+    function CoreLoginCredentialsPage(navCtrl, navParams, fb, appProvider, sitesProvider, loginHelper, domUtils, translate, utils, eventsProvider, contentLinksDelegate, contentLinksHelper) {
+        this.navCtrl = navCtrl;
+        this.appProvider = appProvider;
+        this.sitesProvider = sitesProvider;
+        this.loginHelper = loginHelper;
+        this.domUtils = domUtils;
+        this.translate = translate;
+        this.utils = utils;
+        this.eventsProvider = eventsProvider;
+        this.contentLinksDelegate = contentLinksDelegate;
+        this.contentLinksHelper = contentLinksHelper;
+        this.siteChecked = false;
+        this.pageLoaded = false;
+        this.isBrowserSSO = false;
+        this.eventThrown = false;
+        this.viewLeft = false;
+        this.siteUrl = navParams.get('siteUrl');
+        this.siteConfig = navParams.get('siteConfig');
+        this.urlToOpen = navParams.get('urlToOpen');
+        this.credForm = fb.group({
+            username: [navParams.get('username') || '', __WEBPACK_IMPORTED_MODULE_11__angular_forms__["h" /* Validators */].required],
+            password: ['', __WEBPACK_IMPORTED_MODULE_11__angular_forms__["h" /* Validators */].required]
+        });
+    }
+    /**
+     * View loaded.
+     */
+    CoreLoginCredentialsPage.prototype.ionViewDidLoad = function () {
+        this.treatSiteConfig();
+        if (this.loginHelper.isFixedUrlSet()) {
+            // Fixed URL, we need to check if it uses browser SSO login.
+            this.checkSite(this.siteUrl);
+        }
+        else {
+            this.siteChecked = true;
+            this.pageLoaded = true;
+        }
+    };
+    /**
+     * View left.
+     */
+    CoreLoginCredentialsPage.prototype.ionViewDidLeave = function () {
+        this.viewLeft = true;
+        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */].LOGIN_SITE_UNCHECKED, { config: this.siteConfig }, this.siteId);
+    };
+    /**
+     * Check if a site uses local_mobile, requires SSO login, etc.
+     * This should be used only if a fixed URL is set, otherwise this check is already performed in CoreLoginSitePage.
+     *
+     * @param {string} siteUrl Site URL to check.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    CoreLoginCredentialsPage.prototype.checkSite = function (siteUrl) {
+        var _this = this;
+        this.pageLoaded = false;
+        // If the site is configured with http:// protocol we force that one, otherwise we use default mode.
+        var protocol = siteUrl.indexOf('http://') === 0 ? 'http://' : undefined;
+        return this.sitesProvider.checkSite(siteUrl, protocol).then(function (result) {
+            _this.siteChecked = true;
+            _this.siteUrl = result.siteUrl;
+            _this.siteConfig = result.config;
+            _this.treatSiteConfig();
+            if (result && result.warning) {
+                _this.domUtils.showErrorModal(result.warning, true, 4000);
+            }
+            if (_this.loginHelper.isSSOLoginNeeded(result.code)) {
+                // SSO. User needs to authenticate in a browser.
+                _this.isBrowserSSO = true;
+                // Check that there's no SSO authentication ongoing and the view hasn't changed.
+                if (!_this.appProvider.isSSOAuthenticationOngoing() && !_this.viewLeft) {
+                    _this.loginHelper.confirmAndOpenBrowserForSSOLogin(result.siteUrl, result.code, result.service, result.config && result.config.launchurl);
+                }
+            }
+            else {
+                _this.isBrowserSSO = false;
+            }
+        }).catch(function (error) {
+            _this.domUtils.showErrorModal(error);
+        }).finally(function () {
+            _this.pageLoaded = true;
+        });
+    };
+    /**
+     * Treat the site configuration (if it exists).
+     */
+    CoreLoginCredentialsPage.prototype.treatSiteConfig = function () {
+        if (this.siteConfig) {
+            this.siteName = this.siteConfig.sitename;
+            this.logoUrl = this.siteConfig.logourl || this.siteConfig.compactlogourl;
+            this.authInstructions = this.siteConfig.authinstructions || this.translate.instant('core.login.loginsteps');
+            this.canSignup = this.siteConfig.registerauth == 'email' && !this.loginHelper.isEmailSignupDisabled(this.siteConfig);
+            this.identityProviders = this.loginHelper.getValidIdentityProviders(this.siteConfig);
+            if (!this.eventThrown && !this.viewLeft) {
+                this.eventThrown = true;
+                this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */].LOGIN_SITE_CHECKED, { config: this.siteConfig });
+            }
+        }
+        else {
+            this.siteName = null;
+            this.logoUrl = null;
+            this.authInstructions = null;
+            this.canSignup = false;
+            this.identityProviders = [];
+        }
+    };
+    /**
+     * Tries to authenticate the user.
+     */
+    CoreLoginCredentialsPage.prototype.login = function () {
+        var _this = this;
+        this.appProvider.closeKeyboard();
+        // Get input data.
+        var siteUrl = this.siteUrl, username = this.credForm.value.username, password = this.credForm.value.password;
+        if (!this.siteChecked || this.isBrowserSSO) {
+            // Site wasn't checked (it failed) or a previous check determined it was SSO. Let's check again.
+            this.checkSite(siteUrl).then(function () {
+                if (!_this.isBrowserSSO) {
+                    // Site doesn't use browser SSO, throw app's login again.
+                    return _this.login();
+                }
+            });
+            return;
+        }
+        if (!username) {
+            this.domUtils.showErrorModal('core.login.usernamerequired', true);
+            return;
+        }
+        if (!password) {
+            this.domUtils.showErrorModal('core.login.passwordrequired', true);
+            return;
+        }
+        if (!this.appProvider.isOnline()) {
+            this.domUtils.showErrorModal('core.networkerrormsg', true);
+            return;
+        }
+        var modal = this.domUtils.showModalLoading();
+        // Start the authentication process.
+        this.sitesProvider.getUserToken(siteUrl, username, password).then(function (data) {
+            return _this.sitesProvider.newSite(data.siteUrl, data.token, data.privateToken).then(function (id) {
+                // Reset fields so the data is not in the view anymore.
+                _this.credForm.controls['username'].reset();
+                _this.credForm.controls['password'].reset();
+                _this.siteId = id;
+                if (_this.urlToOpen) {
+                    // There's a content link to open.
+                    return _this.contentLinksDelegate.getActionsFor(_this.urlToOpen, undefined, username).then(function (actions) {
+                        var action = _this.contentLinksHelper.getFirstValidAction(actions);
+                        if (action && action.sites.length) {
+                            // Action should only have 1 site because we're filtering by username.
+                            action.action(action.sites[0]);
+                        }
+                        else {
+                            return _this.loginHelper.goToSiteInitialPage();
+                        }
+                    });
+                }
+                else {
+                    return _this.loginHelper.goToSiteInitialPage();
+                }
+            });
+        }).catch(function (error) {
+            _this.loginHelper.treatUserTokenError(siteUrl, error);
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Forgotten password button clicked.
+     */
+    CoreLoginCredentialsPage.prototype.forgottenPassword = function () {
+        var _this = this;
+        if (this.siteConfig && this.siteConfig.forgottenpasswordurl) {
+            // URL set, open it.
+            this.utils.openInApp(this.siteConfig.forgottenpasswordurl);
+            return;
+        }
+        // Check if password reset can be done through the app.
+        var modal = this.domUtils.showModalLoading();
+        this.loginHelper.canRequestPasswordReset(this.siteUrl).then(function (canReset) {
+            if (canReset) {
+                _this.navCtrl.push('CoreLoginForgottenPasswordPage', {
+                    siteUrl: _this.siteUrl, username: _this.credForm.value.username
+                });
+            }
+            else {
+                _this.loginHelper.openForgottenPassword(_this.siteUrl);
+            }
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * An OAuth button was clicked.
+     *
+     * @param {any} provider The provider that was clicked.
+     */
+    CoreLoginCredentialsPage.prototype.oauthClicked = function (provider) {
+        if (!this.loginHelper.openBrowserForOAuthLogin(this.siteUrl, provider, this.siteConfig.launchurl)) {
+            this.domUtils.showErrorModal('Invalid data.');
+        }
+    };
+    /**
+     * Signup button was clicked.
+     */
+    CoreLoginCredentialsPage.prototype.signup = function () {
+        this.navCtrl.push('CoreLoginEmailSignupPage', { siteUrl: this.siteUrl });
+    };
+    CoreLoginCredentialsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-login-credentials',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/core/login/pages/credentials/credentials.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ \'core.login.login\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content class="core-center-view">\n    <core-loading [hideUntil]="pageLoaded">\n        <div class="box">\n            <img *ngIf="!logoUrl" src="assets/img/login_logo_fe.png" class="login-logo-parent" role="presentation">\n            <div text-wrap text-center>\n                <!-- Show site logo or a default image. -->\n                <img *ngIf="logoUrl" [src]="logoUrl" role="presentation">\n                <img *ngIf="!logoUrl" src="assets/img/login_logo_ats.png" class="login-logo" role="presentation">\n\n                <!-- If no sitename show big siteurl. -->\n                <!-- <p *ngIf="!siteName" padding class="item-heading core-siteurl">{{siteUrl}}</p> -->\n                <!-- If sitename, show big sitename and small siteurl. -->\n                <p *ngIf="siteName" padding class="item-heading core-sitename"><core-format-text [text]="siteName"></core-format-text></p>\n                <p *ngIf="siteName" class="core-siteurl">{{siteUrl}}</p>\n            </div>\n\n            \n\n            <form ion-list [formGroup]="credForm" (ngSubmit)="login()">\n                <ion-item *ngIf="siteChecked && !isBrowserSSO">\n\n                    <ion-input type="text" name="username" placeholder="{{ \'core.login.username\' | translate }}" formControlName="username" autocapitalize="none" autocorrect="off"></ion-input>\n                </ion-item>\n                <ion-item *ngIf="siteChecked && !isBrowserSSO">\n                    <core-show-password item-content [name]="\'password\'">\n                        <ion-input class="core-ioninput-password" name="password" type="password" placeholder="{{ \'core.login.password\' | translate }}" formControlName="password" core-show-password></ion-input>\n                    </core-show-password>\n                </ion-item>\n                <button ion-button block [disabled]="siteChecked && !isBrowserSSO && !credForm.valid">{{ \'core.login.loginbutton\' | translate }}</button>\n            </form>\n\n            <!-- Forgotten password button. -->\n            <!-- <div padding-top>\n                <button ion-button block text-wrap color="light" (click)="forgottenPassword()">{{ \'core.login.forgotten\' | translate }}</button>\n            </div> -->\n\n            <ion-list *ngIf="identityProviders && identityProviders.length" padding-top>\n                <ion-list-header text-wrap>{{ \'core.login.potentialidps\' | translate }}</ion-list-header>\n                <button ion-item *ngFor="let provider of identityProviders" text-wrap class="core-oauth-icon" (click)="oauthClicked(provider)" title="{{provider.name}}">\n                    <img [src]="provider.iconurl" alt="{{provider.name}}" item-start>\n                    {{provider.name}}\n                </button>\n            </ion-list>\n\n            <ion-list *ngIf="canSignup" padding-top>\n                <ion-list-header text-wrap>{{ \'core.login.firsttime\' | translate }}</ion-list-header>\n                <ion-item no-lines text-wrap *ngIf="authInstructions">\n                    <p><core-format-text [text]="authInstructions"></core-format-text></p>\n                </ion-item>\n                <button ion-button block (click)="signup()">{{ \'core.login.startsignup\' | translate }}</button>\n            </ion-list>\n            \n        </div>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/core/login/pages/credentials/credentials.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_11__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_helper__["a" /* CoreLoginHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__["a" /* CoreUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_9__core_contentlinks_providers_delegate__["a" /* CoreContentLinksDelegate */],
+            __WEBPACK_IMPORTED_MODULE_10__core_contentlinks_providers_helper__["a" /* CoreContentLinksHelperProvider */]])
+    ], CoreLoginCredentialsPage);
+    return CoreLoginCredentialsPage;
+}());
+
+//# sourceMappingURL=credentials.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=35.js.map

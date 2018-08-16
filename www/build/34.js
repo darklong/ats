@@ -1,1 +1,387 @@
-webpackJsonp([34],{1888:function(n,l,a){"use strict";function u(n){return t._42(0,[t._37(402653184,1,{content:0}),(n()(),t._16(1,0,null,null,17,"ion-header",[],null,null,null,null,null)),t._15(2,16384,null,0,B.a,[F.a,t.p,t.K,[2,J.a]],null,null),(n()(),t._40(-1,null,["\n    "])),(n()(),t._16(4,0,null,null,13,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,L.b,L.a)),t._15(5,49152,null,0,N.a,[O.a,[2,J.a],[2,S.a],F.a,t.p,t.K],null,null),(n()(),t._40(-1,3,["\n        "])),(n()(),t._16(7,0,null,3,3,"ion-title",[],null,null,null,q.b,q.a)),t._15(8,49152,null,0,z.a,[F.a,t.p,t.K,[2,A.a],[2,N.a]],null,null),(n()(),t._40(9,0,["",""])),t._32(131072,E.a,[G.a,t.i]),(n()(),t._40(-1,3,["\n\n        "])),(n()(),t._16(12,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),t._15(13,16384,null,1,H.a,[F.a,t.p,t.K,[2,A.a],[2,N.a]],null,null),t._37(603979776,2,{_buttons:1}),(n()(),t._40(-1,null,["\n            "])),(n()(),t._40(-1,null,["\n        "])),(n()(),t._40(-1,3,["\n    "])),(n()(),t._40(-1,null,["\n"])),(n()(),t._40(-1,null,["\n"])),(n()(),t._16(20,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,I.b,I.a)),t._15(21,4374528,null,0,Q.a,[F.a,U.a,V.a,t.p,t.K,O.a,W.a,t.D,[2,J.a],[2,S.a]],null,null),(n()(),t._40(-1,1,["\n    "])),(n()(),t._16(23,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,a){var u=!0;if("ionRefresh"===l){u=!1!==n.component.refreshData(a)&&u}return u},null,null)),t._15(24,212992,null,0,X.a,[U.a,Q.a,t.D,Y.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),t._40(-1,null,["\n        "])),(n()(),t._16(26,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Z.b,Z.a)),t._15(27,114688,null,0,$.a,[X.a,F.a],{pullingText:[0,"pullingText"]},null),t._32(131072,E.a,[G.a,t.i]),(n()(),t._40(-1,null,["\n    "])),(n()(),t._40(-1,1,["\n    "])),(n()(),t._16(31,0,null,1,1,"core-site-plugins-plugin-content",[],null,null,null,nn.b,nn.a)),t._15(32,376832,[[1,4]],0,_.a,[ln.a,an.a,[2,S.a],t.w],{component:[0,"component"],method:[1,"method"],args:[2,"args"],initResult:[3,"initResult"]},null),(n()(),t._40(-1,1,["\n"])),(n()(),t._40(-1,null,["\n"]))],function(n,l){var a=l.component;n(l,24,0,a.content&&a.content.dataLoaded);n(l,27,0,t._19(1,"",t._41(l,27,0,t._29(l,28).transform("core.pulltorefresh")),""));n(l,32,0,a.component,a.method,a.args,a.initResult)},function(n,l){var a=l.component;n(l,4,0,t._29(l,5)._hidden,t._29(l,5)._sbPadding);n(l,9,0,t._41(l,9,0,t._29(l,10).transform(a.title)));n(l,20,0,t._29(l,21).statusbarPadding,t._29(l,21)._hasRefresher);n(l,23,0,"inactive"!==t._29(l,24).state,t._29(l,24)._top);n(l,26,0,t._29(l,27).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var t=a(1),e=(a(0),a(10),a(6)),_=a(141),o=function(){function n(n){this.title=n.get("title"),this.component=n.get("component"),this.method=n.get("method"),this.args=n.get("args"),this.initResult=n.get("initResult")}return n.prototype.refreshData=function(n){this.content.refreshContent(!1).finally(function(){n.complete()})},n}(),i=a(654),r=function(){return function(){}}(),s=a(1284),c=a(1285),p=a(1286),d=a(1287),f=a(1288),b=a(1289),h=a(1290),g=a(1291),m=a(1292),v=a(1295),R=a(1296),P=a(1297),x=a(1324),y=a(1356),K=a(1357),D=a(1358),w=a(1359),C=a(1360),M=a(1361),T=a(1362),j=a(1363),k=a(1364),B=a(419),F=a(7),J=a(35),L=a(1293),N=a(191),O=a(27),S=a(22),q=a(1294),z=a(326),A=a(237),E=a(28),G=a(17),H=a(420),I=a(176),Q=a(25),U=a(14),V=a(26),W=a(97),X=a(130),Y=a(36),Z=a(192),$=a(144),nn=a(465),ln=a(4),an=a(53),un=a(58),tn=t._14({encapsulation:2,styles:[],data:{}}),en=t._12("page-core-site-plugins-plugin",o,function(n){return t._42(0,[(n()(),t._16(0,0,null,null,1,"page-core-site-plugins-plugin",[],null,null,null,u,tn)),t._15(1,49152,null,0,o,[un.a],null,null)],null,null)},{},{},[]),_n=a(9),on=a(18),rn=a(322),sn=a(323),cn=a(325),pn=a(324),dn=a(418),fn=a(638),bn=a(31),hn=a(107),gn=a(32),mn=a(421),vn=a(238);a.d(l,"CoreSitePluginsPluginPageModuleNgFactory",function(){return Rn});var Rn=t._13(r,[],function(n){return t._25([t._26(512,t.n,t._6,[[8,[s.a,c.a,p.a,d.a,f.a,b.a,h.a,g.a,m.a,v.a,R.a,P.a,x.a,y.a,K.a,D.a,w.a,C.a,M.a,T.a,j.a,k.a,en]],[3,t.n],t.B]),t._26(4608,_n.m,_n.l,[t.x,[2,_n.v]]),t._26(4608,on.x,on.x,[]),t._26(4608,on.d,on.d,[]),t._26(4608,rn.b,rn.a,[]),t._26(4608,sn.a,sn.b,[]),t._26(4608,cn.b,cn.a,[]),t._26(4608,pn.b,pn.a,[]),t._26(4608,G.a,G.a,[dn.a,rn.b,sn.a,cn.b,pn.b,G.b,G.c]),t._26(512,_n.b,_n.b,[]),t._26(512,on.v,on.v,[]),t._26(512,on.i,on.i,[]),t._26(512,on.s,on.s,[]),t._26(512,fn.a,fn.a,[]),t._26(512,e.a,e.a,[]),t._26(512,bn.a,bn.a,[]),t._26(512,hn.a,hn.a,[]),t._26(512,gn.a,gn.a,[]),t._26(512,mn.a,mn.a,[]),t._26(512,i.a,i.a,[]),t._26(512,fn.b,fn.b,[]),t._26(512,r,r,[]),t._26(256,G.c,void 0,[]),t._26(256,G.b,void 0,[]),t._26(256,vn.a,o,[])])})}});
+webpackJsonp([34],{
+
+/***/ 1880:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginCredentialsPageModule", function() { return CoreLoginCredentialsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__email_signup__ = __webpack_require__(2009);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_user_components_components_module__ = __webpack_require__(393);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var CoreLoginCredentialsPageModule = /** @class */ (function () {
+    function CoreLoginCredentialsPageModule() {
+    }
+    CoreLoginCredentialsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__email_signup__["a" /* CoreLoginEmailSignupPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__core_user_components_components_module__["a" /* CoreUserComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__email_signup__["a" /* CoreLoginEmailSignupPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], CoreLoginCredentialsPageModule);
+    return CoreLoginCredentialsPageModule;
+}());
+
+//# sourceMappingURL=email-signup.module.js.map
+
+/***/ }),
+
+/***/ 2009:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreLoginEmailSignupPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_utils__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_ws__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_helper__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_forms__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_user_providers_user_profile_field_delegate__ = __webpack_require__(119);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page to signup using email.
+ */
+var CoreLoginEmailSignupPage = /** @class */ (function () {
+    function CoreLoginEmailSignupPage(navCtrl, navParams, fb, wsProvider, sitesProvider, loginHelper, domUtils, translate, utils, textUtils, userProfileFieldDelegate) {
+        this.navCtrl = navCtrl;
+        this.fb = fb;
+        this.wsProvider = wsProvider;
+        this.sitesProvider = sitesProvider;
+        this.loginHelper = loginHelper;
+        this.domUtils = domUtils;
+        this.translate = translate;
+        this.utils = utils;
+        this.textUtils = textUtils;
+        this.userProfileFieldDelegate = userProfileFieldDelegate;
+        this.settingsLoaded = false;
+        this.captcha = {
+            recaptcharesponse: ''
+        };
+        this.isMinor = false; // Whether the user is minor age.
+        this.siteUrl = navParams.get('siteUrl');
+        // Create the ageVerificationForm.
+        this.ageVerificationForm = this.fb.group({
+            age: ['', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required]
+        });
+        this.countryControl = this.fb.control('', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required);
+        this.ageVerificationForm.addControl('country', this.countryControl);
+        // Create the signupForm with the basic controls. More controls will be added later.
+        this.signupForm = this.fb.group({
+            username: ['', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required],
+            password: ['', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required],
+            email: ['', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].email])],
+            email2: ['', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].email])]
+        });
+        // Setup validation errors.
+        this.usernameErrors = this.loginHelper.getErrorMessages('core.login.usernamerequired');
+        this.passwordErrors = this.loginHelper.getErrorMessages('core.login.passwordrequired');
+        this.emailErrors = this.loginHelper.getErrorMessages('core.login.missingemail');
+        this.email2Errors = this.loginHelper.getErrorMessages('core.login.missingemail', undefined, 'core.login.emailnotmatch');
+        this.policyErrors = this.loginHelper.getErrorMessages('core.login.policyagree');
+    }
+    /**
+     * View loaded.
+     */
+    CoreLoginEmailSignupPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        // Fetch the data.
+        this.fetchData().finally(function () {
+            _this.settingsLoaded = true;
+        });
+    };
+    /**
+     * Complete the FormGroup using the settings received from server.
+     */
+    CoreLoginEmailSignupPage.prototype.completeFormGroup = function () {
+        this.signupForm.addControl('city', this.fb.control(this.settings.defaultcity || ''));
+        this.signupForm.addControl('country', this.fb.control(this.settings.country || ''));
+        // Add the name fields.
+        for (var i in this.settings.namefields) {
+            this.signupForm.addControl(this.settings.namefields[i], this.fb.control('', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required));
+        }
+        if (this.settings.sitepolicy) {
+            this.signupForm.addControl('policyagreed', this.fb.control(false, __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].requiredTrue));
+        }
+    };
+    /**
+     * Fetch the required data from the server-
+     */
+    CoreLoginEmailSignupPage.prototype.fetchData = function () {
+        var _this = this;
+        // Get site config.
+        return this.sitesProvider.getSitePublicConfig(this.siteUrl).then(function (config) {
+            _this.siteConfig = config;
+            if (_this.treatSiteConfig(config)) {
+                // Check content verification.
+                if (typeof _this.ageDigitalConsentVerification == 'undefined') {
+                    return _this.wsProvider.callAjax('core_auth_is_age_digital_consent_verification_enabled', {}, { siteUrl: _this.siteUrl }).then(function (result) {
+                        _this.ageDigitalConsentVerification = result.status;
+                    }).catch(function (e) {
+                        // Capture exceptions, fail silently.
+                    }).then(function () {
+                        return _this.getSignupSettings();
+                    });
+                }
+                else {
+                    return _this.getSignupSettings();
+                }
+            }
+        }).then(function () {
+            _this.completeFormGroup();
+        }).catch(function (err) {
+            _this.domUtils.showErrorModal(err);
+        });
+    };
+    /**
+     * Get signup settings from server.
+     */
+    CoreLoginEmailSignupPage.prototype.getSignupSettings = function () {
+        var _this = this;
+        return this.wsProvider.callAjax('auth_email_get_signup_settings', {}, { siteUrl: this.siteUrl }).then(function (settings) {
+            _this.settings = settings;
+            _this.categories = _this.loginHelper.formatProfileFieldsForSignup(settings.profilefields);
+            if (_this.settings.recaptchapublickey) {
+                _this.captcha.recaptcharesponse = ''; // Reset captcha.
+            }
+            if (!_this.countryControl.value) {
+                _this.countryControl.setValue(settings.country || '');
+            }
+            _this.namefieldsErrors = {};
+            if (settings.namefields) {
+                settings.namefields.forEach(function (field) {
+                    _this.namefieldsErrors[field] = _this.loginHelper.getErrorMessages('core.login.missing' + field);
+                });
+            }
+            return _this.utils.getCountryList().then(function (countries) {
+                _this.countries = countries;
+                _this.countriesKeys = Object.keys(countries);
+            });
+        });
+    };
+    /**
+     * Treat the site config, checking if it's valid and extracting the data we're interested in.
+     *
+     * @param {any} siteConfig Site config to treat.
+     * @return {boolean} True if success.
+     */
+    CoreLoginEmailSignupPage.prototype.treatSiteConfig = function (siteConfig) {
+        if (siteConfig && siteConfig.registerauth == 'email' && !this.loginHelper.isEmailSignupDisabled(siteConfig)) {
+            this.siteName = siteConfig.sitename;
+            this.authInstructions = siteConfig.authinstructions;
+            this.ageDigitalConsentVerification = siteConfig.agedigitalconsentverification;
+            this.supportName = siteConfig.supportname;
+            this.supportEmail = siteConfig.supportemail;
+            this.countryControl.setValue(siteConfig.country || '');
+            return true;
+        }
+        else {
+            this.domUtils.showErrorModal(this.translate.instant('core.login.signupplugindisabled', { $a: this.translate.instant('core.login.auth_email') }));
+            this.navCtrl.pop();
+            return false;
+        }
+    };
+    /**
+     * Pull to refresh.
+     *
+     * @param {any} refresher Refresher.
+     */
+    CoreLoginEmailSignupPage.prototype.refreshSettings = function (refresher) {
+        this.fetchData().finally(function () {
+            refresher.complete();
+        });
+    };
+    /**
+     * Create account.
+     */
+    CoreLoginEmailSignupPage.prototype.create = function () {
+        var _this = this;
+        if (!this.signupForm.valid || (this.settings.recaptchapublickey && !this.captcha.recaptcharesponse)) {
+            // Form not valid. Scroll to the first element with errors.
+            if (!this.domUtils.scrollToInputError(this.content)) {
+                // Input not found, show an error modal.
+                this.domUtils.showErrorModal('core.errorinvalidform', true);
+            }
+        }
+        else {
+            var params_1 = {
+                username: this.signupForm.value.username.trim().toLowerCase(),
+                password: this.signupForm.value.password,
+                firstname: this.textUtils.cleanTags(this.signupForm.value.firstname),
+                lastname: this.textUtils.cleanTags(this.signupForm.value.lastname),
+                email: this.signupForm.value.email.trim(),
+                city: this.textUtils.cleanTags(this.signupForm.value.city),
+                country: this.signupForm.value.country
+            }, modal_1 = this.domUtils.showModalLoading('core.sending', true);
+            if (this.siteConfig.launchurl) {
+                var service = this.sitesProvider.determineService(this.siteUrl);
+                params_1.redirect = this.loginHelper.prepareForSSOLogin(this.siteUrl, service, this.siteConfig.launchurl);
+            }
+            // Get the recaptcha response (if needed).
+            if (this.settings.recaptchapublickey && this.captcha.recaptcharesponse) {
+                params_1.recaptcharesponse = this.captcha.recaptcharesponse;
+            }
+            // Get the data for the custom profile fields.
+            this.userProfileFieldDelegate.getDataForFields(this.settings.profilefields, true, 'email', this.signupForm.value).then(function (fieldsData) {
+                params_1.customprofilefields = fieldsData;
+                _this.wsProvider.callAjax('auth_email_signup_user', params_1, { siteUrl: _this.siteUrl }).then(function (result) {
+                    if (result.success) {
+                        // Show alert and ho back.
+                        var message = _this.translate.instant('core.login.emailconfirmsent', { $a: params_1.email });
+                        _this.domUtils.showAlert(_this.translate.instant('core.success'), message);
+                        _this.navCtrl.pop();
+                    }
+                    else {
+                        if (result.warnings && result.warnings.length) {
+                            var error = result.warnings[0].message;
+                            if (error == 'incorrect-captcha-sol') {
+                                error = _this.translate.instant('core.login.recaptchaincorrect');
+                            }
+                            _this.domUtils.showErrorModal(error);
+                        }
+                        else {
+                            _this.domUtils.showErrorModal('core.login.usernotaddederror', true);
+                        }
+                    }
+                });
+            }).catch(function (error) {
+                _this.domUtils.showErrorModalDefault(error && error.error, 'core.login.usernotaddederror', true);
+            }).finally(function () {
+                modal_1.dismiss();
+            });
+        }
+    };
+    /**
+     * Show authentication instructions.
+     */
+    CoreLoginEmailSignupPage.prototype.showAuthInstructions = function () {
+        this.textUtils.expandText(this.translate.instant('core.login.instructions'), this.authInstructions);
+    };
+    /**
+     * Show contact information on site (we have to display again the age verification form).
+     */
+    CoreLoginEmailSignupPage.prototype.showContactOnSite = function () {
+        this.utils.openInBrowser(this.siteUrl + '/login/verify_age_location.php');
+    };
+    /**
+     * Verify Age.
+     */
+    CoreLoginEmailSignupPage.prototype.verifyAge = function () {
+        var _this = this;
+        if (!this.ageVerificationForm.valid) {
+            this.domUtils.showErrorModal('core.errorinvalidform', true);
+            return;
+        }
+        var modal = this.domUtils.showModalLoading('core.sending', true), params = this.ageVerificationForm.value;
+        params.age = parseInt(params.age, 10); // Use just the integer part.
+        this.wsProvider.callAjax('core_auth_is_minor', params, { siteUrl: this.siteUrl }).then(function (result) {
+            if (!result.status) {
+                // Not a minor, go ahead!
+                _this.ageDigitalConsentVerification = false;
+            }
+            else {
+                // Is a minor!!
+                _this.isMinor = true;
+            }
+        }).catch(function () {
+            // Something wrong, redirect to the site.
+            _this.domUtils.showErrorModal('There was an error verifying your age, please try again using the browser.');
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], CoreLoginEmailSignupPage.prototype, "content", void 0);
+    CoreLoginEmailSignupPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-login-email-signup',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/core/login/pages/email-signup/email-signup.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ \'core.login.newaccount\' | translate }}</ion-title>\n\n        <ion-buttons end>\n            <button ion-button icon-only *ngIf="authInstructions" (click)="showAuthInstructions()" [attr.aria-label]="\'core.login.instructions\' | translate">\n                <ion-icon name="help-circle"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="settingsLoaded && !isMinor" (ionRefresh)="refreshSettings($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-loading [hideUntil]="settingsLoaded" *ngIf="!isMinor">\n\n        <!-- Age verification. -->\n        <form ion-list *ngIf="settingsLoaded && settings && ageDigitalConsentVerification" [formGroup]="ageVerificationForm" (ngSubmit)="verifyAge()">\n            <ion-item-divider color="light" text-wrap>\n                <p class="item-heading">{{ \'core.agelocationverification\' | translate }}</p>\n            </ion-item-divider>\n\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.whatisyourage\' | translate }}</ion-label>\n                <ion-input type="number" name="age" placeholder="0" formControlName="age" autocapitalize="none" autocorrect="off"></ion-input>\n            </ion-item>\n\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.wheredoyoulive\' | translate }}</ion-label>\n                <ion-select name="country" formControlName="country">\n                    <ion-option value="">{{ \'core.login.selectacountry\' | translate }}</ion-option>\n                    <ion-option *ngFor="let key of countriesKeys" [value]="key">{{countries[key]}}</ion-option>\n                </ion-select>\n            </ion-item>\n\n            <!-- Submit button. -->\n            <ion-item padding>\n                <button ion-button block type="submit" [disabled]="!ageVerificationForm.valid">{{ \'core.proceed\' | translate }}</button>\n            </ion-item>\n\n            <ion-item text-wrap>\n                <p class="item-heading">{{ \'core.whyisthisrequired\' | translate }}</p>\n                <p>{{ \'core.explanationdigitalminor\' | translate }}</p>\n            </ion-item>\n        </form>\n\n        <!-- Signup form. -->\n        <form ion-list *ngIf="settingsLoaded && settings && !ageDigitalConsentVerification" [formGroup]="signupForm" (ngSubmit)="create()">\n            <ion-item text-wrap text-center>\n                <!-- If no sitename show big siteurl. -->\n                <p *ngIf="!siteName" padding class="item-heading">{{siteUrl}}</p>\n                <!-- If sitename, show big sitename and small siteurl. -->\n                <p *ngIf="siteName" padding class="item-heading"><core-format-text [text]="siteName"></core-format-text></p>\n                <p *ngIf="siteName">{{siteUrl}}</p>\n            </ion-item>\n\n            <!-- Username and password. -->\n            <ion-item-divider text-wrap color="light">\n                {{ \'core.login.createuserandpass\' | translate }}\n            </ion-item-divider>\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.login.username\' | translate }}</ion-label>\n                <ion-input type="text" name="username" placeholder="{{ \'core.login.username\' | translate }}" formControlName="username" autocapitalize="none" autocorrect="off"></ion-input>\n                <core-input-errors item-content [control]="signupForm.controls.username" [errorMessages]="usernameErrors"></core-input-errors>\n            </ion-item>\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.login.password\' | translate }}</ion-label>\n                <core-show-password item-content [name]="\'password\'">\n                    <ion-input type="password" name="password" placeholder="{{ \'core.login.password\' | translate }}" formControlName="password"></ion-input>\n                </core-show-password>\n                <p *ngIf="settings.passwordpolicy" item-content class="core-input-footnote">\n                    {{settings.passwordpolicy}}\n                </p>\n                <core-input-errors item-content [control]="signupForm.controls.password" [errorMessages]="passwordErrors"></core-input-errors>\n            </ion-item>\n\n            <!-- More details. -->\n            <ion-item-divider text-wrap color="light">\n                {{ \'core.login.supplyinfo\' | translate }}\n            </ion-item-divider>\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.user.email\' | translate }}</ion-label>\n                <ion-input type="email" name="email" placeholder="{{ \'core.user.email\' | translate }}" formControlName="email" autocapitalize="none" autocorrect="off"></ion-input>\n                <core-input-errors item-content [control]="signupForm.controls.email" [errorMessages]="emailErrors"></core-input-errors>\n            </ion-item>\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.user.emailagain\' | translate }}</ion-label>\n                <ion-input type="email" name="email2" placeholder="{{ \'core.user.emailagain\' | translate }}" formControlName="email2" autocapitalize="none" autocorrect="off" pattern="{{signupForm.controls.email.value}}"></ion-input>\n                <core-input-errors item-content [control]="signupForm.controls.email2" [errorMessages]="email2Errors"></core-input-errors>\n            </ion-item>\n            <ion-item *ngFor="let nameField of settings.namefields" text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.user.\' + nameField | translate }}</ion-label>\n                <ion-input type="text" name="nameField" placeholder="{{ \'core.user.\' + nameField | translate }}" formControlName="{{nameField}}" autocorrect="off"></ion-input>\n                <core-input-errors item-content [control]="signupForm.controls[nameField]" [errorMessages]="namefieldsErrors[nameField]"></core-input-errors>\n            </ion-item>\n            <ion-item text-wrap>\n                <ion-label stacked>{{ \'core.user.city\' | translate }}</ion-label>\n                <ion-input type="text" name="city" placeholder="{{ \'core.user.city\' | translate }}" formControlName="city" autocorrect="off"></ion-input>\n            </ion-item>\n            <ion-item text-wrap>\n                <ion-label stacked id="core-login-signup-country">{{ \'core.user.country\' | translate }}</ion-label>\n                <ion-select name="country" formControlName="country" aria-labelledby="core-login-signup-country">\n                    <ion-option value="">{{ \'core.login.selectacountry\' | translate }}</ion-option>\n                    <ion-option *ngFor="let key of countriesKeys" [value]="key">{{countries[key]}}</ion-option>\n                </ion-select>\n            </ion-item>\n\n            <!-- Other categories. -->\n            <ng-container *ngFor="let category of categories">\n                <ion-item-divider text-wrap color="light">{{ category.name }}</ion-item-divider>\n                <core-user-profile-field *ngFor="let field of category.fields" [field]="field" edit="true" signup="true" registerAuth="email" [form]="signupForm"></core-user-profile-field>\n            </ng-container>\n\n            <!-- ReCAPTCHA -->\n            <ng-container *ngIf="settings.recaptchapublickey">\n                <ion-item-divider text-wrap color="light">{{ \'core.login.security_question\' | translate }}</ion-item-divider>\n                <ion-item text-wrap>\n                    <core-recaptcha [publicKey]="settings.recaptchapublickey" [model]="captcha" [siteUrl]="siteUrl"></core-recaptcha>\n                </ion-item>\n            </ng-container>\n\n            <!-- Site policy (if any). -->\n            <ng-container *ngIf="settings.sitepolicy">\n                <ion-item-divider text-wrap color="light">{{ \'core.login.policyagreement\' | translate }}</ion-item-divider>\n                <ion-item text-wrap>\n                    <p><a [href]="settings.sitepolicy" core-link capture="false">{{ \'core.login.policyagreementclick\' | translate }}</a></p>\n                </ion-item>\n                <ion-item text-wrap>\n                    <ion-label>\n                        <span [core-mark-required]="true">{{ \'core.login.policyaccept\' | translate }}</span>\n                        <core-input-errors [control]="signupForm.controls.policyagreed" [errorMessages]="policyErrors"></core-input-errors>\n                    </ion-label>\n                    <ion-checkbox item-end name="policyagreed" formControlName="policyagreed"></ion-checkbox>\n                </ion-item>\n            </ng-container>\n\n            <!-- Submit button. -->\n            <ion-item padding>\n                <button ion-button block color="primary" type="submit">{{ \'core.login.createaccount\' | translate }}</button>\n            </ion-item>\n        </form>\n    </core-loading>\n\n    <ion-list *ngIf="isMinor">\n        <ion-item-divider color="light" text-wrap>\n            <p *ngIf="siteName" class="item-heading padding"><core-format-text [text]="siteName"></core-format-text></p>\n        </ion-item-divider>\n        <ion-item text-wrap>\n            <p class="item-heading">{{ \'core.considereddigitalminor\' | translate }}</p>\n            <p>{{ \'core.digitalminor_desc\' | translate }}</p>\n            <p *ngIf="supportName">{{ supportName }}</p>\n            <p *ngIf="supportEmail">{{ supportEmail }}</p>\n            <div padding *ngIf="!supportName && !supportEmail">\n                <button ion-button block (click)="showContactOnSite()">\n                    {{ \'core.openinbrowser\' | translate }}\n                </button>\n            </div>\n        </ion-item>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/core/login/pages/email-signup/email-signup.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_9__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_7__providers_ws__["a" /* CoreWSProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_helper__["a" /* CoreLoginHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_utils__["a" /* CoreUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_10__core_user_providers_user_profile_field_delegate__["a" /* CoreUserProfileFieldDelegate */]])
+    ], CoreLoginEmailSignupPage);
+    return CoreLoginEmailSignupPage;
+}());
+
+//# sourceMappingURL=email-signup.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=34.js.map

@@ -1,1 +1,417 @@
-webpackJsonp([89],{1816:function(l,n,u){"use strict";function a(l){return p._42(0,[(l()(),p._16(0,0,null,null,3,"ion-title",[],null,null,null,O.b,O.a)),p._15(1,49152,null,0,U.a,[F.a,p.p,p.K,[2,j.a],[2,N.a]],null,null),(l()(),p._16(2,0,null,0,1,"core-format-text",[],null,null,null,null,null)),p._15(3,540672,null,0,B.a,[p.p,V.a,b.a,$.a,C.a,G.a,J.a,q.a,z.a,H.a,Q.a,S.a,[2,X.a],[2,Y.a]],{text:[0,"text"]},null)],function(l,n){l(n,3,0,n.component.entry.concept)},null)}function t(l){return p._42(0,[(l()(),p._16(0,0,null,null,3,"ion-note",[["item-end",""]],null,null,null,null,null)),p._15(1,16384,null,0,Z.a,[F.a,p.p,p.K],null,null),(l()(),p._40(2,null,["",""])),p._34(3,1)],null,function(l,n){var u=n.component;l(n,2,0,p._41(n,2,0,l(n,3,0,p._29(n.parent.parent.parent,0),u.entry.timemodified)))})}function e(l){return p._42(0,[(l()(),p._16(0,0,null,null,26,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,ll.b,ll.a)),p._15(1,1097728,null,3,nl.a,[ul.a,F.a,p.p,p.K,[2,al.a]],null,null),p._37(335544320,1,{contentLabel:0}),p._37(603979776,2,{_buttons:1}),p._37(603979776,3,{_icons:1}),p._15(5,16384,null,0,tl.a,[],null,null),(l()(),p._40(-1,2,["\n                "])),(l()(),p._16(7,0,null,0,7,"ion-avatar",[["item-start",""]],null,[[null,"click"]],function(l,n,u){var a=!0,t=l.component;if("click"===n){a=!1!==t.openUserProfile(t.post.userid)&&a}return a},null,null)),p._15(8,16384,null,0,el.a,[],null,null),(l()(),p._40(-1,null,["\n                    "])),(l()(),p._16(10,0,null,null,3,"img",[["core-external-content",""],["onError","this.src='assets/img/user-avatar.png'"],["role","presentation"]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),p._15(11,4210688,null,0,ol.a,[p.p,z.a,H.a,G.a,V.a,b.a,q.a,Q.a],null,null),p._33(12,{$a:0}),p._32(131072,rl.a,[C.a,p.i]),(l()(),p._40(-1,null,["\n                "])),(l()(),p._40(-1,2,["\n                "])),(l()(),p._16(16,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),p._16(17,0,null,null,1,"core-format-text",[],null,null,null,null,null)),p._15(18,540672,null,0,B.a,[p.p,V.a,b.a,$.a,C.a,G.a,J.a,q.a,z.a,H.a,Q.a,S.a,[2,X.a],[2,Y.a]],{text:[0,"text"]},null),(l()(),p._40(-1,2,["\n                "])),(l()(),p._11(16777216,null,4,1,null,t)),p._15(21,16384,null,0,_l.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(l()(),p._40(-1,2,["\n                "])),(l()(),p._16(23,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),p._16(24,0,null,null,1,"core-format-text",[],null,null,null,null,null)),p._15(25,540672,null,0,B.a,[p.p,V.a,b.a,$.a,C.a,G.a,J.a,q.a,z.a,H.a,Q.a,S.a,[2,X.a],[2,Y.a]],{text:[0,"text"]},null),(l()(),p._40(-1,2,["\n            "]))],function(l,n){var u=n.component;l(n,18,0,u.entry.concept);l(n,21,0,u.showDate);l(n,25,0,u.entry.userfullname)},function(l,n){var u=n.component;l(n,10,0,u.entry.userpictureurl,p._41(n,10,1,p._29(n,13).transform("core.pictureof",l(n,12,0,u.entry.userfullname))))})}function o(l){return p._42(0,[(l()(),p._16(0,0,null,null,3,"ion-note",[["item-end",""]],null,null,null,null,null)),p._15(1,16384,null,0,Z.a,[F.a,p.p,p.K],null,null),(l()(),p._40(2,null,["",""])),p._34(3,1)],null,function(l,n){var u=n.component;l(n,2,0,p._41(n,2,0,l(n,3,0,p._29(n.parent.parent.parent,0),u.entry.timemodified)))})}function r(l){return p._42(0,[(l()(),p._16(0,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,ll.b,ll.a)),p._15(1,1097728,null,3,nl.a,[ul.a,F.a,p.p,p.K,[2,al.a]],null,null),p._37(335544320,4,{contentLabel:0}),p._37(603979776,5,{_buttons:1}),p._37(603979776,6,{_icons:1}),p._15(5,16384,null,0,tl.a,[],null,null),(l()(),p._40(-1,2,["\n                "])),(l()(),p._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),p._16(8,0,null,null,1,"core-format-text",[],null,null,null,null,null)),p._15(9,540672,null,0,B.a,[p.p,V.a,b.a,$.a,C.a,G.a,J.a,q.a,z.a,H.a,Q.a,S.a,[2,X.a],[2,Y.a]],{text:[0,"text"]},null),(l()(),p._40(-1,2,["\n                "])),(l()(),p._11(16777216,null,4,1,null,o)),p._15(12,16384,null,0,_l.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(l()(),p._40(-1,2,["\n            "]))],function(l,n){var u=n.component;l(n,9,0,u.entry.concept);l(n,12,0,u.showDate)},null)}function _(l){return p._42(0,[(l()(),p._16(0,0,null,null,1,"core-file",[],null,null,null,il.b,il.a)),p._15(1,245760,null,0,cl.a,[V.a,J.a,b.a,H.a,Q.a,sl.a,fl.a,dl.a],{file:[0,"file"],component:[1,"component"],componentId:[2,"componentId"]},null)],function(l,n){var u=n.component;l(n,1,0,n.context.$implicit,u.component,u.componentId)},null)}function i(l){return p._42(0,[(l()(),p._16(0,0,null,null,4,null,null,null,null,null,null,null)),(l()(),p._40(-1,null,["\n                "])),(l()(),p._11(16777216,null,null,1,null,_)),p._15(3,802816,null,0,_l.j,[p.W,p.T,p.v],{ngForOf:[0,"ngForOf"]},null),(l()(),p._40(-1,null,["\n            "]))],function(l,n){l(n,3,0,n.component.entry.attachments)},null)}function c(l){return p._42(0,[(l()(),p._16(0,0,null,null,11,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,ll.b,ll.a)),p._15(1,1097728,null,3,nl.a,[ul.a,F.a,p.p,p.K,[2,al.a]],null,null),p._37(335544320,10,{contentLabel:0}),p._37(603979776,11,{_buttons:1}),p._37(603979776,12,{_icons:1}),p._15(5,16384,null,0,tl.a,[],null,null),(l()(),p._40(-1,2,["\n                "])),(l()(),p._16(7,0,null,2,3,"p",[],null,null,null,null,null)),(l()(),p._16(8,0,null,null,2,"em",[],null,null,null,null,null)),(l()(),p._40(9,null,["",""])),p._32(131072,rl.a,[C.a,p.i]),(l()(),p._40(-1,2,["\n            "]))],null,function(l,n){l(n,9,0,p._41(n,9,0,p._29(n,10).transform("addon.mod_glossary.entrypendingapproval")))})}function s(l){return p._42(0,[(l()(),p._16(0,0,null,null,24,null,null,null,null,null,null,null)),(l()(),p._40(-1,null,["\n            "])),(l()(),p._11(16777216,null,null,1,null,e)),p._15(3,16384,null,0,_l.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(l()(),p._40(-1,null,["\n            "])),(l()(),p._11(16777216,null,null,1,null,r)),p._15(6,16384,null,0,_l.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(l()(),p._40(-1,null,["\n            "])),(l()(),p._16(8,0,null,null,9,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,ll.b,ll.a)),p._15(9,1097728,null,3,nl.a,[ul.a,F.a,p.p,p.K,[2,al.a]],null,null),p._37(335544320,7,{contentLabel:0}),p._37(603979776,8,{_buttons:1}),p._37(603979776,9,{_icons:1}),p._15(13,16384,null,0,tl.a,[],null,null),(l()(),p._40(-1,2,["\n                "])),(l()(),p._16(15,0,null,2,1,"core-format-text",[],null,null,null,null,null)),p._15(16,540672,null,0,B.a,[p.p,V.a,b.a,$.a,C.a,G.a,J.a,q.a,z.a,H.a,Q.a,S.a,[2,X.a],[2,Y.a]],{text:[0,"text"],component:[1,"component"],componentId:[2,"componentId"]},null),(l()(),p._40(-1,2,["\n            "])),(l()(),p._40(-1,null,["\n            "])),(l()(),p._11(16777216,null,null,1,null,i)),p._15(20,16384,null,0,_l.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(l()(),p._40(-1,null,["\n            "])),(l()(),p._11(16777216,null,null,1,null,c)),p._15(23,16384,null,0,_l.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(l()(),p._40(-1,null,["\n        "]))],function(l,n){var u=n.component;l(n,3,0,u.showAuthor);l(n,6,0,!u.showAuthor);l(n,16,0,u.entry.definition,u.component,u.componentId);l(n,20,0,u.entry.attachment);l(n,23,0,1!=u.entry.approved)},null)}function f(l){return p._42(0,[(l()(),p._16(0,0,null,null,11,"ion-card",[],null,null,null,null,null)),p._15(1,16384,null,0,pl.a,[F.a,p.p,p.K],null,null),(l()(),p._40(-1,null,["\n            "])),(l()(),p._16(3,0,null,null,7,"ion-item",[["class","core-error-card item item-block"]],null,null,null,ll.b,ll.a)),p._15(4,1097728,null,3,nl.a,[ul.a,F.a,p.p,p.K,[2,al.a]],null,null),p._37(335544320,13,{contentLabel:0}),p._37(603979776,14,{_buttons:1}),p._37(603979776,15,{_icons:1}),p._15(8,16384,null,0,tl.a,[],null,null),(l()(),p._40(9,2,["\n                ","\n            "])),p._32(131072,rl.a,[C.a,p.i]),(l()(),p._40(-1,null,["\n        "]))],null,function(l,n){l(n,9,0,p._41(n,9,0,p._29(n,10).transform("addon.mod_glossary.errorloadingentry")))})}function d(l){return p._42(0,[p._32(0,ml.a,[z.a,C.a]),(l()(),p._16(1,0,null,null,9,"ion-header",[],null,null,null,null,null)),p._15(2,16384,null,0,hl.a,[F.a,p.p,p.K,[2,yl.a]],null,null),(l()(),p._40(-1,null,["\n    "])),(l()(),p._16(4,0,null,null,5,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,gl.b,gl.a)),p._15(5,49152,null,0,N.a,[bl.a,[2,yl.a],[2,X.a],F.a,p.p,p.K],null,null),(l()(),p._40(-1,3,["\n        "])),(l()(),p._11(16777216,null,3,1,null,a)),p._15(8,16384,null,0,_l.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(l()(),p._40(-1,3,["\n    "])),(l()(),p._40(-1,null,["\n"])),(l()(),p._40(-1,null,["\n"])),(l()(),p._16(12,0,null,null,20,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,vl.b,vl.a)),p._15(13,4374528,null,0,Y.a,[F.a,G.a,Il.a,p.p,p.K,bl.a,xl.a,p.D,[2,yl.a],[2,X.a]],null,null),(l()(),p._40(-1,1,["\n    "])),(l()(),p._16(15,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,u){var a=!0;if("ionRefresh"===n){a=!1!==l.component.doRefresh(u)&&a}return a},null,null)),p._15(16,212992,null,0,wl.a,[G.a,Y.a,p.D,kl.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),p._40(-1,null,["\n        "])),(l()(),p._16(18,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Tl.b,Tl.a)),p._15(19,114688,null,0,Kl.a,[wl.a,F.a],{pullingText:[0,"pullingText"]},null),p._32(131072,rl.a,[C.a,p.i]),(l()(),p._40(-1,null,["\n    "])),(l()(),p._40(-1,1,["\n\n    "])),(l()(),p._16(23,0,null,1,8,"core-loading",[],null,null,null,Pl.b,Pl.a)),p._15(24,638976,null,0,Dl.a,[C.a,p.p],{hideUntil:[0,"hideUntil"]},null),(l()(),p._40(-1,0,["\n        "])),(l()(),p._11(16777216,null,0,1,null,s)),p._15(27,16384,null,0,_l.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(l()(),p._40(-1,0,["\n\n        "])),(l()(),p._11(16777216,null,0,1,null,f)),p._15(30,16384,null,0,_l.k,[p.W,p.T],{ngIf:[0,"ngIf"]},null),(l()(),p._40(-1,0,["\n    "])),(l()(),p._40(-1,1,["\n"])),(l()(),p._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,8,0,u.entry);l(n,16,0,u.loaded);l(n,19,0,p._19(1,"",p._41(n,19,0,p._29(n,20).transform("core.pulltorefresh")),""));l(n,24,0,u.loaded);l(n,27,0,u.entry);l(n,30,0,!u.entry)},function(l,n){l(n,4,0,p._29(n,5)._hidden,p._29(n,5)._sbPadding);l(n,12,0,p._29(n,13).statusbarPadding,p._29(n,13)._hasRefresher);l(n,15,0,"inactive"!==p._29(n,16).state,p._29(n,16)._top);l(n,18,0,p._29(n,19).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var p=u(1),m=(u(0),u(10),u(6)),h=u(32),y=u(31),g=u(107),b=u(4),v=u(180),I=function(){function l(l,n,u){this.domUtils=n,this.glossaryProvider=u,this.component=v.a.COMPONENT,this.loaded=!1,this.showAuthor=!1,this.showDate=!1,this.courseId=l.get("courseId"),this.entryId=l.get("entryId")}return l.prototype.ionViewDidLoad=function(){var l=this;this.fetchEntry().then(function(){l.glossaryProvider.logEntryView(l.entry.id)}).finally(function(){l.loaded=!0})},l.prototype.doRefresh=function(l){var n=this;return this.glossaryProvider.invalidateEntry(this.entry.id).catch(function(){}).then(function(){return n.fetchEntry(!0)}).finally(function(){l&&l.complete()})},l.prototype.fetchEntry=function(l){var n=this;return this.glossaryProvider.getEntry(this.entryId).then(function(u){if(n.entry=u,!l)return n.glossaryProvider.getGlossaryById(n.courseId,n.entry.glossaryid).then(function(l){switch(n.componentId=l.coursemodule,l.displayformat){case"fullwithauthor":case"encyclopedia":n.showAuthor=!0,n.showDate=!0;break;case"fullwithoutauthor":n.showAuthor=!1,n.showDate=!0;break;default:n.showAuthor=!1,n.showDate=!1}})}).catch(function(l){return n.domUtils.showErrorModalDefault(l,"addon.mod_glossary.errorloadingentry",!0),Promise.reject(null)})},l}(),x=function(){return function(){}}(),w=u(1284),k=u(1285),T=u(1286),K=u(1287),P=u(1288),D=u(1289),W=u(1290),E=u(1291),A=u(1292),R=u(1295),L=u(1296),M=u(1297),O=u(1294),U=u(326),F=u(7),j=u(237),N=u(191),B=u(38),V=u(2),$=u(11),C=u(17),G=u(14),J=u(3),q=u(24),z=u(5),H=u(16),Q=u(12),S=u(23),X=u(22),Y=u(25),Z=u(215),ll=u(34),nl=u(21),ul=u(19),al=u(29),tl=u(33),el=u(177),ol=u(158),rl=u(28),_l=u(9),il=u(194),cl=u(161),sl=u(120),fl=u(69),dl=u(20),pl=u(88),ml=u(333),hl=u(419),yl=u(35),gl=u(1293),bl=u(27),vl=u(176),Il=u(26),xl=u(97),wl=u(130),kl=u(36),Tl=u(192),Kl=u(144),Pl=u(55),Dl=u(49),Wl=u(58),El=p._14({encapsulation:2,styles:[],data:{}}),Al=p._12("page-addon-mod-glossary-entry",I,function(l){return p._42(0,[(l()(),p._16(0,0,null,null,1,"page-addon-mod-glossary-entry",[],null,null,null,d,El)),p._15(1,49152,null,0,I,[Wl.a,b.a,v.a],null,null)],null,null)},{},{},[]),Rl=u(18),Ll=u(322),Ml=u(323),Ol=u(325),Ul=u(324),Fl=u(418),jl=u(638),Nl=u(238);u.d(n,"AddonModForumDiscussionPageModuleNgFactory",function(){return Bl});var Bl=p._13(x,[],function(l){return p._25([p._26(512,p.n,p._6,[[8,[w.a,k.a,T.a,K.a,P.a,D.a,W.a,E.a,A.a,R.a,L.a,M.a,Al]],[3,p.n],p.B]),p._26(4608,_l.m,_l.l,[p.x,[2,_l.v]]),p._26(4608,Rl.x,Rl.x,[]),p._26(4608,Rl.d,Rl.d,[]),p._26(4608,Ll.b,Ll.a,[]),p._26(4608,Ml.a,Ml.b,[]),p._26(4608,Ol.b,Ol.a,[]),p._26(4608,Ul.b,Ul.a,[]),p._26(4608,C.a,C.a,[Fl.a,Ll.b,Ml.a,Ol.b,Ul.b,C.b,C.c]),p._26(512,_l.b,_l.b,[]),p._26(512,Rl.v,Rl.v,[]),p._26(512,Rl.i,Rl.i,[]),p._26(512,Rl.s,Rl.s,[]),p._26(512,jl.a,jl.a,[]),p._26(512,m.a,m.a,[]),p._26(512,y.a,y.a,[]),p._26(512,g.a,g.a,[]),p._26(512,h.a,h.a,[]),p._26(512,jl.b,jl.b,[]),p._26(512,x,x,[]),p._26(256,C.c,void 0,[]),p._26(256,C.b,void 0,[]),p._26(256,Nl.a,I,[])])})}});
+webpackJsonp([89],{
+
+/***/ 1819:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackFormPageModule", function() { return AddonModFeedbackFormPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(932);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__form__ = __webpack_require__(1944);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModFeedbackFormPageModule = /** @class */ (function () {
+    function AddonModFeedbackFormPageModule() {
+    }
+    AddonModFeedbackFormPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__form__["a" /* AddonModFeedbackFormPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__form__["a" /* AddonModFeedbackFormPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModFeedbackFormPageModule);
+    return AddonModFeedbackFormPageModule;
+}());
+
+//# sourceMappingURL=form.module.js.map
+
+/***/ }),
+
+/***/ 1944:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackFormPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_network__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_feedback__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_helper__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(258);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_utils__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__core_course_providers_course__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__core_login_providers_helper__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__core_contentlinks_providers_helper__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_sites__ = __webpack_require__(2);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays feedback form.
+ */
+var AddonModFeedbackFormPage = /** @class */ (function () {
+    function AddonModFeedbackFormPage(navParams, feedbackProvider, appProvider, utils, domUtils, navCtrl, feedbackHelper, courseProvider, eventsProvider, feedbackSync, network, translate, loginHelper, linkHelper, sitesProvider, content, zone) {
+        var _this = this;
+        this.feedbackProvider = feedbackProvider;
+        this.appProvider = appProvider;
+        this.utils = utils;
+        this.domUtils = domUtils;
+        this.navCtrl = navCtrl;
+        this.feedbackHelper = feedbackHelper;
+        this.courseProvider = courseProvider;
+        this.eventsProvider = eventsProvider;
+        this.feedbackSync = feedbackSync;
+        this.translate = translate;
+        this.loginHelper = loginHelper;
+        this.linkHelper = linkHelper;
+        this.content = content;
+        this.forceLeave = false;
+        this.preview = false;
+        this.component = __WEBPACK_IMPORTED_MODULE_4__providers_feedback__["a" /* AddonModFeedbackProvider */].COMPONENT;
+        this.offline = false;
+        this.feedbackLoaded = false;
+        this.items = [];
+        this.hasPrevPage = false;
+        this.hasNextPage = false;
+        this.completed = false;
+        this.completedOffline = false;
+        this.module = navParams.get('module');
+        this.courseId = navParams.get('courseId');
+        this.currentPage = navParams.get('page');
+        this.title = navParams.get('title');
+        this.preview = !!navParams.get('preview');
+        this.componentId = navParams.get('moduleId') || this.module.id;
+        this.currentSite = sitesProvider.getCurrentSite();
+        // Refresh online status when changes.
+        this.onlineObserver = network.onchange().subscribe(function (online) {
+            // Execute the callback in the Angular zone, so change detection doesn't stop working.
+            zone.run(function () {
+                _this.offline = !online;
+            });
+        });
+    }
+    /**
+     * View loaded.
+     */
+    AddonModFeedbackFormPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchData().then(function () {
+            _this.feedbackProvider.logView(_this.feedback.id, true).then(function () {
+                _this.courseProvider.checkModuleCompletion(_this.courseId, _this.module.completionstatus);
+            });
+        });
+    };
+    /**
+     * View entered.
+     */
+    AddonModFeedbackFormPage.prototype.ionViewDidEnter = function () {
+        this.forceLeave = false;
+    };
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return {boolean | Promise<void>} Resolved if we can leave it, rejected if not.
+     */
+    AddonModFeedbackFormPage.prototype.ionViewCanLeave = function () {
+        if (this.forceLeave) {
+            return true;
+        }
+        if (!this.preview) {
+            var responses = this.feedbackHelper.getPageItemsResponses(this.items);
+            if (this.items && !this.completed && this.originalData) {
+                // Form submitted. Check if there is any change.
+                if (!this.utils.basicLeftCompare(responses, this.originalData, 3)) {
+                    return this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'));
+                }
+            }
+        }
+        return Promise.resolve();
+    };
+    /**
+     * Fetch all the data required for the view.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModFeedbackFormPage.prototype.fetchData = function () {
+        var _this = this;
+        this.offline = !this.appProvider.isOnline();
+        return this.feedbackProvider.getFeedback(this.courseId, this.module.id).then(function (feedbackData) {
+            _this.feedback = feedbackData;
+            _this.title = _this.feedback.name || _this.title;
+            return _this.fetchAccessData();
+        }).then(function (accessData) {
+            if (!_this.preview && accessData.cansubmit && !accessData.isempty) {
+                return typeof _this.currentPage == 'undefined' ?
+                    _this.feedbackProvider.getResumePage(_this.feedback.id, _this.offline, true) :
+                    Promise.resolve(_this.currentPage);
+            }
+            else {
+                _this.preview = true;
+                return Promise.resolve(0);
+            }
+        }).catch(function (error) {
+            if (!_this.offline && !_this.utils.isWebServiceError(error)) {
+                // If it fails, go offline.
+                _this.offline = true;
+                return _this.feedbackProvider.getResumePage(_this.feedback.id, true);
+            }
+            return Promise.reject(error);
+        }).then(function (page) {
+            return _this.fetchFeedbackPageData(page || 0);
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            _this.forceLeave = true;
+            _this.navCtrl.pop();
+            return Promise.reject(null);
+        }).finally(function () {
+            _this.feedbackLoaded = true;
+        });
+    };
+    /**
+     * Fetch access information.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModFeedbackFormPage.prototype.fetchAccessData = function () {
+        var _this = this;
+        return this.feedbackProvider.getFeedbackAccessInformation(this.feedback.id, this.offline, true).catch(function (error) {
+            if (!_this.offline && !_this.utils.isWebServiceError(error)) {
+                // If it fails, go offline.
+                _this.offline = true;
+                return _this.feedbackProvider.getFeedbackAccessInformation(_this.feedback.id, true);
+            }
+            return Promise.reject(error);
+        }).then(function (accessData) {
+            _this.access = accessData;
+            return accessData;
+        });
+    };
+    AddonModFeedbackFormPage.prototype.fetchFeedbackPageData = function (page) {
+        var _this = this;
+        if (page === void 0) { page = 0; }
+        var promise;
+        this.items = [];
+        if (this.preview) {
+            promise = this.feedbackProvider.getItems(this.feedback.id);
+        }
+        else {
+            this.currentPage = page;
+            promise = this.feedbackProvider.getPageItemsWithValues(this.feedback.id, page, this.offline, true).catch(function (error) {
+                if (!_this.offline && !_this.utils.isWebServiceError(error)) {
+                    // If it fails, go offline.
+                    _this.offline = true;
+                    return _this.feedbackProvider.getPageItemsWithValues(_this.feedback.id, page, true);
+                }
+                return Promise.reject(error);
+            }).then(function (response) {
+                _this.hasPrevPage = !!response.hasprevpage;
+                _this.hasNextPage = !!response.hasnextpage;
+                return response;
+            });
+        }
+        return promise.then(function (response) {
+            _this.items = response.items.map(function (itemData) {
+                return _this.feedbackHelper.getItemForm(itemData, _this.preview);
+            }).filter(function (itemData) {
+                // Filter items with errors.
+                return itemData;
+            });
+            if (!_this.preview) {
+                var itemsCopy = _this.utils.clone(_this.items); // Copy the array to avoid modifications.
+                _this.originalData = _this.feedbackHelper.getPageItemsResponses(itemsCopy);
+            }
+        });
+    };
+    /**
+     * Function to allow page navigation through the questions form.
+     *
+     * @param  {boolean}       goPrevious If true it will go back to the previous page, if false, it will go forward.
+     * @return {Promise<void>}            Resolved when done.
+     */
+    AddonModFeedbackFormPage.prototype.gotoPage = function (goPrevious) {
+        var _this = this;
+        this.content && this.content.scrollToTop();
+        this.feedbackLoaded = false;
+        var responses = this.feedbackHelper.getPageItemsResponses(this.items), formHasErrors = this.items.some(function (item) {
+            return item.isEmpty || item.hasError;
+        });
+        // Sync other pages first.
+        return this.feedbackSync.syncFeedback(this.feedback.id).catch(function () {
+            // Ignore errors.
+        }).then(function () {
+            return _this.feedbackProvider.processPage(_this.feedback.id, _this.currentPage, responses, goPrevious, formHasErrors, _this.courseId).then(function (response) {
+                var jumpTo = parseInt(response.jumpto, 10);
+                if (response.completed) {
+                    // Form is completed, show completion message and buttons.
+                    _this.items = [];
+                    _this.completed = true;
+                    _this.completedOffline = !!response.offline;
+                    _this.completionPageContents = response.completionpagecontents;
+                    _this.siteAfterSubmit = response.siteaftersubmit;
+                    _this.submitted = true;
+                    // Invalidate access information so user will see home page updated (continue form or completion messages).
+                    var promises = [];
+                    promises.push(_this.feedbackProvider.invalidateFeedbackAccessInformationData(_this.feedback.id));
+                    promises.push(_this.feedbackProvider.invalidateResumePageData(_this.feedback.id));
+                    return Promise.all(promises).then(function () {
+                        return _this.fetchAccessData();
+                    });
+                }
+                else if (isNaN(jumpTo) || jumpTo == _this.currentPage) {
+                    // Errors on questions, stay in page.
+                    return Promise.resolve();
+                }
+                else {
+                    _this.submitted = true;
+                    // Invalidate access information so user will see home page updated (continue form).
+                    _this.feedbackProvider.invalidateResumePageData(_this.feedback.id);
+                    // Fetch the new page.
+                    return _this.fetchFeedbackPageData(jumpTo);
+                }
+            });
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            return Promise.reject(null);
+        }).finally(function () {
+            _this.feedbackLoaded = true;
+        });
+    };
+    /**
+     * Function to link implemented features.
+     */
+    AddonModFeedbackFormPage.prototype.showAnalysis = function () {
+        this.submitted = 'analysis';
+        this.feedbackHelper.openFeature('analysis', this.navCtrl, this.module, this.courseId);
+    };
+    /**
+     * Function to go to the page after submit.
+     */
+    AddonModFeedbackFormPage.prototype.continue = function () {
+        var _this = this;
+        if (this.siteAfterSubmit) {
+            var modal_1 = this.domUtils.showModalLoading();
+            this.linkHelper.handleLink(this.siteAfterSubmit).then(function (treated) {
+                if (!treated) {
+                    return _this.currentSite.openInBrowserWithAutoLoginIfSameSite(_this.siteAfterSubmit);
+                }
+            }).finally(function () {
+                modal_1.dismiss();
+            });
+        }
+        else {
+            // Use redirect to make the course the new history root (to avoid "loops" in history).
+            this.loginHelper.redirect('CoreCourseSectionPage', {
+                course: { id: this.courseId }
+            }, this.currentSite.getId());
+        }
+    };
+    /**
+     * Component being destroyed.
+     */
+    AddonModFeedbackFormPage.prototype.ngOnDestroy = function () {
+        if (this.submitted) {
+            var tab = this.submitted == 'analysis' ? 'analysis' : 'overview';
+            // If form has been submitted, the info has been already invalidated but we should update index view.
+            this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_4__providers_feedback__["a" /* AddonModFeedbackProvider */].FORM_SUBMITTED, { feedbackId: this.feedback.id, tab: tab });
+        }
+        this.onlineObserver && this.onlineObserver.unsubscribe();
+    };
+    AddonModFeedbackFormPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-feedback-form',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/feedback/pages/form/form.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title><core-format-text  [text]=" title "></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="feedbackLoaded">\n        <ng-container *ngIf="items && items.length">\n            <ion-list no-margin>\n                <ion-item text-wrap>\n                    <h2>{{ \'addon.mod_feedback.mode\' | translate }}</h2>\n                    <p *ngIf="access.isanonymous">{{ \'addon.mod_feedback.anonymous\' | translate }}</p>\n                    <p *ngIf="!access.isanonymous">{{ \'addon.mod_feedback.non_anonymous\' | translate }}</p>\n                </ion-item>\n                <ng-container *ngFor="let item of items">\n                    <ion-item-divider *ngIf="item.typ == \'pagebreak\'" color="light"></ion-item-divider>\n                    <ion-item text-wrap *ngIf="item.typ != \'pagebreak\'" [color]="item.dependitem > 0 ? \'light\' : \'\'" [class.core-danger-item]="item.isEmpty || item.hasError">\n                        <ion-label *ngIf="item.name" [core-mark-required]="item.required" stacked>\n                            <span *ngIf="item.itemnumber">{{item.itemnumber}}. </span>\n                            <core-format-text  [component]="component" [componentId]="componentId" [text]="item.name"></core-format-text>\n                        </ion-label>\n                        <div item-content class="addon-mod_feedback-form-content" *ngIf="item.template">\n                            <ng-container [ngSwitch]="item.template">\n                                <ng-container *ngSwitchCase="\'label\'">\n                                    <p><core-format-text [component]="component" [componentId]="componentId" [text]="item.presentation"></core-format-text></p>\n                                </ng-container>\n                                <ng-container *ngSwitchCase="\'textfield\'">\n                                    <ion-input type="text" [(ngModel)]="item.value" autocorrect="off" name="{{item.typ}}_{{item.id}}" maxlength="{{item.maxlength}}" [required]="item.required"></ion-input>\n                                </ng-container>\n                                <ng-container *ngSwitchCase="\'numeric\'">\n                                    <ion-input [required]="item.required" name="{{item.typ}}_{{item.id}}" type="number" [(ngModel)]="item.value"></ion-input>\n                                    <p *ngIf="item.hasError" color="error">{{ \'addon.mod_feedback.numberoutofrange\' | translate }} [{{item.rangefrom}}<span *ngIf="item.rangefrom && item.rangeto">, </span>{{item.rangeto}}]</p>\n                                </ng-container>\n                                <ng-container *ngSwitchCase="\'textarea\'">\n                                    <ion-textarea [required]="item.required" name="{{item.typ}}_{{item.id}}" [attr.aria-multiline]="true" [(ngModel)]="item.value"></ion-textarea>\n                                </ng-container>\n                                <ng-container *ngSwitchCase="\'multichoice-r\'">\n                                    <ion-list radio-group [(ngModel)]="item.value" [required]="item.required" name="{{item.typ}}_{{item.id}}">\n                                        <ion-item *ngFor="let option of item.choices">\n                                            <ion-label><core-format-text  [component]="component" [componentId]="componentId" [text]="option.label"></core-format-text></ion-label>\n                                            <ion-radio [value]="option.value"></ion-radio>\n                                        </ion-item>\n                                    </ion-list>\n                                </ng-container>\n                                <ion-list *ngSwitchCase="\'multichoice-c\'">\n                                    <ion-item *ngFor="let option of item.choices">\n                                        <ion-label><core-format-text  [component]="component" [componentId]="componentId" [text]="option.label"></core-format-text></ion-label>\n                                        <ion-checkbox [required]="item.required" name="{{item.typ}}_{{item.id}}" [(ngModel)]="option.checked" value="option.value"></ion-checkbox>\n                                    </ion-item>\n                                </ion-list>\n                                <ng-container *ngSwitchCase="\'multichoice-d\'">\n                                    <ion-select [required]="item.required" name="{{item.typ}}_{{item.id}}" [(ngModel)]="item.value" interface="popover">\n                                        <ion-option *ngFor="let option of item.choices" [value]="option.value"><core-format-text  [component]="component" [componentId]="componentId" [text]="option.label"></core-format-text></ion-option>\n                                    </ion-select>\n                                </ng-container>\n                                <ng-container *ngSwitchCase="\'captcha\'">\n                                    <core-recaptcha *ngIf="!preview && !offline" [publicKey]="item.captcha.recaptchapublickey" [model]="item" modelValueName="value"></core-recaptcha>\n                                    <div *ngIf="!preview && (!item.captcha || offline)" class="core-warning-card" icon-start>\n                                        <ion-icon name="warning"></ion-icon>\n                                        {{ \'addon.mod_feedback.captchaofflinewarning\' | translate }}\n                                    </div>\n                                </ng-container>\n                            </ng-container>\n                        </div>\n                    </ion-item>\n                </ng-container>\n                <ion-grid *ngIf="!preview">\n                    <ion-row align-items-center>\n                        <ion-col *ngIf="hasPrevPage">\n                            <button ion-button block outline icon-start (click)="gotoPage(true)">\n                                <ion-icon name="arrow-back"></ion-icon>\n                                {{ \'addon.mod_feedback.previous_page\' | translate }}\n                            </button>\n                        </ion-col>\n                        <ion-col *ngIf="hasNextPage">\n                            <button ion-button block icon-end (click)="gotoPage(false)">\n                                {{ \'addon.mod_feedback.next_page\' | translate }}\n                                <ion-icon name="arrow-forward"></ion-icon>\n                            </button>\n                        </ion-col>\n                        <ion-col *ngIf="!hasNextPage">\n                            <button ion-button block (click)="gotoPage(false)">\n                                {{ \'addon.mod_feedback.save_entries\' | translate }}\n                            </button>\n                        </ion-col>\n                    </ion-row>\n                </ion-grid>\n            </ion-list>\n        </ng-container>\n\n        <div class="core-success-card" icon-start *ngIf="completed">\n            <ion-icon name="checkmark"></ion-icon>\n            <p *ngIf="!completionPageContents && !completedOffline">{{ \'addon.mod_feedback.this_feedback_is_already_submitted\' | translate }}</p>\n            <p *ngIf="!completionPageContents && completedOffline">{{ \'addon.mod_feedback.feedback_submitted_offline\' | translate }}</p>\n            <p *ngIf="completionPageContents"><core-format-text  [component]="component" componentId="componentId" [text]="completionPageContents"></core-format-text></p>\n        </div>\n\n        <ion-grid *ngIf="completed">\n            <ion-row align-items-center>\n                <ion-col *ngIf="access.canviewanalysis">\n                    <button ion-button block outline icon-start (click)="showAnalysis()">\n                        <ion-icon name="stats"></ion-icon>\n                        {{ \'addon.mod_feedback.completed_feedbacks\' | translate }}\n                    </button>\n                </ion-col>\n                <ion-col *ngIf="hasNextPage">\n                    <button ion-button block icon-end (click)="continue()">\n                        {{ \'core.continue\' | translate }}\n                        <ion-icon name="arrow-forward"></ion-icon>\n                    </button>\n                </ion-col>\n            </ion-row>\n        </ion-grid>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/feedback/pages/form/form.html"*/,
+        }),
+        __param(15, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_feedback__["a" /* AddonModFeedbackProvider */], __WEBPACK_IMPORTED_MODULE_9__providers_app__["a" /* CoreAppProvider */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_utils_utils__["a" /* CoreUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_helper__["a" /* AddonModFeedbackHelperProvider */], __WEBPACK_IMPORTED_MODULE_11__core_course_providers_course__["a" /* CoreCourseProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* AddonModFeedbackSyncProvider */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_network__["a" /* Network */],
+            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_12__core_login_providers_helper__["a" /* CoreLoginHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_13__core_contentlinks_providers_helper__["a" /* CoreContentLinksHelperProvider */], __WEBPACK_IMPORTED_MODULE_14__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* NgZone */]])
+    ], AddonModFeedbackFormPage);
+    return AddonModFeedbackFormPage;
+}());
+
+//# sourceMappingURL=form.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=89.js.map

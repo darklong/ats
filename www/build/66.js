@@ -1,1 +1,358 @@
-webpackJsonp([66],{1845:function(l,n,u){"use strict";function a(l){return e._42(0,[(l()(),e._16(0,0,null,null,24,"ion-header",[],null,null,null,null,null)),e._15(1,16384,null,0,y.a,[k.a,e.p,e.K,[2,K.a]],null,null),(l()(),e._40(-1,null,["\n    "])),(l()(),e._16(3,0,null,null,20,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,P.b,P.a)),e._15(4,49152,null,0,M.a,[q.a,[2,K.a],[2,w.a],k.a,e.p,e.K],null,null),(l()(),e._40(-1,3,["\n        "])),(l()(),e._16(6,0,null,3,3,"ion-title",[],null,null,null,x.b,x.a)),e._15(7,49152,null,0,S.a,[k.a,e.p,e.K,[2,I.a],[2,M.a]],null,null),(l()(),e._40(8,0,["",""])),e._32(131072,U.a,[N.a,e.i]),(l()(),e._40(-1,3,["\n        "])),(l()(),e._16(11,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),e._15(12,16384,null,1,D.a,[k.a,e.p,e.K,[2,I.a],[2,M.a]],null,null),e._37(603979776,1,{_buttons:1}),(l()(),e._40(-1,null,["\n            "])),(l()(),e._16(15,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.closeModal()&&a}return a},T.b,T.a)),e._15(16,1097728,[[1,4]],0,A.a,[[8,""],k.a,e.p,e.K],null,null),e._32(131072,U.a,[N.a,e.i]),(l()(),e._40(-1,0,["\n                "])),(l()(),e._16(19,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),e._15(20,147456,null,0,L.a,[k.a,e.p,e.K],{name:[0,"name"]},null),(l()(),e._40(-1,0,["\n            "])),(l()(),e._40(-1,null,["\n        "])),(l()(),e._40(-1,3,["\n    "])),(l()(),e._40(-1,null,["\n"])),(l()(),e._40(-1,null,["\n"])),(l()(),e._16(26,0,null,null,68,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,V.b,V.a)),e._15(27,4374528,null,0,E.a,[k.a,R.a,j.a,e.p,e.K,q.a,B.a,e.D,[2,K.a],[2,w.a]],null,null),(l()(),e._40(-1,1,["\n    "])),(l()(),e._16(29,0,null,1,64,"form",[["name","itemEdit"],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,u){var a=!0,t=l.component;if("submit"===n){a=!1!==e._29(l,31).onSubmit(u)&&a}if("reset"===n){a=!1!==e._29(l,31).onReset()&&a}if("ngSubmit"===n){a=!1!==t.addNote()&&a}return a},null,null)),e._15(30,16384,null,0,F.w,[],null,null),e._15(31,4210688,null,0,F.p,[[8,null],[8,null]],null,{ngSubmit:"ngSubmit"}),e._35(2048,null,F.b,null,[F.p]),e._15(33,16384,null,0,F.o,[F.b],null,null),(l()(),e._40(-1,null,["\n        "])),(l()(),e._16(35,0,null,null,35,"ion-item",[["class","item item-block"]],null,null,null,J.b,J.a)),e._15(36,1097728,null,3,O.a,[z.a,k.a,e.p,e.K,[2,G.a]],null,null),e._37(335544320,2,{contentLabel:0}),e._37(603979776,3,{_buttons:1}),e._37(603979776,4,{_icons:1}),e._15(40,16384,null,0,H.a,[],null,null),(l()(),e._40(-1,2,["\n            "])),(l()(),e._16(42,0,null,1,3,"ion-label",[],null,null,null,null,null)),e._15(43,16384,[[2,4]],0,Q.a,[k.a,e.p,e.K,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),e._40(44,null,["",""])),e._32(131072,U.a,[N.a,e.i]),(l()(),e._40(-1,2,["\n            "])),(l()(),e._16(47,0,null,3,22,"ion-select",[["interface","popover"],["name","publishState"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(l,n,u){var a=!0,t=l.component;if("click"===n){a=!1!==e._29(l,48)._click(u)&&a}if("keyup.space"===n){a=!1!==e._29(l,48)._keyup()&&a}if("ngModelChange"===n){a=!1!==(t.publishState=u)&&a}return a},W.b,W.a)),e._15(48,1228800,null,1,X.a,[q.a,z.a,k.a,e.p,e.K,[2,O.a],Y.a],{interface:[0,"interface"]},null),e._37(603979776,5,{options:1}),e._35(1024,null,F.l,function(l){return[l]},[X.a]),e._15(51,671744,null,0,F.q,[[2,F.b],[8,null],[8,null],[2,F.l]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),e._35(2048,null,F.m,null,[F.q]),e._15(53,16384,null,0,F.n,[F.m],null,null),(l()(),e._40(-1,null,["\n                "])),(l()(),e._16(55,0,null,null,3,"ion-option",[["value","personal"]],null,null,null,null,null)),e._15(56,16384,[[5,4]],0,Z.a,[e.p],{value:[0,"value"]},null),(l()(),e._40(57,null,["",""])),e._32(131072,U.a,[N.a,e.i]),(l()(),e._40(-1,null,["\n                "])),(l()(),e._16(60,0,null,null,3,"ion-option",[["value","course"]],null,null,null,null,null)),e._15(61,16384,[[5,4]],0,Z.a,[e.p],{value:[0,"value"]},null),(l()(),e._40(62,null,["",""])),e._32(131072,U.a,[N.a,e.i]),(l()(),e._40(-1,null,["\n                "])),(l()(),e._16(65,0,null,null,3,"ion-option",[["value","site"]],null,null,null,null,null)),e._15(66,16384,[[5,4]],0,Z.a,[e.p],{value:[0,"value"]},null),(l()(),e._40(67,null,["",""])),e._32(131072,U.a,[N.a,e.i]),(l()(),e._40(-1,null,["\n            "])),(l()(),e._40(-1,2,["\n        "])),(l()(),e._40(-1,null,["\n        "])),(l()(),e._16(72,0,null,null,15,"ion-item",[["class","item item-block"]],null,null,null,J.b,J.a)),e._15(73,1097728,null,3,O.a,[z.a,k.a,e.p,e.K,[2,G.a]],null,null),e._37(335544320,6,{contentLabel:0}),e._37(603979776,7,{_buttons:1}),e._37(603979776,8,{_icons:1}),e._15(77,16384,null,0,H.a,[],null,null),(l()(),e._40(-1,2,["\n            "])),(l()(),e._16(79,0,null,3,7,"ion-textarea",[["name","text"],["required","required"],["rows","5"]],[[1,"required",0],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var a=!0;if("ngModelChange"===n){a=!1!==(l.component.text=u)&&a}return a},$.b,$.a)),e._15(80,16384,null,0,F.t,[],{required:[0,"required"]},null),e._35(1024,null,F.k,function(l){return[l]},[F.t]),e._15(82,671744,null,0,F.q,[[2,F.b],[2,F.k],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),e._35(2048,null,F.m,null,[F.q]),e._15(84,16384,null,0,F.n,[F.m],null,null),e._15(85,5423104,null,0,ll.a,[k.a,R.a,z.a,q.a,e.p,e.K,[2,E.a],[2,O.a],[2,F.m],j.a],{placeholder:[0,"placeholder"]},null),e._32(131072,U.a,[N.a,e.i]),(l()(),e._40(-1,2,["\n        "])),(l()(),e._40(-1,null,["\n        "])),(l()(),e._16(89,0,null,null,3,"button",[["block",""],["ion-button",""],["margin-vertical",""],["type","submit"]],[[8,"disabled",0]],null,null,T.b,T.a)),e._15(90,1097728,null,0,A.a,[[8,""],k.a,e.p,e.K],{block:[0,"block"]},null),(l()(),e._40(91,0,["\n            ","\n        "])),e._32(131072,U.a,[N.a,e.i]),(l()(),e._40(-1,null,["\n    "])),(l()(),e._40(-1,1,["\n"])),(l()(),e._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,20,0,"close");l(n,48,0,"popover");l(n,51,0,"publishState",u.publishState);l(n,56,0,"personal");l(n,61,0,"course");l(n,66,0,"site");l(n,80,0,"required");l(n,82,0,"text",u.text);l(n,85,0,e._19(1,"",e._41(n,85,0,e._29(n,86).transform("addon.notes.note")),""));l(n,90,0,"")},function(l,n){var u=n.component;l(n,3,0,e._29(n,4)._hidden,e._29(n,4)._sbPadding);l(n,8,0,e._41(n,8,0,e._29(n,9).transform("addon.notes.addnewnote")));l(n,15,0,e._41(n,15,0,e._29(n,17).transform("core.close")));l(n,19,0,e._29(n,20)._hidden);l(n,26,0,e._29(n,27).statusbarPadding,e._29(n,27)._hasRefresher);l(n,29,0,e._29(n,33).ngClassUntouched,e._29(n,33).ngClassTouched,e._29(n,33).ngClassPristine,e._29(n,33).ngClassDirty,e._29(n,33).ngClassValid,e._29(n,33).ngClassInvalid,e._29(n,33).ngClassPending);l(n,44,0,e._41(n,44,0,e._29(n,45).transform("addon.notes.publishstate")));l(n,47,0,e._29(n,48)._disabled,e._29(n,53).ngClassUntouched,e._29(n,53).ngClassTouched,e._29(n,53).ngClassPristine,e._29(n,53).ngClassDirty,e._29(n,53).ngClassValid,e._29(n,53).ngClassInvalid,e._29(n,53).ngClassPending);l(n,57,0,e._41(n,57,0,e._29(n,58).transform("addon.notes.personalnotes")));l(n,62,0,e._41(n,62,0,e._29(n,63).transform("addon.notes.coursenotes")));l(n,67,0,e._41(n,67,0,e._29(n,68).transform("addon.notes.sitenotes")));l(n,79,0,e._29(n,80).required?"":null,e._29(n,84).ngClassUntouched,e._29(n,84).ngClassTouched,e._29(n,84).ngClassPristine,e._29(n,84).ngClassDirty,e._29(n,84).ngClassValid,e._29(n,84).ngClassInvalid,e._29(n,84).ngClassPending);l(n,89,0,u.processing||u.text.length<2);l(n,91,0,e._41(n,91,0,e._29(n,92).transform("addon.notes.addnewnote")))})}Object.defineProperty(n,"__esModule",{value:!0});var e=u(1),t=(u(0),u(10),u(12)),o=u(4),i=u(223),s=function(){function l(l,n,u,a,e){this.viewCtrl=n,this.appProvider=u,this.domUtils=a,this.notesProvider=e,this.publishState="personal",this.text="",this.processing=!1,this.userId=l.get("userId"),this.courseId=l.get("courseId")}return l.prototype.addNote=function(){var l=this;this.appProvider.closeKeyboard();var n=this.domUtils.showModalLoading("core.sending",!0);this.processing=!0,this.notesProvider.addNote(this.userId,this.courseId,this.publishState,this.text).then(function(n){l.viewCtrl.dismiss().finally(function(){l.domUtils.showAlertTranslated("core.success",n?"addon.notes.eventnotecreated":"core.datastoredoffline")})}).catch(function(n){l.domUtils.showErrorModal(n),l.processing=!1}).finally(function(){n.dismiss()})},l.prototype.closeModal=function(){this.viewCtrl.dismiss()},l}(),_=u(6),d=u(31),r=function(){return function(){}}(),c=u(1284),g=u(1285),p=u(1286),b=u(1287),h=u(1288),m=u(1289),f=u(1290),v=u(1291),C=u(1292),y=u(419),k=u(7),K=u(35),P=u(1293),M=u(191),q=u(27),w=u(22),x=u(1294),S=u(326),I=u(237),U=u(28),N=u(17),D=u(420),T=u(45),A=u(39),L=u(40),V=u(176),E=u(25),R=u(14),j=u(26),B=u(97),F=u(18),J=u(34),O=u(21),z=u(19),G=u(29),H=u(33),Q=u(59),W=u(113),X=u(99),Y=u(48),Z=u(98),$=u(89),ll=u(73),nl=u(58),ul=e._14({encapsulation:2,styles:[],data:{}}),al=e._12("page-addon-notes-add",s,function(l){return e._42(0,[(l()(),e._16(0,0,null,null,1,"page-addon-notes-add",[],null,null,null,a,ul)),e._15(1,49152,null,0,s,[nl.a,K.a,t.a,o.a,i.a],null,null)],null,null)},{},{},[]),el=u(9),tl=u(322),ol=u(323),il=u(325),sl=u(324),_l=u(418),dl=u(638),rl=u(238);u.d(n,"AddonNotesAddPageModuleNgFactory",function(){return cl});var cl=e._13(r,[],function(l){return e._25([e._26(512,e.n,e._6,[[8,[c.a,g.a,p.a,b.a,h.a,m.a,f.a,v.a,C.a,al]],[3,e.n],e.B]),e._26(4608,el.m,el.l,[e.x,[2,el.v]]),e._26(4608,F.x,F.x,[]),e._26(4608,F.d,F.d,[]),e._26(4608,tl.b,tl.a,[]),e._26(4608,ol.a,ol.b,[]),e._26(4608,il.b,il.a,[]),e._26(4608,sl.b,sl.a,[]),e._26(4608,N.a,N.a,[_l.a,tl.b,ol.a,il.b,sl.b,N.b,N.c]),e._26(512,d.a,d.a,[]),e._26(512,el.b,el.b,[]),e._26(512,F.v,F.v,[]),e._26(512,F.i,F.i,[]),e._26(512,F.s,F.s,[]),e._26(512,dl.a,dl.a,[]),e._26(512,dl.b,dl.b,[]),e._26(512,_.a,_.a,[]),e._26(512,r,r,[]),e._26(256,rl.a,s,[]),e._26(256,N.c,void 0,[]),e._26(256,N.b,void 0,[])])})}});
+webpackJsonp([66],{
+
+/***/ 1843:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModQuizReviewPageModule", function() { return AddonModQuizReviewPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_question_components_components_module__ = __webpack_require__(939);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__review__ = __webpack_require__(1969);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+var AddonModQuizReviewPageModule = /** @class */ (function () {
+    function AddonModQuizReviewPageModule() {
+    }
+    AddonModQuizReviewPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__review__["a" /* AddonModQuizReviewPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__core_question_components_components_module__["a" /* CoreQuestionComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__review__["a" /* AddonModQuizReviewPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModQuizReviewPageModule);
+    return AddonModQuizReviewPageModule;
+}());
+
+//# sourceMappingURL=review.module.js.map
+
+/***/ }),
+
+/***/ 1969:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModQuizReviewPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_time__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_question_providers_helper__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_quiz__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_helper__ = __webpack_require__(251);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+/**
+ * Page that allows reviewing a quiz attempt.
+ */
+var AddonModQuizReviewPage = /** @class */ (function () {
+    function AddonModQuizReviewPage(navParams, modalCtrl, translate, domUtils, timeUtils, quizProvider, quizHelper, questionHelper, textUtils) {
+        this.translate = translate;
+        this.domUtils = domUtils;
+        this.timeUtils = timeUtils;
+        this.quizProvider = quizProvider;
+        this.quizHelper = quizHelper;
+        this.questionHelper = questionHelper;
+        this.textUtils = textUtils;
+        this.component = __WEBPACK_IMPORTED_MODULE_7__providers_quiz__["a" /* AddonModQuizProvider */].COMPONENT; // Component to link the files to.
+        this.quizId = navParams.get('quizId');
+        this.courseId = navParams.get('courseId');
+        this.attemptId = navParams.get('attemptId');
+        this.currentPage = navParams.get('page') || -1;
+        this.showAll = this.currentPage == -1;
+        // Create the navigation modal.
+        this.navigationModal = modalCtrl.create('AddonModQuizNavigationModalPage', {
+            isReview: true,
+            page: this
+        });
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModQuizReviewPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.fetchData().then(function () {
+            _this.quizProvider.logViewAttemptReview(_this.attemptId).catch(function (error) {
+                // Ignore errors.
+            });
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Change the current page. If slot is supplied, try to scroll to that question.
+     *
+     * @param {number} page Page to load. -1 means all questions in same page.
+     * @param {boolean} [fromModal] Whether the page was selected using the navigation modal.
+     * @param {number} [slot] Slot of the question to scroll to.
+     */
+    AddonModQuizReviewPage.prototype.changePage = function (page, fromModal, slot) {
+        var _this = this;
+        if (typeof slot != 'undefined' && (this.attempt.currentpage == -1 || page == this.currentPage)) {
+            // Scrol to a certain question in the current page.
+            this.scrollToQuestion(slot);
+            return;
+        }
+        else if (page == this.currentPage) {
+            // If the user is navigating to the current page and no question specified, we do nothing.
+            return;
+        }
+        this.loaded = false;
+        this.content.scrollToTop();
+        this.loadPage(page).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorgetquestions', true);
+        }).finally(function () {
+            _this.loaded = true;
+            if (typeof slot != 'undefined') {
+                // Scroll to the question. Give some time to the questions to render.
+                setTimeout(function () {
+                    _this.scrollToQuestion(slot);
+                }, 2000);
+            }
+        });
+    };
+    /**
+     * Convenience function to get the quiz data.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModQuizReviewPage.prototype.fetchData = function () {
+        var _this = this;
+        return this.quizProvider.getQuizById(this.courseId, this.quizId).then(function (quizData) {
+            _this.quiz = quizData;
+            _this.componentId = _this.quiz.coursemodule;
+            return _this.quizProvider.getCombinedReviewOptions(_this.quizId).then(function (result) {
+                _this.options = result;
+                // Load the navigation data.
+                return _this.loadNavigation().then(function () {
+                    // Load questions.
+                    return _this.loadPage(_this.currentPage);
+                });
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorgetquiz', true);
+        });
+    };
+    /**
+     * Load a page questions.
+     *
+     * @param {number} page The page to load.
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizReviewPage.prototype.loadPage = function (page) {
+        var _this = this;
+        return this.quizProvider.getAttemptReview(this.attemptId, page).then(function (data) {
+            _this.attempt = data.attempt;
+            _this.attempt.currentpage = page;
+            _this.currentPage = page;
+            // Set the summary data.
+            _this.setSummaryCalculatedData(data);
+            _this.questions = data.questions;
+            _this.nextPage = page == -1 ? undefined : page + 1;
+            _this.previousPage = page - 1;
+            _this.questions.forEach(function (question) {
+                // Get the readable mark for each question.
+                question.readableMark = _this.quizHelper.getQuestionMarkFromHtml(question.html);
+                // Extract the question info box.
+                _this.questionHelper.extractQuestionInfoBox(question, '.info');
+                // Set the preferred behaviour.
+                question.preferredBehaviour = _this.quiz.preferredbehaviour;
+            });
+        });
+    };
+    /**
+     * Load data to navigate the questions using the navigation modal.
+     *
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizReviewPage.prototype.loadNavigation = function () {
+        var _this = this;
+        // Get all questions in single page to retrieve all the questions.
+        return this.quizProvider.getAttemptReview(this.attemptId, -1).then(function (data) {
+            var lastQuestion = data.questions[data.questions.length - 1];
+            data.questions.forEach(function (question) {
+                question.stateClass = _this.questionHelper.getQuestionStateClass(question.state);
+            });
+            _this.navigation = data.questions;
+            _this.numPages = lastQuestion ? lastQuestion.page + 1 : 0;
+        });
+    };
+    /**
+     * Refreshes data.
+     *
+     * @param {any} refresher Refresher
+     */
+    AddonModQuizReviewPage.prototype.refreshData = function (refresher) {
+        var _this = this;
+        var promises = [];
+        promises.push(this.quizProvider.invalidateQuizData(this.courseId));
+        promises.push(this.quizProvider.invalidateCombinedReviewOptionsForUser(this.quizId));
+        promises.push(this.quizProvider.invalidateAttemptReview(this.attemptId));
+        Promise.all(promises).finally(function () {
+            return _this.fetchData();
+        }).finally(function () {
+            refresher.complete();
+        });
+    };
+    /**
+     * Scroll to a certain question.
+     *
+     * @param {number} slot Slot of the question to scroll to.
+     */
+    AddonModQuizReviewPage.prototype.scrollToQuestion = function (slot) {
+        this.domUtils.scrollToElementBySelector(this.content, '#addon-mod_quiz-question-' + slot);
+    };
+    /**
+     * Calculate review summary data.
+     *
+     * @param {any} data Result of getAttemptReview.
+     */
+    AddonModQuizReviewPage.prototype.setSummaryCalculatedData = function (data) {
+        var _this = this;
+        this.attempt.readableState = this.quizProvider.getAttemptReadableStateName(this.attempt.state);
+        if (this.attempt.state == __WEBPACK_IMPORTED_MODULE_7__providers_quiz__["a" /* AddonModQuizProvider */].ATTEMPT_FINISHED) {
+            this.showCompleted = true;
+            this.additionalData = data.additionaldata;
+            var timeTaken = this.attempt.timefinish - this.attempt.timestart;
+            if (timeTaken) {
+                // Format time taken.
+                this.attempt.timeTaken = this.timeUtils.formatTime(timeTaken);
+                // Calculate overdue time.
+                if (this.quiz.timelimit && timeTaken > this.quiz.timelimit + 60) {
+                    this.attempt.overTime = this.timeUtils.formatTime(timeTaken - this.quiz.timelimit);
+                }
+            }
+            // Treat grade.
+            if (this.options.someoptions.marks >= __WEBPACK_IMPORTED_MODULE_7__providers_quiz__["a" /* AddonModQuizProvider */].QUESTION_OPTIONS_MARK_AND_MAX &&
+                this.quizProvider.quizHasGrades(this.quiz)) {
+                if (data.grade === null || typeof data.grade == 'undefined') {
+                    this.attempt.readableGrade = this.quizProvider.formatGrade(data.grade, this.quiz.decimalpoints);
+                }
+                else {
+                    // Show raw marks only if they are different from the grade (like on the entry page).
+                    if (this.quiz.grade != this.quiz.sumgrades) {
+                        this.attempt.readableMark = this.translate.instant('addon.mod_quiz.outofshort', { $a: {
+                                grade: this.quizProvider.formatGrade(this.attempt.sumgrades, this.quiz.decimalpoints),
+                                maxgrade: this.quizProvider.formatGrade(this.quiz.sumgrades, this.quiz.decimalpoints)
+                            } });
+                    }
+                    // Now the scaled grade.
+                    var gradeObject = {
+                        grade: this.quizProvider.formatGrade(data.grade, this.quiz.decimalpoints),
+                        maxgrade: this.quizProvider.formatGrade(this.quiz.grade, this.quiz.decimalpoints)
+                    };
+                    if (this.quiz.grade != 100) {
+                        gradeObject.percent = this.textUtils.roundToDecimals(this.attempt.sumgrades * 100 / this.quiz.sumgrades, 0);
+                        this.attempt.readableGrade = this.translate.instant('addon.mod_quiz.outofpercent', { $a: gradeObject });
+                    }
+                    else {
+                        this.attempt.readableGrade = this.translate.instant('addon.mod_quiz.outof', { $a: gradeObject });
+                    }
+                }
+            }
+            // Treat additional data.
+            this.additionalData.forEach(function (data) {
+                // Remove help links from additional data.
+                data.content = _this.domUtils.removeElementFromHtml(data.content, '.helptooltip');
+            });
+        }
+    };
+    /**
+     * Switch mode: all questions in same page OR one page at a time.
+     */
+    AddonModQuizReviewPage.prototype.switchMode = function () {
+        this.showAll = !this.showAll;
+        // Load all questions or first page, depending on the mode.
+        this.loadPage(this.showAll ? -1 : 0);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonModQuizReviewPage.prototype, "content", void 0);
+    AddonModQuizReviewPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-quiz-review',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/quiz/pages/review/review.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ \'addon.mod_quiz.review\' | translate }}</ion-title>\n\n        <ion-buttons end>\n            <button *ngIf="navigation && navigation.length" ion-button icon-only [attr.aria-label]="\'addon.mod_quiz.opentoc\' | translate" (click)="navigationModal.present()">\n                <ion-icon name="bookmark"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="loaded">\n\n        <!-- Review summary -->\n        <ion-card *ngIf="attempt">\n            <ion-card-header text-wrap>\n                <h2 *ngIf="attempt.preview">{{ \'addon.mod_quiz.reviewofpreview\' | translate }}</h2>\n                <h2 *ngIf="!attempt.preview">{{ \'addon.mod_quiz.reviewofattempt\' | translate:{$a: attempt.attempt} }}</h2>\n            </ion-card-header>\n            <ion-list>\n                <ion-item text-wrap>\n                    <p class="item-heading">{{ \'addon.mod_quiz.startedon\' | translate }}</p>\n                    <p>{{ attempt.timestart * 1000 | coreFormatDate:"dfmediumdate" }}</p>\n                </ion-item>\n                <ion-item text-wrap>\n                    <p class="item-heading">{{ \'addon.mod_quiz.attemptstate\' | translate }}</p>\n                    <p>{{ attempt.readableState }}</p>\n                </ion-item>\n                <ion-item text-wrap *ngIf="showCompleted">\n                    <p class="item-heading">{{ \'addon.mod_quiz.completedon\' | translate }}</p>\n                    <p>{{ attempt.timefinish * 1000 | coreFormatDate:"dfmediumdate" }}</p>\n                </ion-item>\n                <ion-item text-wrap *ngIf="attempt.timeTaken">\n                    <p class="item-heading">{{ \'addon.mod_quiz.timetaken\' | translate }}</p>\n                    <p>{{ attempt.timeTaken }}</p>\n                </ion-item>\n                <ion-item text-wrap *ngIf="attempt.overTime">\n                    <p class="item-heading">{{ \'addon.mod_quiz.overdue\' | translate }}</p>\n                    <p>{{ attempt.overTime }}</p>\n                </ion-item>\n                <ion-item text-wrap *ngIf="attempt.readableMark">\n                    <p class="item-heading">{{ \'addon.mod_quiz.marks\' | translate }}</p>\n                    <p><core-format-text [text]="attempt.readableMark"></core-format-text></p>\n                </ion-item>\n                <ion-item text-wrap *ngIf="attempt.readableGrade">\n                    <p class="item-heading">{{ \'addon.mod_quiz.grade\' | translate }}</p>\n                    <p>{{ attempt.readableGrade }}</p>\n                </ion-item>\n                <ion-item text-wrap *ngFor="let data of additionalData">\n                    <p class="item-heading">{{ data.title }}</p>\n                    <core-format-text [component]="component" [componentId]="componentId" [text]="data.content"></core-format-text>\n                </ion-item>\n            </ion-list>\n        </ion-card>\n\n        <!-- Questions -->\n        <div *ngIf="attempt && questions.length">\n            <!-- Arrows to go to next/previous. -->\n            <ng-container *ngTemplateOutlet="navArrows"></ng-container>\n\n            <!-- Questions. -->\n            <div *ngFor="let question of questions">\n                <ion-card id="addon-mod_quiz-question-{{question.slot}}">\n                    <!-- "Header" of the question. -->\n                    <ion-item-divider color="light">\n                        <h2 *ngIf="question.number" class="inline">{{ \'core.question.questionno\' | translate:{$a: question.number} }}</h2>\n                        <h2 *ngIf="!question.number" class="inline">{{ \'core.question.information\' | translate }}</h2>\n                        <ion-note text-wrap item-end *ngIf="question.status || question.readableMark">\n                            <p *ngIf="question.status" class="block">{{question.status}}</p>\n                            <p *ngIf="question.readableMark"><core-format-text [text]="question.readableMark"></core-format-text></p>\n                        </ion-note>\n                    </ion-item-divider>\n                    <!-- Body of the question. -->\n                    <core-question text-wrap [question]="question" [component]="component" [componentId]="componentId" [attemptId]="attempt.id" [offlineEnabled]="false"></core-question>\n                </ion-card>\n            </div>\n\n            <!-- Arrows to go to next/previous. -->\n            <ng-container *ngTemplateOutlet="navArrows"></ng-container>\n        </div>\n    </core-loading>\n</ion-content>\n\n<!-- Arrows to go to next/previous. -->\n<ng-template #navArrows>\n    <ion-row align-items-center>\n        <ion-col>\n            <a ion-button icon-only color="light" *ngIf="previousPage >= 0" (click)="changePage(previousPage)" [title]="\'core.previous\' | translate">\n                <ion-icon name="arrow-back" md="ios-arrow-back"></ion-icon>\n            </a>\n        </ion-col>\n        <ion-col text-right>\n            <a ion-button icon-only color="light" *ngIf="nextPage >= -1" (click)="changePage(nextPage)" [title]="\'core.next\' | translate">\n                <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n            </a>\n        </ion-col>\n    </ion-row>\n</ng-template>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/quiz/pages/review/review.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* ModalController */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_time__["a" /* CoreTimeUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_quiz__["a" /* AddonModQuizProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_helper__["a" /* AddonModQuizHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__core_question_providers_helper__["a" /* CoreQuestionHelperProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_text__["a" /* CoreTextUtilsProvider */]])
+    ], AddonModQuizReviewPage);
+    return AddonModQuizReviewPage;
+}());
+
+//# sourceMappingURL=review.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=66.js.map

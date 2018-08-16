@@ -1,1 +1,437 @@
-webpackJsonp([58],{1860:function(l,n,u){"use strict";function a(l){return _._42(0,[(l()(),_._16(0,0,null,null,24,"ion-header",[],null,null,null,null,null)),_._15(1,16384,null,0,y.a,[K.a,_.p,_.K,[2,P.a]],null,null),(l()(),_._40(-1,null,["\n    "])),(l()(),_._16(3,0,null,null,20,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,k.b,k.a)),_._15(4,49152,null,0,S.a,[x.a,[2,P.a],[2,D.a],K.a,_.p,_.K],null,null),(l()(),_._40(-1,3,["\n        "])),(l()(),_._16(6,0,null,3,3,"ion-title",[],null,null,null,M.b,M.a)),_._15(7,49152,null,0,q.a,[K.a,_.p,_.K,[2,I.a],[2,S.a]],null,null),(l()(),_._40(8,0,["",""])),_._32(131072,L.a,[R.a,_.i]),(l()(),_._40(-1,3,["\n\n        "])),(l()(),_._16(11,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),_._15(12,16384,null,1,T.a,[K.a,_.p,_.K,[2,I.a],[2,S.a]],null,null),_._37(603979776,1,{_buttons:1}),(l()(),_._40(-1,null,["\n            "])),(l()(),_._16(15,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.close()&&a}return a},U.b,U.a)),_._15(16,1097728,[[1,4]],0,V.a,[[8,""],K.a,_.p,_.K],null,null),_._32(131072,L.a,[R.a,_.i]),(l()(),_._40(-1,0,["\n                "])),(l()(),_._16(19,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),_._15(20,147456,null,0,j.a,[K.a,_.p,_.K],{name:[0,"name"]},null),(l()(),_._40(-1,0,["\n            "])),(l()(),_._40(-1,null,["\n        "])),(l()(),_._40(-1,3,["\n    "])),(l()(),_._40(-1,null,["\n"])),(l()(),_._40(-1,null,["\n"])),(l()(),_._16(26,0,null,null,42,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,B.b,B.a)),_._15(27,4374528,null,0,E.a,[K.a,F.a,J.a,_.p,_.K,x.a,N.a,_.D,[2,P.a],[2,D.a]],null,null),(l()(),_._40(-1,1,["\n    "])),(l()(),_._16(29,0,null,1,38,"form",[["ion-list",""],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,u){var a=!0,s=l.component;if("submit"===n){a=!1!==_._29(l,31).onSubmit(u)&&a}if("reset"===n){a=!1!==_._29(l,31).onReset()&&a}if("ngSubmit"===n){a=!1!==s.submitPassword(_._29(l,31).value.password)&&a}return a},null,null)),_._15(30,16384,null,0,O.w,[],null,null),_._15(31,4210688,[["f",4]],0,O.p,[[8,null],[8,null]],null,{ngSubmit:"ngSubmit"}),_._35(2048,null,O.b,null,[O.p]),_._15(33,16384,null,0,O.o,[O.b],null,null),(l()(),_._40(-1,null,["\n        "])),(l()(),_._16(35,0,null,null,18,"ion-item",[["class","item item-block"]],null,null,null,z.b,z.a)),_._15(36,1097728,null,3,A.a,[G.a,K.a,_.p,_.K,[2,H.a]],null,null),_._37(335544320,2,{contentLabel:0}),_._37(603979776,3,{_buttons:1}),_._37(603979776,4,{_icons:1}),_._15(40,16384,null,0,Q.a,[],null,null),(l()(),_._40(-1,2,["\n            "])),(l()(),_._16(42,0,null,3,10,"core-show-password",[["item-content",""]],null,null,null,W.b,W.a)),_._15(43,4308992,null,0,X.a,[_.p,Y.a],{name:[0,"name"]},null),(l()(),_._40(-1,0,["\n                "])),(l()(),_._16(45,0,null,0,6,"ion-input",[["class","core-ioninput-password"],["name","password"],["ngModel",""],["text-wrap",""],["type","password"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,Z.b,Z.a)),_._15(46,81920,null,0,$.a,[_.p,ll.a,Y.a,[2,D.a]],null,null),_._15(47,671744,null,0,O.q,[[2,O.b],[8,null],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},null),_._35(2048,null,O.m,null,[O.q]),_._15(49,16384,null,0,O.n,[O.m],null,null),_._15(50,5423104,null,0,nl.a,[K.a,F.a,G.a,x.a,_.p,_.K,[2,E.a],[2,A.a],[2,O.m],J.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),_._32(131072,L.a,[R.a,_.i]),(l()(),_._40(-1,0,["\n            "])),(l()(),_._40(-1,2,["\n        "])),(l()(),_._40(-1,null,["\n        "])),(l()(),_._16(55,0,null,null,11,"ion-item",[["class","item item-block"]],null,null,null,z.b,z.a)),_._15(56,1097728,null,3,A.a,[G.a,K.a,_.p,_.K,[2,H.a]],null,null),_._37(335544320,5,{contentLabel:0}),_._37(603979776,6,{_buttons:1}),_._37(603979776,7,{_icons:1}),_._15(60,16384,null,0,Q.a,[],null,null),(l()(),_._40(-1,2,["\n            "])),(l()(),_._16(62,0,null,2,3,"button",[["block",""],["ion-button",""]],[[8,"disabled",0]],null,null,U.b,U.a)),_._15(63,1097728,[[6,4]],0,V.a,[[8,""],K.a,_.p,_.K],{block:[0,"block"]},null),(l()(),_._40(64,0,["",""])),_._32(131072,L.a,[R.a,_.i]),(l()(),_._40(-1,2,["\n        "])),(l()(),_._40(-1,null,["\n    "])),(l()(),_._40(-1,1,["\n"])),(l()(),_._40(-1,null,["\n"]))],function(l,n){l(n,20,0,"close");l(n,43,0,"password"),l(n,46,0);l(n,47,0,"password","");l(n,50,0,"password",_._19(1,"",_._41(n,50,1,_._29(n,51).transform("core.courses.password")),""));l(n,63,0,"")},function(l,n){l(n,3,0,_._29(n,4)._hidden,_._29(n,4)._sbPadding);l(n,8,0,_._41(n,8,0,_._29(n,9).transform("core.courses.selfenrolment")));l(n,15,0,_._41(n,15,0,_._29(n,17).transform("core.close")));l(n,19,0,_._29(n,20)._hidden);l(n,26,0,_._29(n,27).statusbarPadding,_._29(n,27)._hasRefresher);l(n,29,0,_._29(n,33).ngClassUntouched,_._29(n,33).ngClassTouched,_._29(n,33).ngClassPristine,_._29(n,33).ngClassDirty,_._29(n,33).ngClassValid,_._29(n,33).ngClassInvalid,_._29(n,33).ngClassPending);l(n,45,0,_._29(n,49).ngClassUntouched,_._29(n,49).ngClassTouched,_._29(n,49).ngClassPristine,_._29(n,49).ngClassDirty,_._29(n,49).ngClassValid,_._29(n,49).ngClassInvalid,_._29(n,49).ngClassPending);l(n,62,0,!_._29(n,31).value.password);l(n,64,0,_._41(n,64,0,_._29(n,65).transform("core.courses.enrolme")))})}Object.defineProperty(n,"__esModule",{value:!0});var _=u(1),s=(u(0),u(10),function(){function l(l){this.viewCtrl=l}return l.prototype.close=function(){this.viewCtrl.dismiss()},l.prototype.submitPassword=function(l){this.viewCtrl.dismiss(l)},l}()),e=u(6),o=u(32),t=u(31),i=function(){return function(){}}(),r=u(1284),c=u(1285),d=u(1286),b=u(1287),p=u(1288),g=u(1289),m=u(1290),f=u(1291),h=u(1292),v=u(1295),w=u(1296),C=u(1297),y=u(419),K=u(7),P=u(35),k=u(1293),S=u(191),x=u(27),D=u(22),M=u(1294),q=u(326),I=u(237),L=u(28),R=u(17),T=u(420),U=u(45),V=u(39),j=u(40),B=u(176),E=u(25),F=u(14),J=u(26),N=u(97),O=u(18),z=u(34),A=u(21),G=u(19),H=u(29),Q=u(33),W=u(646),X=u(331),Y=u(3),Z=u(89),$=u(329),ll=u(4),nl=u(73),ul=_._14({encapsulation:2,styles:[],data:{}}),al=_._12("page-core-courses-self-enrol-password",s,function(l){return _._42(0,[(l()(),_._16(0,0,null,null,1,"page-core-courses-self-enrol-password",[],null,null,null,a,ul)),_._15(1,49152,null,0,s,[P.a],null,null)],null,null)},{},{},[]),_l=u(9),sl=u(322),el=u(323),ol=u(325),tl=u(324),il=u(418),rl=u(638),cl=u(107),dl=u(238);u.d(n,"CoreCoursesSelfEnrolPasswordPageModuleNgFactory",function(){return bl});var bl=_._13(i,[],function(l){return _._25([_._26(512,_.n,_._6,[[8,[r.a,c.a,d.a,b.a,p.a,g.a,m.a,f.a,h.a,v.a,w.a,C.a,al]],[3,_.n],_.B]),_._26(4608,_l.m,_l.l,[_.x,[2,_l.v]]),_._26(4608,O.x,O.x,[]),_._26(4608,O.d,O.d,[]),_._26(4608,sl.b,sl.a,[]),_._26(4608,el.a,el.b,[]),_._26(4608,ol.b,ol.a,[]),_._26(4608,tl.b,tl.a,[]),_._26(4608,R.a,R.a,[il.a,sl.b,el.a,ol.b,tl.b,R.b,R.c]),_._26(512,_l.b,_l.b,[]),_._26(512,O.v,O.v,[]),_._26(512,O.i,O.i,[]),_._26(512,O.s,O.s,[]),_._26(512,rl.a,rl.a,[]),_._26(512,e.a,e.a,[]),_._26(512,t.a,t.a,[]),_._26(512,cl.a,cl.a,[]),_._26(512,o.a,o.a,[]),_._26(512,rl.b,rl.b,[]),_._26(512,i,i,[]),_._26(256,R.c,void 0,[]),_._26(256,R.b,void 0,[]),_._26(256,dl.a,s,[])])})}});
+webpackJsonp([58],{
+
+/***/ 1853:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWorkshopEditSubmissionPageModule", function() { return AddonModWorkshopEditSubmissionPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__edit_submission__ = __webpack_require__(1980);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModWorkshopEditSubmissionPageModule = /** @class */ (function () {
+    function AddonModWorkshopEditSubmissionPageModule() {
+    }
+    AddonModWorkshopEditSubmissionPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__edit_submission__["a" /* AddonModWorkshopEditSubmissionPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__edit_submission__["a" /* AddonModWorkshopEditSubmissionPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModWorkshopEditSubmissionPageModule);
+    return AddonModWorkshopEditSubmissionPageModule;
+}());
+
+//# sourceMappingURL=edit-submission.module.js.map
+
+/***/ }),
+
+/***/ 1980:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWorkshopEditSubmissionPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_file_session__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_fileuploader__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_workshop__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_helper__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_offline__ = __webpack_require__(116);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays the workshop edit submission.
+ */
+var AddonModWorkshopEditSubmissionPage = /** @class */ (function () {
+    function AddonModWorkshopEditSubmissionPage(navParams, sitesProvider, fileUploaderProvider, workshopProvider, workshopOffline, workshopHelper, navCtrl, fileSessionprovider, syncProvider, textUtils, domUtils, fb, translate, eventsProvider) {
+        this.fileUploaderProvider = fileUploaderProvider;
+        this.workshopProvider = workshopProvider;
+        this.workshopOffline = workshopOffline;
+        this.workshopHelper = workshopHelper;
+        this.navCtrl = navCtrl;
+        this.fileSessionprovider = fileSessionprovider;
+        this.syncProvider = syncProvider;
+        this.textUtils = textUtils;
+        this.domUtils = domUtils;
+        this.fb = fb;
+        this.translate = translate;
+        this.eventsProvider = eventsProvider;
+        this.submission = {
+            id: 0,
+            title: '',
+            content: '',
+            attachmentfiles: [],
+        };
+        this.loaded = false;
+        this.component = __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].COMPONENT;
+        this.originalData = {};
+        this.hasOffline = false;
+        this.editing = false;
+        this.forceLeave = false;
+        this.isDestroyed = false;
+        this.module = navParams.get('module');
+        this.courseId = navParams.get('courseId');
+        this.access = navParams.get('access');
+        this.submissionId = navParams.get('submissionId');
+        this.workshopId = this.module.instance;
+        this.componentId = this.module.id;
+        this.userId = sitesProvider.getCurrentSiteUserId();
+        this.siteId = sitesProvider.getCurrentSiteId();
+        this.editForm = new __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* FormGroup */]({});
+        this.editForm.addControl('title', this.fb.control('', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required));
+        this.editForm.addControl('content', this.fb.control(''));
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.ngOnInit = function () {
+        if (!this.isDestroyed) {
+            // Block the workshop.
+            this.syncProvider.blockOperation(this.component, this.workshopId);
+        }
+        this.fetchSubmissionData();
+    };
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.ionViewCanLeave = function () {
+        var _this = this;
+        if (this.forceLeave) {
+            return true;
+        }
+        var promise;
+        // Check if data has changed.
+        if (!this.hasDataChanged()) {
+            promise = Promise.resolve();
+        }
+        else {
+            // Show confirmation if some data has been modified.
+            promise = this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'));
+        }
+        return promise.then(function () {
+            if (_this.submission.attachmentfiles) {
+                // Delete the local files from the tmp folder.
+                _this.fileUploaderProvider.clearTmpFiles(_this.submission.attachmentfiles);
+            }
+        });
+    };
+    /**
+     * Fetch the submission data.
+     *
+     * @return {Promise<void>} Resolved when done.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.fetchSubmissionData = function () {
+        var _this = this;
+        return this.workshopProvider.getWorkshop(this.courseId, this.module.id).then(function (workshopData) {
+            _this.workshop = workshopData;
+            if (_this.submissionId > 0) {
+                _this.editing = true;
+                return _this.workshopHelper.getSubmissionById(_this.workshopId, _this.submissionId).then(function (submissionData) {
+                    _this.submission = submissionData;
+                    var canEdit = (_this.userId == submissionData.authorid && _this.access.cansubmit &&
+                        _this.access.modifyingsubmissionallowed);
+                    if (!canEdit) {
+                        // Should not happen, but go back if does.
+                        _this.forceLeavePage();
+                        return;
+                    }
+                });
+            }
+            else if (!_this.access.cansubmit || !_this.access.creatingsubmissionallowed) {
+                // Should not happen, but go back if does.
+                _this.forceLeavePage();
+                return;
+            }
+        }).then(function () {
+            return _this.workshopOffline.getSubmissions(_this.workshopId).then(function (submissionsActions) {
+                if (submissionsActions && submissionsActions.length) {
+                    _this.hasOffline = true;
+                    var actions = _this.workshopHelper.filterSubmissionActions(submissionsActions, _this.editing ?
+                        _this.submission.id : 0);
+                    return _this.workshopHelper.applyOfflineData(_this.submission, actions);
+                }
+                else {
+                    _this.hasOffline = false;
+                }
+            }).finally(function () {
+                _this.originalData.title = _this.submission.title;
+                _this.originalData.content = _this.submission.content;
+                _this.originalData.attachmentfiles = [];
+                _this.submission.attachmentfiles.forEach(function (file) {
+                    var filename;
+                    if (file.filename) {
+                        filename = file.filename;
+                    }
+                    else {
+                        // We don't have filename, extract it from the path.
+                        filename = file.filepath[0] == '/' ? file.filepath.substr(1) : file.filepath;
+                    }
+                    _this.originalData.attachmentfiles.push({
+                        filename: filename,
+                        fileurl: file.fileurl
+                    });
+                });
+            });
+        }).then(function () {
+            _this.editForm.controls['title'].setValue(_this.submission.title);
+            _this.editForm.controls['content'].setValue(_this.submission.content);
+            var submissionId = _this.submission.id || 'newsub';
+            _this.fileSessionprovider.setFiles(_this.component, _this.workshopId + '_' + submissionId, _this.submission.attachmentfiles || []);
+            _this.loaded = true;
+        }).catch(function (message) {
+            _this.loaded = false;
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            _this.forceLeavePage();
+        });
+    };
+    /**
+     * Force leaving the page, without checking for changes.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.forceLeavePage = function () {
+        this.forceLeave = true;
+        this.navCtrl.pop();
+    };
+    /**
+     * Get the form input data.
+     *
+     * @return {any} Object with all the info.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.getInputData = function () {
+        var submissionId = this.submission.id || 'newsub';
+        var values = this.editForm.value;
+        values['attachmentfiles'] = this.fileSessionprovider.getFiles(this.component, this.workshopId + '_' + submissionId) || [];
+        return values;
+    };
+    /**
+     * Check if data has changed.
+     *
+     * @return {boolean} True if changed or false if not.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.hasDataChanged = function () {
+        if (!this.loaded) {
+            return false;
+        }
+        var inputData = this.getInputData();
+        if (!this.originalData || typeof this.originalData.title == 'undefined') {
+            // There is no original data, assume it hasn't changed.
+            return false;
+        }
+        if (this.originalData.title != inputData.title || this.originalData.content != inputData.content) {
+            return true;
+        }
+        return this.fileUploaderProvider.areFileListDifferent(inputData.attachmentfiles, this.originalData.attachmentfiles);
+    };
+    /**
+     * Pull to refresh.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.refreshSubmission = function (refresher) {
+        var _this = this;
+        if (this.loaded) {
+            var promises = [];
+            promises.push(this.workshopProvider.invalidateSubmissionData(this.workshopId, this.submission.id));
+            promises.push(this.workshopProvider.invalidateSubmissionsData(this.workshopId));
+            Promise.all(promises).finally(function () {
+                return _this.fetchSubmissionData();
+            }).finally(function () {
+                refresher.complete();
+            });
+        }
+    };
+    /**
+     * Save the submission.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.save = function () {
+        var _this = this;
+        // Check if data has changed.
+        if (this.hasDataChanged()) {
+            this.saveSubmission().then(function () {
+                // Go back to entry list.
+                _this.forceLeavePage();
+            }).catch(function () {
+                // Nothing to do.
+            });
+        }
+        else {
+            // Nothing to save, just go back.
+            this.forceLeavePage();
+        }
+    };
+    /**
+     * Send submission and save.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.saveSubmission = function () {
+        var _this = this;
+        var inputData = this.getInputData();
+        if (!inputData.title) {
+            this.domUtils.showAlertTranslated('core.notice', 'addon.mod_workshop.submissionrequiredtitle');
+            return Promise.reject(null);
+        }
+        if (!inputData.content) {
+            this.domUtils.showAlertTranslated('core.notice', 'addon.mod_workshop.submissionrequiredcontent');
+            return Promise.reject(null);
+        }
+        var allowOffline = true, saveOffline = false;
+        var modal = this.domUtils.showModalLoading('core.sending', true), submissionId = this.submission.id;
+        // Add some HTML to the message if needed.
+        inputData.content = this.textUtils.formatHtmlLines(inputData.content);
+        // Upload attachments first if any.
+        allowOffline = !inputData.attachmentfiles.length;
+        return this.workshopHelper.uploadOrStoreSubmissionFiles(this.workshopId, this.submission.id, inputData.attachmentfiles, this.editing, saveOffline).catch(function () {
+            // Cannot upload them in online, save them in offline.
+            saveOffline = true;
+            allowOffline = true;
+            return _this.workshopHelper.uploadOrStoreSubmissionFiles(_this.workshopId, _this.submission.id, inputData.attachmentfiles, _this.editing, saveOffline);
+        }).then(function (attachmentsId) {
+            if (_this.editing) {
+                if (saveOffline) {
+                    // Save submission in offline.
+                    return _this.workshopOffline.saveSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, submissionId, 'update').then(function () {
+                        // Don't return anything.
+                    });
+                }
+                // Try to send it to server.
+                // Don't allow offline if there are attachments since they were uploaded fine.
+                return _this.workshopProvider.updateSubmission(_this.workshopId, submissionId, _this.courseId, inputData.title, inputData.content, attachmentsId, undefined, allowOffline);
+            }
+            if (saveOffline) {
+                // Save submission in offline.
+                return _this.workshopOffline.saveSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, submissionId, 'add').then(function () {
+                    // Don't return anything.
+                });
+            }
+            // Try to send it to server.
+            // Don't allow offline if there are attachments since they were uploaded fine.
+            return _this.workshopProvider.addSubmission(_this.workshopId, _this.courseId, inputData.title, inputData.content, attachmentsId, undefined, submissionId, allowOffline);
+        }).then(function (newSubmissionId) {
+            var data = {
+                workshopId: _this.workshopId,
+                cmId: _this.module.cmid
+            };
+            if (newSubmissionId && submissionId) {
+                // Data sent to server, delete stored files (if any).
+                _this.workshopOffline.deleteSubmissionAction(_this.workshopId, submissionId, _this.editing ? 'update' : 'add');
+                _this.workshopHelper.deleteSubmissionStoredFiles(_this.workshopId, submissionId, _this.editing);
+                data['submissionId'] = newSubmissionId;
+            }
+            var promise = newSubmissionId ? _this.workshopProvider.invalidateSubmissionData(_this.workshopId, newSubmissionId) :
+                Promise.resolve();
+            return promise.finally(function () {
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */].SUBMISSION_CHANGED, data, _this.siteId);
+                // Delete the local files from the tmp folder.
+                _this.fileUploaderProvider.clearTmpFiles(inputData.attachmentfiles);
+            });
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'Cannot save submission');
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Component being destroyed.
+     */
+    AddonModWorkshopEditSubmissionPage.prototype.ngOnDestroy = function () {
+        this.isDestroyed = true;
+        this.syncProvider.unblockOperation(this.component, this.workshopId);
+    };
+    AddonModWorkshopEditSubmissionPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-workshop-edit-submission',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/workshop/pages/edit-submission/edit-submission.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ \'addon.mod_workshop.editsubmission\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button clear (click)="save()" [attr.aria-label]="\'core.save\' | translate">\n                {{ \'core.save\' | translate }}\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshSubmission($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="loaded">\n        <form ion-list [formGroup]="editForm" *ngIf="workshop">\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'addon.mod_workshop.submissiontitle\' | translate }}</ion-label>\n                <ion-input name="title" type="text" [placeholder]="\'addon.mod_workshop.submissiontitle\' | translate" formControlName="title"></ion-input>\n            </ion-item>\n\n            <ion-item>\n                <ion-label stacked>{{ \'addon.mod_workshop.submissioncontent\' | translate }}</ion-label>\n                <core-rich-text-editor item-content [control]="editForm.controls[\'content\']" formControlName="content" [placeholder]="\'addon.mod_workshop.submissioncontent\' | translate"  name="content" [component]="component" [componentId]="componentId"></core-rich-text-editor>\n            </ion-item>\n\n            <core-attachments *ngIf="workshop.nattachments > 0" [files]="submission.attachmentfiles" [maxSize]="workshop.maxbytes" [maxSubmissions]="workshop.nattachments" [component]="component" [componentId]="workshop.cmid" allowOffline="true" [acceptedTypes]="workshop.submissionfiletypes"></core-attachments>\n        </form>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/workshop/pages/edit-submission/edit-submission.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_10__core_fileuploader_providers_fileuploader__["a" /* CoreFileUploaderProvider */],
+            __WEBPACK_IMPORTED_MODULE_11__providers_workshop__["a" /* AddonModWorkshopProvider */], __WEBPACK_IMPORTED_MODULE_13__providers_offline__["a" /* AddonModWorkshopOfflineProvider */],
+            __WEBPACK_IMPORTED_MODULE_12__providers_helper__["a" /* AddonModWorkshopHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_file_session__["a" /* CoreFileSessionProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* CoreSyncProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */],
+            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */]])
+    ], AddonModWorkshopEditSubmissionPage);
+    return AddonModWorkshopEditSubmissionPage;
+}());
+
+//# sourceMappingURL=edit-submission.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=58.js.map

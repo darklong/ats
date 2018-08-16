@@ -1,1 +1,195 @@
-webpackJsonp([67],{1843:function(l,n,u){"use strict";function a(l){return _._42(0,[(l()(),_._16(0,0,null,null,2,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),_._40(1,null,["",""])),_._32(131072,$.a,[y.a,_.i])],null,function(l,n){l(n,1,0,_._41(n,1,0,_._29(n,2).transform("addon.mod_workshop.userplancurrentphase")))})}function t(l){return _._42(0,[(l()(),_._16(0,0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,M.b,M.a)),_._15(1,1097728,null,3,I.a,[T.a,W.a,_.p,_.K,[2,F.a]],null,null),_._37(335544320,3,{contentLabel:0}),_._37(603979776,4,{_buttons:1}),_._37(603979776,5,{_icons:1}),_._15(5,16384,null,0,O.a,[],null,null),(l()(),_._40(-1,2,["\n                "])),(l()(),_._16(7,0,null,1,5,"ion-label",[],null,null,null,null,null)),_._15(8,16384,[[3,4]],0,U.a,[W.a,_.p,_.K,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),_._40(9,null,["","\n                    "])),(l()(),_._11(16777216,null,null,1,null,a)),_._15(11,16384,null,0,j.k,[_.W,_.T],{ngIf:[0,"ngIf"]},null),(l()(),_._40(-1,null,["\n                "])),(l()(),_._40(-1,2,["\n                "])),(l()(),_._16(14,0,null,4,1,"ion-radio",[],[[2,"radio-disabled",null]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==_._29(l,15)._click(u)&&a}return a},q.b,q.a)),_._15(15,245760,null,0,D.a,[T.a,W.a,_.p,_.K,[2,I.a],[2,L.a]],{value:[0,"value"]},null),(l()(),_._40(-1,2,["\n            "]))],function(l,n){l(n,11,0,n.component.workshopPhase==n.parent.context.$implicit.code);l(n,15,0,n.parent.context.$implicit.code)},function(l,n){l(n,9,0,n.parent.context.$implicit.title);l(n,14,0,_._29(n,15)._disabled)})}function e(l){return _._42(0,[(l()(),_._16(0,0,null,null,6,"ion-item",[["class","item item-block"]],null,null,null,M.b,M.a)),_._15(1,1097728,null,3,I.a,[T.a,W.a,_.p,_.K,[2,F.a]],null,null),_._37(335544320,6,{contentLabel:0}),_._37(603979776,7,{_buttons:1}),_._37(603979776,8,{_icons:1}),_._15(5,16384,null,0,O.a,[],null,null),(l()(),_._40(6,2,["\n                ","\n            "]))],null,function(l,n){l(n,6,0,n.parent.context.$implicit.title)})}function i(l){return _._42(0,[(l()(),_._16(0,0,null,null,7,null,null,null,null,null,null,null)),(l()(),_._40(-1,null,["\n            "])),(l()(),_._11(16777216,null,null,1,null,t)),_._15(3,16384,null,0,j.k,[_.W,_.T],{ngIf:[0,"ngIf"]},null),(l()(),_._40(-1,null,["\n            "])),(l()(),_._11(16777216,null,null,1,null,e)),_._15(6,16384,null,0,j.k,[_.W,_.T],{ngIf:[0,"ngIf"]},null),(l()(),_._40(-1,null,["\n        "]))],function(l,n){var u=n.component;l(n,3,0,u.workshopPhase>=n.context.$implicit.code||n.context.$implicit.tasks.length||n.context.$implicit.switchUrl);l(n,6,0,!(u.workshopPhase>=n.context.$implicit.code||n.context.$implicit.tasks.length||n.context.$implicit.switchUrl))},null)}function o(l){return _._42(0,[(l()(),_._16(0,0,null,null,24,"ion-header",[],null,null,null,null,null)),_._15(1,16384,null,0,A.a,[W.a,_.p,_.K,[2,B.a]],null,null),(l()(),_._40(-1,null,["\n    "])),(l()(),_._16(3,0,null,null,20,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,J.b,J.a)),_._15(4,49152,null,0,N.a,[R.a,[2,B.a],[2,S.a],W.a,_.p,_.K],null,null),(l()(),_._40(-1,3,["\n        "])),(l()(),_._16(6,0,null,3,3,"ion-title",[],null,null,null,V.b,V.a)),_._15(7,49152,null,0,z.a,[W.a,_.p,_.K,[2,E.a],[2,N.a]],null,null),(l()(),_._40(8,0,["",""])),_._32(131072,$.a,[y.a,_.i]),(l()(),_._40(-1,3,["\n        "])),(l()(),_._16(11,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),_._15(12,16384,null,1,G.a,[W.a,_.p,_.K,[2,E.a],[2,N.a]],null,null),_._37(603979776,1,{_buttons:1}),(l()(),_._40(-1,null,["\n            "])),(l()(),_._16(15,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.closeModal()&&a}return a},H.b,H.a)),_._15(16,1097728,[[1,4]],0,Q.a,[[8,""],W.a,_.p,_.K],null,null),_._32(131072,$.a,[y.a,_.i]),(l()(),_._40(-1,0,["\n                "])),(l()(),_._16(19,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),_._15(20,147456,null,0,X.a,[W.a,_.p,_.K],{name:[0,"name"]},null),(l()(),_._40(-1,0,["\n            "])),(l()(),_._40(-1,null,["\n        "])),(l()(),_._40(-1,3,["\n    "])),(l()(),_._40(-1,null,["\n"])),(l()(),_._40(-1,null,["\n"])),(l()(),_._16(26,0,null,null,15,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Y.b,Y.a)),_._15(27,4374528,null,0,Z.a,[W.a,ll.a,nl.a,_.p,_.K,R.a,ul.a,_.D,[2,B.a],[2,S.a]],null,null),(l()(),_._40(-1,1,["\n    "])),(l()(),_._16(29,0,null,1,11,"ion-list",[["radio-group",""],["role","radiogroup"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"ionChange"]],function(l,n,u){var a=!0,t=l.component;if("ngModelChange"===n){a=!1!==(t.selected=u)&&a}if("ionChange"===n){a=!1!==t.switchPhase()&&a}return a},null,null)),_._15(30,1064960,null,1,L.a,[_.K,_.p,_.i],null,{ionChange:"ionChange"}),_._37(335544320,2,{_header:0}),_._35(1024,null,al.l,function(l){return[l]},[L.a]),_._15(33,671744,null,0,al.q,[[8,null],[8,null],[8,null],[2,al.l]],{model:[0,"model"]},{update:"ngModelChange"}),_._35(2048,null,al.m,null,[al.q]),_._15(35,16384,null,0,al.n,[al.m],null,null),_._15(36,16384,null,0,tl.a,[W.a,_.p,_.K,ll.a,el.l,nl.a],null,null),(l()(),_._40(-1,null,["\n        "])),(l()(),_._11(16777216,null,null,1,null,i)),_._15(39,802816,null,0,j.j,[_.W,_.T,_.v],{ngForOf:[0,"ngForOf"]},null),(l()(),_._40(-1,null,["\n    "])),(l()(),_._40(-1,1,["\n"])),(l()(),_._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,20,0,"close");l(n,33,0,u.selected);l(n,39,0,u.phases)},function(l,n){l(n,3,0,_._29(n,4)._hidden,_._29(n,4)._sbPadding);l(n,8,0,_._41(n,8,0,_._29(n,9).transform("addon.mod_workshop.selectphase")));l(n,15,0,_._41(n,15,0,_._29(n,17).transform("core.close")));l(n,19,0,_._29(n,20)._hidden);l(n,26,0,_._29(n,27).statusbarPadding,_._29(n,27)._hasRefresher);l(n,29,0,_._29(n,35).ngClassUntouched,_._29(n,35).ngClassTouched,_._29(n,35).ngClassPristine,_._29(n,35).ngClassDirty,_._29(n,35).ngClassValid,_._29(n,35).ngClassInvalid,_._29(n,35).ngClassPending)})}Object.defineProperty(n,"__esModule",{value:!0});var _=u(1),s=(u(0),u(10),u(6)),c=u(31),r=function(){function l(l,n){this.viewCtrl=n,this.selected=l.get("selected"),this.original=this.selected,this.phases=l.get("phases"),this.workshopPhase=l.get("workshopPhase")}return l.prototype.closeModal=function(){this.viewCtrl.dismiss()},l.prototype.switchPhase=function(){this.original!=this.selected&&this.viewCtrl.dismiss(this.selected),this.original=null},l}(),d=u(421),p=function(){return function(){}}(),h=u(1284),g=u(1285),f=u(1286),b=u(1287),m=u(1288),k=u(1289),v=u(1290),w=u(1291),C=u(1292),x=u(1295),P=u(1296),K=u(1297),$=u(28),y=u(17),M=u(34),I=u(21),T=u(19),W=u(7),F=u(29),O=u(33),U=u(59),j=u(9),q=u(151),D=u(123),L=u(115),A=u(419),B=u(35),J=u(1293),N=u(191),R=u(27),S=u(22),V=u(1294),z=u(326),E=u(237),G=u(420),H=u(45),Q=u(39),X=u(40),Y=u(176),Z=u(25),ll=u(14),nl=u(26),ul=u(97),al=u(18),tl=u(79),el=u(36),il=u(58),ol=_._14({encapsulation:2,styles:[],data:{}}),_l=_._12("page-addon-mod-workshop-phase-selector",r,function(l){return _._42(0,[(l()(),_._16(0,0,null,null,1,"page-addon-mod-workshop-phase-selector",[],null,null,null,o,ol)),_._15(1,49152,null,0,r,[il.a,B.a],null,null)],null,null)},{},{},[]),sl=u(322),cl=u(323),rl=u(325),dl=u(324),pl=u(418),hl=u(638),gl=u(107),fl=u(32),bl=u(238);u.d(n,"AddonModWorkshopPhaseSelectorPageModuleNgFactory",function(){return ml});var ml=_._13(p,[],function(l){return _._25([_._26(512,_.n,_._6,[[8,[h.a,g.a,f.a,b.a,m.a,k.a,v.a,w.a,C.a,x.a,P.a,K.a,_l]],[3,_.n],_.B]),_._26(4608,j.m,j.l,[_.x,[2,j.v]]),_._26(4608,al.x,al.x,[]),_._26(4608,al.d,al.d,[]),_._26(4608,sl.b,sl.a,[]),_._26(4608,cl.a,cl.b,[]),_._26(4608,rl.b,rl.a,[]),_._26(4608,dl.b,dl.a,[]),_._26(4608,y.a,y.a,[pl.a,sl.b,cl.a,rl.b,dl.b,y.b,y.c]),_._26(512,c.a,c.a,[]),_._26(512,j.b,j.b,[]),_._26(512,al.v,al.v,[]),_._26(512,al.i,al.i,[]),_._26(512,al.s,al.s,[]),_._26(512,hl.a,hl.a,[]),_._26(512,s.a,s.a,[]),_._26(512,gl.a,gl.a,[]),_._26(512,fl.a,fl.a,[]),_._26(512,d.a,d.a,[]),_._26(512,hl.b,hl.b,[]),_._26(512,p,p,[]),_._26(256,y.c,void 0,[]),_._26(256,y.b,void 0,[]),_._26(256,bl.a,r,[])])})}});
+webpackJsonp([67],{
+
+/***/ 1842:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModQuizPreflightModalModule", function() { return AddonModQuizPreflightModalModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__preflight_modal__ = __webpack_require__(1968);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var AddonModQuizPreflightModalModule = /** @class */ (function () {
+    function AddonModQuizPreflightModalModule() {
+    }
+    AddonModQuizPreflightModalModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__preflight_modal__["a" /* AddonModQuizPreflightModalPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__preflight_modal__["a" /* AddonModQuizPreflightModalPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], AddonModQuizPreflightModalModule);
+    return AddonModQuizPreflightModalModule;
+}());
+
+//# sourceMappingURL=preflight-modal.module.js.map
+
+/***/ }),
+
+/***/ 1968:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModQuizPreflightModalPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_access_rules_delegate__ = __webpack_require__(74);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+/**
+ * Modal that renders the access rules for a quiz.
+ */
+var AddonModQuizPreflightModalPage = /** @class */ (function () {
+    function AddonModQuizPreflightModalPage(params, fb, translate, sitesProvider, viewCtrl, accessRuleDelegate, injector, domUtils) {
+        this.viewCtrl = viewCtrl;
+        this.accessRuleDelegate = accessRuleDelegate;
+        this.injector = injector;
+        this.domUtils = domUtils;
+        this.accessRulesData = []; // Components and data for each access rule.
+        this.title = params.get('title') || translate.instant('addon.mod_quiz.startattempt');
+        this.quiz = params.get('quiz');
+        this.attempt = params.get('attempt');
+        this.prefetch = params.get('prefetch');
+        this.siteId = params.get('siteId') || sitesProvider.getCurrentSiteId();
+        this.rules = params.get('rules') || [];
+        // Create an empty form group. The controls will be added by the access rules components.
+        this.preflightForm = fb.group({});
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModQuizPreflightModalPage.prototype.ngOnInit = function () {
+        var _this = this;
+        var promises = [];
+        this.rules.forEach(function (rule) {
+            // Check if preflight is required for rule and, if so, get the component to render it.
+            promises.push(_this.accessRuleDelegate.isPreflightCheckRequiredForRule(rule, _this.quiz, _this.attempt, _this.prefetch, _this.siteId).then(function (required) {
+                if (required) {
+                    return _this.accessRuleDelegate.getPreflightComponent(rule, _this.injector).then(function (component) {
+                        if (component) {
+                            _this.accessRulesData.push({
+                                component: component,
+                                data: {
+                                    rule: rule,
+                                    quiz: _this.quiz,
+                                    attempt: _this.attempt,
+                                    prefetch: _this.prefetch,
+                                    form: _this.preflightForm,
+                                    siteId: _this.siteId
+                                }
+                            });
+                        }
+                    });
+                }
+            }));
+        });
+        Promise.all(promises).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error loading rules');
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Check that the data is valid and send it back.
+     */
+    AddonModQuizPreflightModalPage.prototype.sendData = function () {
+        if (!this.preflightForm.valid) {
+            // Form not valid. Scroll to the first element with errors.
+            if (!this.domUtils.scrollToInputError(this.content)) {
+                // Input not found, show an error modal.
+                this.domUtils.showErrorModal('core.errorinvalidform', true);
+            }
+        }
+        else {
+            this.viewCtrl.dismiss(this.preflightForm.value);
+        }
+    };
+    /**
+     * Close modal.
+     */
+    AddonModQuizPreflightModalPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonModQuizPreflightModalPage.prototype, "content", void 0);
+    AddonModQuizPreflightModalPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-quiz-preflight-modal',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/quiz/pages/preflight-modal/preflight-modal.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ title | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content padding class="addon-mod_quiz-preflight-modal">\n    <core-loading [hideUntil]="loaded">\n        <form ion-list [formGroup]="preflightForm" (ngSubmit)="sendData()">\n            <!-- Access rules. -->\n            <ng-container *ngFor="let data of accessRulesData; let last = last">\n                <core-dynamic-component [component]="data.component" [data]="data.data">\n                    <p padding>Couldn\'t find the directive to render this access rule.</p>\n                </core-dynamic-component>\n                <ion-item-divider color="light" *ngIf="!last"></ion-item-divider>\n            </ng-container>\n\n            <button ion-button block type="submit">\n                {{ title | translate }}\n            </button>\n        </form>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/quiz/pages/preflight-modal/preflight-modal.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["B" /* ViewController */], __WEBPACK_IMPORTED_MODULE_6__providers_access_rules_delegate__["a" /* AddonModQuizAccessRuleDelegate */],
+            __WEBPACK_IMPORTED_MODULE_0__angular_core__["C" /* Injector */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */]])
+    ], AddonModQuizPreflightModalPage);
+    return AddonModQuizPreflightModalPage;
+}());
+
+//# sourceMappingURL=preflight-modal.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=67.js.map

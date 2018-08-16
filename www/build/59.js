@@ -1,1 +1,429 @@
-webpackJsonp([59],{1856:function(n,l,e){"use strict";function u(n){return I._42(0,[(n()(),I._16(0,0,null,null,4,"div",[["class","core-course-thumb"]],null,[[null,"click"]],function(n,l,e){var u=!0;if("click"===l){u=!1!==n.component.openCourse()&&u}return u},null,null)),(n()(),I._40(-1,null,["\n                "])),(n()(),I._16(2,0,null,null,1,"img",[["alt",""],["core-external-content",""]],[[8,"src",4]],null,null,null,null)),I._15(3,4210688,null,0,J.a,[I.p,Q.a,X.a,Z.a,D.a,x.a,nn.a,y.a],null,null),(n()(),I._40(-1,null,["\n            "]))],null,function(n,l){n(l,2,0,l.component.course.imageThumb)})}function t(n){return I._42(0,[(n()(),I._16(0,0,null,null,2,"p",[],null,null,null,null,null)),(n()(),I._16(1,0,null,null,1,"core-format-text",[],null,null,null,null,null)),I._15(2,540672,null,0,ln.a,[I.p,D.a,x.a,w.a,en.a,Z.a,un.a,nn.a,Q.a,X.a,y.a,tn.a,[2,on.a],[2,rn.a]],{text:[0,"text"]},null)],function(n,l){n(l,2,0,l.component.course.categoryname)},null)}function o(n){return I._42(0,[(n()(),I._16(0,0,null,null,2,"span",[],null,null,null,null,null)),(n()(),I._40(1,null,[" - ",""])),I._34(2,2)],null,function(n,l){var e=l.component;n(l,1,0,I._41(l,1,0,n(l,2,0,I._29(l.parent.parent.parent,0),1e3*e.course.enddate,"dfdaymonthyear")))})}function r(n){return I._42(0,[(n()(),I._16(0,0,null,null,4,"p",[],null,null,null,null,null)),(n()(),I._40(1,null,[""," "])),I._34(2,2),(n()(),I._11(16777216,null,null,1,null,o)),I._15(4,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null)],function(n,l){n(l,4,0,l.component.course.enddate)},function(n,l){var e=l.component;n(l,1,0,I._41(l,1,0,n(l,2,0,I._29(l.parent.parent,0),1e3*e.course.startdate,"dfdaymonthyear")))})}function a(n){return I._42(0,[(n()(),I._16(0,0,null,null,9,"ion-item",[["class","item item-block"],["detail-none",""],["text-wrap",""]],null,null,null,sn.b,sn.a)),I._15(1,1097728,null,3,cn.a,[_n.a,fn.a,I.p,I.K,[2,dn.a]],null,null),I._37(335544320,4,{contentLabel:0}),I._37(603979776,5,{_buttons:1}),I._37(603979776,6,{_icons:1}),I._15(5,16384,null,0,pn.a,[],null,null),(n()(),I._40(-1,2,["\n                "])),(n()(),I._16(7,0,null,2,1,"core-format-text",[["maxHeight","120"]],null,null,null,null,null)),I._15(8,540672,null,0,ln.a,[I.p,D.a,x.a,w.a,en.a,Z.a,un.a,nn.a,Q.a,X.a,y.a,tn.a,[2,on.a],[2,rn.a]],{text:[0,"text"],maxHeight:[1,"maxHeight"]},null),(n()(),I._40(-1,2,["\n            "]))],function(n,l){n(l,8,0,l.component.course.summary,"120")},null)}function s(n){return I._42(0,[(n()(),I._16(0,0,null,null,20,"a",[["class","item item-block"],["core-user-link",""],["ion-item",""],["text-wrap",""]],[[1,"aria-label",0]],null,null,sn.b,sn.a)),I._15(1,81920,null,0,hn.a,[I.p,[2,on.a]],{userId:[0,"userId"],courseId:[1,"courseId"]},null),I._15(2,1097728,null,3,cn.a,[_n.a,fn.a,I.p,I.K,[2,dn.a]],null,null),I._37(335544320,10,{contentLabel:0}),I._37(603979776,11,{_buttons:1}),I._37(603979776,12,{_icons:1}),I._15(6,16384,null,0,pn.a,[],null,null),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,2,["\n                    "])),(n()(),I._16(9,0,null,0,7,"ion-avatar",[["item-start",""]],null,null,null,null,null)),I._15(10,16384,null,0,bn.a,[],null,null),(n()(),I._40(-1,null,["\n                        "])),(n()(),I._16(12,0,null,null,3,"img",[["core-external-content",""],["onError","this.src='assets/img/user-avatar.png'"],["role","presentation"]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),I._15(13,4210688,null,0,J.a,[I.p,Q.a,X.a,Z.a,D.a,x.a,nn.a,y.a],null,null),I._33(14,{$a:0}),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,null,["\n                    "])),(n()(),I._40(-1,2,["\n                    "])),(n()(),I._16(18,0,null,2,1,"h2",[],null,null,null,null,null)),(n()(),I._40(19,null,["",""])),(n()(),I._40(-1,2,["\n                "]))],function(n,l){var e=l.component;n(l,1,0,I._19(1,"",l.context.$implicit.id,""),I._19(1,"",e.isEnrolled?e.course.id:null,""))},function(n,l){n(l,0,0,I._41(l,0,0,I._29(l,7).transform("core.viewprofile")));n(l,12,0,l.context.$implicit.userpictureurl,I._41(l,12,1,I._29(l,15).transform("core.pictureof",n(l,14,0,l.context.$implicit.userfullname))));n(l,19,0,l.context.$implicit.fullname)})}function i(n){return I._42(0,[(n()(),I._16(0,0,null,null,20,null,null,null,null,null,null,null)),(n()(),I._40(-1,null,["\n                "])),(n()(),I._16(2,0,null,null,7,"ion-item-divider",[["class","item item-divider"],["color","light"]],null,null,null,sn.b,sn.a)),I._15(3,1097728,null,3,cn.a,[_n.a,fn.a,I.p,I.K,[2,dn.a]],{color:[0,"color"]},null),I._37(335544320,7,{contentLabel:0}),I._37(603979776,8,{_buttons:1}),I._37(603979776,9,{_icons:1}),I._15(7,16384,null,0,gn.a,[fn.a,I.p,I.K],{color:[0,"color"]},null),(n()(),I._40(8,2,["",""])),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,null,["\n                "])),(n()(),I._11(16777216,null,null,1,null,s)),I._15(12,802816,null,0,an.j,[I.W,I.T,I.v],{ngForOf:[0,"ngForOf"]},null),(n()(),I._40(-1,null,["\n                "])),(n()(),I._16(14,0,null,null,5,"ion-item-divider",[["class","item item-divider"],["color","light"]],null,null,null,sn.b,sn.a)),I._15(15,1097728,null,3,cn.a,[_n.a,fn.a,I.p,I.K,[2,dn.a]],{color:[0,"color"]},null),I._37(335544320,13,{contentLabel:0}),I._37(603979776,14,{_buttons:1}),I._37(603979776,15,{_icons:1}),I._15(19,16384,null,0,gn.a,[fn.a,I.p,I.K],{color:[0,"color"]},null),(n()(),I._40(-1,null,["\n            "]))],function(n,l){var e=l.component;n(l,3,0,"light");n(l,7,0,"light");n(l,12,0,e.course.contacts);n(l,15,0,"light");n(l,19,0,"light")},function(n,l){n(l,8,0,I._41(l,8,0,I._29(l,9).transform("core.teachers")))})}function c(n){return I._42(0,[(n()(),I._16(0,0,null,null,1,"core-file",[],null,null,null,vn.b,vn.a)),I._15(1,245760,null,0,Cn.a,[D.a,un.a,x.a,X.a,y.a,In.a,En.a,k.a],{file:[0,"file"],component:[1,"component"],componentId:[2,"componentId"]},null)],function(n,l){var e=l.component;n(l,1,0,l.context.$implicit,e.component,e.course.id)},null)}function _(n){return I._42(0,[(n()(),I._16(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,sn.b,sn.a)),I._15(1,1097728,null,3,cn.a,[_n.a,fn.a,I.p,I.K,[2,dn.a]],null,null),I._37(335544320,16,{contentLabel:0}),I._37(603979776,17,{_buttons:1}),I._37(603979776,18,{_icons:1}),I._15(5,16384,null,0,pn.a,[],null,null),(n()(),I._40(-1,2,["\n                    "])),(n()(),I._16(7,0,null,2,1,"h2",[],null,null,null,null,null)),(n()(),I._40(8,null,["",""])),(n()(),I._40(-1,2,["\n                    "])),(n()(),I._16(10,0,null,2,3,"button",[["block",""],["ion-button",""],["margin-top",""]],null,[[null,"click"]],function(n,l,e){var u=!0;if("click"===l){u=!1!==n.component.selfEnrolClicked(n.context.$implicit.id)&&u}return u},yn.b,yn.a)),I._15(11,1097728,[[17,4]],0,kn.a,[[8,""],fn.a,I.p,I.K],{block:[0,"block"]},null),(n()(),I._40(12,0,["",""])),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,2,["\n                "]))],function(n,l){n(l,11,0,"")},function(n,l){n(l,8,0,l.context.$implicit.name);n(l,12,0,I._41(l,12,0,I._29(l,13).transform("core.courses.enrolme")))})}function f(n){return I._42(0,[(n()(),I._16(0,0,null,null,4,"div",[["detail-none",""]],null,null,null,null,null)),(n()(),I._40(-1,null,["\n                "])),(n()(),I._11(16777216,null,null,1,null,_)),I._15(3,802816,null,0,an.j,[I.W,I.T,I.v],{ngForOf:[0,"ngForOf"]},null),(n()(),I._40(-1,null,["\n            "]))],function(n,l){n(l,3,0,l.component.selfEnrolInstances)},null)}function d(n){return I._42(0,[(n()(),I._16(0,0,null,null,19,"ion-item",[["class","item item-block"],["detail-none",""],["text-wrap",""]],null,null,null,sn.b,sn.a)),I._15(1,1097728,null,3,cn.a,[_n.a,fn.a,I.p,I.K,[2,dn.a]],null,null),I._37(335544320,19,{contentLabel:0}),I._37(603979776,20,{_buttons:1}),I._37(603979776,21,{_icons:1}),I._15(5,16384,null,0,pn.a,[],null,null),(n()(),I._40(-1,2,["\n                "])),(n()(),I._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),I._40(8,null,["",""])),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,2,["\n                "])),(n()(),I._16(11,0,null,2,2,"p",[],null,null,null,null,null)),(n()(),I._40(12,null,["",""])),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,2,["\n                "])),(n()(),I._16(15,0,null,2,3,"button",[["block",""],["ion-button",""],["margin-top",""]],null,[[null,"click"]],function(n,l,e){var u=!0;if("click"===l){u=!1!==n.component.paypalEnrol()&&u}return u},yn.b,yn.a)),I._15(16,1097728,[[20,4]],0,kn.a,[[8,""],fn.a,I.p,I.K],{block:[0,"block"]},null),(n()(),I._40(17,0,["",""])),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,2,["\n            "]))],function(n,l){n(l,16,0,"")},function(n,l){n(l,8,0,I._41(l,8,0,I._29(l,9).transform("core.courses.paypalaccepted")));n(l,12,0,I._41(l,12,0,I._29(l,13).transform("core.paymentinstant")));n(l,17,0,I._41(l,17,0,I._29(l,18).transform("core.courses.sendpaymentbutton")))})}function p(n){return I._42(0,[(n()(),I._16(0,0,null,null,10,"ion-item",[["class","item item-block"]],null,null,null,sn.b,sn.a)),I._15(1,1097728,null,3,cn.a,[_n.a,fn.a,I.p,I.K,[2,dn.a]],null,null),I._37(335544320,22,{contentLabel:0}),I._37(603979776,23,{_buttons:1}),I._37(603979776,24,{_icons:1}),I._15(5,16384,null,0,pn.a,[],null,null),(n()(),I._40(-1,2,["\n                "])),(n()(),I._16(7,0,null,2,2,"p",[],null,null,null,null,null)),(n()(),I._40(8,null,["",""])),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,2,["\n            "]))],null,function(n,l){n(l,8,0,I._41(l,8,0,I._29(l,9).transform("core.courses.notenrollable")))})}function h(n){return I._42(0,[(n()(),I._16(0,0,null,null,1,"core-icon",[["item-start",""]],null,null,null,Dn.b,Dn.a)),I._15(1,114688,null,0,xn.a,[I.p],{name:[0,"name"]},null)],function(n,l){n(l,1,0,l.component.prefetchCourseData.prefetchCourseIcon)},null)}function m(n){return I._42(0,[(n()(),I._16(0,0,null,null,1,"ion-spinner",[["item-start",""]],[[2,"spinner-paused",null]],null,null,wn.b,wn.a)),I._15(1,114688,null,0,Pn.a,[fn.a,I.p,I.K],null,null)],function(n,l){n(l,1,0)},function(n,l){n(l,0,0,I._29(l,1)._paused)})}function b(n){return I._42(0,[(n()(),I._16(0,0,null,null,17,"a",[["class","item item-block"],["detail-none",""],["ion-item",""]],[[1,"aria-label",0]],[[null,"click"]],function(n,l,e){var u=!0;if("click"===l){u=!1!==n.component.prefetchCourse()&&u}return u},sn.b,sn.a)),I._15(1,1097728,null,3,cn.a,[_n.a,fn.a,I.p,I.K,[2,dn.a]],null,null),I._37(335544320,25,{contentLabel:0}),I._37(603979776,26,{_buttons:1}),I._37(603979776,27,{_icons:1}),I._15(5,16384,null,0,pn.a,[],null,null),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,2,["\n                "])),(n()(),I._11(16777216,null,0,1,null,h)),I._15(9,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,2,["\n                "])),(n()(),I._11(16777216,null,0,1,null,m)),I._15(12,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,2,["\n                "])),(n()(),I._16(14,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),I._40(15,null,["",""])),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,2,["\n            "]))],function(n,l){var e=l.component;n(l,9,0,"spinner"!=e.prefetchCourseData.prefetchCourseIcon);n(l,12,0,"spinner"==e.prefetchCourseData.prefetchCourseIcon)},function(n,l){var e=l.component;n(l,0,0,I._41(l,0,0,I._29(l,6).transform(e.prefetchCourseData.title)));n(l,15,0,I._41(l,15,0,I._29(l,16).transform("core.course.downloadcourse")))})}function g(n){return I._42(0,[(n()(),I._16(0,0,null,null,13,"a",[["class","item item-block"],["ion-item",""]],[[8,"title",0]],[[null,"click"]],function(n,l,e){var u=!0;if("click"===l){u=!1!==n.component.openCourse()&&u}return u},sn.b,sn.a)),I._15(1,1097728,null,3,cn.a,[_n.a,fn.a,I.p,I.K,[2,dn.a]],null,null),I._37(335544320,28,{contentLabel:0}),I._37(603979776,29,{_buttons:1}),I._37(603979776,30,{_icons:1}),I._15(5,16384,null,0,pn.a,[],null,null),(n()(),I._40(-1,2,["\n                "])),(n()(),I._16(7,0,null,0,1,"ion-icon",[["item-start",""],["name","briefcase"],["role","img"]],[[2,"hide",null]],null,null,null,null)),I._15(8,147456,[[30,4]],0,Tn.a,[fn.a,I.p,I.K],{name:[0,"name"]},null),(n()(),I._40(-1,2,["\n                "])),(n()(),I._16(10,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),I._40(11,null,["",""])),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,2,["\n            "]))],function(n,l){n(l,8,0,"briefcase")},function(n,l){n(l,0,0,l.component.course.fullname);n(l,7,0,I._29(l,8)._hidden);n(l,11,0,I._41(l,11,0,I._29(l,12).transform("core.course.contents")))})}function v(n){return I._42(0,[(n()(),I._16(0,0,null,null,50,"ion-list",[],null,null,null,null,null)),I._15(1,16384,null,0,Un.a,[fn.a,I.p,I.K,Z.a,On.l,Sn.a],null,null),(n()(),I._40(-1,null,["\n            "])),(n()(),I._11(16777216,null,null,1,null,u)),I._15(4,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,null,["\n            "])),(n()(),I._16(6,0,null,null,19,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0],[1,"detail-none",0]],[[null,"click"]],function(n,l,e){var u=!0;if("click"===l){u=!1!==n.component.openCourse()&&u}return u},sn.b,sn.a)),I._15(7,1097728,null,3,cn.a,[_n.a,fn.a,I.p,I.K,[2,dn.a]],null,null),I._37(335544320,1,{contentLabel:0}),I._37(603979776,2,{_buttons:1}),I._37(603979776,3,{_icons:1}),I._15(11,16384,null,0,pn.a,[],null,null),(n()(),I._40(-1,2,["\n                "])),(n()(),I._16(13,0,null,0,1,"core-icon",[["fixed-width",""],["item-start",""],["name","fa-graduation-cap"]],null,null,null,Dn.b,Dn.a)),I._15(14,114688,null,0,xn.a,[I.p],{name:[0,"name"],fixedWidth:[1,"fixedWidth"]},null),(n()(),I._40(-1,2,["\n                "])),(n()(),I._16(16,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),I._16(17,0,null,null,1,"core-format-text",[],null,null,null,null,null)),I._15(18,540672,null,0,ln.a,[I.p,D.a,x.a,w.a,en.a,Z.a,un.a,nn.a,Q.a,X.a,y.a,tn.a,[2,on.a],[2,rn.a]],{text:[0,"text"]},null),(n()(),I._40(-1,2,["\n                "])),(n()(),I._11(16777216,null,2,1,null,t)),I._15(21,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,2,["\n                "])),(n()(),I._11(16777216,null,2,1,null,r)),I._15(24,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,2,["\n            "])),(n()(),I._40(-1,null,["\n\n            "])),(n()(),I._11(16777216,null,null,1,null,a)),I._15(28,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,null,["\n\n            "])),(n()(),I._11(16777216,null,null,1,null,i)),I._15(31,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,null,["\n            "])),(n()(),I._11(16777216,null,null,1,null,c)),I._15(34,802816,null,0,an.j,[I.W,I.T,I.v],{ngForOf:[0,"ngForOf"]},null),(n()(),I._40(-1,null,["\n            "])),(n()(),I._11(16777216,null,null,1,null,f)),I._15(37,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,null,["\n            "])),(n()(),I._11(16777216,null,null,1,null,d)),I._15(40,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,null,["\n            "])),(n()(),I._11(16777216,null,null,1,null,p)),I._15(43,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,null,["\n            "])),(n()(),I._11(16777216,null,null,1,null,b)),I._15(46,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,null,["\n            "])),(n()(),I._11(16777216,null,null,1,null,g)),I._15(49,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,null,["\n        "]))],function(n,l){var e=l.component;n(l,4,0,e.course.imageThumb);n(l,14,0,"fa-graduation-cap","");n(l,18,0,e.course.fullname);n(l,21,0,e.course.categoryname);n(l,24,0,e.course.startdate);n(l,28,0,e.course.summary);n(l,31,0,e.course.contacts&&e.course.contacts.length);n(l,34,0,e.course.overviewfiles);n(l,37,0,!e.isEnrolled);n(l,40,0,!e.isEnrolled&&e.paypalEnabled);n(l,43,0,!e.isEnrolled&&!e.selfEnrolInstances.length&&!e.paypalEnabled);n(l,46,0,e.canAccessCourse&&e.downloadCourseEnabled);n(l,49,0,!e.avoidOpenCourse&&e.canAccessCourse)},function(n,l){var e=l.component;n(l,6,0,e.course.fullname,e.avoidOpenCourse||!e.canAccessCourse)})}function C(n){return I._42(0,[I._32(0,An.a,[Q.a,en.a]),(n()(),I._16(1,0,null,null,11,"ion-header",[],null,null,null,null,null)),I._15(2,16384,null,0,Ln.a,[fn.a,I.p,I.K,[2,Wn.a]],null,null),(n()(),I._40(-1,null,["\n    "])),(n()(),I._16(4,0,null,null,7,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Kn.b,Kn.a)),I._15(5,49152,null,0,Mn.a,[Fn.a,[2,Wn.a],[2,on.a],fn.a,I.p,I.K],null,null),(n()(),I._40(-1,3,["\n        "])),(n()(),I._16(7,0,null,3,3,"ion-title",[],null,null,null,Rn.b,Rn.a)),I._15(8,49152,null,0,Gn.a,[fn.a,I.p,I.K,[2,Hn.a],[2,Mn.a]],null,null),(n()(),I._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),I._15(10,540672,null,0,ln.a,[I.p,D.a,x.a,w.a,en.a,Z.a,un.a,nn.a,Q.a,X.a,y.a,tn.a,[2,on.a],[2,rn.a]],{text:[0,"text"]},null),(n()(),I._40(-1,3,["\n    "])),(n()(),I._40(-1,null,["\n"])),(n()(),I._40(-1,null,["\n"])),(n()(),I._16(14,0,null,null,17,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,$n.b,$n.a)),I._15(15,4374528,null,0,rn.a,[fn.a,Z.a,Sn.a,I.p,I.K,Fn.a,jn.a,I.D,[2,Wn.a],[2,on.a]],null,null),(n()(),I._40(-1,1,["\n    "])),(n()(),I._16(17,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,e){var u=!0;if("ionRefresh"===l){u=!1!==n.component.refreshData(e)&&u}return u},null,null)),I._15(18,212992,null,0,Nn.a,[Z.a,rn.a,I.D,On.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),I._40(-1,null,["\n        "])),(n()(),I._16(20,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,zn.b,zn.a)),I._15(21,114688,null,0,Vn.a,[Nn.a,fn.a],{pullingText:[0,"pullingText"]},null),I._32(131072,mn.a,[en.a,I.i]),(n()(),I._40(-1,null,["\n    "])),(n()(),I._40(-1,1,["\n    "])),(n()(),I._16(25,0,null,1,5,"core-loading",[],null,null,null,Yn.b,Yn.a)),I._15(26,638976,null,0,qn.a,[en.a,I.p],{hideUntil:[0,"hideUntil"]},null),(n()(),I._40(-1,0,["\n\n        "])),(n()(),I._11(16777216,null,0,1,null,v)),I._15(29,16384,null,0,an.k,[I.W,I.T],{ngIf:[0,"ngIf"]},null),(n()(),I._40(-1,0,["\n    "])),(n()(),I._40(-1,1,["\n"])),(n()(),I._40(-1,null,["\n"]))],function(n,l){var e=l.component;n(l,10,0,e.course.fullname);n(l,18,0,e.dataLoaded);n(l,21,0,I._19(1,"",I._41(l,21,0,I._29(l,22).transform("core.pulltorefresh")),""));n(l,26,0,e.dataLoaded);n(l,29,0,e.course)},function(n,l){n(l,4,0,I._29(l,5)._hidden,I._29(l,5)._sbPadding);n(l,14,0,I._29(l,15).statusbarPadding,I._29(l,15)._hasRefresher);n(l,17,0,"inactive"!==I._29(l,18).state,I._29(l,18)._top);n(l,20,0,I._29(l,21).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var I=e(1),E=(e(0),e(10),e(6)),y=e(12),k=e(20),D=e(2),x=e(4),w=e(11),P=e(72),T=e(167),U=e(15),O=e(43),S=e(146),A=function(){function n(n,l,e,u,t,o,r,a,s,i,c,_,f,d,p,h){var m=this;this.navCtrl=n,this.sitesProvider=e,this.domUtils=u,this.textUtils=t,this.coursesProvider=r,this.platform=a,this.modalCtrl=s,this.translate=i,this.eventsProvider=c,this.courseOptionsDelegate=_,this.courseHelper=f,this.courseProvider=d,this.courseFormatDelegate=p,this.zone=h,this.canAccessCourse=!0,this.component="CoreCoursesCoursePreview",this.selfEnrolInstances=[],this.avoidOpenCourse=!1,this.prefetchCourseData={prefetchCourseIcon:"spinner",title:"core.course.downloadcourse"},this.isGuestEnabled=!1,this.waitStart=0,this.pageDestroyed=!1,this.course=l.get("course"),this.avoidOpenCourse=l.get("avoidOpenCourse"),this.isMobile=o.isMobile(),this.isDesktop=o.isDesktop(),this.downloadCourseEnabled=!this.coursesProvider.isDownloadCourseDisabledInSite(),this.downloadCourseEnabled&&(this.courseStatusObserver=this.eventsProvider.on(k.a.COURSE_STATUS_CHANGED,function(n){n.courseId==m.course.id&&m.updateCourseStatus(n.status)},this.sitesProvider.getCurrentSiteId()))}return n.prototype.ionViewDidLoad=function(){var n=this,l=this.sitesProvider.getCurrentSite(),e=l&&l.getURL();this.paypalEnabled=this.course.enrollmentmethods&&this.course.enrollmentmethods.indexOf("paypal")>-1,this.guestWSAvailable=this.coursesProvider.isGuestWSAvailable(),this.enrolUrl=this.textUtils.concatenatePaths(e,"enrol/index.php?id="+this.course.id),this.courseUrl=this.textUtils.concatenatePaths(e,"course/view.php?id="+this.course.id),this.paypalReturnUrl=this.textUtils.concatenatePaths(e,"enrol/paypal/return.php"),this.course.overviewfiles&&this.course.overviewfiles.length>0&&(this.course.imageThumb=this.course.overviewfiles[0].fileurl),this.selfEnrolModal=this.modalCtrl.create("CoreCoursesSelfEnrolPasswordPage"),this.selfEnrolModal.onDidDismiss(function(l){void 0!==l&&n.selfEnrolInCourse(l,n.currentInstanceId)}),this.getCourse().finally(function(){n.downloadCourseEnabled&&n.courseHelper.getCourseStatusIconAndTitle(n.course.id).then(function(l){if(n.prefetchCourseData.prefetchCourseIcon=l.icon,n.prefetchCourseData.title=l.title,"spinner"==l.icon){var e=n.courseHelper.getCourseDownloadPromise(n.course.id);e?e.catch(function(l){n.pageDestroyed||n.domUtils.showErrorModalDefault(l,"core.course.errordownloadingcourse",!0)}):n.courseProvider.setCoursePreviousStatus(n.course.id)}})})},n.prototype.ngOnDestroy=function(){this.pageDestroyed=!0,this.courseStatusObserver&&this.courseStatusObserver.off()},n.prototype.canAccessAsGuest=function(){if(!this.isGuestEnabled)return Promise.reject(null);this.guestInstanceId=void 0;for(var n=0;n<this.enrollmentMethods.length;n++){var l=this.enrollmentMethods[n];if("guest"==l.type){this.guestInstanceId=l.id;break}}return this.guestInstanceId?this.coursesProvider.getCourseGuestEnrolmentInfo(this.guestInstanceId).then(function(n){return n.status?n.passwordrequired:Promise.reject(null)}):Promise.reject(null)},n.prototype.getCourse=function(n){var l=this;return this.selfEnrolInstances=[],this.coursesProvider.getCourseEnrolmentMethods(this.course.id).then(function(n){l.enrollmentMethods=n,l.enrollmentMethods.forEach(function(n){"self"===n.type?l.selfEnrolInstances.push(n):l.guestWSAvailable&&"guest"===n.type&&(l.isGuestEnabled=!0)})}).catch(function(n){l.domUtils.showErrorModalDefault(n,"Error getting enrolment data")}).then(function(){return l.coursesProvider.getUserCourse(l.course.id).then(function(n){return l.isEnrolled=!0,n}).catch(function(){return l.isEnrolled=!1,l.coursesProvider.getCourse(l.course.id)}).then(function(n){l.course.fullname=n.fullname||l.course.fullname,l.course.summary=n.summary||l.course.summary,l.canAccessCourse=!0}).catch(function(){return l.canAccessAsGuest().then(function(n){l.canAccessCourse=!n}).catch(function(){l.canAccessCourse=!1})})}).finally(function(){l.dataLoaded=!0})},n.prototype.openCourse=function(){this.canAccessCourse&&!this.avoidOpenCourse&&this.courseFormatDelegate.openCourse(this.navCtrl,this.course)},n.prototype.paypalEnrol=function(){var n,l,e,u,t,o=this,r=!1,a=function(l){-1!=l.url.indexOf(o.paypalReturnUrl)?r=!0:-1!=l.url.indexOf(o.courseUrl)&&r&&(s(),n.close())},s=function(){i(),o.dataLoaded&&(o.dataLoaded=!1,o.refreshData())},i=function(){l&&l.unsubscribe(),e&&e.unsubscribe(),u&&u.unsubscribe(),t&&t.unsubscribe()};this.sitesProvider.getCurrentSite().openInAppWithAutoLogin(this.enrolUrl).then(function(r){n=r,(o.isDesktop||o.isMobile)&&(l=n.on("loadstart").subscribe(function(n){o.zone.run(function(){return a(n)})}),u=n.on("exit").subscribe(function(){o.zone.run(s)})),o.isDesktop&&(e=n.on("loadstop").subscribe(a),t=o.platform.resume.subscribe(function(){o.dataLoaded&&(o.dataLoaded=!1,o.refreshData())}))})},n.prototype.selfEnrolClicked=function(n){var l=this;this.domUtils.showConfirm(this.translate.instant("core.courses.confirmselfenrol")).then(function(){l.selfEnrolInCourse("",n)}).catch(function(){})},n.prototype.selfEnrolInCourse=function(n,l){var e=this,u=this.domUtils.showModalLoading("core.loading",!0);return this.coursesProvider.selfEnrol(this.course.id,n,l).then(function(){e.isEnrolled=!0,e.dataLoaded=!1,e.waitForEnrolled(!0).then(function(){e.refreshData().finally(function(){e.eventsProvider.trigger(P.a.EVENT_MY_COURSES_UPDATED,{},e.sitesProvider.getCurrentSiteId())})})}).catch(function(u){u&&u.code===P.a.ENROL_INVALID_KEY&&(e.selfEnrolModal.present(),e.currentInstanceId=l,!n)||e.domUtils.showErrorModalDefault(u,"core.courses.errorselfenrol",!0)}).finally(function(){u.dismiss()})},n.prototype.refreshData=function(n){var l=this,e=[];return e.push(this.coursesProvider.invalidateUserCourses()),e.push(this.coursesProvider.invalidateCourse(this.course.id)),e.push(this.coursesProvider.invalidateCourseEnrolmentMethods(this.course.id)),e.push(this.courseOptionsDelegate.clearAndInvalidateCoursesOptions(this.course.id)),this.guestInstanceId&&e.push(this.coursesProvider.invalidateCourseGuestEnrolmentInfo(this.guestInstanceId)),Promise.all(e).finally(function(){return l.getCourse(!0)}).finally(function(){n&&n.complete()})},n.prototype.updateCourseStatus=function(n){var l=this.courseHelper.getCourseStatusIconAndTitleFromStatus(n);this.prefetchCourseData.prefetchCourseIcon=l.icon,this.prefetchCourseData.title=l.title},n.prototype.waitForEnrolled=function(n){var l=this;return n&&(this.waitStart=Date.now()),this.coursesProvider.invalidateUserCourses().catch(function(){}).then(function(){return l.coursesProvider.getUserCourse(l.course.id)}).catch(function(){if(!(l.pageDestroyed||Date.now()-l.waitStart>6e4))return new Promise(function(n,e){setTimeout(function(){l.pageDestroyed?n():l.waitForEnrolled().then(n)},5e3)})})},n.prototype.prefetchCourse=function(){var n=this;this.courseHelper.confirmAndPrefetchCourse(this.prefetchCourseData,this.course).catch(function(l){n.pageDestroyed||n.domUtils.showErrorModalDefault(l,"core.course.errordownloadingcourse",!0)})},n}(),L=e(32),W=e(31),K=e(107),M=function(){return function(){}}(),F=e(1284),R=e(1285),G=e(1286),H=e(1287),$=e(1288),j=e(1289),N=e(1290),z=e(1291),V=e(1292),Y=e(1295),q=e(1296),B=e(1297),J=e(158),Q=e(5),X=e(16),Z=e(14),nn=e(24),ln=e(38),en=e(17),un=e(3),tn=e(23),on=e(22),rn=e(25),an=e(9),sn=e(34),cn=e(21),_n=e(19),fn=e(7),dn=e(29),pn=e(33),hn=e(240),mn=e(28),bn=e(177),gn=e(159),vn=e(194),Cn=e(161),In=e(120),En=e(69),yn=e(45),kn=e(39),Dn=e(239),xn=e(197),wn=e(178),Pn=e(134),Tn=e(40),Un=e(79),On=e(36),Sn=e(26),An=e(327),Ln=e(419),Wn=e(35),Kn=e(1293),Mn=e(191),Fn=e(27),Rn=e(1294),Gn=e(326),Hn=e(237),$n=e(176),jn=e(97),Nn=e(130),zn=e(192),Vn=e(144),Yn=e(55),qn=e(49),Bn=e(58),Jn=e(196),Qn=I._14({encapsulation:2,styles:[],data:{}}),Xn=I._12("page-core-courses-course-preview",A,function(n){return I._42(0,[(n()(),I._16(0,0,null,null,1,"page-core-courses-course-preview",[],null,null,null,C,Qn)),I._15(1,180224,null,0,A,[on.a,Bn.a,D.a,x.a,w.a,y.a,P.a,Z.a,Jn.a,en.a,k.a,T.a,O.a,U.a,S.a,I.D],null,null)],null,null)},{},{},[]),Zn=e(18),nl=e(322),ll=e(323),el=e(325),ul=e(324),tl=e(418),ol=e(638),rl=e(238);e.d(l,"CoreCoursesCoursePreviewPageModuleNgFactory",function(){return al});var al=I._13(M,[],function(n){return I._25([I._26(512,I.n,I._6,[[8,[F.a,R.a,G.a,H.a,$.a,j.a,N.a,z.a,V.a,Y.a,q.a,B.a,Xn]],[3,I.n],I.B]),I._26(4608,an.m,an.l,[I.x,[2,an.v]]),I._26(4608,Zn.x,Zn.x,[]),I._26(4608,Zn.d,Zn.d,[]),I._26(4608,nl.b,nl.a,[]),I._26(4608,ll.a,ll.b,[]),I._26(4608,el.b,el.a,[]),I._26(4608,ul.b,ul.a,[]),I._26(4608,en.a,en.a,[tl.a,nl.b,ll.a,el.b,ul.b,en.b,en.c]),I._26(512,an.b,an.b,[]),I._26(512,Zn.v,Zn.v,[]),I._26(512,Zn.i,Zn.i,[]),I._26(512,Zn.s,Zn.s,[]),I._26(512,ol.a,ol.a,[]),I._26(512,E.a,E.a,[]),I._26(512,W.a,W.a,[]),I._26(512,K.a,K.a,[]),I._26(512,L.a,L.a,[]),I._26(512,ol.b,ol.b,[]),I._26(512,M,M,[]),I._26(256,en.c,void 0,[]),I._26(256,en.b,void 0,[]),I._26(256,rl.a,A,[])])})}});
+webpackJsonp([59],{
+
+/***/ 1851:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWorkshopAssessmentPageModule", function() { return AddonModWorkshopAssessmentPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(394);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assessment__ = __webpack_require__(1978);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModWorkshopAssessmentPageModule = /** @class */ (function () {
+    function AddonModWorkshopAssessmentPageModule() {
+    }
+    AddonModWorkshopAssessmentPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__assessment__["a" /* AddonModWorkshopAssessmentPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* AddonModWorkshopComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__assessment__["a" /* AddonModWorkshopAssessmentPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModWorkshopAssessmentPageModule);
+    return AddonModWorkshopAssessmentPageModule;
+}());
+
+//# sourceMappingURL=assessment.module.js.map
+
+/***/ }),
+
+/***/ 1978:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWorkshopAssessmentPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_course_providers_course__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_user_providers_user__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__core_grades_providers_helper__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_workshop__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_helper__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_offline__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_sync__ = __webpack_require__(253);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays a workshop assessment.
+ */
+var AddonModWorkshopAssessmentPage = /** @class */ (function () {
+    function AddonModWorkshopAssessmentPage(navParams, sitesProvider, courseProvider, workshopProvider, workshopOffline, workshopHelper, navCtrl, syncProvider, textUtils, fb, translate, eventsProvider, domUtils, gradesHelper, userProvider) {
+        var _this = this;
+        this.courseProvider = courseProvider;
+        this.workshopProvider = workshopProvider;
+        this.workshopOffline = workshopOffline;
+        this.workshopHelper = workshopHelper;
+        this.navCtrl = navCtrl;
+        this.syncProvider = syncProvider;
+        this.textUtils = textUtils;
+        this.fb = fb;
+        this.translate = translate;
+        this.eventsProvider = eventsProvider;
+        this.domUtils = domUtils;
+        this.gradesHelper = gradesHelper;
+        this.userProvider = userProvider;
+        this.evaluating = false;
+        this.loaded = false;
+        this.evaluate = {
+            text: '',
+            grade: -1,
+            weight: 1
+        };
+        this.weights = [];
+        this.originalEvaluation = {};
+        this.hasOffline = false;
+        this.isDestroyed = false;
+        this.forceLeave = false;
+        this.assessment = navParams.get('assessment');
+        this.submission = navParams.get('submission') || {};
+        this.profile = navParams.get('profile');
+        this.courseId = navParams.get('courseId');
+        this.assessmentId = this.assessment.assessmentid || this.assessment.id;
+        this.workshopId = this.submission.workshopid || null;
+        this.siteId = sitesProvider.getCurrentSiteId();
+        this.currentUserId = sitesProvider.getCurrentSiteUserId();
+        this.showGrade = this.workshopHelper.showGrade;
+        this.evaluateForm = new __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* FormGroup */]({});
+        this.evaluateForm.addControl('weight', this.fb.control('', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required));
+        this.evaluateForm.addControl('grade', this.fb.control(''));
+        this.evaluateForm.addControl('text', this.fb.control(''));
+        // Refresh workshop on sync.
+        this.syncObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_15__providers_sync__["a" /* AddonModWorkshopSyncProvider */].AUTO_SYNCED, function (data) {
+            // Update just when all database is synced.
+            if (_this.workshopId === data.workshopId) {
+                _this.loaded = false;
+                _this.refreshAllData();
+            }
+        }, this.siteId);
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModWorkshopAssessmentPage.prototype.ngOnInit = function () {
+        this.fetchAssessmentData();
+    };
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
+     */
+    AddonModWorkshopAssessmentPage.prototype.ionViewCanLeave = function () {
+        if (this.forceLeave || !this.evaluating) {
+            return true;
+        }
+        if (!this.hasEvaluationChanged()) {
+            return Promise.resolve();
+        }
+        // Show confirmation if some data has been modified.
+        return this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'));
+    };
+    /**
+     * Fetch the assessment data.
+     *
+     * @return {Promise<void>} Resolved when done.
+     */
+    AddonModWorkshopAssessmentPage.prototype.fetchAssessmentData = function () {
+        var _this = this;
+        return this.workshopProvider.getWorkshopById(this.courseId, this.workshopId).then(function (workshopData) {
+            _this.workshop = workshopData;
+            _this.title = _this.workshop.name;
+            _this.strategy = _this.workshop.strategy;
+            return _this.courseProvider.getModuleBasicGradeInfo(workshopData.coursemodule);
+        }).then(function (gradeInfo) {
+            _this.maxGrade = gradeInfo.grade;
+            return _this.workshopProvider.getWorkshopAccessInformation(_this.workshopId);
+        }).then(function (accessData) {
+            _this.access = accessData;
+            // Load Weights selector.
+            if (_this.assessmentId && (accessData.canallocate || accessData.canoverridegrades)) {
+                if (!_this.isDestroyed) {
+                    // Block the workshop.
+                    _this.syncProvider.blockOperation(__WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].COMPONENT, _this.workshopId);
+                }
+                _this.evaluating = true;
+            }
+            else {
+                _this.evaluating = false;
+            }
+            if (_this.evaluating || _this.workshop.phase == __WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].PHASE_CLOSED) {
+                // Get all info of the assessment.
+                return _this.workshopHelper.getReviewerAssessmentById(_this.workshopId, _this.assessmentId, _this.profile.id)
+                    .then(function (assessment) {
+                    var defaultGrade, promise;
+                    _this.assessment = _this.workshopHelper.realGradeValue(_this.workshop, assessment);
+                    _this.evaluate.text = _this.assessment.feedbackreviewer || '';
+                    _this.evaluate.weight = _this.assessment.weight;
+                    if (_this.evaluating) {
+                        if (accessData.canallocate) {
+                            _this.weights = [];
+                            for (var i = 16; i >= 0; i--) {
+                                _this.weights[i] = i;
+                            }
+                        }
+                        if (accessData.canoverridegrades) {
+                            defaultGrade = _this.translate.instant('addon.mod_workshop.notoverridden');
+                            promise = _this.gradesHelper.makeGradesMenu(_this.workshop.gradinggrade, _this.workshopId, defaultGrade, -1).then(function (grades) {
+                                _this.evaluationGrades = grades;
+                            });
+                        }
+                        else {
+                            promise = Promise.resolve();
+                        }
+                        return promise.then(function () {
+                            return _this.workshopOffline.getEvaluateAssessment(_this.workshopId, _this.assessmentId)
+                                .then(function (offlineAssess) {
+                                _this.hasOffline = true;
+                                _this.evaluate.weight = offlineAssess.weight;
+                                if (accessData.canoverridegrades) {
+                                    _this.evaluate.text = offlineAssess.feedbacktext || '';
+                                    _this.evaluate.grade = offlineAssess.gradinggradeover || -1;
+                                }
+                            }).catch(function () {
+                                _this.hasOffline = false;
+                                // No offline, load online.
+                                if (accessData.canoverridegrades) {
+                                    _this.evaluate.text = _this.assessment.feedbackreviewer || '';
+                                    _this.evaluate.grade = _this.assessment.gradinggradeover || -1;
+                                }
+                            });
+                        }).finally(function () {
+                            _this.originalEvaluation.weight = _this.evaluate.weight;
+                            if (accessData.canoverridegrades) {
+                                _this.originalEvaluation.text = _this.evaluate.text;
+                                _this.originalEvaluation.grade = _this.evaluate.grade;
+                            }
+                            _this.evaluateForm.controls['weight'].setValue(_this.evaluate.weight);
+                            if (accessData.canoverridegrades) {
+                                _this.evaluateForm.controls['grade'].setValue(_this.evaluate.grade);
+                                _this.evaluateForm.controls['text'].setValue(_this.evaluate.text);
+                            }
+                        });
+                    }
+                    else if (_this.workshop.phase == __WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].PHASE_CLOSED && _this.assessment.gradinggradeoverby) {
+                        return _this.userProvider.getProfile(_this.assessment.gradinggradeoverby, _this.courseId, true)
+                            .then(function (profile) {
+                            _this.evaluateByProfile = profile;
+                        });
+                    }
+                });
+            }
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'mm.course.errorgetmodule', true);
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Force leaving the page, without checking for changes.
+     */
+    AddonModWorkshopAssessmentPage.prototype.forceLeavePage = function () {
+        this.forceLeave = true;
+        this.navCtrl.pop();
+    };
+    /**
+     * Check if data has changed.
+     *
+     * @return {boolean} True if changed, false otherwise.
+     */
+    AddonModWorkshopAssessmentPage.prototype.hasEvaluationChanged = function () {
+        if (!this.loaded || !this.evaluating) {
+            return false;
+        }
+        var inputData = this.evaluateForm.value;
+        if (this.originalEvaluation.weight != inputData.weight) {
+            return true;
+        }
+        if (this.access && this.access.canoverridegrades) {
+            if (this.originalEvaluation.text != inputData.text) {
+                return true;
+            }
+            if (this.originalEvaluation.grade != inputData.grade) {
+                return true;
+            }
+        }
+        return false;
+    };
+    /**
+     * Convenience function to refresh all the data.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonModWorkshopAssessmentPage.prototype.refreshAllData = function () {
+        var _this = this;
+        var promises = [];
+        promises.push(this.workshopProvider.invalidateWorkshopData(this.courseId));
+        promises.push(this.workshopProvider.invalidateWorkshopAccessInformationData(this.workshopId));
+        promises.push(this.workshopProvider.invalidateReviewerAssesmentsData(this.workshopId));
+        if (this.assessmentId) {
+            promises.push(this.workshopProvider.invalidateAssessmentFormData(this.workshopId, this.assessmentId));
+            promises.push(this.workshopProvider.invalidateAssessmentData(this.workshopId, this.assessmentId));
+        }
+        return Promise.all(promises).finally(function () {
+            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].ASSESSMENT_INVALIDATED, _this.siteId);
+            return _this.fetchAssessmentData();
+        });
+    };
+    /**
+     * Pull to refresh.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonModWorkshopAssessmentPage.prototype.refreshAssessment = function (refresher) {
+        if (this.loaded) {
+            this.refreshAllData().finally(function () {
+                refresher.complete();
+            });
+        }
+    };
+    /**
+     * Save the assessment evaluation.
+     */
+    AddonModWorkshopAssessmentPage.prototype.saveEvaluation = function () {
+        var _this = this;
+        // Check if data has changed.
+        if (this.hasEvaluationChanged()) {
+            this.sendEvaluation().then(function () {
+                _this.forceLeavePage();
+            });
+        }
+        else {
+            // Nothing to save, just go back.
+            this.forceLeavePage();
+        }
+    };
+    /**
+     * Sends the evaluation to be saved on the server.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonModWorkshopAssessmentPage.prototype.sendEvaluation = function () {
+        var _this = this;
+        var modal = this.domUtils.showModalLoading('core.sending', true), inputData = this.evaluateForm.value;
+        inputData.grade = inputData.grade >= 0 ? inputData.grade : '';
+        // Add some HTML to the message if needed.
+        inputData.text = this.textUtils.formatHtmlLines(inputData.text);
+        // Try to send it to server.
+        return this.workshopProvider.evaluateAssessment(this.workshopId, this.assessmentId, this.courseId, inputData.text, inputData.weight, inputData.grade).then(function () {
+            var data = {
+                workshopId: _this.workshopId,
+                assessmentId: _this.assessmentId,
+                userId: _this.currentUserId
+            };
+            return _this.workshopProvider.invalidateAssessmentData(_this.workshopId, _this.assessmentId).finally(function () {
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].ASSESSMENT_SAVED, data, _this.siteId);
+            });
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'Cannot save assessment evaluation');
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Component being destroyed.
+     */
+    AddonModWorkshopAssessmentPage.prototype.ngOnDestroy = function () {
+        this.isDestroyed = true;
+        this.syncObserver && this.syncObserver.off();
+        // Restore original back functions.
+        this.syncProvider.unblockOperation(__WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].COMPONENT, this.workshopId);
+    };
+    AddonModWorkshopAssessmentPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-workshop-assessment-page',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/workshop/pages/assessment/assessment.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n        <ion-buttons end [hidden]="!evaluating">\n            <button ion-button clear (click)="saveEvaluation()" [attr.aria-label]="\'core.save\' | translate">\n                {{ \'core.save\' | translate }}\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshAssessment($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="loaded">\n\n        <ion-item text-wrap>\n            <ion-avatar item-start *ngIf="profile">\n                <img [src]="profile.profileimageurl" core-external-content core-user-link [courseId]="courseId" [userId]="profile.id" [alt]="\'core.pictureof\' | translate:{$a: profile.fullname}" role="presentation" onError="this.src=\'assets/img/user-avatar.png\'">\n            </ion-avatar>\n            <h2 *ngIf="profile && profile.fullname">{{profile.fullname}}</h2>\n\n            <p *ngIf="workshop && assessment && showGrade(assessment.grade)">\n                {{ \'addon.mod_workshop.submissiongradeof\' | translate:{$a: workshop.grade } }}: {{assessment.grade}}\n            </p>\n            <p *ngIf="access && access.canviewallsubmissions && assessment && showGrade(assessment.gradinggrade)" [class.core-has-overriden-grade]=" showGrade(assessment.gradinggrade)">\n                {{ \'addon.mod_workshop.gradinggradeof\' | translate:{$a: workshop.gradinggrade } }}: {{assessment.gradinggrade}}\n            </p>\n            <p *ngIf="access && access.canviewallsubmissions && assessment && showGrade(assessment.gradinggradeover)" class="core-overriden-grade">\n                {{ \'addon.mod_workshop.gradinggradeover\' | translate }}: {{assessment.gradinggradeover}}\n            </p>\n            <p *ngIf="assessment && assessment.weight && assessment.weight != 1">\n                {{ \'addon.mod_workshop.weightinfo\' | translate:{$a: assessment.weight } }}\n            </p>\n            <ion-badge *ngIf="!assessment || !showGrade(assessment.grade)" color="danger">\n                {{ \'addon.mod_workshop.notassessed\' | translate }}\n            </ion-badge>\n        </ion-item>\n\n        <addon-mod-workshop-assessment-strategy *ngIf="assessment && assessmentId && showGrade(assessment.grade) && workshop && access && profile" [workshop]="workshop" [access]="access" [assessmentId]="assessmentId" [userId]="profile.id" [strategy]="strategy"></addon-mod-workshop-assessment-strategy>\n\n        <form ion-list [formGroup]="evaluateForm" *ngIf="evaluating">\n            <ion-item text-wrap>\n                <h2>{{ \'addon.mod_workshop.assessmentsettings\' | translate }}</h2>\n            </ion-item>\n            <ion-item text-wrap *ngIf="access.canallocate">\n                <ion-label stacked core-mark-required="true">{{ \'addon.mod_workshop.assessmentweight\' | translate }}</ion-label>\n                <ion-select formControlName="weight" required="true" interface="popover">\n                    <ion-option *ngFor="let w of weights" [value]="w">{{ w }}</ion-option>\n                </ion-select>\n            </ion-item>\n            <ion-item text-wrap>\n                <h2>{{ \'addon.mod_workshop.gradinggradecalculated\' | translate }}</h2>\n                <p>{{ assessment.gradinggrade }}</p>\n            </ion-item>\n            <ion-item text-wrap *ngIf="access.canoverridegrades">\n                <ion-label stacked>{{ \'addon.mod_workshop.gradinggradeover\' | translate }}</ion-label>\n                <ion-select formControlName="grade" interface="popover">\n                    <ion-option *ngFor="let grade of evaluationGrades" [value]="grade.value">{{grade.label}}</ion-option>\n                </ion-select>\n            </ion-item>\n            <ion-item *ngIf="access.canoverridegrades">\n                <ion-label stacked>{{ \'addon.mod_workshop.feedbackreviewer\' | translate }}</ion-label>\n                <core-rich-text-editor item-content [control]="evaluateForm.controls[\'text\']" formControlName="text"></core-rich-text-editor>\n            </ion-item>\n        </form>\n        <ion-list *ngIf="!evaluating && evaluate && evaluate.text">\n            <ion-item text-wrap>\n                <ion-avatar item-start *ngIf="evaluateGradingByProfile">\n                    <img [src]="evaluateGradingByProfile.profileimageurl" core-external-content core-user-link [courseId]="courseId" [userId]="evaluateGradingByProfile.id" [alt]="\'core.pictureof\' | translate:{$a: evaluateGradingByProfile.fullname}" role="presentation" onError="this.src=\'assets/img/user-avatar.png\'">\n                </ion-avatar>\n                <h2 *ngIf="evaluateGradingByProfile && evaluateGradingByProfile.fullname">{{ \'addon.mod_workshop.feedbackby\' | translate : {$a: evaluateGradingByProfile.fullname} }}</h2>\n                <core-format-text [text]="evaluate.text"></core-format-text>\n            </ion-item>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/workshop/pages/assessment/assessment.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_9__core_course_providers_course__["a" /* CoreCourseProvider */],
+            __WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */], __WEBPACK_IMPORTED_MODULE_14__providers_offline__["a" /* AddonModWorkshopOfflineProvider */],
+            __WEBPACK_IMPORTED_MODULE_13__providers_helper__["a" /* AddonModWorkshopHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* CoreSyncProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */],
+            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_11__core_grades_providers_helper__["a" /* CoreGradesHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__core_user_providers_user__["a" /* CoreUserProvider */]])
+    ], AddonModWorkshopAssessmentPage);
+    return AddonModWorkshopAssessmentPage;
+}());
+
+//# sourceMappingURL=assessment.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=59.js.map

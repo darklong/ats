@@ -1,1 +1,229 @@
-webpackJsonp([111],{1783:function(n,l,e){"use strict";function u(n){return _._42(0,[(n()(),_._16(0,0,null,null,4,"ion-title",[],null,null,null,S.b,S.a)),_._15(1,49152,null,0,T.a,[j.a,_.p,_.K,[2,R.a],[2,D.a]],null,null),(n()(),_._40(2,0,[""," "])),(n()(),_._16(3,0,null,0,1,"small",[],null,null,null,null,null)),(n()(),_._40(4,null,["",""]))],null,function(n,l){var e=l.component;n(l,2,0,e.competency.competency.shortname);n(l,4,0,e.competency.competency.idnumber)})}function t(n){return _._42(0,[(n()(),_._16(0,0,null,null,9,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,M.b,M.a)),_._15(1,1097728,null,3,U.a,[W.a,j.a,_.p,_.K,[2,E.a]],null,null),_._37(335544320,1,{contentLabel:0}),_._37(603979776,2,{_buttons:1}),_._37(603979776,3,{_icons:1}),_._15(5,16384,null,0,F.a,[],null,null),(n()(),_._40(-1,2,["\n                "])),(n()(),_._16(7,0,null,2,1,"core-format-text",[],null,null,null,null,null)),_._15(8,540672,null,0,A.a,[_.p,N.a,s.a,V.a,$.a,B.a,J.a,q.a,z.a,G.a,H.a,Q.a,[2,X.a],[2,Y.a]],{text:[0,"text"]},null),(n()(),_._40(-1,2,["\n            "]))],function(n,l){n(l,8,0,l.component.competency.competency.description)},null)}function a(n){return _._42(0,[(n()(),_._16(0,0,null,null,4,"span",[],null,null,null,null,null)),(n()(),_._40(-1,null,["\n                     / "])),(n()(),_._16(2,0,null,null,1,"a",[],null,[[null,"click"]],function(n,l,e){var u=!0;if("click"===l){u=!1!==n.component.openCompetencySummary(n.context.$implicit.id)&&u}return u},null,null)),(n()(),_._40(3,null,["",""])),(n()(),_._40(-1,null,["\n                "]))],null,function(n,l){n(l,3,0,l.context.$implicit.name)})}function o(n){return _._42(0,[(n()(),_._16(0,0,null,null,20,"ion-card",[],null,null,null,null,null)),_._15(1,16384,null,0,Z.a,[j.a,_.p,_.K],null,null),(n()(),_._40(-1,null,["\n            "])),(n()(),_._11(16777216,null,null,1,null,t)),_._15(4,16384,null,0,nn.k,[_.W,_.T],{ngIf:[0,"ngIf"]},null),(n()(),_._40(-1,null,["\n            "])),(n()(),_._16(6,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,M.b,M.a)),_._15(7,1097728,null,3,U.a,[W.a,j.a,_.p,_.K,[2,E.a]],null,null),_._37(335544320,4,{contentLabel:0}),_._37(603979776,5,{_buttons:1}),_._37(603979776,6,{_icons:1}),_._15(11,16384,null,0,F.a,[],null,null),(n()(),_._40(-1,2,["\n                "])),(n()(),_._16(13,0,null,2,2,"strong",[],null,null,null,null,null)),(n()(),_._40(14,null,["",""])),_._32(131072,ln.a,[$.a,_.i]),(n()(),_._40(16,2,[":\n                ","\n                "])),(n()(),_._11(16777216,null,2,1,null,a)),_._15(18,802816,null,0,nn.j,[_.W,_.T,_.v],{ngForOf:[0,"ngForOf"]},null),(n()(),_._40(-1,2,["\n            "])),(n()(),_._40(-1,null,["\n        "]))],function(n,l){var e=l.component;n(l,4,0,e.competency.competency.description);n(l,18,0,e.competency.comppath.ancestors)},function(n,l){var e=l.component;n(l,14,0,_._41(l,14,0,_._29(l,15).transform("addon.competency.path")));n(l,16,0,e.competency.comppath.framework.name)})}function c(n){return _._42(0,[(n()(),_._16(0,0,null,null,9,"ion-header",[],null,null,null,null,null)),_._15(1,16384,null,0,en.a,[j.a,_.p,_.K,[2,un.a]],null,null),(n()(),_._40(-1,null,["\n    "])),(n()(),_._16(3,0,null,null,5,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,tn.b,tn.a)),_._15(4,49152,null,0,D.a,[an.a,[2,un.a],[2,X.a],j.a,_.p,_.K],null,null),(n()(),_._40(-1,3,["\n        "])),(n()(),_._11(16777216,null,3,1,null,u)),_._15(7,16384,null,0,nn.k,[_.W,_.T],{ngIf:[0,"ngIf"]},null),(n()(),_._40(-1,3,["\n    "])),(n()(),_._40(-1,null,["\n"])),(n()(),_._40(-1,null,["\n"])),(n()(),_._16(11,0,null,null,17,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,on.b,on.a)),_._15(12,4374528,null,0,Y.a,[j.a,B.a,cn.a,_.p,_.K,an.a,_n.a,_.D,[2,un.a],[2,X.a]],null,null),(n()(),_._40(-1,1,["\n    "])),(n()(),_._16(14,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,e){var u=!0;if("ionRefresh"===l){u=!1!==n.component.refreshCompetency(e)&&u}return u},null,null)),_._15(15,212992,null,0,rn.a,[B.a,Y.a,_.D,pn.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),_._40(-1,null,["\n        "])),(n()(),_._16(17,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,mn.b,mn.a)),_._15(18,114688,null,0,sn.a,[rn.a,j.a],{pullingText:[0,"pullingText"]},null),_._32(131072,ln.a,[$.a,_.i]),(n()(),_._40(-1,null,["\n    "])),(n()(),_._40(-1,1,["\n    "])),(n()(),_._16(22,0,null,1,5,"core-loading",[],null,null,null,dn.b,dn.a)),_._15(23,638976,null,0,fn.a,[$.a,_.p],{hideUntil:[0,"hideUntil"]},null),(n()(),_._40(-1,0,["\n        "])),(n()(),_._11(16777216,null,0,1,null,o)),_._15(26,16384,null,0,nn.k,[_.W,_.T],{ngIf:[0,"ngIf"]},null),(n()(),_._40(-1,0,["\n    "])),(n()(),_._40(-1,1,["\n"])),(n()(),_._40(-1,null,["\n"]))],function(n,l){var e=l.component;n(l,7,0,e.competency);n(l,15,0,e.competencyLoaded);n(l,18,0,_._19(1,"",_._41(l,18,0,_._29(l,19).transform("core.pulltorefresh")),""));n(l,23,0,e.competencyLoaded);n(l,26,0,e.competency)},function(n,l){n(l,3,0,_._29(l,4)._hidden,_._29(l,4)._sbPadding);n(l,11,0,_._29(l,12).statusbarPadding,_._29(l,12)._hasRefresher);n(l,14,0,"inactive"!==_._29(l,15).state,_._29(l,15)._top);n(l,17,0,_._29(l,18).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var _=e(1),i=e(0),r=(e(10),e(6)),p=e(32),m=e(31),s=e(4),d=e(131),f=e(214),y=function(){function n(n,l,e,u,t){this.navCtrl=n,this.domUtils=e,this.svComponent=u,this.competencyProvider=t,this.competencyLoaded=!1,this.competencyId=l.get("competencyId")}return n.prototype.ionViewDidLoad=function(){var n=this;this.fetchCompetency().then(function(){n.competencyProvider.logCompetencyView(n.competencyId)}).finally(function(){n.competencyLoaded=!0})},n.prototype.fetchCompetency=function(){var n=this;return this.competencyProvider.getCompetencySummary(this.competencyId).then(function(l){n.competency=l}).catch(function(l){n.domUtils.showErrorModalDefault(l,"Error getting competency summary data.")})},n.prototype.refreshCompetency=function(n){var l=this;this.competencyProvider.invalidateCompetencySummary(this.competencyId).finally(function(){l.fetchCompetency().finally(function(){n.complete()})})},n.prototype.openCompetencySummary=function(n){(this.svComponent?this.svComponent.getMasterNav():this.navCtrl).push("AddonCompetencyCompetencySummaryPage",{competencyId:n})},n=Object(i.__decorate)([Object(i.__param)(3,Object(_.E)())],n)}(),h=function(){return function(){}}(),b=e(1284),v=e(1285),g=e(1286),C=e(1287),x=e(1288),I=e(1289),k=e(1290),P=e(1291),w=e(1292),K=e(1295),L=e(1296),O=e(1297),S=e(1294),T=e(326),j=e(7),R=e(237),D=e(191),M=e(34),U=e(21),W=e(19),E=e(29),F=e(33),A=e(38),N=e(2),V=e(11),$=e(17),B=e(14),J=e(3),q=e(24),z=e(5),G=e(16),H=e(12),Q=e(23),X=e(22),Y=e(25),Z=e(88),nn=e(9),ln=e(28),en=e(419),un=e(35),tn=e(1293),an=e(27),on=e(176),cn=e(26),_n=e(97),rn=e(130),pn=e(36),mn=e(192),sn=e(144),dn=e(55),fn=e(49),yn=e(58),hn=_._14({encapsulation:2,styles:[],data:{}}),bn=_._12("page-addon-competency-competency-summary",y,function(n){return _._42(0,[(n()(),_._16(0,0,null,null,1,"page-addon-competency-competency-summary",[],null,null,null,c,hn)),_._15(1,49152,null,0,y,[X.a,yn.a,s.a,[2,d.a],f.a],null,null)],null,null)},{},{},[]),vn=e(18),gn=e(322),Cn=e(323),xn=e(325),In=e(324),kn=e(418),Pn=e(638),wn=e(107),Kn=e(238);e.d(l,"AddonCompetencyCompetencySummaryPageModuleNgFactory",function(){return Ln});var Ln=_._13(h,[],function(n){return _._25([_._26(512,_.n,_._6,[[8,[b.a,v.a,g.a,C.a,x.a,I.a,k.a,P.a,w.a,K.a,L.a,O.a,bn]],[3,_.n],_.B]),_._26(4608,nn.m,nn.l,[_.x,[2,nn.v]]),_._26(4608,vn.x,vn.x,[]),_._26(4608,vn.d,vn.d,[]),_._26(4608,gn.b,gn.a,[]),_._26(4608,Cn.a,Cn.b,[]),_._26(4608,xn.b,xn.a,[]),_._26(4608,In.b,In.a,[]),_._26(4608,$.a,$.a,[kn.a,gn.b,Cn.a,xn.b,In.b,$.b,$.c]),_._26(512,nn.b,nn.b,[]),_._26(512,vn.v,vn.v,[]),_._26(512,vn.i,vn.i,[]),_._26(512,vn.s,vn.s,[]),_._26(512,Pn.a,Pn.a,[]),_._26(512,r.a,r.a,[]),_._26(512,m.a,m.a,[]),_._26(512,wn.a,wn.a,[]),_._26(512,p.a,p.a,[]),_._26(512,Pn.b,Pn.b,[]),_._26(512,h,h,[]),_._26(256,$.c,void 0,[]),_._26(256,$.b,void 0,[]),_._26(256,Kn.a,y,[])])})}});
+webpackJsonp([111],{
+
+/***/ 1795:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCompetencyPlanPageModule", function() { return AddonCompetencyPlanPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__plan__ = __webpack_require__(1920);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonCompetencyPlanPageModule = /** @class */ (function () {
+    function AddonCompetencyPlanPageModule() {
+    }
+    AddonCompetencyPlanPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__plan__["a" /* AddonCompetencyPlanPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__plan__["a" /* AddonCompetencyPlanPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonCompetencyPlanPageModule);
+    return AddonCompetencyPlanPageModule;
+}());
+
+//# sourceMappingURL=plan.module.js.map
+
+/***/ }),
+
+/***/ 1920:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCompetencyPlanPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_competency__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_helper__ = __webpack_require__(396);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+
+/**
+ * Page that displays a learning plan.
+ */
+var AddonCompetencyPlanPage = /** @class */ (function () {
+    function AddonCompetencyPlanPage(navCtrl, navParams, translate, appProvider, domUtils, svComponent, competencyProvider, competencyHelperProvider) {
+        this.navCtrl = navCtrl;
+        this.translate = translate;
+        this.appProvider = appProvider;
+        this.domUtils = domUtils;
+        this.svComponent = svComponent;
+        this.competencyProvider = competencyProvider;
+        this.competencyHelperProvider = competencyHelperProvider;
+        this.planLoaded = false;
+        this.planId = navParams.get('planId');
+    }
+    /**
+     * View loaded.
+     */
+    AddonCompetencyPlanPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchLearningPlan().finally(function () {
+            _this.planLoaded = true;
+        });
+    };
+    /**
+     * Fetches the learning plan and updates the view.
+     *
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonCompetencyPlanPage.prototype.fetchLearningPlan = function () {
+        var _this = this;
+        return this.competencyProvider.getLearningPlan(this.planId).then(function (plan) {
+            plan.plan.statusname = _this.getStatusName(plan.plan.status);
+            // Get the user profile image.
+            _this.competencyHelperProvider.getProfile(plan.plan.userid).then(function (user) {
+                _this.user = user;
+            });
+            _this.plan = plan;
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'Error getting learning plan data.');
+        });
+    };
+    /**
+     * Navigates to a particular competency.
+     *
+     * @param {number} competencyId
+     */
+    AddonCompetencyPlanPage.prototype.openCompetency = function (competencyId) {
+        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
+        if (this.appProvider.isWide()) {
+            navCtrl.push('AddonCompetencyCompetenciesPage', { competencyId: competencyId, planId: this.planId });
+        }
+        else {
+            navCtrl.push('AddonCompetencyCompetencyPage', { competencyId: competencyId, planId: this.planId });
+        }
+    };
+    /**
+     * Convenience function to get the status name translated.
+     *
+     * @param {number} status
+     * @return {string}
+     */
+    AddonCompetencyPlanPage.prototype.getStatusName = function (status) {
+        var statusTranslateName;
+        switch (status) {
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_DRAFT:
+                statusTranslateName = 'draft';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].REVIEW_STATUS_IN_REVIEW:
+                statusTranslateName = 'inreview';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].REVIEW_STATUS_WAITING_FOR_REVIEW:
+                statusTranslateName = 'waitingforreview';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_ACTIVE:
+                statusTranslateName = 'active';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_COMPLETE:
+                statusTranslateName = 'complete';
+                break;
+            default:
+                // We can use the current status name.
+                return String(status);
+        }
+        return this.translate.instant('addon.competency.planstatus' + statusTranslateName);
+    };
+    /**
+     * Refreshes the learning plan.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonCompetencyPlanPage.prototype.refreshLearningPlan = function (refresher) {
+        var _this = this;
+        this.competencyProvider.invalidateLearningPlan(this.planId).finally(function () {
+            _this.fetchLearningPlan().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    AddonCompetencyPlanPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-competency-plan',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/competency/pages/plan/plan.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title *ngIf="plan">{{plan.plan.name}}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="planLoaded" (ionRefresh)="refreshLearningPlan($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="planLoaded">\n        <ion-card *ngIf="user">\n            <ion-item text-wrap>\n                <ion-avatar *ngIf="user.profileimageurl && user.profileimageurl !== true" item-start>\n                    <img  [src]="user.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: user.fullname}" core-external-content>\n                </ion-avatar>\n                <span *ngIf="user.profileimageurl === true" item-start>\n                    <ion-icon name="person"></ion-icon>\n                </span>\n                <h2><core-format-text [text]="user.fullname"></core-format-text></h2>\n            </ion-item>\n       </ion-card>\n        <ion-card *ngIf="plan">\n            <ion-list>\n                <ion-item text-wrap>\n                    <strong>{{ \'addon.competency.status\' | translate }}</strong>:\n                    {{ plan.plan.statusname }}\n                </ion-item>\n                <ion-item text-wrap *ngIf="plan.plan.duedate > 0">\n                    <strong>{{ \'addon.competency.duedate\' | translate }}</strong>:\n                    {{ plan.plan.duedate | coreToLocaleString }}\n                </ion-item>\n                <ion-item text-wrap *ngIf="plan.plan.template">\n                    <strong>{{ \'addon.competency.template\' | translate }}</strong>:\n                    {{ plan.plan.template.shortname }}\n                </ion-item>\n                <ion-item text-wrap>\n                    <strong>{{ \'addon.competency.progress\' | translate }}</strong>:\n                    {{ \'addon.competency.xcompetenciesproficientoutofy\' | translate: {$a: {x: plan.proficientcompetencycount, y: plan.competencycount} } }}\n                    <core-progress-bar [progress]="plan.proficientcompetencypercentage" [text]="plan.proficientcompetencypercentageformatted"></core-progress-bar>\n                </ion-item>\n            </ion-list>\n        </ion-card>\n        <ion-card *ngIf="plan">\n            <ion-card-header text-wrap>{{ \'addon.competency.learningplancompetencies\' | translate }}</ion-card-header>\n            <ion-list>\n                <ion-item text-wrap *ngIf="plan.competencycount == 0">\n                    {{ \'addon.competency.nocompetencies\' | translate }}\n                </ion-item>\n                <a ion-item text-wrap *ngFor="let competency of plan.competencies" (click)="openCompetency(competency.competency.id)" [title]="competency.competency.shortname">\n                    {{competency.competency.shortname}} <small>{{competency.competency.idnumber}}</small>\n                    <ion-badge item-end [color]="competency.usercompetency.proficiency ? \'success\' : \'danger\'">{{ competency.usercompetency.gradename }}</ion-badge>\n                </a>\n            </ion-list>\n        </ion-card>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/competency/pages/plan/plan.html"*/,
+        }),
+        __param(5, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__["a" /* CoreSplitViewComponent */], __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_helper__["a" /* AddonCompetencyHelperProvider */]])
+    ], AddonCompetencyPlanPage);
+    return AddonCompetencyPlanPage;
+}());
+
+//# sourceMappingURL=plan.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=111.js.map

@@ -1,1 +1,135 @@
-webpackJsonp([49],{1870:function(l,n,i){"use strict";function e(l){return r._42(0,[(l()(),r._16(0,0,null,null,0,"img",[["class","login-logo-parent"],["role","presentation"],["src","assets/img/login_logo_fe.png"]],null,null,null,null,null))],null,null)}function t(l){return r._42(0,[(l()(),r._16(0,0,null,null,0,"img",[["role","presentation"]],[[8,"src",4]],null,null,null,null))],null,function(l,n){l(n,0,0,n.component.logoUrl)})}function u(l){return r._42(0,[(l()(),r._16(0,0,null,null,0,"img",[["class","login-logo"],["role","presentation"],["src","assets/img/login_logo_ats.png"]],null,null,null,null,null))],null,null)}function o(l){return r._42(0,[(l()(),r._16(0,0,null,null,2,"p",[["class","item-heading core-sitename"],["padding",""]],null,null,null,null,null)),(l()(),r._16(1,0,null,null,1,"core-format-text",[],null,null,null,null,null)),r._15(2,540672,null,0,N.a,[r.p,h.a,d.a,E.a,D.a,H.a,K.a,B.a,W.a,M.a,_.a,F.a,[2,V.a],[2,A.a]],{text:[0,"text"]},null)],function(l,n){l(n,2,0,n.component.siteName)},null)}function s(l){return r._42(0,[(l()(),r._16(0,0,null,null,1,"p",[["class","core-siteurl"]],null,null,null,null,null)),(l()(),r._40(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.siteUrl)})}function a(l){return r._42(0,[(l()(),r._16(0,0,null,null,63,"ion-content",[["class","core-center-view"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,G.b,G.a)),r._15(1,4374528,null,0,A.a,[j.a,H.a,J.a,r.p,r.K,R.a,q.a,r.D,[2,z.a],[2,V.a]],null,null),(l()(),r._40(-1,1,["\n        "])),(l()(),r._16(3,0,null,1,59,"div",[["class","box"]],null,null,null,null,null)),(l()(),r._40(-1,null,["\n            "])),(l()(),r._11(16777216,null,null,1,null,e)),r._15(6,16384,null,0,Q.k,[r.W,r.T],{ngIf:[0,"ngIf"]},null),(l()(),r._40(-1,null,["\n            "])),(l()(),r._16(8,0,null,null,17,"div",[["text-center",""],["text-wrap",""]],null,null,null,null,null)),(l()(),r._40(-1,null,["\n                "])),(l()(),r._40(-1,null,["\n                "])),(l()(),r._11(16777216,null,null,1,null,t)),r._15(12,16384,null,0,Q.k,[r.W,r.T],{ngIf:[0,"ngIf"]},null),(l()(),r._40(-1,null,["\n                "])),(l()(),r._11(16777216,null,null,1,null,u)),r._15(15,16384,null,0,Q.k,[r.W,r.T],{ngIf:[0,"ngIf"]},null),(l()(),r._40(-1,null,["\n                \n\n                "])),(l()(),r._40(-1,null,["\n                "])),(l()(),r._40(-1,null,["\n                "])),(l()(),r._40(-1,null,["\n                "])),(l()(),r._11(16777216,null,null,1,null,o)),r._15(21,16384,null,0,Q.k,[r.W,r.T],{ngIf:[0,"ngIf"]},null),(l()(),r._40(-1,null,["\n                "])),(l()(),r._11(16777216,null,null,1,null,s)),r._15(24,16384,null,0,Q.k,[r.W,r.T],{ngIf:[0,"ngIf"]},null),(l()(),r._40(-1,null,["\n            "])),(l()(),r._40(-1,null,["\n            "])),(l()(),r._16(27,0,null,null,29,"ion-slides",[["autoplay","3000"],["class","login-slides"],["pager","true"]],null,null,null,X.b,X.a)),r._15(28,1228800,null,0,Y.a,[j.a,H.a,r.D,[2,z.a],r.p,r.K],{autoplay:[0,"autoplay"],pager:[1,"pager"]},null),(l()(),r._40(-1,0,["\n                "])),(l()(),r._16(30,0,null,0,7,"ion-slide",[],null,null,null,Z.b,Z.a)),r._15(31,180224,null,0,$.a,[r.p,r.K,Y.a],null,null),(l()(),r._40(-1,0,["\n                        "])),(l()(),r._16(33,0,null,0,0,"img",[["class","img-slides"],["role","presentation"],["src","assets/img/login_slides/slide1.png"]],null,null,null,null,null)),(l()(),r._40(-1,0,["\n                        "])),(l()(),r._16(35,0,null,0,1,"p",[["class","slogan-text"]],null,null,null,null,null)),(l()(),r._40(-1,null,["The more read the more you know, the more you learn the more you grow"])),(l()(),r._40(-1,0,["    \n                "])),(l()(),r._40(-1,0,["\n\n                "])),(l()(),r._16(39,0,null,0,7,"ion-slide",[],null,null,null,Z.b,Z.a)),r._15(40,180224,null,0,$.a,[r.p,r.K,Y.a],null,null),(l()(),r._40(-1,0,["\n                    \n                        "])),(l()(),r._16(42,0,null,0,0,"img",[["class","img-slides"],["role","presentation"],["src","assets/img/login_slides/slide2.png"]],null,null,null,null,null)),(l()(),r._40(-1,0,["\n                        "])),(l()(),r._16(44,0,null,0,1,"p",[["class","slogan-text"]],null,null,null,null,null)),(l()(),r._40(-1,null,["Develop a passion for learning. If you do, you will never cease to grow"])),(l()(),r._40(-1,0,["\n                    \n                "])),(l()(),r._40(-1,0,["\n\n                "])),(l()(),r._16(48,0,null,0,7,"ion-slide",[],null,null,null,Z.b,Z.a)),r._15(49,180224,null,0,$.a,[r.p,r.K,Y.a],null,null),(l()(),r._40(-1,0,["\n                        "])),(l()(),r._16(51,0,null,0,0,"img",[["class","img-slides"],["role","presentation"],["src","assets/img/login_slides/slide3.png"]],null,null,null,null,null)),(l()(),r._40(-1,0,["\n                        "])),(l()(),r._16(53,0,null,0,1,"p",[["class","slogan-text"]],null,null,null,null,null)),(l()(),r._40(-1,null,["If you are not willing to learn no one can help you.if you are determined to learn no one can stop you"])),(l()(),r._40(-1,0,["\n                "])),(l()(),r._40(-1,0,["\n            "])),(l()(),r._40(-1,null,["\n            \n            \n            "])),(l()(),r._16(58,0,null,null,3,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(l,n,i){var e=!0;if("click"===n){e=!1!==l.component.goLoginPage()&&e}return e},ll.b,ll.a)),r._15(59,1097728,null,0,nl.a,[[8,""],j.a,r.p,r.K],{block:[0,"block"]},null),(l()(),r._40(60,0,["",""])),r._32(131072,il.a,[D.a,r.i]),(l()(),r._40(-1,null,["\n    "])),(l()(),r._40(-1,1,["\n"])),(l()(),r._40(-1,null,["\n"]))],function(l,n){var i=n.component;l(n,6,0,!i.logoUrl);l(n,12,0,i.logoUrl);l(n,15,0,!i.logoUrl);l(n,21,0,i.siteName);l(n,24,0,i.siteName);l(n,28,0,"3000","true");l(n,59,0,"")},function(l,n){l(n,0,0,r._29(n,1).statusbarPadding,r._29(n,1)._hasRefresher);l(n,60,0,r._41(n,60,0,r._29(n,61).transform("core.login.loginbutton")))})}Object.defineProperty(n,"__esModule",{value:!0});var r=i(1),g=(i(0),i(10),i(6)),_=i(12),c=i(20),h=i(2),d=i(4),p=i(121),f=function(){function l(l,n,i,e,t,u,o,s){this.navCtrl=l,this.appProvider=i,this.sitesProvider=e,this.loginHelper=t,this.domUtils=u,this.translate=o,this.eventsProvider=s,this.siteChecked=!1,this.pageLoaded=!1,this.isBrowserSSO=!1,this.eventThrown=!1,this.viewLeft=!1,this.siteUrl=n.get("siteUrl"),this.siteConfig=n.get("siteConfig"),this.urlToOpen=n.get("urlToOpen")}return l.prototype.ionViewDidLoad=function(){this.treatSiteConfig(),this.loginHelper.isFixedUrlSet()?this.checkSite(this.siteUrl):(this.siteChecked=!0,this.pageLoaded=!0)},l.prototype.ionViewDidLeave=function(){this.viewLeft=!0,this.eventsProvider.trigger(c.a.LOGIN_SITE_UNCHECKED,{config:this.siteConfig},this.siteId)},l.prototype.checkSite=function(l){var n=this;this.pageLoaded=!1;var i=0===l.indexOf("http://")?"http://":void 0;return this.sitesProvider.checkSite(l,i).then(function(l){n.siteChecked=!0,n.siteUrl=l.siteUrl,n.siteConfig=l.config,n.treatSiteConfig(),l&&l.warning&&n.domUtils.showErrorModal(l.warning,!0,4e3),n.loginHelper.isSSOLoginNeeded(l.code)?(n.isBrowserSSO=!0,n.appProvider.isSSOAuthenticationOngoing()||n.viewLeft||n.loginHelper.confirmAndOpenBrowserForSSOLogin(l.siteUrl,l.code,l.service,l.config&&l.config.launchurl)):n.isBrowserSSO=!1}).catch(function(l){n.domUtils.showErrorModal(l)}).finally(function(){n.pageLoaded=!0})},l.prototype.treatSiteConfig=function(){this.siteConfig?(this.siteName=this.siteConfig.sitename,this.logoUrl=this.siteConfig.logourl||this.siteConfig.compactlogourl,this.authInstructions=this.siteConfig.authinstructions||this.translate.instant("core.login.loginsteps"),this.canSignup="email"==this.siteConfig.registerauth&&!this.loginHelper.isEmailSignupDisabled(this.siteConfig),this.identityProviders=this.loginHelper.getValidIdentityProviders(this.siteConfig),this.eventThrown||this.viewLeft||(this.eventThrown=!0,this.eventsProvider.trigger(c.a.LOGIN_SITE_CHECKED,{config:this.siteConfig}))):(this.siteName=null,this.logoUrl=null,this.authInstructions=null,this.canSignup=!1,this.identityProviders=[])},l.prototype.goLoginPage=function(){this.navCtrl.push("CoreLoginCredentialsPage",{siteUrl:this.siteUrl})},l}(),m=i(32),v=i(31),b=function(){return function(){}}(),C=i(1284),w=i(1285),y=i(1286),S=i(1287),I=i(1288),U=i(1289),k=i(1290),L=i(1291),P=i(1292),x=i(1295),O=i(1296),T=i(1297),N=i(38),E=i(11),D=i(17),H=i(14),K=i(3),B=i(24),W=i(5),M=i(16),F=i(23),V=i(22),A=i(25),G=i(176),j=i(7),J=i(26),R=i(27),q=i(97),z=i(35),Q=i(9),X=i(1332),Y=i(250),Z=i(1331),$=i(341),ll=i(45),nl=i(39),il=i(28),el=i(58),tl=r._14({encapsulation:2,styles:[],data:{}}),ul=r._12("page-core-login-introduction",f,function(l){return r._42(0,[(l()(),r._16(0,0,null,null,1,"page-core-login-introduction",[],null,null,null,a,tl)),r._15(1,49152,null,0,f,[V.a,el.a,_.a,h.a,p.a,d.a,D.a,c.a],null,null)],null,null)},{},{},[]),ol=i(18),sl=i(322),al=i(323),rl=i(325),gl=i(324),_l=i(418),cl=i(638),hl=i(107),dl=i(238);i.d(n,"CoreLoginIntroductionPageModuleNgFactory",function(){return pl});var pl=r._13(b,[],function(l){return r._25([r._26(512,r.n,r._6,[[8,[C.a,w.a,y.a,S.a,I.a,U.a,k.a,L.a,P.a,x.a,O.a,T.a,ul]],[3,r.n],r.B]),r._26(4608,Q.m,Q.l,[r.x,[2,Q.v]]),r._26(4608,ol.x,ol.x,[]),r._26(4608,ol.d,ol.d,[]),r._26(4608,sl.b,sl.a,[]),r._26(4608,al.a,al.b,[]),r._26(4608,rl.b,rl.a,[]),r._26(4608,gl.b,gl.a,[]),r._26(4608,D.a,D.a,[_l.a,sl.b,al.a,rl.b,gl.b,D.b,D.c]),r._26(512,Q.b,Q.b,[]),r._26(512,ol.v,ol.v,[]),r._26(512,ol.i,ol.i,[]),r._26(512,ol.s,ol.s,[]),r._26(512,cl.a,cl.a,[]),r._26(512,g.a,g.a,[]),r._26(512,v.a,v.a,[]),r._26(512,hl.a,hl.a,[]),r._26(512,m.a,m.a,[]),r._26(512,cl.b,cl.b,[]),r._26(512,b,b,[]),r._26(256,D.c,void 0,[]),r._26(256,D.b,void 0,[]),r._26(256,dl.a,f,[])])})}});
+webpackJsonp([49],{
+
+/***/ 1863:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCourseSectionSelectorPageModule", function() { return CoreCourseSectionSelectorPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__section_selector__ = __webpack_require__(1993);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var CoreCourseSectionSelectorPageModule = /** @class */ (function () {
+    function CoreCourseSectionSelectorPageModule() {
+    }
+    CoreCourseSectionSelectorPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__section_selector__["a" /* CoreCourseSectionSelectorPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__section_selector__["a" /* CoreCourseSectionSelectorPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], CoreCourseSectionSelectorPageModule);
+    return CoreCourseSectionSelectorPageModule;
+}());
+
+//# sourceMappingURL=section-selector.module.js.map
+
+/***/ }),
+
+/***/ 1993:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCourseSectionSelectorPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_helper__ = __webpack_require__(21);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays course section selector.
+ */
+var CoreCourseSectionSelectorPage = /** @class */ (function () {
+    function CoreCourseSectionSelectorPage(navParams, courseHelper, viewCtrl) {
+        this.viewCtrl = viewCtrl;
+        this.sections = navParams.get('sections');
+        this.selected = navParams.get('selected');
+    }
+    /**
+     * Close the modal.
+     */
+    CoreCourseSectionSelectorPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    /**
+     * Select a section.
+     *
+     * @param {any} section Selected section object.
+     */
+    CoreCourseSectionSelectorPage.prototype.selectSection = function (section) {
+        if (!(section.visible === 0 || section.uservisible === false)) {
+            this.viewCtrl.dismiss(section);
+        }
+    };
+    CoreCourseSectionSelectorPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-course-section-selector',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/core/course/pages/section-selector/section-selector.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ \'core.course.sections\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ng-container *ngFor="let section of sections">\n        <a ion-item *ngIf="section.hasContent" text-wrap (click)="selectSection(section)" [class.core-primary-item]="selected.id == section.id" [class.item-dimmed]="section.visible === 0 || section.uservisible === false" detail-none>\n            <h2><core-format-text [text]="section.formattedName || section.name"></core-format-text></h2>\n            <ion-badge color="secondary" *ngIf="section.visible === 0">{{ \'core.course.nocontentavailable\' | translate }}</ion-badge>\n            <ion-badge color="secondary" *ngIf="section.availabilityinfo"><core-format-text  [text]=" section.availabilityinfo"></core-format-text></ion-badge>\n        </a>\n    </ng-container>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/core/course/pages/section-selector/section-selector.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_helper__["a" /* CoreCourseHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["B" /* ViewController */]])
+    ], CoreCourseSectionSelectorPage);
+    return CoreCourseSectionSelectorPage;
+}());
+
+//# sourceMappingURL=section-selector.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=49.js.map

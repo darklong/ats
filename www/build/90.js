@@ -1,1 +1,179 @@
-webpackJsonp([90],{1813:function(l,n,a){"use strict";function u(l){return t._42(0,[t._37(402653184,1,{forumComponent:0}),(l()(),t._16(1,0,null,null,17,"ion-header",[],null,null,null,null,null)),t._15(2,16384,null,0,M.a,[P.a,t.p,t.K,[2,D.a]],null,null),(l()(),t._40(-1,null,["\n    "])),(l()(),t._16(4,0,null,null,13,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,F.b,F.a)),t._15(5,49152,null,0,j.a,[k.a,[2,D.a],[2,w.a],P.a,t.p,t.K],null,null),(l()(),t._40(-1,3,["\n        "])),(l()(),t._16(7,0,null,3,3,"ion-title",[],null,null,null,A.b,A.a)),t._15(8,49152,null,0,B.a,[P.a,t.p,t.K,[2,C.a],[2,j.a]],null,null),(l()(),t._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),t._15(10,540672,null,0,J.a,[t.p,N.a,O.a,q.a,z.a,E.a,G.a,H.a,L.a,Q.a,S.a,T.a,[2,w.a],[2,U.a]],{text:[0,"text"]},null),(l()(),t._40(-1,3,["\n\n        "])),(l()(),t._16(12,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),t._15(13,16384,null,1,V.a,[P.a,t.p,t.K,[2,C.a],[2,j.a]],null,null),t._37(603979776,2,{_buttons:1}),(l()(),t._40(-1,null,["\n            "])),(l()(),t._40(-1,null,["\n        "])),(l()(),t._40(-1,3,["\n    "])),(l()(),t._40(-1,null,["\n"])),(l()(),t._40(-1,null,["\n\n"])),(l()(),t._16(20,0,null,null,1,"addon-mod-forum-index",[],null,[[null,"dataRetrieved"]],function(l,n,a){var u=!0;if("dataRetrieved"===n){u=!1!==l.component.updateData(a)&&u}return u},R.c,R.b)),t._15(21,245760,[[1,4]],0,d.a,[t.u,[2,U.a],w.a,W.a,X.a,Y.a,Z.a,$.a,ll.a,nl.a,al.a],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(l()(),t._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,10,0,a.title);l(n,21,0,a.module,a.courseId)},function(l,n){l(n,4,0,t._29(n,5)._hidden,t._29(n,5)._sbPadding)})}Object.defineProperty(n,"__esModule",{value:!0});var t=a(1),e=(a(0),a(10),a(6)),_=a(31),o=a(651),d=a(444),i=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},l}(),r=function(){return function(){}}(),c=a(1284),s=a(1285),b=a(1286),m=a(1287),f=a(1288),p=a(1289),v=a(1290),x=a(1291),h=a(1292),g=a(1295),I=a(1296),y=a(1297),K=a(1298),R=a(1323),M=a(419),P=a(7),D=a(35),F=a(1293),j=a(191),k=a(27),w=a(22),A=a(1294),B=a(326),C=a(237),J=a(38),N=a(2),O=a(4),q=a(11),z=a(17),E=a(14),G=a(3),H=a(24),L=a(5),Q=a(16),S=a(12),T=a(23),U=a(25),V=a(420),W=a(61),X=a(44),Y=a(169),Z=a(242),$=a(200),ll=a(243),nl=a(50),al=a(352),ul=a(58),tl=t._14({encapsulation:2,styles:[],data:{}}),el=t._12("page-addon-mod-forum-index",i,function(l){return t._42(0,[(l()(),t._16(0,0,null,null,1,"page-addon-mod-forum-index",[],null,null,null,u,tl)),t._15(1,49152,null,0,i,[ul.a],null,null)],null,null)},{},{},[]),_l=a(9),ol=a(18),dl=a(322),il=a(323),rl=a(325),cl=a(324),sl=a(418),bl=a(638),ml=a(107),fl=a(32),pl=a(71),vl=a(238);a.d(n,"AddonModForumIndexPageModuleNgFactory",function(){return xl});var xl=t._13(r,[],function(l){return t._25([t._26(512,t.n,t._6,[[8,[c.a,s.a,b.a,m.a,f.a,p.a,v.a,x.a,h.a,g.a,I.a,y.a,K.a,R.a,el]],[3,t.n],t.B]),t._26(4608,_l.m,_l.l,[t.x,[2,_l.v]]),t._26(4608,ol.x,ol.x,[]),t._26(4608,ol.d,ol.d,[]),t._26(4608,dl.b,dl.a,[]),t._26(4608,il.a,il.b,[]),t._26(4608,rl.b,rl.a,[]),t._26(4608,cl.b,cl.a,[]),t._26(4608,z.a,z.a,[sl.a,dl.b,il.a,rl.b,cl.b,z.b,z.c]),t._26(512,_.a,_.a,[]),t._26(512,_l.b,_l.b,[]),t._26(512,ol.v,ol.v,[]),t._26(512,ol.i,ol.i,[]),t._26(512,ol.s,ol.s,[]),t._26(512,bl.a,bl.a,[]),t._26(512,e.a,e.a,[]),t._26(512,ml.a,ml.a,[]),t._26(512,fl.a,fl.a,[]),t._26(512,pl.a,pl.a,[]),t._26(512,o.a,o.a,[]),t._26(512,bl.b,bl.b,[]),t._26(512,r,r,[]),t._26(256,z.c,void 0,[]),t._26(256,z.b,void 0,[]),t._26(256,vl.a,i,[])])})}});
+webpackJsonp([90],{
+
+/***/ 1818:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackAttemptPageModule", function() { return AddonModFeedbackAttemptPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(932);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__attempt__ = __webpack_require__(1943);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+var AddonModFeedbackAttemptPageModule = /** @class */ (function () {
+    function AddonModFeedbackAttemptPageModule() {
+    }
+    AddonModFeedbackAttemptPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__attempt__["a" /* AddonModFeedbackAttemptPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__attempt__["a" /* AddonModFeedbackAttemptPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModFeedbackAttemptPageModule);
+    return AddonModFeedbackAttemptPageModule;
+}());
+
+//# sourceMappingURL=attempt.module.js.map
+
+/***/ }),
+
+/***/ 1943:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackAttemptPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_feedback__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_helper__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page that displays a feedback attempt review.
+ */
+var AddonModFeedbackAttemptPage = /** @class */ (function () {
+    function AddonModFeedbackAttemptPage(navParams, feedbackProvider, navCtrl, domUtils, feedbackHelper, textUtils) {
+        this.feedbackProvider = feedbackProvider;
+        this.navCtrl = navCtrl;
+        this.domUtils = domUtils;
+        this.feedbackHelper = feedbackHelper;
+        this.textUtils = textUtils;
+        this.component = __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */].COMPONENT;
+        this.feedbackLoaded = false;
+        this.feedbackId = navParams.get('feedbackId') || 0;
+        this.attempt = navParams.get('attempt') || false;
+        this.componentId = navParams.get('moduleId');
+    }
+    /**
+     * View loaded.
+     */
+    AddonModFeedbackAttemptPage.prototype.ionViewDidLoad = function () {
+        this.fetchData();
+    };
+    /**
+     * Fetch all the data required for the view.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModFeedbackAttemptPage.prototype.fetchData = function () {
+        var _this = this;
+        return this.feedbackProvider.getItems(this.feedbackId).then(function (items) {
+            // Add responses and format items.
+            _this.items = items.items.map(function (item) {
+                if (item.typ == 'label') {
+                    item.submittedValue = _this.textUtils.replacePluginfileUrls(item.presentation, item.itemfiles);
+                }
+                else {
+                    for (var x in _this.attempt.responses) {
+                        if (_this.attempt.responses[x].id == item.id) {
+                            item.submittedValue = _this.attempt.responses[x].printval;
+                            delete _this.attempt.responses[x];
+                            break;
+                        }
+                    }
+                }
+                return _this.feedbackHelper.getItemForm(item, true);
+            });
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            // Some call failed on first fetch, go back.
+            _this.navCtrl.pop();
+            return Promise.reject(null);
+        }).finally(function () {
+            _this.feedbackLoaded = true;
+        });
+    };
+    AddonModFeedbackAttemptPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-feedback-attempt',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/feedback/pages/attempt/attempt.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title><core-format-text  [text]=" attempt.fullname "></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="feedbackLoaded">\n        <ion-list no-margin>\n            <a *ngIf="attempt.fullname" ion-item text-wrap core-user-link [userId]="attempt.userid" [attr.aria-label]=" \'core.user.viewprofile\' | translate" core-user-link [courseId]="attempt.courseid" [title]="attempt.fullname">\n                <ion-avatar item-start>\n                    <img [src]="attempt.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: attempt.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n                </ion-avatar>\n                <h2>{{attempt.fullname}}</h2>\n                <p *ngIf="attempt.timemodified">{{attempt.timemodified * 1000 | coreFormatDate:"LLL"}}</p>\n            </a>\n\n            <ion-item text-wrap *ngIf="!attempt.fullname">\n                <h2>{{ \'addon.mod_feedback.response_nr\' |translate }}: {{attempt.number}} ({{ \'addon.mod_feedback.anonymous\' |translate }})</h2>\n                <p *ngIf="attempt.timemodified">{{attempt.timemodified * 1000 | coreFormatDate:"LLL"}}</p>\n            </ion-item >\n            <ng-container *ngIf="items && items.length">\n                <ng-container *ngFor="let item of items">\n                    <ion-item-divider *ngIf="item.typ == \'pagebreak\'" color="light"></ion-item-divider>\n                    <ion-item text-wrap *ngIf="item.typ != \'pagebreak\'" [color]="item.dependitem > 0 ? \'light\' : \'\'">\n                        <h2 *ngIf="item.name" [core-mark-required]="item.required">\n                            <span *ngIf="item.itemnumber">{{item.itemnumber}}. </span><core-format-text  [component]="component" [componentId]="componentId" [text]="item.name"></core-format-text>\n                        </h2>\n                        <p *ngIf="item.submittedValue"><core-format-text  [component]="component" [componentId]="componentId" [text]=" item.submittedValue"></core-format-text></p>\n                    </ion-item>\n                </ng-container>\n            </ng-container>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/feedback/pages/attempt/attempt.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_helper__["a" /* AddonModFeedbackHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */]])
+    ], AddonModFeedbackAttemptPage);
+    return AddonModFeedbackAttemptPage;
+}());
+
+//# sourceMappingURL=attempt.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=90.js.map

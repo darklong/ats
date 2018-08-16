@@ -1,1 +1,143 @@
-webpackJsonp([64],{1848:function(l,n,a){"use strict";function u(l){return _._42(0,[(l()(),_._16(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),_._15(1,16384,null,0,P.a,[x.a,_.p,_.K,[2,K.a]],null,null),(l()(),_._40(-1,null,["\n    "])),(l()(),_._16(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,w.b,w.a)),_._15(4,49152,null,0,M.a,[j.a,[2,K.a],[2,k.a],x.a,_.p,_.K],null,null),(l()(),_._40(-1,3,["\n        "])),(l()(),_._16(6,0,null,3,2,"ion-title",[],null,null,null,B.b,B.a)),_._15(7,49152,null,0,C.a,[x.a,_.p,_.K,[2,D.a],[2,M.a]],null,null),(l()(),_._40(-1,0,[" "])),(l()(),_._40(-1,3,["\n    "])),(l()(),_._40(-1,null,["\n"])),(l()(),_._40(-1,null,["\n\n"])),(l()(),_._16(12,0,null,null,6,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,F.b,F.a)),_._15(13,4374528,null,0,J.a,[x.a,N.a,O.a,_.p,_.K,j.a,R.a,_.D,[2,K.a],[2,k.a]],null,null),(l()(),_._40(-1,1,["\n    "])),(l()(),_._16(15,0,null,1,2,"core-empty-box",[["icon","arrow-dropleft"]],null,null,null,q.b,q.a)),_._15(16,49152,null,0,z.a,[],{message:[0,"message"],icon:[1,"icon"]},null),_._32(131072,A.a,[E.a,_.i]),(l()(),_._40(-1,1,["\n"])),(l()(),_._40(-1,null,["\n"]))],function(l,n){l(n,16,0,_._41(n,16,0,_._29(n,17).transform("core.emptysplit")),"arrow-dropleft")},function(l,n){l(n,3,0,_._29(n,4)._hidden,_._29(n,4)._sbPadding);l(n,12,0,_._29(n,13).statusbarPadding,_._29(n,13)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var _=a(1),e=(a(0),a(10),function(){return function(){}}()),r=a(6),o=a(32),t=function(){return function(){}}(),i=a(1284),c=a(1285),s=a(1286),d=a(1287),b=a(1288),f=a(1289),p=a(1290),h=a(1291),v=a(1292),g=a(1295),m=a(1296),y=a(1297),P=a(419),x=a(7),K=a(35),w=a(1293),M=a(191),j=a(27),k=a(22),B=a(1294),C=a(326),D=a(237),F=a(176),J=a(25),N=a(14),O=a(26),R=a(97),q=a(160),z=a(132),A=a(28),E=a(17),G=_._14({encapsulation:2,styles:[],data:{}}),H=_._12("core-placeholder",e,function(l){return _._42(0,[(l()(),_._16(0,0,null,null,1,"core-placeholder",[],null,null,null,u,G)),_._15(1,49152,null,0,e,[],null,null)],null,null)},{},{},[]),I=a(9),L=a(18),Q=a(322),S=a(323),T=a(325),U=a(324),V=a(418),W=a(638),X=a(31),Y=a(107),Z=a(238);a.d(n,"CorePlaceholderPageModuleNgFactory",function(){return $});var $=_._13(t,[],function(l){return _._25([_._26(512,_.n,_._6,[[8,[i.a,c.a,s.a,d.a,b.a,f.a,p.a,h.a,v.a,g.a,m.a,y.a,H]],[3,_.n],_.B]),_._26(4608,I.m,I.l,[_.x,[2,I.v]]),_._26(4608,L.x,L.x,[]),_._26(4608,L.d,L.d,[]),_._26(4608,Q.b,Q.a,[]),_._26(4608,S.a,S.b,[]),_._26(4608,T.b,T.a,[]),_._26(4608,U.b,U.a,[]),_._26(4608,E.a,E.a,[V.a,Q.b,S.a,T.b,U.b,E.b,E.c]),_._26(512,I.b,I.b,[]),_._26(512,L.v,L.v,[]),_._26(512,L.i,L.i,[]),_._26(512,L.s,L.s,[]),_._26(512,W.a,W.a,[]),_._26(512,r.a,r.a,[]),_._26(512,X.a,X.a,[]),_._26(512,Y.a,Y.a,[]),_._26(512,o.a,o.a,[]),_._26(512,W.b,W.b,[]),_._26(512,t,t,[]),_._26(256,E.c,void 0,[]),_._26(256,E.b,void 0,[]),_._26(256,Z.a,e,[])])})}});
+webpackJsonp([64],{
+
+/***/ 1845:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModScormIndexPageModule", function() { return AddonModScormIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(964);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1971);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModScormIndexPageModule = /** @class */ (function () {
+    function AddonModScormIndexPageModule() {
+    }
+    AddonModScormIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModScormIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModScormComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModScormIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModScormIndexPageModule);
+    return AddonModScormIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 1971:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModScormIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(419);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays the SCORM entry page.
+ */
+var AddonModScormIndexPage = /** @class */ (function () {
+    function AddonModScormIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the SCORM instance.
+     *
+     * @param {any} scorm SCORM instance.
+     */
+    AddonModScormIndexPage.prototype.updateData = function (scorm) {
+        this.title = scorm.name || this.title;
+    };
+    /**
+     * User entered the page.
+     */
+    AddonModScormIndexPage.prototype.ionViewDidEnter = function () {
+        this.scormComponent.ionViewDidEnter();
+    };
+    /**
+     * User left the page.
+     */
+    AddonModScormIndexPage.prototype.ionViewDidLeave = function () {
+        this.scormComponent.ionViewDidLeave();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModScormIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModScormIndexComponent */])
+    ], AddonModScormIndexPage.prototype, "scormComponent", void 0);
+    AddonModScormIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-scorm-index',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/scorm/pages/index/index.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="scormComponent.loaded" (ionRefresh)="scormComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-scorm-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-scorm-index>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/scorm/pages/index/index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */]])
+    ], AddonModScormIndexPage);
+    return AddonModScormIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=64.js.map

@@ -1,1 +1,299 @@
-webpackJsonp([73],{1836:function(l,n,a){"use strict";function u(l){return e._42(0,[e._37(402653184,1,{surveyComponent:0}),(l()(),e._16(1,0,null,null,17,"ion-header",[],null,null,null,null,null)),e._15(2,16384,null,0,D.a,[P.a,e.p,e.K,[2,C.a]],null,null),(l()(),e._40(-1,null,["\n    "])),(l()(),e._16(4,0,null,null,13,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,M.b,M.a)),e._15(5,49152,null,0,T.a,[j.a,[2,C.a],[2,k.a],P.a,e.p,e.K],null,null),(l()(),e._40(-1,3,["\n        "])),(l()(),e._16(7,0,null,3,3,"ion-title",[],null,null,null,w.b,w.a)),e._15(8,49152,null,0,A.a,[P.a,e.p,e.K,[2,B.a],[2,T.a]],null,null),(l()(),e._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),e._15(10,540672,null,0,F.a,[e.p,J.a,N.a,O.a,S.a,q.a,z.a,E.a,G.a,H.a,L.a,Q.a,[2,k.a],[2,U.a]],{text:[0,"text"]},null),(l()(),e._40(-1,3,["\n\n        "])),(l()(),e._16(12,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),e._15(13,16384,null,1,V.a,[P.a,e.p,e.K,[2,B.a],[2,T.a]],null,null),e._37(603979776,2,{_buttons:1}),(l()(),e._40(-1,null,["\n            "])),(l()(),e._40(-1,null,["\n        "])),(l()(),e._40(-1,3,["\n    "])),(l()(),e._40(-1,null,["\n"])),(l()(),e._40(-1,null,["\n"])),(l()(),e._16(20,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,W.b,W.a)),e._15(21,4374528,null,0,U.a,[P.a,q.a,X.a,e.p,e.K,j.a,Y.a,e.D,[2,C.a],[2,k.a]],null,null),(l()(),e._40(-1,1,["\n    "])),(l()(),e._16(23,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,a){var u=!0;if("ionRefresh"===n){u=!1!==l.component.surveyComponent.doRefresh(a)&&u}return u},null,null)),e._15(24,212992,null,0,Z.a,[q.a,U.a,e.D,$.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),e._40(-1,null,["\n        "])),(l()(),e._16(26,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,ll.b,ll.a)),e._15(27,114688,null,0,nl.a,[Z.a,P.a],{pullingText:[0,"pullingText"]},null),e._32(131072,al.a,[S.a,e.i]),(l()(),e._40(-1,null,["\n    "])),(l()(),e._40(-1,1,["\n\n    "])),(l()(),e._16(31,0,null,1,1,"addon-mod-survey-index",[],null,[[null,"dataRetrieved"]],function(l,n,a){var u=!0;if("dataRetrieved"===n){u=!1!==l.component.updateData(a)&&u}return u},K.c,K.b)),e._15(32,245760,[[1,4]],0,r.a,[e.u,ul.a,[2,U.a],el.a,tl.a,_l.a],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(l()(),e._40(-1,1,["\n"])),(l()(),e._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,10,0,a.title);l(n,24,0,a.surveyComponent.loaded);l(n,27,0,e._19(1,"",e._41(n,27,0,e._29(n,28).transform("core.pulltorefresh")),""));l(n,32,0,a.module,a.courseId)},function(l,n){l(n,4,0,e._29(n,5)._hidden,e._29(n,5)._sbPadding);l(n,20,0,e._29(n,21).statusbarPadding,e._29(n,21)._hasRefresher);l(n,23,0,"inactive"!==e._29(n,24).state,e._29(n,24)._top);l(n,26,0,e._29(n,27).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var e=a(1),t=(a(0),a(10),a(6)),_=a(31),o=a(678),r=a(454),d=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},l}(),i=function(){return function(){}}(),s=a(1284),c=a(1285),b=a(1286),f=a(1287),p=a(1288),v=a(1289),h=a(1290),m=a(1291),g=a(1292),x=a(1295),y=a(1296),R=a(1297),I=a(1298),K=a(1353),D=a(419),P=a(7),C=a(35),M=a(1293),T=a(191),j=a(27),k=a(22),w=a(1294),A=a(326),B=a(237),F=a(38),J=a(2),N=a(4),O=a(11),S=a(17),q=a(14),z=a(3),E=a(24),G=a(5),H=a(16),L=a(12),Q=a(23),U=a(25),V=a(420),W=a(176),X=a(26),Y=a(97),Z=a(130),$=a(36),ll=a(192),nl=a(144),al=a(28),ul=a(259),el=a(292),tl=a(260),_l=a(293),ol=a(58),rl=e._14({encapsulation:2,styles:[],data:{}}),dl=e._12("page-addon-mod-survey-index",d,function(l){return e._42(0,[(l()(),e._16(0,0,null,null,1,"page-addon-mod-survey-index",[],null,null,null,u,rl)),e._15(1,49152,null,0,d,[ol.a],null,null)],null,null)},{},{},[]),il=a(9),sl=a(18),cl=a(322),bl=a(323),fl=a(325),pl=a(324),vl=a(418),hl=a(638),ml=a(107),gl=a(32),xl=a(71),yl=a(238);a.d(n,"AddonModSurveyIndexPageModuleNgFactory",function(){return Rl});var Rl=e._13(i,[],function(l){return e._25([e._26(512,e.n,e._6,[[8,[s.a,c.a,b.a,f.a,p.a,v.a,h.a,m.a,g.a,x.a,y.a,R.a,I.a,K.a,dl]],[3,e.n],e.B]),e._26(4608,il.m,il.l,[e.x,[2,il.v]]),e._26(4608,sl.x,sl.x,[]),e._26(4608,sl.d,sl.d,[]),e._26(4608,cl.b,cl.a,[]),e._26(4608,bl.a,bl.b,[]),e._26(4608,fl.b,fl.a,[]),e._26(4608,pl.b,pl.a,[]),e._26(4608,S.a,S.a,[vl.a,cl.b,bl.a,fl.b,pl.b,S.b,S.c]),e._26(512,_.a,_.a,[]),e._26(512,il.b,il.b,[]),e._26(512,sl.v,sl.v,[]),e._26(512,sl.i,sl.i,[]),e._26(512,sl.s,sl.s,[]),e._26(512,hl.a,hl.a,[]),e._26(512,t.a,t.a,[]),e._26(512,ml.a,ml.a,[]),e._26(512,gl.a,gl.a,[]),e._26(512,xl.a,xl.a,[]),e._26(512,o.a,o.a,[]),e._26(512,hl.b,hl.b,[]),e._26(512,i,i,[]),e._26(256,S.c,void 0,[]),e._26(256,S.b,void 0,[]),e._26(256,yl.a,d,[])])})}});
+webpackJsonp([73],{
+
+/***/ 1835:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModLessonUserRetakePageModule", function() { return AddonModLessonUserRetakePageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__user_retake__ = __webpack_require__(1960);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModLessonUserRetakePageModule = /** @class */ (function () {
+    function AddonModLessonUserRetakePageModule() {
+    }
+    AddonModLessonUserRetakePageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__user_retake__["a" /* AddonModLessonUserRetakePage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__user_retake__["a" /* AddonModLessonUserRetakePage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModLessonUserRetakePageModule);
+    return AddonModLessonUserRetakePageModule;
+}());
+
+//# sourceMappingURL=user-retake.module.js.map
+
+/***/ }),
+
+/***/ 1960:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModLessonUserRetakePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_time__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_user_providers_user__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_lesson__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_helper__ = __webpack_require__(941);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays a retake made by a certain user.
+ */
+var AddonModLessonUserRetakePage = /** @class */ (function () {
+    function AddonModLessonUserRetakePage(navParams, sitesProvider, textUtils, translate, domUtils, userProvider, timeUtils, lessonProvider, lessonHelper) {
+        this.textUtils = textUtils;
+        this.translate = translate;
+        this.domUtils = domUtils;
+        this.userProvider = userProvider;
+        this.timeUtils = timeUtils;
+        this.lessonProvider = lessonProvider;
+        this.lessonHelper = lessonHelper;
+        this.component = __WEBPACK_IMPORTED_MODULE_8__providers_lesson__["a" /* AddonModLessonProvider */].COMPONENT;
+        this.lessonId = navParams.get('lessonId');
+        this.courseId = navParams.get('courseId');
+        this.userId = navParams.get('userId') || sitesProvider.getCurrentSiteUserId();
+        this.retakeNumber = navParams.get('retake');
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModLessonUserRetakePage.prototype.ngOnInit = function () {
+        var _this = this;
+        // Fetch the data.
+        this.fetchData().finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Change the retake displayed.
+     *
+     * @param {number} retakeNumber The new retake number.
+     */
+    AddonModLessonUserRetakePage.prototype.changeRetake = function (retakeNumber) {
+        var _this = this;
+        this.loaded = false;
+        this.setRetake(retakeNumber).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error getting attempt.');
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Pull to refresh.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonModLessonUserRetakePage.prototype.doRefresh = function (refresher) {
+        this.refreshData().finally(function () {
+            refresher.complete();
+        });
+    };
+    /**
+     * Get lesson and retake data.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModLessonUserRetakePage.prototype.fetchData = function () {
+        var _this = this;
+        return this.lessonProvider.getLessonById(this.courseId, this.lessonId).then(function (lessonData) {
+            _this.lesson = lessonData;
+            // Get the retakes overview for all participants.
+            return _this.lessonProvider.getRetakesOverview(_this.lesson.id);
+        }).then(function (data) {
+            // Search the student.
+            var student;
+            if (data && data.students) {
+                for (var i = 0; i < data.students.length; i++) {
+                    if (data.students[i].id == _this.userId) {
+                        student = data.students[i];
+                        break;
+                    }
+                }
+            }
+            if (!student) {
+                // Student not found.
+                return Promise.reject(_this.translate.instant('addon.mod_lesson.cannotfinduser'));
+            }
+            if (!student.attempts || !student.attempts.length) {
+                // No retakes.
+                return Promise.reject(_this.translate.instant('addon.mod_lesson.cannotfindattempt'));
+            }
+            student.bestgrade = _this.textUtils.roundToDecimals(student.bestgrade, 2);
+            student.attempts.forEach(function (retake) {
+                if (_this.retakeNumber == retake.try) {
+                    // The retake specified as parameter exists. Use it.
+                    _this.selectedRetake = _this.retakeNumber;
+                }
+                retake.label = _this.lessonHelper.getRetakeLabel(retake);
+            });
+            if (!_this.selectedRetake) {
+                // Retake number not specified or not valid, use the last retake.
+                _this.selectedRetake = student.attempts[student.attempts.length - 1].try;
+            }
+            // Get the profile image of the user.
+            return _this.userProvider.getProfile(student.id, _this.courseId, true).then(function (user) {
+                student.profileimageurl = user.profileimageurl;
+                return student;
+            }).catch(function () {
+                // Error getting profile, resolve promise without adding any extra data.
+                return student;
+            });
+        }).then(function (student) {
+            _this.student = student;
+            return _this.setRetake(_this.selectedRetake);
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error getting data.', true);
+        });
+    };
+    /**
+     * Refreshes data.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModLessonUserRetakePage.prototype.refreshData = function () {
+        var _this = this;
+        var promises = [];
+        promises.push(this.lessonProvider.invalidateLessonData(this.courseId));
+        if (this.lesson) {
+            promises.push(this.lessonProvider.invalidateRetakesOverview(this.lesson.id));
+            promises.push(this.lessonProvider.invalidateUserRetakesForUser(this.lesson.id, this.userId));
+        }
+        return Promise.all(promises).catch(function () {
+            // Ignore errors.
+        }).then(function () {
+            return _this.fetchData();
+        });
+    };
+    /**
+     * Set the retake to view and load its data.
+     *
+     * @param {number}retakeNumber Retake number to set.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModLessonUserRetakePage.prototype.setRetake = function (retakeNumber) {
+        var _this = this;
+        this.selectedRetake = retakeNumber;
+        return this.lessonProvider.getUserRetake(this.lessonId, retakeNumber, this.userId).then(function (data) {
+            if (data && data.completed != -1) {
+                // Completed.
+                data.userstats.grade = _this.textUtils.roundToDecimals(data.userstats.grade, 2);
+                data.userstats.timetakenReadable = _this.timeUtils.formatTime(data.userstats.timetotake);
+            }
+            if (data && data.answerpages) {
+                // Format pages data.
+                data.answerpages.forEach(function (page) {
+                    if (_this.lessonProvider.answerPageIsContent(page)) {
+                        page.isContent = true;
+                        if (page.answerdata && page.answerdata.answers) {
+                            page.answerdata.answers.forEach(function (answer) {
+                                // Content pages only have 1 valid field in the answer array.
+                                answer[0] = _this.lessonHelper.getContentPageAnswerDataFromHtml(answer[0]);
+                            });
+                        }
+                    }
+                    else if (_this.lessonProvider.answerPageIsQuestion(page)) {
+                        page.isQuestion = true;
+                        if (page.answerdata && page.answerdata.answers) {
+                            page.answerdata.answers.forEach(function (answer) {
+                                // Only the first field of the answer array requires to be parsed.
+                                answer[0] = _this.lessonHelper.getQuestionPageAnswerDataFromHtml(answer[0]);
+                            });
+                        }
+                    }
+                });
+            }
+            _this.retake = data;
+        });
+    };
+    AddonModLessonUserRetakePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-lesson-user-retake',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/lesson/pages/user-retake/user-retake.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ \'addon.mod_lesson.detailedstats\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-loading [hideUntil]="loaded">\n        <ion-list *ngIf="student">\n            <!-- Student data. -->\n            <a ion-item text-wrap core-user-link [userId]="student.id" [courseId]="courseId" [title]="student.fullname">\n                <ion-avatar *ngIf="student.profileimageurl" item-start>\n                    <img [src]="student.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: student.fullname}" core-external-content role="presentation">\n                </ion-avatar>\n                <h2>{{student.fullname}}</h2>\n                <core-progress-bar [progress]="student.bestgrade"></core-progress-bar>\n            </a>\n\n            <!-- Retake selector if there is more than one retake. -->\n            <ion-item text-wrap *ngIf="student.attempts && student.attempts.length > 1">\n                <ion-label id="addon-mod_lesson-retakeslabel">{{ \'addon.mod_lesson.attemptheader\' | translate }}</ion-label>\n                <ion-select [(ngModel)]="selectedRetake" (ionChange)="changeRetake(selectedRetake)" aria-labelledby="addon-mod_lesson-retakeslabel" interface="popover">\n                    <ion-option *ngFor="let retake of student.attempts" [value]="retake.try">{{retake.label}}</ion-option>\n                </ion-select>\n            </ion-item>\n\n            <!-- Retake stats. -->\n            <div *ngIf="retake && retake.userstats && retake.userstats.gradeinfo" class="addon-mod_lesson-userstats">\n                <ion-item text-wrap>\n                    <ion-row>\n                        <ion-col>\n                            <p class="item-heading">{{ \'addon.mod_lesson.grade\' | translate }}</p>\n                            <p>{{ \'core.percentagenumber\' | translate:{$a: retake.userstats.grade} }}</p>\n                        </ion-col>\n\n                        <ion-col>\n                            <p class="item-heading">{{ \'addon.mod_lesson.rawgrade\' | translate }}</p>\n                            <p>{{ retake.userstats.gradeinfo.earned }} / {{ retake.userstats.gradeinfo.total }}</p>\n                        </ion-col>\n                    </ion-row>\n                </ion-item>\n                <ion-item text-wrap>\n                    <p class="item-heading">{{ \'addon.mod_lesson.timetaken\' | translate }}</p>\n                    <p>{{ retake.userstats.timetakenReadable }}</p>\n                </ion-item>\n                <ion-item text-wrap>\n                    <p class="item-heading">{{ \'addon.mod_lesson.completed\' | translate }}</p>\n                    <p>{{ retake.userstats.completed * 1000 | coreFormatDate:"dfmediumdate" }}</p>\n                </ion-item>\n            </div>\n\n            <!-- Not completed, no stats. -->\n            <ion-item text-wrap *ngIf="retake && (!retake.userstats || !retake.userstats.gradeinfo)">\n                {{ \'addon.mod_lesson.notcompleted\' | translate }}\n            </ion-item>\n\n            <!-- Pages. -->\n            <ng-container *ngIf="retake">\n                <!-- The "text-dimmed" class does nothing, but the same goes for the "dimmed" class in Moodle. -->\n                <ion-card *ngFor="let page of retake.answerpages" class="addon-mod_lesson-answerpage" [ngClass]="{\'text-dimmed\': page.grayout}">\n                    <ion-card-header text-wrap>\n                        <h2>{{page.qtype}}: {{page.title}}</h2>\n                    </ion-card-header>\n                    <ion-item text-wrap>\n                        <p class="item-heading">{{ \'addon.mod_lesson.question\' | translate }}</p>\n                        <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [maxHeight]="50" [text]="page.contents"></core-format-text></p>\n                    </ion-item>\n                    <ion-item text-wrap>\n                        <p class="item-heading">{{ \'addon.mod_lesson.answer\' | translate }}</p>\n                    </ion-item>\n                    <ion-item text-wrap *ngIf="!page.answerdata || !page.answerdata.answers || !page.answerdata.answers.length">\n                        <p>{{ \'addon.mod_lesson.didnotanswerquestion\' | translate }}</p>\n                    </ion-item>\n                    <div *ngIf="page.answerdata && page.answerdata.answers && page.answerdata.answers.length" class="addon-mod_lesson-answer">\n                        <div *ngFor="let answer of page.answerdata.answers">\n                            <ion-item text-wrap *ngIf="page.isContent">\n                                <!-- Content page, display a button and the content. -->\n                                <ion-row>\n                                    <ion-col>\n                                        <button ion-button block color="light" [disabled]="true">{{ answer[0].buttonText }}</button>\n                                    </ion-col>\n                                    <ion-col>\n                                        <p [innerHTML]="answer[0].content"></p>\n                                    </ion-col>\n                                </ion-row>\n                            </ion-item>\n\n                            <div *ngIf="page.isQuestion">\n                                <!-- Question page, show the right input for the answer. -->\n\n                                <!-- Truefalse or matching. -->\n                                <ion-item text-wrap *ngIf="answer[0].isCheckbox" [ngClass]="{\'addon-mod_lesson-highlight\': answer[0].highlight}">\n                                    <ion-label>\n                                        <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[0].content"></core-format-text></p>\n                                        <ion-badge *ngIf="answer[1]" color="dark">\n                                            <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n                                        </ion-badge>\n                                    </ion-label>\n                                    <ion-checkbox [attr.name]="answer[0].name" [ngModel]="answer[0].checked" [disabled]="true" item-end>\n                                    </ion-checkbox>\n                                </ion-item>\n\n                                <!-- Short answer or numeric. -->\n                                <ion-item text-wrap *ngIf="answer[0].isText">\n                                    <p>{{ answer[0].value }}</p>\n                                    <ion-badge *ngIf="answer[1]" color="dark">\n                                        <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n                                    </ion-badge>\n                                </ion-item>\n\n                                <!-- Matching. -->\n                                <ion-item text-wrap *ngIf="answer[0].isSelect">\n                                    <ion-row>\n                                        <ion-col>\n                                            <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]=" answer[0].content"></core-format-text></p>\n                                        </ion-col>\n                                        <ion-col>\n                                            <p>{{answer[0].value}}</p>\n                                            <ion-badge *ngIf="answer[1]" color="dark">\n                                                <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n                                            </ion-badge>\n                                        </ion-col>\n                                    </ion-row>\n                                </ion-item>\n\n                                <!-- Essay or couldn\'t determine. -->\n                                <ion-item text-wrap *ngIf="!answer[0].isCheckbox && !answer[0].isText && !answer[0].isSelect">\n                                    <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[0]"></core-format-text></p>\n                                    <ion-badge *ngIf="answer[1]" color="dark">\n                                        <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n                                    </ion-badge>\n                                </ion-item>\n                            </div>\n\n                            <ion-item text-wrap *ngIf="!page.isContent && !page.isQuestion">\n                                <!-- Another page (end of branch, ...). -->\n                                <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[0]"></core-format-text></p>\n                                <ion-badge *ngIf="answer[1]" color="dark">\n                                    <core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="answer[1]"></core-format-text>\n                                </ion-badge>\n                            </ion-item>\n                        </div>\n\n                        <ion-item text-wrap *ngIf="page.answerdata.response">\n                            <p class="item-heading">{{ \'addon.mod_lesson.response\' | translate }}</p>\n                            <p><core-format-text [component]="component" [componentId]="lesson.coursemodule" [text]="page.answerdata.response"></core-format-text></p>\n                        </ion-item>\n                        <ion-item text-wrap *ngIf="page.answerdata.score">\n                            <p>{{page.answerdata.score}}</p>\n                        </ion-item>\n                    </div>\n                </ion-card>\n            </ng-container>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/lesson/pages/user-retake/user-retake.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__core_user_providers_user__["a" /* CoreUserProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_time__["a" /* CoreTimeUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_lesson__["a" /* AddonModLessonProvider */], __WEBPACK_IMPORTED_MODULE_9__providers_helper__["a" /* AddonModLessonHelperProvider */]])
+    ], AddonModLessonUserRetakePage);
+    return AddonModLessonUserRetakePage;
+}());
+
+//# sourceMappingURL=user-retake.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=73.js.map

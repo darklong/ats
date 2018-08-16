@@ -1,1 +1,242 @@
-webpackJsonp([70],{1839:function(n,l,a){"use strict";function e(n){return u._42(0,[u._37(402653184,1,{wikiComponent:0}),(n()(),u._16(1,0,null,null,17,"ion-header",[],null,null,null,null,null)),u._15(2,16384,null,0,D.a,[y.a,u.p,u.K,[2,C.a]],null,null),(n()(),u._40(-1,null,["\n    "])),(n()(),u._16(4,0,null,null,13,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,K.b,K.a)),u._15(5,49152,null,0,P.a,[V.a,[2,C.a],[2,M.a],y.a,u.p,u.K],null,null),(n()(),u._40(-1,3,["\n        "])),(n()(),u._16(7,0,null,3,3,"ion-title",[],null,null,null,E.b,E.a)),u._15(8,49152,null,0,L.a,[y.a,u.p,u.K,[2,j.a],[2,P.a]],null,null),(n()(),u._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),u._15(10,540672,null,0,A.a,[u.p,B.a,F.a,J.a,N.a,O.a,W.a,q.a,z.a,G.a,H.a,Q.a,[2,M.a],[2,S.a]],{text:[0,"text"]},null),(n()(),u._40(-1,3,["\n\n        "])),(n()(),u._16(12,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),u._15(13,16384,null,1,U.a,[y.a,u.p,u.K,[2,j.a],[2,P.a]],null,null),u._37(603979776,2,{_buttons:1}),(n()(),u._40(-1,null,["\n            "])),(n()(),u._40(-1,null,["\n        "])),(n()(),u._40(-1,3,["\n    "])),(n()(),u._40(-1,null,["\n"])),(n()(),u._40(-1,null,["\n"])),(n()(),u._16(20,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,X.b,X.a)),u._15(21,4374528,null,0,S.a,[y.a,O.a,Y.a,u.p,u.K,V.a,Z.a,u.D,[2,C.a],[2,M.a]],null,null),(n()(),u._40(-1,1,["\n    "])),(n()(),u._16(23,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,a){var e=!0;if("ionRefresh"===l){e=!1!==n.component.wikiComponent.doRefresh(a)&&e}return e},null,null)),u._15(24,212992,null,0,$.a,[O.a,S.a,u.D,nn.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),u._40(-1,null,["\n        "])),(n()(),u._16(26,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,ln.b,ln.a)),u._15(27,114688,null,0,an.a,[$.a,y.a],{pullingText:[0,"pullingText"]},null),u._32(131072,en.a,[N.a,u.i]),(n()(),u._40(-1,null,["\n    "])),(n()(),u._40(-1,1,["\n\n    "])),(n()(),u._16(31,0,null,1,1,"addon-mod-wiki-index",[],null,[[null,"dataRetrieved"]],function(n,l,a){var e=!0;if("dataRetrieved"===l){e=!1!==n.component.updateData(a)&&e}return e},R.c,R.b)),u._15(32,245760,[[1,4]],0,d.a,[u.u,un.a,[2,S.a],tn.a,on.a,M.a,W.a,dn.a,_n.a,rn.a],{module:[0,"module"],courseId:[1,"courseId"],action:[2,"action"],pageId:[3,"pageId"],pageTitle:[4,"pageTitle"],wikiId:[5,"wikiId"],subwikiId:[6,"subwikiId"],userId:[7,"userId"],groupId:[8,"groupId"]},{dataRetrieved:"dataRetrieved"}),(n()(),u._40(-1,1,["\n"])),(n()(),u._40(-1,null,["\n"]))],function(n,l){var a=l.component;n(l,10,0,a.title);n(l,24,0,a.wikiComponent.loaded);n(l,27,0,u._19(1,"",u._41(l,27,0,u._29(l,28).transform("core.pulltorefresh")),""));n(l,32,0,a.module,a.courseId,a.action,a.pageId,a.pageTitle,a.wikiId,a.subwikiId,a.userId,a.groupId)},function(n,l){n(l,4,0,u._29(l,5)._hidden,u._29(l,5)._sbPadding);n(l,20,0,u._29(l,21).statusbarPadding,u._29(l,21)._hasRefresher);n(l,23,0,"inactive"!==u._29(l,24).state,u._29(l,24)._top);n(l,26,0,u._29(l,27).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var u=a(1),t=(a(0),a(10),a(6)),i=a(31),o=a(680),d=a(456),_=function(){function n(n){this.module=n.get("module")||{},this.courseId=n.get("courseId"),this.action=n.get("action")||"page",this.pageId=n.get("pageId"),this.pageTitle=n.get("pageTitle"),this.wikiId=n.get("wikiId"),this.subwikiId=n.get("subwikiId"),this.userId=n.get("userId"),this.groupId=n.get("groupId"),this.title=this.pageTitle||this.module.name}return n.prototype.updateData=function(n){this.title="string"==typeof n?n:this.pageTitle||n.title||this.title},n.prototype.ionViewDidEnter=function(){this.wikiComponent.ionViewDidEnter()},n.prototype.ionViewDidLeave=function(){this.wikiComponent.ionViewDidLeave()},n}(),r=function(){return function(){}}(),s=a(1284),p=a(1285),c=a(1286),g=a(1287),b=a(1288),f=a(1289),h=a(1290),I=a(1291),w=a(1292),m=a(1295),k=a(1296),v=a(1297),x=a(1298),R=a(1355),T=a(1375),D=a(419),y=a(7),C=a(35),K=a(1293),P=a(191),V=a(27),M=a(22),E=a(1294),L=a(326),j=a(237),A=a(38),B=a(2),F=a(4),J=a(11),N=a(17),O=a(14),W=a(3),q=a(24),z=a(5),G=a(16),H=a(12),Q=a(23),S=a(25),U=a(420),X=a(176),Y=a(26),Z=a(97),$=a(130),nn=a(36),ln=a(192),an=a(144),en=a(28),un=a(202),tn=a(249),on=a(281),dn=a(61),_n=a(44),rn=a(65),sn=a(58),pn=u._14({encapsulation:2,styles:[],data:{}}),cn=u._12("page-addon-mod-wiki-index",_,function(n){return u._42(0,[(n()(),u._16(0,0,null,null,1,"page-addon-mod-wiki-index",[],null,null,null,e,pn)),u._15(1,49152,null,0,_,[sn.a],null,null)],null,null)},{},{},[]),gn=a(9),bn=a(18),fn=a(322),hn=a(323),In=a(325),wn=a(324),mn=a(418),kn=a(638),vn=a(107),xn=a(32),Rn=a(71),Tn=a(238);a.d(l,"AddonModWikiIndexPageModuleNgFactory",function(){return Dn});var Dn=u._13(r,[],function(n){return u._25([u._26(512,u.n,u._6,[[8,[s.a,p.a,c.a,g.a,b.a,f.a,h.a,I.a,w.a,m.a,k.a,v.a,x.a,R.a,T.a,cn]],[3,u.n],u.B]),u._26(4608,gn.m,gn.l,[u.x,[2,gn.v]]),u._26(4608,bn.x,bn.x,[]),u._26(4608,bn.d,bn.d,[]),u._26(4608,fn.b,fn.a,[]),u._26(4608,hn.a,hn.b,[]),u._26(4608,In.b,In.a,[]),u._26(4608,wn.b,wn.a,[]),u._26(4608,N.a,N.a,[mn.a,fn.b,hn.a,In.b,wn.b,N.b,N.c]),u._26(512,i.a,i.a,[]),u._26(512,gn.b,gn.b,[]),u._26(512,bn.v,bn.v,[]),u._26(512,bn.i,bn.i,[]),u._26(512,bn.s,bn.s,[]),u._26(512,kn.a,kn.a,[]),u._26(512,t.a,t.a,[]),u._26(512,vn.a,vn.a,[]),u._26(512,xn.a,xn.a,[]),u._26(512,Rn.a,Rn.a,[]),u._26(512,o.a,o.a,[]),u._26(512,kn.b,kn.b,[]),u._26(512,r,r,[]),u._26(256,N.c,void 0,[]),u._26(256,N.b,void 0,[]),u._26(256,Tn.a,_,[])])})}});
+webpackJsonp([70],{
+
+/***/ 1838:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModQuizAttemptPageModule", function() { return AddonModQuizAttemptPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__attempt__ = __webpack_require__(1963);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModQuizAttemptPageModule = /** @class */ (function () {
+    function AddonModQuizAttemptPageModule() {
+    }
+    AddonModQuizAttemptPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__attempt__["a" /* AddonModQuizAttemptPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__attempt__["a" /* AddonModQuizAttemptPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModQuizAttemptPageModule);
+    return AddonModQuizAttemptPageModule;
+}());
+
+//# sourceMappingURL=attempt.module.js.map
+
+/***/ }),
+
+/***/ 1963:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModQuizAttemptPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_quiz__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_helper__ = __webpack_require__(251);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+/**
+ * Page that displays some summary data about an attempt.
+ */
+var AddonModQuizAttemptPage = /** @class */ (function () {
+    function AddonModQuizAttemptPage(navParams, domUtils, quizProvider, quizHelper) {
+        this.domUtils = domUtils;
+        this.quizProvider = quizProvider;
+        this.quizHelper = quizHelper;
+        this.component = __WEBPACK_IMPORTED_MODULE_3__providers_quiz__["a" /* AddonModQuizProvider */].COMPONENT; // Component to link the files to.
+        this.attemptId = navParams.get('attemptId');
+        this.quizId = navParams.get('quizId');
+        this.courseId = navParams.get('courseId');
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModQuizAttemptPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.fetchQuizData().finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonModQuizAttemptPage.prototype.doRefresh = function (refresher) {
+        this.refreshData().finally(function () {
+            refresher.complete();
+        });
+    };
+    /**
+     * Get quiz data and attempt data.
+     *
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizAttemptPage.prototype.fetchQuizData = function () {
+        var _this = this;
+        return this.quizProvider.getQuizById(this.courseId, this.quizId).then(function (quizData) {
+            _this.quiz = quizData;
+            _this.componentId = _this.quiz.coursemodule;
+            return _this.fetchAttempt();
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'addon.mod_quiz.errorgetattempt', true);
+        });
+    };
+    /**
+     * Get the attempt data.
+     *
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizAttemptPage.prototype.fetchAttempt = function () {
+        var _this = this;
+        var promises = [];
+        var options, accessInfo;
+        // Get all the attempts and search the one we want.
+        promises.push(this.quizProvider.getUserAttempts(this.quizId).then(function (attempts) {
+            for (var i = 0; i < attempts.length; i++) {
+                var attempt = attempts[i];
+                if (attempt.id == _this.attemptId) {
+                    _this.attempt = attempt;
+                    break;
+                }
+            }
+            if (!_this.attempt) {
+                // Attempt not found, error.
+                return Promise.reject(null);
+            }
+            // Load flag to show if attempt is finished but not synced.
+            return _this.quizProvider.loadFinishedOfflineData([_this.attempt]);
+        }));
+        promises.push(this.quizProvider.getCombinedReviewOptions(this.quiz.id).then(function (opts) {
+            options = opts;
+        }));
+        // Check if the user can review the attempt.
+        promises.push(this.quizProvider.getQuizAccessInformation(this.quiz.id).then(function (quizAccessInfo) {
+            accessInfo = quizAccessInfo;
+            if (accessInfo.canreviewmyattempts) {
+                return _this.quizProvider.getAttemptReview(_this.attemptId, -1).catch(function () {
+                    // Error getting the review, assume the user cannot review the attempt.
+                    accessInfo.canreviewmyattempts = false;
+                });
+            }
+        }));
+        return Promise.all(promises).then(function () {
+            // Determine fields to show.
+            _this.quizHelper.setQuizCalculatedData(_this.quiz, options);
+            _this.quiz.showReviewColumn = accessInfo.canreviewmyattempts;
+            // Get readable data for the attempt.
+            _this.quizHelper.setAttemptCalculatedData(_this.quiz, _this.attempt, false);
+            // Check if the feedback should be displayed.
+            var grade = Number(_this.attempt.rescaledGrade);
+            if (_this.quiz.showFeedbackColumn && _this.quizProvider.isAttemptFinished(_this.attempt.state) &&
+                options.someoptions.overallfeedback && !isNaN(grade)) {
+                // Feedback should be displayed, get the feedback for the grade.
+                return _this.quizProvider.getFeedbackForGrade(_this.quiz.id, grade).then(function (response) {
+                    _this.attempt.feedback = response.feedbacktext;
+                });
+            }
+            else {
+                delete _this.attempt.feedback;
+            }
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizAttemptPage.prototype.refreshData = function () {
+        var _this = this;
+        var promises = [];
+        promises.push(this.quizProvider.invalidateQuizData(this.courseId));
+        promises.push(this.quizProvider.invalidateUserAttemptsForUser(this.quizId));
+        promises.push(this.quizProvider.invalidateQuizAccessInformation(this.quizId));
+        promises.push(this.quizProvider.invalidateCombinedReviewOptionsForUser(this.quizId));
+        promises.push(this.quizProvider.invalidateAttemptReview(this.attemptId));
+        if (this.attempt && typeof this.attempt.feedback != 'undefined') {
+            promises.push(this.quizProvider.invalidateFeedback(this.quizId));
+        }
+        return Promise.all(promises).catch(function () {
+            // Ignore errors.
+        }).then(function () {
+            return _this.fetchQuizData();
+        });
+    };
+    AddonModQuizAttemptPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-quiz-attempt',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/quiz/pages/attempt/attempt.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title><core-format-text *ngIf="quiz" [text]="quiz.name"></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="loaded">\n        <ion-list *ngIf="attempt">\n            <ion-item text-wrap>\n                <p class="item-heading">{{ \'addon.mod_quiz.attemptnumber\' | translate }}</p>\n                <p *ngIf="attempt.preview">{{ \'addon.mod_quiz.preview\' | translate }}</p>\n                <p *ngIf="!attempt.preview">{{ attempt.attempt }}</p>\n            </ion-item>\n            <ion-item text-wrap>\n                <p class="item-heading">{{ \'addon.mod_quiz.attemptstate\' | translate }}</p>\n                <p *ngFor="let sentence of attempt.readableState">{{ sentence }}</p>\n            </ion-item>\n            <ion-item text-wrap *ngIf="quiz.showMarkColumn && attempt.readableMark !== \'\'">\n                <p class="item-heading">{{ \'addon.mod_quiz.marks\' | translate }} / {{ quiz.sumGradesFormatted }}</p>\n                <p>{{ attempt.readableMark }}</p>\n            </ion-item>\n            <ion-item text-wrap *ngIf="quiz.showGradeColumn && attempt.readableGrade !== \'\'">\n                <p class="item-heading">{{ \'addon.mod_quiz.grade\' | translate }} / {{ quiz.gradeFormatted }}</p>\n                <p>{{ attempt.readableGrade }}</p>\n            </ion-item>\n            <ion-item text-wrap *ngIf="quiz.showFeedbackColumn && attempt.feedback">\n                <p class="item-heading">{{ \'addon.mod_quiz.feedback\' | translate }}</p>\n                <p><core-format-text [component]="component" [componentId]="componentId" [text]="attempt.feedback"></core-format-text></p>\n            </ion-item>\n            <ion-item *ngIf="quiz.showReviewColumn && attempt.finished">\n                <button ion-button block icon-start [navPush]="\'AddonModQuizReviewPage\'" [navParams]="{courseId: courseId, quizId: quiz.id, attemptId: attempt.id}">\n                    <ion-icon name="search"></ion-icon>\n                    {{ \'addon.mod_quiz.review\' | translate }}\n                </button>\n            </ion-item>\n            <ion-item text-wrap class="core-danger-item" *ngIf="!quiz.showReviewColumn">\n                <p>{{ \'addon.mod_quiz.noreviewattempt\' | translate }}</p>\n            </ion-item>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/quiz/pages/attempt/attempt.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_quiz__["a" /* AddonModQuizProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_helper__["a" /* AddonModQuizHelperProvider */]])
+    ], AddonModQuizAttemptPage);
+    return AddonModQuizAttemptPage;
+}());
+
+//# sourceMappingURL=attempt.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=70.js.map

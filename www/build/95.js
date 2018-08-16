@@ -1,1 +1,131 @@
-webpackJsonp([95],{1809:function(l,n,a){"use strict";function e(l){return u._42(0,[u._37(402653184,1,{feedbackComponent:0}),(l()(),u._16(1,0,null,null,17,"ion-header",[],null,null,null,null,null)),u._15(2,16384,null,0,y.a,[D.a,u.p,u.K,[2,P.a]],null,null),(l()(),u._40(-1,null,["\n    "])),(l()(),u._16(4,0,null,null,13,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,T.b,T.a)),u._15(5,49152,null,0,C.a,[M.a,[2,P.a],[2,w.a],D.a,u.p,u.K],null,null),(l()(),u._40(-1,3,["\n        "])),(l()(),u._16(7,0,null,3,3,"ion-title",[],null,null,null,F.b,F.a)),u._15(8,49152,null,0,G.a,[D.a,u.p,u.K,[2,j.a],[2,C.a]],null,null),(l()(),u._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),u._15(10,540672,null,0,A.a,[u.p,B.a,J.a,N.a,O.a,q.a,z.a,E.a,H.a,L.a,Q.a,S.a,[2,w.a],[2,U.a]],{text:[0,"text"]},null),(l()(),u._40(-1,3,["\n\n        "])),(l()(),u._16(12,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),u._15(13,16384,null,1,V.a,[D.a,u.p,u.K,[2,j.a],[2,C.a]],null,null),u._37(603979776,2,{_buttons:1}),(l()(),u._40(-1,null,["\n            "])),(l()(),u._40(-1,null,["\n        "])),(l()(),u._40(-1,3,["\n    "])),(l()(),u._40(-1,null,["\n"])),(l()(),u._40(-1,null,["\n"])),(l()(),u._16(20,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,W.b,W.a)),u._15(21,4374528,null,0,U.a,[D.a,q.a,X.a,u.p,u.K,M.a,Y.a,u.D,[2,P.a],[2,w.a]],null,null),(l()(),u._40(-1,1,["\n    "])),(l()(),u._16(23,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,a){var e=!0;if("ionRefresh"===n){e=!1!==l.component.feedbackComponent.doRefresh(a)&&e}return e},null,null)),u._15(24,212992,null,0,Z.a,[q.a,U.a,u.D,$.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),u._40(-1,null,["\n        "])),(l()(),u._16(26,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,ll.b,ll.a)),u._15(27,114688,null,0,nl.a,[Z.a,D.a],{pullingText:[0,"pullingText"]},null),u._32(131072,al.a,[O.a,u.i]),(l()(),u._40(-1,null,["\n    "])),(l()(),u._40(-1,1,["\n\n    "])),(l()(),u._16(31,0,null,1,1,"addon-mod-feedback-index",[],null,[[null,"dataRetrieved"]],function(l,n,a){var e=!0;if("dataRetrieved"===n){e=!1!==l.component.updateData(a)&&e}return e},K.c,K.b)),u._15(32,245760,[[1,4]],0,d.a,[u.u,el.a,[2,U.a],ul.a,tl.a,ol.a,w.a,_l.a],{module:[0,"module"],courseId:[1,"courseId"],group:[2,"group"],tab:[3,"tab"]},{dataRetrieved:"dataRetrieved"}),(l()(),u._40(-1,1,["\n"])),(l()(),u._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,10,0,a.title);l(n,24,0,a.feedbackComponent.loaded);l(n,27,0,u._19(1,"",u._41(n,27,0,u._29(n,28).transform("core.pulltorefresh")),""));l(n,32,0,a.module,a.courseId,a.selectedGroup,a.selectedTab)},function(l,n){l(n,4,0,u._29(n,5)._hidden,u._29(n,5)._sbPadding);l(n,20,0,u._29(n,21).statusbarPadding,u._29(n,21)._hasRefresher);l(n,23,0,"inactive"!==u._29(n,24).state,u._29(n,24)._top);l(n,26,0,u._29(n,27).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var u=a(1),t=(a(0),a(10),a(6)),o=a(31),_=a(641),d=a(442),r=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.selectedGroup=l.get("group")||0,this.selectedTab=l.get("tab")||"overview",this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},l}(),i=function(){return function(){}}(),s=a(1284),c=a(1285),b=a(1286),f=a(1287),p=a(1288),h=a(1289),m=a(1290),v=a(1291),g=a(1292),x=a(1295),R=a(1296),k=a(1297),I=a(1298),K=a(1304),y=a(419),D=a(7),P=a(35),T=a(1293),C=a(191),M=a(27),w=a(22),F=a(1294),G=a(326),j=a(237),A=a(38),B=a(2),J=a(4),N=a(11),O=a(17),q=a(14),z=a(3),E=a(24),H=a(5),L=a(16),Q=a(12),S=a(23),U=a(25),V=a(420),W=a(176),X=a(26),Y=a(97),Z=a(130),$=a(36),ll=a(192),nl=a(144),al=a(28),el=a(129),ul=a(256),tl=a(61),ol=a(278),_l=a(270),dl=a(58),rl=u._14({encapsulation:2,styles:[],data:{}}),il=u._12("page-addon-mod-feedback-index",r,function(l){return u._42(0,[(l()(),u._16(0,0,null,null,1,"page-addon-mod-feedback-index",[],null,null,null,e,rl)),u._15(1,49152,null,0,r,[dl.a],null,null)],null,null)},{},{},[]),sl=a(9),cl=a(18),bl=a(322),fl=a(323),pl=a(325),hl=a(324),ml=a(418),vl=a(638),gl=a(107),xl=a(32),Rl=a(71),kl=a(238);a.d(n,"AddonModFeedbackIndexPageModuleNgFactory",function(){return Il});var Il=u._13(i,[],function(l){return u._25([u._26(512,u.n,u._6,[[8,[s.a,c.a,b.a,f.a,p.a,h.a,m.a,v.a,g.a,x.a,R.a,k.a,I.a,K.a,il]],[3,u.n],u.B]),u._26(4608,sl.m,sl.l,[u.x,[2,sl.v]]),u._26(4608,cl.x,cl.x,[]),u._26(4608,cl.d,cl.d,[]),u._26(4608,bl.b,bl.a,[]),u._26(4608,fl.a,fl.b,[]),u._26(4608,pl.b,pl.a,[]),u._26(4608,hl.b,hl.a,[]),u._26(4608,O.a,O.a,[ml.a,bl.b,fl.a,pl.b,hl.b,O.b,O.c]),u._26(512,o.a,o.a,[]),u._26(512,sl.b,sl.b,[]),u._26(512,cl.v,cl.v,[]),u._26(512,cl.i,cl.i,[]),u._26(512,cl.s,cl.s,[]),u._26(512,vl.a,vl.a,[]),u._26(512,t.a,t.a,[]),u._26(512,gl.a,gl.a,[]),u._26(512,xl.a,xl.a,[]),u._26(512,Rl.a,Rl.a,[]),u._26(512,_.a,_.a,[]),u._26(512,vl.b,vl.b,[]),u._26(512,i,i,[]),u._26(256,O.c,void 0,[]),u._26(256,O.b,void 0,[]),u._26(256,kl.a,r,[])])})}});
+webpackJsonp([95],{
+
+/***/ 1813:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModChoiceIndexPageModule", function() { return AddonModChoiceIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(953);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1938);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModChoiceIndexPageModule = /** @class */ (function () {
+    function AddonModChoiceIndexPageModule() {
+    }
+    AddonModChoiceIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModChoiceIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModChoiceComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModChoiceIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModChoiceIndexPageModule);
+    return AddonModChoiceIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 1938:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModChoiceIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(404);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays a choice.
+ */
+var AddonModChoiceIndexPage = /** @class */ (function () {
+    function AddonModChoiceIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the choice instance.
+     *
+     * @param {any} choice Choice instance.
+     */
+    AddonModChoiceIndexPage.prototype.updateData = function (choice) {
+        this.title = choice.name || this.title;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModChoiceIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModChoiceIndexComponent */])
+    ], AddonModChoiceIndexPage.prototype, "choiceComponent", void 0);
+    AddonModChoiceIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-choice-index',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/choice/pages/index/index.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="choiceComponent.loaded" (ionRefresh)="choiceComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-choice-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-choice-index>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/choice/pages/index/index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */]])
+    ], AddonModChoiceIndexPage);
+    return AddonModChoiceIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=95.js.map

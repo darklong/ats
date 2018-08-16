@@ -74,5 +74,5 @@
     "warningattemptfinished": "Bài thi ngoại tuyến bị loại bỏ khi nó được hoàn thành trên trang web hoặc không tìm thấy.",
     "warningdatadiscarded": "Một số câu trả lời ngoại tuyến đã bị hủy vì các câu hỏi đã được sửa đổi trực tuyến.",
     "warningdatadiscardedfromfinished": "Bài thi chưa hoàn thành vì một số câu trả lời ngoại tuyến đã bị hủy. Vui lòng xem lại câu trả lời của bạn rồi gửi lại lần thử.",
-    "yourfinalgradeis": "Điểm cuối cùng của bạn cho bài kiểm tra này là {{$ a}}."
+    "yourfinalgradeis": "Điểm cuối cùng của bạn cho bài kiểm tra này là {{$a}}."
 }

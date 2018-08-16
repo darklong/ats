@@ -1,1 +1,813 @@
-webpackJsonp([5],{1844:function(n,l,u){"use strict";function e(n){return M._42(0,[(n()(),M._16(0,0,null,null,1,"h2",[],null,null,null,null,null)),(n()(),M._40(1,null,["",""]))],null,function(n,l){n(l,1,0,l.component.profile.fullname)})}function a(n){return M._42(0,[(n()(),M._16(0,0,null,null,3,"p",[],null,null,null,null,null)),(n()(),M._40(1,null,["\n            ",": ","\n        "])),M._33(2,{$a:0}),M._32(131072,rn.a,[_n.a,M.i])],null,function(n,l){var u=l.component;n(l,1,0,M._41(l,1,0,M._29(l,3).transform("addon.mod_workshop.submissiongradeof",n(l,2,0,u.workshop.grade))),u.assessment.grade)})}function s(n){return M._42(0,[(n()(),M._16(0,0,null,null,3,"p",[],null,null,null,null,null)),(n()(),M._40(1,null,["\n            ",": ","\n        "])),M._33(2,{$a:0}),M._32(131072,rn.a,[_n.a,M.i])],null,function(n,l){var u=l.component;n(l,1,0,M._41(l,1,0,M._29(l,3).transform("addon.mod_workshop.gradinggradeof",n(l,2,0,u.workshop.gradinggrade))),u.assessment.gradinggrade)})}function o(n){return M._42(0,[(n()(),M._16(0,0,null,null,3,"p",[["class","core-overriden-grade"]],null,null,null,null,null)),(n()(),M._40(1,null,["\n            ",": ","\n        "])),M._33(2,{$a:0}),M._32(131072,rn.a,[_n.a,M.i])],null,function(n,l){var u=l.component;n(l,1,0,M._41(l,1,0,M._29(l,3).transform("addon.mod_workshop.gradinggradeof",n(l,2,0,u.workshop.gradinggrade))),u.assessment.gradinggradeover)})}function t(n){return M._42(0,[(n()(),M._16(0,0,null,null,3,"p",[],null,null,null,null,null)),(n()(),M._40(1,null,["\n            ","\n        "])),M._33(2,{$a:0}),M._32(131072,rn.a,[_n.a,M.i])],null,function(n,l){var u=l.component;n(l,1,0,M._41(l,1,0,M._29(l,3).transform("addon.mod_workshop.weightinfo",n(l,2,0,u.assessment.weight))))})}function i(n){return M._42(0,[(n()(),M._16(0,0,null,null,3,"ion-badge",[["color","danger"]],null,null,null,null,null)),M._15(1,16384,null,0,Hn.a,[tn.a,M.p,M.K],{color:[0,"color"]},null),(n()(),M._40(2,null,["",""])),M._32(131072,rn.a,[_n.a,M.i])],function(n,l){n(l,1,0,"danger")},function(n,l){n(l,2,0,M._41(l,2,0,M._29(l,3).transform("addon.mod_workshop.notassessed")))})}function r(n){return M._42(0,[(n()(),M._16(0,0,null,null,3,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(n,l,u){var e=!0;if("click"===l){e=!1!==n.component.gotoOwnAssessment()&&e}return e},sn.b,sn.a)),M._15(1,1097728,[[2,4]],0,on.a,[[8,""],tn.a,M.p,M.K],{block:[0,"block"]},null),(n()(),M._40(2,0,["",""])),M._32(131072,rn.a,[_n.a,M.i])],function(n,l){n(l,1,0,"")},function(n,l){n(l,2,0,M._41(l,2,0,M._29(l,3).transform("addon.mod_workshop.assess")))})}function _(n){return M._42(0,[(n()(),M._16(0,0,null,null,3,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(n,l,u){var e=!0;if("click"===l){e=!1!==n.component.gotoOwnAssessment()&&e}return e},sn.b,sn.a)),M._15(1,1097728,[[2,4]],0,on.a,[[8,""],tn.a,M.p,M.K],{block:[0,"block"]},null),(n()(),M._40(2,0,["",""])),M._32(131072,rn.a,[_n.a,M.i])],function(n,l){n(l,1,0,"")},function(n,l){n(l,2,0,M._41(l,2,0,M._29(l,3).transform("addon.mod_workshop.reassess")))})}function c(n){return M._42(0,[(n()(),M._16(0,0,null,null,6,"ion-note",[["item-end",""]],null,null,null,null,null)),M._15(1,16384,null,0,Vn.a,[tn.a,M.p,M.K],null,null),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(3,0,null,null,1,"ion-icon",[["name","time"],["role","img"]],[[2,"hide",null]],null,null,null,null)),M._15(4,147456,null,0,cn.a,[tn.a,M.p,M.K],{name:[0,"name"]},null),(n()(),M._40(5,null,["","\n        "])),M._32(131072,rn.a,[_n.a,M.i])],function(n,l){n(l,4,0,"time")},function(n,l){n(l,3,0,M._29(l,4)._hidden);n(l,5,0,M._41(l,5,0,M._29(l,6).transform("core.notsent")))})}function d(n){return M._42(0,[(n()(),M._16(0,0,null,null,43,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[1,"detail-none",0]],[[null,"click"]],function(n,l,u){var e=!0;if("click"===l){e=!1!==n.component.gotoAssessment()&&e}return e},dn.b,dn.a)),M._15(1,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,1,{contentLabel:0}),M._37(603979776,2,{_buttons:1}),M._37(603979776,3,{_icons:1}),M._15(5,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n        "])),(n()(),M._16(7,0,null,0,8,"ion-avatar",[["item-start",""]],null,null,null,null,null)),M._15(8,16384,null,0,An.a,[],null,null),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(10,0,null,null,4,"img",[["core-external-content",""],["core-user-link",""],["onError","this.src='assets/img/user-avatar.png'"],["role","presentation"]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),M._15(11,4210688,null,0,Dn.a,[M.p,Kn.a,En.a,vn.a,Tn.a,Wn.a,On.a,Ln.a],null,null),M._15(12,81920,null,0,Fn.a,[M.p,[2,Sn.a]],{userId:[0,"userId"],courseId:[1,"courseId"]},null),M._33(13,{$a:0}),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,null,["\n        "])),(n()(),M._40(-1,2,["\n\n        "])),(n()(),M._11(16777216,null,2,1,null,e)),M._15(18,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n        "])),(n()(),M._11(16777216,null,2,1,null,a)),M._15(21,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n        "])),(n()(),M._11(16777216,null,2,1,null,s)),M._15(24,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n        "])),(n()(),M._11(16777216,null,2,1,null,o)),M._15(27,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n        "])),(n()(),M._11(16777216,null,2,1,null,t)),M._15(30,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n        "])),(n()(),M._11(16777216,null,2,1,null,i)),M._15(33,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n        "])),(n()(),M._11(16777216,null,2,1,null,r)),M._15(36,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n        "])),(n()(),M._11(16777216,null,2,1,null,_)),M._15(39,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n        "])),(n()(),M._11(16777216,null,4,1,null,c)),M._15(42,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n    "]))],function(n,l){var u=l.component;n(l,12,0,u.profile&&u.profile.id,u.courseId);n(l,18,0,u.profile&&u.profile.fullname);n(l,21,0,u.showGrade(u.assessment.grade));n(l,24,0,u.access.canviewallsubmissions&&!u.showGrade(u.assessment.gradinggradeover)&&u.showGrade(u.assessment.gradinggrade));n(l,27,0,u.access.canviewallsubmissions&&u.showGrade(u.assessment.gradinggradeover));n(l,30,0,u.assessment.weight&&1!=u.assessment.weight);n(l,33,0,!u.assessment.grade);n(l,36,0,u.canSelfAssess&&!u.showGrade(u.assessment.grade));n(l,39,0,u.canSelfAssess&&u.showGrade(u.assessment.grade));n(l,42,0,u.offline)},function(n,l){var u=l.component;n(l,0,0,!(u.canViewAssessment&&!u.canSelfAssess)||null);n(l,10,0,u.profile&&u.profile.profileimageurl,M._41(l,10,1,M._29(l,14).transform("core.pictureof",n(l,13,0,u.profile&&u.profile.fullname))))})}function m(n){return M._42(0,[(n()(),M._16(0,0,null,null,5,"core-loading",[],null,null,null,Nn.b,Nn.a)),M._15(1,638976,null,0,Rn.a,[_n.a,M.p],{hideUntil:[0,"hideUntil"]},null),(n()(),M._40(-1,0,["\n    "])),(n()(),M._11(16777216,null,0,1,null,d)),M._15(4,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,0,["\n"])),(n()(),M._40(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,1,0,u.loaded);n(l,4,0,u.summary)},null)}function f(n){return M._42(0,[(n()(),M._16(0,0,null,null,4,"button",[["clear",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(n,l,u){var e=!0;if("click"===l){e=!1!==n.component.saveAssessment()&&e}return e},sn.b,sn.a)),M._15(1,1097728,[[2,4]],0,on.a,[[8,""],tn.a,M.p,M.K],{clear:[0,"clear"]},null),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(3,0,["\n                ","\n            "])),M._32(131072,rn.a,[_n.a,M.i])],function(n,l){n(l,1,0,"")},function(n,l){n(l,0,0,M._41(l,0,0,M._29(l,2).transform("core.save")));n(l,3,0,M._41(l,3,0,M._29(l,4).transform("core.save")))})}function p(n){return M._42(0,[(n()(),M._16(0,0,null,null,4,"button",[["clear",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(n,l,u){var e=!0;if("click"===l){e=!1!==n.component.saveEvaluation()&&e}return e},sn.b,sn.a)),M._15(1,1097728,[[2,4]],0,on.a,[[8,""],tn.a,M.p,M.K],{clear:[0,"clear"]},null),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(3,0,["\n                ","\n            "])),M._32(131072,rn.a,[_n.a,M.i])],function(n,l){n(l,1,0,"")},function(n,l){n(l,0,0,M._41(l,0,0,M._29(l,2).transform("core.save")));n(l,3,0,M._41(l,3,0,M._29(l,4).transform("core.save")))})}function h(n){return M._42(0,[(n()(),M._16(0,0,null,null,6,"button",[["block",""],["icon-start",""],["ion-button",""]],null,[[null,"click"]],function(n,l,u){var e=!0;if("click"===l){e=!1!==n.component.editSubmission()&&e}return e},sn.b,sn.a)),M._15(1,1097728,[[4,4]],0,on.a,[[8,""],tn.a,M.p,M.K],{block:[0,"block"]},null),(n()(),M._40(-1,0,["\n                    "])),(n()(),M._16(3,0,null,0,1,"ion-icon",[["name","create"],["role","img"]],[[2,"hide",null]],null,null,null,null)),M._15(4,147456,null,0,cn.a,[tn.a,M.p,M.K],{name:[0,"name"]},null),(n()(),M._40(5,0,["\n                    ","\n                "])),M._32(131072,rn.a,[_n.a,M.i])],function(n,l){n(l,1,0,"");n(l,4,0,"create")},function(n,l){n(l,3,0,M._29(l,4)._hidden);n(l,5,0,M._41(l,5,0,M._29(l,6).transform("addon.mod_workshop.editsubmission")))})}function g(n){return M._42(0,[(n()(),M._16(0,0,null,null,6,"button",[["block",""],["color","danger"],["icon-start",""],["ion-button",""]],null,[[null,"click"]],function(n,l,u){var e=!0;if("click"===l){e=!1!==n.component.deleteSubmission()&&e}return e},sn.b,sn.a)),M._15(1,1097728,[[4,4]],0,on.a,[[8,""],tn.a,M.p,M.K],{color:[0,"color"],block:[1,"block"]},null),(n()(),M._40(-1,0,["\n                    "])),(n()(),M._16(3,0,null,0,1,"ion-icon",[["name","trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),M._15(4,147456,null,0,cn.a,[tn.a,M.p,M.K],{name:[0,"name"]},null),(n()(),M._40(5,0,["\n                    ","\n                "])),M._32(131072,rn.a,[_n.a,M.i])],function(n,l){n(l,1,0,"danger","");n(l,4,0,"trash")},function(n,l){n(l,3,0,M._29(l,4)._hidden);n(l,5,0,M._41(l,5,0,M._29(l,6).transform("addon.mod_workshop.deletesubmission")))})}function b(n){return M._42(0,[(n()(),M._16(0,0,null,null,6,"button",[["block",""],["color","danger"],["icon-start",""],["ion-button",""],["outline",""]],null,[[null,"click"]],function(n,l,u){var e=!0;if("click"===l){e=!1!==n.component.undoDeleteSubmission()&&e}return e},sn.b,sn.a)),M._15(1,1097728,[[4,4]],0,on.a,[[8,""],tn.a,M.p,M.K],{color:[0,"color"],outline:[1,"outline"],block:[2,"block"]},null),(n()(),M._40(-1,0,["\n                    "])),(n()(),M._16(3,0,null,0,1,"ion-icon",[["name","undo"],["role","img"]],[[2,"hide",null]],null,null,null,null)),M._15(4,147456,null,0,cn.a,[tn.a,M.p,M.K],{name:[0,"name"]},null),(n()(),M._40(5,0,["\n                    ","\n                "])),M._32(131072,rn.a,[_n.a,M.i])],function(n,l){n(l,1,0,"danger","","");n(l,4,0,"undo")},function(n,l){n(l,3,0,M._29(l,4)._hidden);n(l,5,0,M._41(l,5,0,M._29(l,6).transform("core.restore")))})}function v(n){return M._42(0,[(n()(),M._16(0,0,null,null,15,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,dn.b,dn.a)),M._15(1,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,3,{contentLabel:0}),M._37(603979776,4,{_buttons:1}),M._37(603979776,5,{_icons:1}),M._15(5,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._11(16777216,null,2,1,null,h)),M._15(8,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._11(16777216,null,2,1,null,g)),M._15(11,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._11(16777216,null,2,1,null,b)),M._15(14,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n            "]))],function(n,l){var u=l.component;n(l,8,0,u.canEdit);n(l,11,0,!u.submission.deleted&&u.canDelete);n(l,14,0,u.submission.deleted&&u.canDelete)},null)}function k(n){return M._42(0,[(n()(),M._16(0,0,null,null,8,"ion-list",[],null,null,null,null,null)),M._15(1,16384,null,0,bn.a,[tn.a,M.p,M.K,vn.a,kn.l,In.a],null,null),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(3,0,null,null,1,"addon-mod-workshop-submission",[],null,null,null,wn.b,wn.a)),M._15(4,114688,null,0,yn.a,[Cn.a,Pn.a,Sn.a,xn.a,Tn.a],{submission:[0,"submission"],module:[1,"module"],workshop:[2,"workshop"],access:[3,"access"],courseId:[4,"courseId"]},null),(n()(),M._40(-1,null,["\n            "])),(n()(),M._11(16777216,null,null,1,null,v)),M._15(7,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,null,["\n        "]))],function(n,l){var u=l.component;n(l,4,0,u.submission,u.module,u.workshop,u.access,u.courseId);n(l,7,0,u.canEdit||u.canDelete)},null)}function I(n){return M._42(0,[(n()(),M._16(0,0,null,null,8,"ion-avatar",[["item-start",""]],null,null,null,null,null)),M._15(1,16384,null,0,An.a,[],null,null),(n()(),M._40(-1,null,["\n                    "])),(n()(),M._16(3,0,null,null,4,"img",[["core-external-content",""],["core-user-link",""],["onError","this.src='assets/img/user-avatar.png'"],["role","presentation"]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),M._15(4,4210688,null,0,Dn.a,[M.p,Kn.a,En.a,vn.a,Tn.a,Wn.a,On.a,Ln.a],null,null),M._15(5,81920,null,0,Fn.a,[M.p,[2,Sn.a]],{userId:[0,"userId"],courseId:[1,"courseId"]},null),M._33(6,{$a:0}),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,null,["\n                "]))],function(n,l){var u=l.component;n(l,5,0,u.evaluateByProfile.id,u.courseId)},function(n,l){var u=l.component;n(l,3,0,u.evaluateByProfile.profileimageurl,M._41(l,3,1,M._29(l,7).transform("core.pictureof",n(l,6,0,u.evaluateByProfile.fullname))))})}function w(n){return M._42(0,[(n()(),M._16(0,0,null,null,3,"h2",[],null,null,null,null,null)),(n()(),M._40(1,null,["",""])),M._33(2,{$a:0}),M._32(131072,rn.a,[_n.a,M.i])],null,function(n,l){var u=l.component;n(l,1,0,M._41(l,1,0,M._29(l,3).transform("addon.mod_workshop.feedbackby",n(l,2,0,u.evaluateByProfile.fullname))))})}function y(n){return M._42(0,[(n()(),M._16(0,0,null,null,19,"ion-list",[],null,null,null,null,null)),M._15(1,16384,null,0,bn.a,[tn.a,M.p,M.K,vn.a,kn.l,In.a],null,null),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(3,0,null,null,15,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,dn.b,dn.a)),M._15(4,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,6,{contentLabel:0}),M._37(603979776,7,{_buttons:1}),M._37(603979776,8,{_icons:1}),M._15(8,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._11(16777216,null,0,1,null,I)),M._15(11,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._11(16777216,null,2,1,null,w)),M._15(14,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(16,0,null,2,1,"core-format-text",[],null,null,null,null,null)),M._15(17,540672,null,0,Un.a,[M.p,Tn.a,Wn.a,Mn.a,_n.a,vn.a,Gn.a,On.a,Kn.a,En.a,Ln.a,Bn.a,[2,Sn.a],[2,$n.a]],{text:[0,"text"]},null),(n()(),M._40(-1,2,["\n            "])),(n()(),M._40(-1,null,["\n        "]))],function(n,l){var u=l.component;n(l,11,0,u.evaluateByProfile);n(l,14,0,u.evaluateByProfile&&u.evaluateByProfile.fullname);n(l,17,0,u.evaluate.text)},null)}function C(n){return M._42(0,[(n()(),M._16(0,0,null,null,17,"ion-list",[],null,null,null,null,null)),M._15(1,16384,null,0,bn.a,[tn.a,M.p,M.K,vn.a,kn.l,In.a],null,null),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(3,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,dn.b,dn.a)),M._15(4,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,9,{contentLabel:0}),M._37(603979776,10,{_buttons:1}),M._37(603979776,11,{_icons:1}),M._15(8,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(10,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),M._40(11,null,["",""])),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,2,["\n            "])),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(15,0,null,null,1,"addon-mod-workshop-assessment",[["summary","true"]],null,null,null,m,qn)),M._15(16,114688,null,0,jn.a,[Cn.a,Pn.a,Sn.a,xn.a,Wn.a,Tn.a],{assessment:[0,"assessment"],summary:[1,"summary"],courseId:[2,"courseId"],submission:[3,"submission"],module:[4,"module"],workshop:[5,"workshop"],access:[6,"access"]},null),(n()(),M._40(-1,null,["\n        "]))],function(n,l){var u=l.component;n(l,16,0,u.ownAssessment,"true",u.courseId,u.submission,u.module,u.workshop,u.access)},function(n,l){n(l,11,0,M._41(l,11,0,M._29(l,12).transform("addon.mod_workshop.yourassessment")))})}function P(n){return M._42(0,[(n()(),M._16(0,0,null,null,1,"addon-mod-workshop-assessment",[["summary","true"]],null,null,null,m,qn)),M._15(1,114688,null,0,jn.a,[Cn.a,Pn.a,Sn.a,xn.a,Wn.a,Tn.a],{assessment:[0,"assessment"],summary:[1,"summary"],courseId:[2,"courseId"],submission:[3,"submission"],workshop:[4,"workshop"],access:[5,"access"]},null)],function(n,l){var u=l.component;n(l,1,0,l.parent.context.$implicit,"true",u.courseId,u.submission,u.workshop,u.access)},null)}function S(n){return M._42(0,[(n()(),M._16(0,0,null,null,4,null,null,null,null,null,null,null)),(n()(),M._40(-1,null,["\n                "])),(n()(),M._11(16777216,null,null,1,null,P)),M._15(3,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,null,["\n            "]))],function(n,l){n(l,3,0,!l.context.$implicit.ownAssessment)},null)}function x(n){return M._42(0,[(n()(),M._16(0,0,null,null,17,"ion-list",[],null,null,null,null,null)),M._15(1,16384,null,0,bn.a,[tn.a,M.p,M.K,vn.a,kn.l,In.a],null,null),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(3,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,dn.b,dn.a)),M._15(4,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,12,{contentLabel:0}),M._37(603979776,13,{_buttons:1}),M._37(603979776,14,{_icons:1}),M._15(8,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(10,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),M._40(11,null,["",""])),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,2,["\n            "])),(n()(),M._40(-1,null,["\n            "])),(n()(),M._11(16777216,null,null,1,null,S)),M._15(16,802816,null,0,gn.j,[M.W,M.T,M.v],{ngForOf:[0,"ngForOf"]},null),(n()(),M._40(-1,null,["\n        "]))],function(n,l){n(l,16,0,l.component.submissionInfo.reviewedby)},function(n,l){n(l,11,0,M._41(l,11,0,M._29(l,12).transform("addon.mod_workshop.receivedgrades")))})}function T(n){return M._42(0,[(n()(),M._16(0,0,null,null,1,"addon-mod-workshop-assessment",[["summary","true"]],null,null,null,m,qn)),M._15(1,114688,null,0,jn.a,[Cn.a,Pn.a,Sn.a,xn.a,Wn.a,Tn.a],{assessment:[0,"assessment"],summary:[1,"summary"],courseId:[2,"courseId"],workshop:[3,"workshop"],access:[4,"access"]},null)],function(n,l){var u=l.component;n(l,1,0,l.context.$implicit,"true",u.courseId,u.workshop,u.access)},null)}function A(n){return M._42(0,[(n()(),M._16(0,0,null,null,17,"ion-list",[],null,null,null,null,null)),M._15(1,16384,null,0,bn.a,[tn.a,M.p,M.K,vn.a,kn.l,In.a],null,null),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(3,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,dn.b,dn.a)),M._15(4,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,15,{contentLabel:0}),M._37(603979776,16,{_buttons:1}),M._37(603979776,17,{_icons:1}),M._15(8,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(10,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),M._40(11,null,["",""])),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,2,["\n            "])),(n()(),M._40(-1,null,["\n            "])),(n()(),M._11(16777216,null,null,1,null,T)),M._15(16,802816,null,0,gn.j,[M.W,M.T,M.v],{ngForOf:[0,"ngForOf"]},null),(n()(),M._40(-1,null,["\n        "]))],function(n,l){n(l,16,0,l.component.submissionInfo.reviewerof)},function(n,l){n(l,11,0,M._41(l,11,0,M._29(l,12).transform("addon.mod_workshop.givengrades")))})}function D(n){return M._42(0,[(n()(),M._16(0,0,null,null,22,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,dn.b,dn.a)),M._15(1,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,21,{contentLabel:0}),M._37(603979776,22,{_buttons:1}),M._37(603979776,23,{_icons:1}),M._15(5,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(7,0,null,1,3,"ion-label",[],null,null,null,null,null)),M._15(8,16384,[[21,4]],0,zn.a,[tn.a,M.p,M.K,[8,null],[8,null],[8,null],[8,null]],null,null),(n()(),M._40(9,null,["",""])),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(12,0,null,4,5,"ion-toggle",[["formControlName","published"]],[[2,"toggle-disabled",null],[2,"toggle-checked",null],[2,"toggle-activated",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"keyup"]],function(n,l,u){var e=!0;if("keyup"===l){e=!1!==M._29(n,13)._keyup(u)&&e}return e},Jn.b,Jn.a)),M._15(13,1228800,null,0,Yn.a,[fn.a,tn.a,vn.a,M.p,M.K,Qn.a,[2,mn.a],kn.l,In.a,M.D],null,null),M._35(1024,null,Xn.l,function(n){return[n]},[Yn.a]),M._15(15,671744,null,0,Xn.f,[[3,Xn.b],[8,null],[8,null],[2,Xn.l]],{name:[0,"name"]},null),M._35(2048,null,Xn.m,null,[Xn.f]),M._15(17,16384,null,0,Xn.n,[Xn.m],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(19,0,null,2,2,"p",[["class","item-help"]],null,null,null,null,null)),(n()(),M._40(20,null,["",""])),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,2,["\n            "]))],function(n,l){n(l,15,0,"published")},function(n,l){n(l,9,0,M._41(l,9,0,M._29(l,10).transform("addon.mod_workshop.publishsubmission")));n(l,12,0,M._29(l,13)._disabled,M._29(l,13)._value,M._29(l,13)._activated,M._29(l,17).ngClassUntouched,M._29(l,17).ngClassTouched,M._29(l,17).ngClassPristine,M._29(l,17).ngClassDirty,M._29(l,17).ngClassValid,M._29(l,17).ngClassInvalid,M._29(l,17).ngClassPending);n(l,20,0,M._41(l,20,0,M._29(l,21).transform("addon.mod_workshop.publishsubmission_help")))})}function K(n){return M._42(0,[(n()(),M._16(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),M._15(1,16384,[[30,4]],0,Zn.a,[M.p],{value:[0,"value"]},null),(n()(),M._40(2,null,["",""]))],function(n,l){n(l,1,0,l.context.$implicit.value)},function(n,l){n(l,2,0,l.context.$implicit.label)})}function E(n){return M._42(0,[(n()(),M._16(0,0,null,null,79,"form",[["ion-list",""],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(n,l,u){var e=!0;if("submit"===l){e=!1!==M._29(n,2).onSubmit(u)&&e}if("reset"===l){e=!1!==M._29(n,2).onReset()&&e}return e},null,null)),M._15(1,16384,null,0,Xn.w,[],null,null),M._15(2,540672,null,0,Xn.h,[[8,null],[8,null]],{form:[0,"form"]},null),M._35(2048,null,Xn.b,null,[Xn.h]),M._15(4,16384,null,0,Xn.o,[Xn.b],null,null),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(6,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,dn.b,dn.a)),M._15(7,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,18,{contentLabel:0}),M._37(603979776,19,{_buttons:1}),M._37(603979776,20,{_icons:1}),M._15(11,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(13,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),M._40(14,null,["",""])),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,2,["\n            "])),(n()(),M._40(-1,null,["\n            "])),(n()(),M._11(16777216,null,null,1,null,D)),M._15(19,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,null,["\n\n            "])),(n()(),M._16(21,0,null,null,13,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,dn.b,dn.a)),M._15(22,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,24,{contentLabel:0}),M._37(603979776,25,{_buttons:1}),M._37(603979776,26,{_icons:1}),M._15(26,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(28,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),M._40(29,null,["",""])),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(32,0,null,2,1,"p",[],null,null,null,null,null)),(n()(),M._40(33,null,["",""])),(n()(),M._40(-1,2,["\n            "])),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(36,0,null,null,23,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,dn.b,dn.a)),M._15(37,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,27,{contentLabel:0}),M._37(603979776,28,{_buttons:1}),M._37(603979776,29,{_icons:1}),M._15(41,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(43,0,null,1,3,"ion-label",[["stacked",""]],null,null,null,null,null)),M._15(44,16384,[[27,4]],0,zn.a,[tn.a,M.p,M.K,[8,null],[8,""],[8,null],[8,null]],null,null),(n()(),M._40(45,null,["",""])),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(48,0,null,3,10,"ion-select",[["formControlName","grade"],["interface","popover"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"click"],[null,"keyup.space"]],function(n,l,u){var e=!0;if("click"===l){e=!1!==M._29(n,49)._click(u)&&e}if("keyup.space"===l){e=!1!==M._29(n,49)._keyup()&&e}return e},nl.b,nl.a)),M._15(49,1228800,null,1,ll.a,[ul.a,fn.a,tn.a,M.p,M.K,[2,mn.a],el.a],{interface:[0,"interface"]},null),M._37(603979776,30,{options:1}),M._35(1024,null,Xn.l,function(n){return[n]},[ll.a]),M._15(52,671744,null,0,Xn.f,[[3,Xn.b],[8,null],[8,null],[2,Xn.l]],{name:[0,"name"]},null),M._35(2048,null,Xn.m,null,[Xn.f]),M._15(54,16384,null,0,Xn.n,[Xn.m],null,null),(n()(),M._40(-1,null,["\n                    "])),(n()(),M._11(16777216,null,null,1,null,K)),M._15(57,802816,null,0,gn.j,[M.W,M.T,M.v],{ngForOf:[0,"ngForOf"]},null),(n()(),M._40(-1,null,["\n                "])),(n()(),M._40(-1,2,["\n            "])),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(61,0,null,null,17,"ion-item",[["class","item item-block"]],null,null,null,dn.b,dn.a)),M._15(62,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,31,{contentLabel:0}),M._37(603979776,32,{_buttons:1}),M._37(603979776,33,{_icons:1}),M._15(66,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(68,0,null,1,3,"ion-label",[["stacked",""]],null,null,null,null,null)),M._15(69,16384,[[31,4]],0,zn.a,[tn.a,M.p,M.K,[8,null],[8,""],[8,null],[8,null]],null,null),(n()(),M._40(70,null,["",""])),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(73,0,null,3,4,"core-rich-text-editor",[["formControlName","text"],["item-content",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,al.b,al.a)),M._15(74,1228800,null,0,sl.a,[Wn.a,ol.a,On.a,Tn.a,En.a,[2,$n.a],M.p,tl.a,Gn.a],{control:[0,"control"]},null),M._15(75,671744,null,0,Xn.f,[[3,Xn.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),M._35(2048,null,Xn.m,null,[Xn.f]),M._15(77,16384,null,0,Xn.n,[Xn.m],null,null),(n()(),M._40(-1,2,["\n            "])),(n()(),M._40(-1,null,["\n        "]))],function(n,l){var u=l.component;n(l,2,0,u.feedbackForm);n(l,19,0,u.access.canpublishsubmissions);n(l,49,0,"popover");n(l,52,0,"grade");n(l,57,0,u.evaluationGrades);n(l,74,0,u.feedbackForm.controls.text);n(l,75,0,"text")},function(n,l){var u=l.component;n(l,0,0,M._29(l,4).ngClassUntouched,M._29(l,4).ngClassTouched,M._29(l,4).ngClassPristine,M._29(l,4).ngClassDirty,M._29(l,4).ngClassValid,M._29(l,4).ngClassInvalid,M._29(l,4).ngClassPending);n(l,14,0,M._41(l,14,0,M._29(l,15).transform("addon.mod_workshop.feedbackauthor")));n(l,29,0,M._41(l,29,0,M._29(l,30).transform("addon.mod_workshop.gradecalculated")));n(l,33,0,u.submission.submissiongrade);n(l,45,0,M._41(l,45,0,M._29(l,46).transform("addon.mod_workshop.gradeover")));n(l,48,0,M._29(l,49)._disabled,M._29(l,54).ngClassUntouched,M._29(l,54).ngClassTouched,M._29(l,54).ngClassPristine,M._29(l,54).ngClassDirty,M._29(l,54).ngClassValid,M._29(l,54).ngClassInvalid,M._29(l,54).ngClassPending);n(l,70,0,M._41(l,70,0,M._29(l,71).transform("addon.mod_workshop.feedbackauthor")));n(l,73,0,M._29(l,77).ngClassUntouched,M._29(l,77).ngClassTouched,M._29(l,77).ngClassPristine,M._29(l,77).ngClassDirty,M._29(l,77).ngClassValid,M._29(l,77).ngClassInvalid,M._29(l,77).ngClassPending)})}function W(n){return M._42(0,[(n()(),M._16(0,0,null,null,1,"addon-mod-workshop-assessment-strategy",[],null,null,null,il.b,il.a)),M._15(1,245760,[[1,4]],0,rl.a,[_n.a,M.u,tl.a,_l.a,cl.a,Wn.a,Mn.a,Gn.a,Tn.a,dl.a,ml.a,Pn.a,Cn.a,fl.a],{workshop:[0,"workshop"],access:[1,"access"],assessmentId:[2,"assessmentId"],userId:[3,"userId"],strategy:[4,"strategy"],edit:[5,"edit"]},null)],function(n,l){var u=l.component;n(l,1,0,u.workshop,u.access,u.assessmentId,u.assessmentUserId,u.strategy,u.access.assessingallowed)},null)}function O(n){return M._42(0,[(n()(),M._16(0,0,null,null,8,"ion-avatar",[["item-start",""]],null,null,null,null,null)),M._15(1,16384,null,0,An.a,[],null,null),(n()(),M._40(-1,null,["\n                    "])),(n()(),M._16(3,0,null,null,4,"img",[["core-external-content",""],["core-user-link",""],["onError","this.src='assets/img/user-avatar.png'"],["role","presentation"]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),M._15(4,4210688,null,0,Dn.a,[M.p,Kn.a,En.a,vn.a,Tn.a,Wn.a,On.a,Ln.a],null,null),M._15(5,81920,null,0,Fn.a,[M.p,[2,Sn.a]],{userId:[0,"userId"],courseId:[1,"courseId"]},null),M._33(6,{$a:0}),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,null,["\n                "]))],function(n,l){var u=l.component;n(l,5,0,u.evaluateGradingByProfile.id,u.courseId)},function(n,l){var u=l.component;n(l,3,0,u.evaluateGradingByProfile.profileimageurl,M._41(l,3,1,M._29(l,7).transform("core.pictureof",n(l,6,0,u.evaluateGradingByProfile.fullname))))})}function L(n){return M._42(0,[(n()(),M._16(0,0,null,null,3,"h2",[],null,null,null,null,null)),(n()(),M._40(1,null,["",""])),M._33(2,{$a:0}),M._32(131072,rn.a,[_n.a,M.i])],null,function(n,l){var u=l.component;n(l,1,0,M._41(l,1,0,M._29(l,3).transform("addon.mod_workshop.feedbackby",n(l,2,0,u.evaluateGradingByProfile.fullname))))})}function F(n){return M._42(0,[(n()(),M._16(0,0,null,null,19,"ion-list",[],null,null,null,null,null)),M._15(1,16384,null,0,bn.a,[tn.a,M.p,M.K,vn.a,kn.l,In.a],null,null),(n()(),M._40(-1,null,["\n            "])),(n()(),M._16(3,0,null,null,15,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,dn.b,dn.a)),M._15(4,1097728,null,3,mn.a,[fn.a,tn.a,M.p,M.K,[2,pn.a]],null,null),M._37(335544320,34,{contentLabel:0}),M._37(603979776,35,{_buttons:1}),M._37(603979776,36,{_icons:1}),M._15(8,16384,null,0,hn.a,[],null,null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._11(16777216,null,0,1,null,O)),M._15(11,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._11(16777216,null,2,1,null,L)),M._15(14,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,2,["\n                "])),(n()(),M._16(16,0,null,2,1,"core-format-text",[],null,null,null,null,null)),M._15(17,540672,null,0,Un.a,[M.p,Tn.a,Wn.a,Mn.a,_n.a,vn.a,Gn.a,On.a,Kn.a,En.a,Ln.a,Bn.a,[2,Sn.a],[2,$n.a]],{text:[0,"text"]},null),(n()(),M._40(-1,2,["\n            "])),(n()(),M._40(-1,null,["\n        "]))],function(n,l){var u=l.component;n(l,11,0,u.evaluateGradingByProfile);n(l,14,0,u.evaluateGradingByProfile&&u.evaluateGradingByProfile.fullname);n(l,17,0,u.assessment.feedbackreviewer)},null)}function U(n){return M._42(0,[M._37(671088640,1,{assessmentStrategy:0}),(n()(),M._16(1,0,null,null,22,"ion-header",[],null,null,null,null,null)),M._15(2,16384,null,0,pl.a,[tn.a,M.p,M.K,[2,hl.a]],null,null),(n()(),M._40(-1,null,["\n    "])),(n()(),M._16(4,0,null,null,18,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,gl.b,gl.a)),M._15(5,49152,null,0,bl.a,[ul.a,[2,hl.a],[2,Sn.a],tn.a,M.p,M.K],null,null),(n()(),M._40(-1,3,["\n        "])),(n()(),M._16(7,0,null,3,3,"ion-title",[],null,null,null,vl.b,vl.a)),M._15(8,49152,null,0,kl.a,[tn.a,M.p,M.K,[2,Il.a],[2,bl.a]],null,null),(n()(),M._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),M._15(10,540672,null,0,Un.a,[M.p,Tn.a,Wn.a,Mn.a,_n.a,vn.a,Gn.a,On.a,Kn.a,En.a,Ln.a,Bn.a,[2,Sn.a],[2,$n.a]],{text:[0,"text"]},null),(n()(),M._40(-1,3,["\n        "])),(n()(),M._16(12,0,null,2,9,"ion-buttons",[["end",""]],[[8,"hidden",0]],null,null,null,null)),M._15(13,16384,null,1,wl.a,[tn.a,M.p,M.K,[2,Il.a],[2,bl.a]],null,null),M._37(603979776,2,{_buttons:1}),(n()(),M._40(-1,null,["\n            "])),(n()(),M._11(16777216,null,null,1,null,f)),M._15(17,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,null,["\n            "])),(n()(),M._11(16777216,null,null,1,null,p)),M._15(20,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,null,["\n        "])),(n()(),M._40(-1,3,["\n    "])),(n()(),M._40(-1,null,["\n"])),(n()(),M._40(-1,null,["\n"])),(n()(),M._16(25,0,null,null,38,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,yl.b,yl.a)),M._15(26,4374528,null,0,$n.a,[tn.a,vn.a,In.a,M.p,M.K,ul.a,Cl.a,M.D,[2,hl.a],[2,Sn.a]],null,null),(n()(),M._40(-1,1,["\n    "])),(n()(),M._16(28,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,u){var e=!0;if("ionRefresh"===l){e=!1!==n.component.refreshSubmission(u)&&e}return e},null,null)),M._15(29,212992,null,0,Pl.a,[vn.a,$n.a,M.D,kn.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),M._40(-1,null,["\n        "])),(n()(),M._16(31,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Sl.b,Sl.a)),M._15(32,114688,null,0,xl.a,[Pl.a,tn.a],{pullingText:[0,"pullingText"]},null),M._32(131072,rn.a,[_n.a,M.i]),(n()(),M._40(-1,null,["\n    "])),(n()(),M._40(-1,1,["\n    "])),(n()(),M._16(36,0,null,1,26,"core-loading",[],null,null,null,Nn.b,Nn.a)),M._15(37,638976,null,0,Rn.a,[_n.a,M.p],{hideUntil:[0,"hideUntil"]},null),(n()(),M._40(-1,0,["\n        "])),(n()(),M._11(16777216,null,0,1,null,k)),M._15(40,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,0,["\n\n        "])),(n()(),M._11(16777216,null,0,1,null,y)),M._15(43,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,0,["\n\n        "])),(n()(),M._11(16777216,null,0,1,null,C)),M._15(46,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,0,["\n\n        "])),(n()(),M._11(16777216,null,0,1,null,x)),M._15(49,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,0,["\n\n        "])),(n()(),M._11(16777216,null,0,1,null,A)),M._15(52,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,0,["\n\n        "])),(n()(),M._11(16777216,null,0,1,null,E)),M._15(55,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,0,["\n\n        "])),(n()(),M._11(16777216,null,0,1,null,W)),M._15(58,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,0,["\n\n        "])),(n()(),M._11(16777216,null,0,1,null,F)),M._15(61,16384,null,0,gn.k,[M.W,M.T],{ngIf:[0,"ngIf"]},null),(n()(),M._40(-1,0,["\n    "])),(n()(),M._40(-1,1,["\n"])),(n()(),M._40(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,10,0,u.title);n(l,17,0,u.assessmentId);n(l,20,0,u.canAddFeedback);n(l,29,0,u.loaded);n(l,32,0,M._19(1,"",M._41(l,32,0,M._29(l,33).transform("core.pulltorefresh")),""));n(l,37,0,u.loaded);n(l,40,0,u.submission);n(l,43,0,!u.canAddFeedback&&u.evaluate&&u.evaluate.text);n(l,46,0,u.ownAssessment&&!u.assessment);n(l,49,0,u.submissionInfo&&u.submissionInfo.reviewedby&&u.submissionInfo.reviewedby.length&&!u.assessment);n(l,52,0,u.submissionInfo&&u.submissionInfo.reviewerof&&u.submissionInfo.reviewerof.length&&!u.assessment);n(l,55,0,u.canAddFeedback);n(l,58,0,u.assessmentId);n(l,61,0,u.assessmentId&&!u.access.assessingallowed&&u.assessment.feedbackreviewer)},function(n,l){var u=l.component;n(l,4,0,M._29(l,5)._hidden,M._29(l,5)._sbPadding);n(l,12,0,!u.loaded);n(l,25,0,M._29(l,26).statusbarPadding,M._29(l,26)._hasRefresher);n(l,28,0,"inactive"!==M._29(l,29).state,M._29(l,29)._top);n(l,31,0,M._29(l,32).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var M=u(1),G=(u(0),u(10),u(6)),B=u(32),$=u(31),H=u(428),V=u(1911),N=function(){return function(){}}(),R=u(1284),j=u(1285),q=u(1286),z=u(1287),J=u(1288),Y=u(1289),Q=u(1290),X=u(1291),Z=u(1292),nn=u(1295),ln=u(1296),un=u(1297),en=u(1298),an=u(1317),sn=u(45),on=u(39),tn=u(7),rn=u(28),_n=u(17),cn=u(40),dn=u(34),mn=u(21),fn=u(19),pn=u(29),hn=u(33),gn=u(9),bn=u(79),vn=u(14),kn=u(36),In=u(26),wn=u(1376),yn=u(464),Cn=u(148),Pn=u(165),Sn=u(22),xn=u(44),Tn=u(2),An=u(177),Dn=u(158),Kn=u(5),En=u(16),Wn=u(4),On=u(24),Ln=u(12),Fn=u(240),Un=u(38),Mn=u(11),Gn=u(3),Bn=u(23),$n=u(25),Hn=u(212),Vn=u(215),Nn=u(55),Rn=u(49),jn=u(1343),qn=M._14({encapsulation:2,styles:[],data:{}}),zn=u(59),Jn=u(1895),Yn=u(639),Qn=u(193),Xn=u(18),Zn=u(98),nl=u(113),ll=u(99),ul=u(27),el=u(48),al=u(269),sl=u(213),ol=u(164),tl=u(20),il=u(1910),rl=u(1306),_l=u(139),cl=u(83),dl=u(74),ml=u(150),fl=u(182),pl=u(419),hl=u(35),gl=u(1293),bl=u(191),vl=u(1294),kl=u(326),Il=u(237),wl=u(420),yl=u(176),Cl=u(97),Pl=u(130),Sl=u(192),xl=u(144),Tl=u(58),Al=u(15),Dl=u(162),Kl=M._14({encapsulation:2,styles:[],data:{}}),El=M._12("page-addon-mod-workshop-submission-page",V.a,function(n){return M._42(0,[(n()(),M._16(0,0,null,null,1,"page-addon-mod-workshop-submission-page",[],null,null,null,U,Kl)),M._15(1,245760,null,0,V.a,[Tl.a,Tn.a,ml.a,Cn.a,cl.a,Pn.a,Sn.a,Mn.a,Wn.a,Xn.d,_n.a,tl.a,Al.a,[2,$n.a],Dl.a,xn.a],null,null)],function(n,l){n(l,1,0)},null)},{},{},[]),Wl=u(322),Ol=u(323),Ll=u(325),Fl=u(324),Ul=u(418),Ml=u(638),Gl=u(107),Bl=u(71),$l=u(238);u.d(l,"AddonModWorkshopSubmissionPageModuleNgFactory",function(){return Hl});var Hl=M._13(N,[],function(n){return M._25([M._26(512,M.n,M._6,[[8,[R.a,j.a,q.a,z.a,J.a,Y.a,Q.a,X.a,Z.a,nn.a,ln.a,un.a,en.a,an.a,El]],[3,M.n],M.B]),M._26(4608,gn.m,gn.l,[M.x,[2,gn.v]]),M._26(4608,Xn.x,Xn.x,[]),M._26(4608,Xn.d,Xn.d,[]),M._26(4608,Wl.b,Wl.a,[]),M._26(4608,Ol.a,Ol.b,[]),M._26(4608,Ll.b,Ll.a,[]),M._26(4608,Fl.b,Fl.a,[]),M._26(4608,_n.a,_n.a,[Ul.a,Wl.b,Ol.a,Ll.b,Fl.b,_n.b,_n.c]),M._26(512,$.a,$.a,[]),M._26(512,gn.b,gn.b,[]),M._26(512,Xn.v,Xn.v,[]),M._26(512,Xn.i,Xn.i,[]),M._26(512,Xn.s,Xn.s,[]),M._26(512,Ml.a,Ml.a,[]),M._26(512,G.a,G.a,[]),M._26(512,Gl.a,Gl.a,[]),M._26(512,B.a,B.a,[]),M._26(512,Bl.a,Bl.a,[]),M._26(512,H.a,H.a,[]),M._26(512,Ml.b,Ml.b,[]),M._26(512,N,N,[]),M._26(256,_n.c,void 0,[]),M._26(256,_n.b,void 0,[]),M._26(256,$l.a,V.a,[])])})},1895:function(n,l,u){"use strict";function e(n){return a._42(0,[(n()(),a._16(0,0,null,null,1,"div",[["class","toggle-icon"]],null,null,null,null,null)),(n()(),a._16(1,0,null,null,0,"div",[["class","toggle-inner"]],null,null,null,null,null)),(n()(),a._16(2,0,null,null,1,"button",[["class","item-cover"],["disable-activated",""],["ion-button","item-cover"],["role","checkbox"],["type","button"]],[[8,"id",0],[1,"aria-checked",0],[1,"aria-labelledby",0],[1,"aria-disabled",0]],null,null,s.b,s.a)),a._15(3,1097728,null,0,o.a,[[8,"item-cover"],t.a,a.p,a.K],null,null)],null,function(n,l){var u=l.component;n(l,2,0,u.id,u._value,u._labelId,u._disabled)})}u.d(l,"a",function(){return i}),l.b=e;var a=u(1),s=u(45),o=u(39),t=u(7),i=(u(19),u(14),u(193),u(36),u(26),a._14({encapsulation:2,styles:[],data:{}}))},1910:function(n,l,u){"use strict";function e(n){return g._42(0,[(n()(),g._16(0,0,null,null,4,null,null,null,null,null,null,null)),(n()(),g._40(-1,null,["\n            "])),(n()(),g._16(2,0,null,null,1,"core-dynamic-component",[],null,null,null,b.b,b.a)),g._15(3,901120,null,0,v.a,[k.a,g.n,g.w,[2,I.a],g.i,g.p,w.a],{component:[0,"component"],data:[1,"data"]},null),(n()(),g._40(-1,null,["\n        "]))],function(n,l){var u=l.component;n(l,3,0,u.componentClass,u.data)},null)}function a(n){return g._42(0,[(n()(),g._16(0,0,null,null,3,"div",[["class","core-info-card"]],null,null,null,null,null)),(n()(),g._40(1,null,["\n            ","\n        "])),g._33(2,{$a:0}),g._32(131072,y.a,[C.a,g.i])],null,function(n,l){var u=l.component;n(l,1,0,g._41(l,1,0,g._29(l,3).transform("addon.mod_workshop.assessmentstrategynotsupported",n(l,2,0,u.strategy))))})}function s(n){return g._42(0,[(n()(),g._16(0,0,null,null,1,"core-input-errors",[["item-content",""]],null,null,null,P.b,P.a)),g._15(1,638976,null,0,S.a,[C.a],{errorText:[0,"errorText"]},null)],function(n,l){n(l,1,0,l.component.fieldErrors.feedbackauthor)},null)}function o(n){return g._42(0,[(n()(),g._16(0,0,null,null,18,"ion-item",[["class","item item-block"],["stacked",""]],null,null,null,x.b,x.a)),g._15(1,1097728,null,3,T.a,[A.a,D.a,g.p,g.K,[2,K.a]],null,null),g._37(335544320,4,{contentLabel:0}),g._37(603979776,5,{_buttons:1}),g._37(603979776,6,{_icons:1}),g._15(5,16384,null,0,E.a,[],null,null),(n()(),g._40(-1,2,["\n                "])),(n()(),g._16(7,0,null,1,4,"ion-label",[["stacked",""]],null,null,null,W.b,W.a)),g._15(8,16384,[[4,4]],0,O.a,[D.a,g.p,g.K,[8,null],[8,""],[8,null],[8,null]],null,null),g._15(9,4308992,null,0,L.a,[g.p,C.a,F.a,U.a],{coreMarkRequired:[0,"coreMarkRequired"]},null),(n()(),g._40(10,0,["",""])),g._32(131072,y.a,[C.a,g.i]),(n()(),g._40(-1,2,["\n                "])),(n()(),g._16(13,0,null,3,1,"core-rich-text-editor",[["item-content",""]],null,[[null,"contentChanged"]],function(n,l,u){var e=!0;if("contentChanged"===l){e=!1!==n.component.onFeedbackChange(u)&&e}return e},M.b,M.a)),g._15(14,1228800,null,0,G.a,[w.a,B.a,$.a,H.a,V.a,[2,N.a],g.p,R.a,U.a],{control:[0,"control"],component:[1,"component"],componentId:[2,"componentId"]},{contentChanged:"contentChanged"}),(n()(),g._40(-1,2,["\n                "])),(n()(),g._11(16777216,null,3,1,null,s)),g._15(17,16384,null,0,j.k,[g.W,g.T],{ngIf:[0,"ngIf"]},null),(n()(),g._40(-1,2,["\n            "]))],function(n,l){var u=l.component;n(l,9,0,u.overallFeedkbackRequired);n(l,14,0,u.feedbackControl,u.component,u.workshop.coursemodule);n(l,17,0,u.overallFeedkbackRequired&&u.fieldErrors.feedbackauthor)},function(n,l){n(l,10,0,g._41(l,10,0,g._29(l,11).transform("addon.mod_workshop.feedbackauthor")))})}function t(n){return g._42(0,[(n()(),g._16(0,0,null,null,1,"core-attachments",[],null,null,null,q.b,q.a)),g._15(1,114688,null,0,z.a,[J.a,w.a,F.a,Y.a,C.a,Q.a],{files:[0,"files"],maxSize:[1,"maxSize"],maxSubmissions:[2,"maxSubmissions"],component:[3,"component"],componentId:[4,"componentId"],allowOffline:[5,"allowOffline"]},null)],function(n,l){var u=l.component;n(l,1,0,u.data.assessment.feedbackattachmentfiles,u.workshop.overallfeedbackmaxbytes,u.workshop.overallfeedbackfiles,u.component,u.componentId,!0)},null)}function i(n){return g._42(0,[(n()(),g._16(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),g._15(1,16384,[[10,4]],0,X.a,[g.p],{value:[0,"value"]},null),(n()(),g._40(2,null,["",""]))],function(n,l){n(l,1,0,l.context.$implicit)},function(n,l){n(l,2,0,l.context.$implicit)})}function r(n){return g._42(0,[(n()(),g._16(0,0,null,null,24,"ion-item",[["class","item item-block"]],null,null,null,x.b,x.a)),g._15(1,1097728,null,3,T.a,[A.a,D.a,g.p,g.K,[2,K.a]],null,null),g._37(335544320,7,{contentLabel:0}),g._37(603979776,8,{_buttons:1}),g._37(603979776,9,{_icons:1}),g._15(5,16384,null,0,E.a,[],null,null),(n()(),g._40(-1,2,["\n                "])),(n()(),g._16(7,0,null,1,4,"ion-label",[["stacked",""]],null,null,null,W.b,W.a)),g._15(8,16384,[[7,4]],0,O.a,[D.a,g.p,g.K,[8,null],[8,""],[8,null],[8,null]],null,null),g._15(9,4308992,null,0,L.a,[g.p,C.a,F.a,U.a],{coreMarkRequired:[0,"coreMarkRequired"]},null),(n()(),g._40(10,0,["",""])),g._32(131072,y.a,[C.a,g.i]),(n()(),g._40(-1,2,["\n                "])),(n()(),g._16(13,0,null,3,10,"ion-select",[["interface","popover"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"click"],[null,"keyup.space"]],function(n,l,u){var e=!0,a=n.component;if("click"===l){e=!1!==g._29(n,14)._click(u)&&e}if("keyup.space"===l){e=!1!==g._29(n,14)._keyup()&&e}if("ngModelChange"===l){e=!1!==(a.weight=u)&&e}return e},Z.b,Z.a)),g._15(14,1228800,null,1,nn.a,[ln.a,A.a,D.a,g.p,g.K,[2,T.a],un.a],{interface:[0,"interface"]},null),g._37(603979776,10,{options:1}),g._35(1024,null,en.l,function(n){return[n]},[nn.a]),g._15(17,671744,null,0,en.q,[[2,en.b],[8,null],[8,null],[2,en.l]],{model:[0,"model"]},{update:"ngModelChange"}),g._35(2048,null,en.m,null,[en.q]),g._15(19,16384,null,0,en.n,[en.m],null,null),(n()(),g._40(-1,null,["\n                    "])),(n()(),g._11(16777216,null,null,1,null,i)),g._15(22,802816,null,0,j.j,[g.W,g.T,g.v],{ngForOf:[0,"ngForOf"]},null),(n()(),g._40(-1,null,["\n                "])),(n()(),g._40(-1,2,["\n            "]))],function(n,l){var u=l.component;n(l,9,0,!0);n(l,14,0,"popover");n(l,17,0,u.weight);n(l,22,0,u.weights)},function(n,l){n(l,10,0,g._41(l,10,0,g._29(l,11).transform("addon.mod_workshop.assessmentweight")));n(l,13,0,g._29(l,14)._disabled,g._29(l,19).ngClassUntouched,g._29(l,19).ngClassTouched,g._29(l,19).ngClassPristine,g._29(l,19).ngClassDirty,g._29(l,19).ngClassValid,g._29(l,19).ngClassInvalid,g._29(l,19).ngClassPending)})}function _(n){return g._42(0,[(n()(),g._16(0,0,null,null,9,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,x.b,x.a)),g._15(1,1097728,null,3,T.a,[A.a,D.a,g.p,g.K,[2,K.a]],null,null),g._37(335544320,11,{contentLabel:0}),g._37(603979776,12,{_buttons:1}),g._37(603979776,13,{_icons:1}),g._15(5,16384,null,0,E.a,[],null,null),(n()(),g._40(-1,2,["\n                "])),(n()(),g._16(7,0,null,2,1,"core-format-text",[],null,null,null,null,null)),g._15(8,540672,null,0,an.a,[g.p,H.a,w.a,F.a,C.a,sn.a,U.a,$.a,k.a,V.a,J.a,on.a,[2,I.a],[2,N.a]],{text:[0,"text"],component:[1,"component"],componentId:[2,"componentId"]},null),(n()(),g._40(-1,2,["\n            "]))],function(n,l){var u=l.component;n(l,8,0,u.data.assessment.feedbackauthor,u.component,u.componentId)},null)}function c(n){return g._42(0,[(n()(),g._16(0,0,null,null,1,"core-file",[],null,null,null,tn.b,tn.a)),g._15(1,245760,null,0,rn.a,[H.a,U.a,w.a,V.a,J.a,_n.a,cn.a,R.a],{file:[0,"file"],component:[1,"component"],componentId:[2,"componentId"]},null)],function(n,l){var u=l.component;n(l,1,0,l.parent.context.$implicit,u.component,u.componentId)},null)}function d(n){return g._42(0,[(n()(),g._16(0,0,null,null,1,"core-local-file",[],null,null,null,dn.b,dn.a)),g._15(1,114688,null,0,mn.a,[cn.a,U.a,C.a,F.a,fn.a,w.a],{file:[0,"file"]},null)],function(n,l){n(l,1,0,l.parent.context.$implicit)},null)}function m(n){return g._42(0,[(n()(),g._16(0,0,null,null,9,null,null,null,null,null,null,null)),(n()(),g._40(-1,null,["\n                    "])),(n()(),g._40(-1,null,["\n                    "])),(n()(),g._11(16777216,null,null,1,null,c)),g._15(4,16384,null,0,j.k,[g.W,g.T],{ngIf:[0,"ngIf"]},null),(n()(),g._40(-1,null,["\n                    "])),(n()(),g._40(-1,null,["\n                    "])),(n()(),g._11(16777216,null,null,1,null,d)),g._15(8,16384,null,0,j.k,[g.W,g.T],{ngIf:[0,"ngIf"]},null),(n()(),g._40(-1,null,["\n                "]))],function(n,l){n(l,4,0,!l.context.$implicit.name);n(l,8,0,l.context.$implicit.name)},null)}function f(n){return g._42(0,[(n()(),g._16(0,0,null,null,9,"ion-item",[["class","item item-block"]],null,null,null,x.b,x.a)),g._15(1,1097728,null,3,T.a,[A.a,D.a,g.p,g.K,[2,K.a]],null,null),g._37(335544320,14,{contentLabel:0}),g._37(603979776,15,{_buttons:1}),g._37(603979776,16,{_icons:1}),g._15(5,16384,null,0,E.a,[],null,null),(n()(),g._40(-1,2,["\n                "])),(n()(),g._11(16777216,null,2,1,null,m)),g._15(8,802816,null,0,j.j,[g.W,g.T,g.v],{ngForOf:[0,"ngForOf"]},null),(n()(),g._40(-1,2,["\n            "]))],function(n,l){n(l,8,0,l.component.data.assessment.feedbackattachmentfiles)},null)}function p(n){return g._42(0,[(n()(),g._16(0,0,null,null,29,"ion-card",[],null,null,null,null,null)),g._15(1,16384,null,0,pn.a,[D.a,g.p,g.K],null,null),(n()(),g._40(-1,null,["\n            "])),(n()(),g._16(3,0,null,null,10,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,x.b,x.a)),g._15(4,1097728,null,3,T.a,[A.a,D.a,g.p,g.K,[2,K.a]],null,null),g._37(335544320,1,{contentLabel:0}),g._37(603979776,2,{_buttons:1}),g._37(603979776,3,{_icons:1}),g._15(8,16384,null,0,E.a,[],null,null),(n()(),g._40(-1,2,["\n                "])),(n()(),g._16(10,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),g._40(11,null,["",""])),g._32(131072,y.a,[C.a,g.i]),(n()(),g._40(-1,2,["\n            "])),(n()(),g._40(-1,null,["\n            "])),(n()(),g._11(16777216,null,null,1,null,o)),g._15(16,16384,null,0,j.k,[g.W,g.T],{ngIf:[0,"ngIf"]},null),(n()(),g._40(-1,null,["\n            "])),(n()(),g._11(16777216,null,null,1,null,t)),g._15(19,16384,null,0,j.k,[g.W,g.T],{ngIf:[0,"ngIf"]},null),(n()(),g._40(-1,null,["\n            "])),(n()(),g._11(16777216,null,null,1,null,r)),g._15(22,16384,null,0,j.k,[g.W,g.T],{ngIf:[0,"ngIf"]},null),(n()(),g._40(-1,null,["\n            "])),(n()(),g._11(16777216,null,null,1,null,_)),g._15(25,16384,null,0,j.k,[g.W,g.T],{ngIf:[0,"ngIf"]},null),(n()(),g._40(-1,null,["\n            "])),(n()(),g._11(16777216,null,null,1,null,f)),g._15(28,16384,null,0,j.k,[g.W,g.T],{ngIf:[0,"ngIf"]},null),(n()(),g._40(-1,null,["\n        "]))],function(n,l){var u=l.component;n(l,16,0,u.edit);n(l,19,0,u.edit&&u.workshop.overallfeedbackfiles);n(l,22,0,u.edit&&u.access&&u.access.canallocate);n(l,25,0,!u.edit&&u.data.assessment.feedbackauthor);n(l,28,0,!u.edit&&u.workshop.overallfeedbackfiles&&u.data.assessment.feedbackattachmentfiles&&u.data.assessment.feedbackattachmentfiles.length)},function(n,l){n(l,11,0,g._41(l,11,0,g._29(l,12).transform("addon.mod_workshop.overallfeedback")))})}function h(n){return g._42(0,[(n()(),g._16(0,0,null,null,2,"h3",[["padding",""]],null,null,null,null,null)),(n()(),g._40(1,null,["",""])),g._32(131072,y.a,[C.a,g.i]),(n()(),g._40(-1,null,["\n\n"])),(n()(),g._16(4,0,null,null,18,"form",[["name","mma-mod_workshop-assessment-form"],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(n,l,u){var e=!0;if("submit"===l){e=!1!==g._29(n,6).onSubmit(u)&&e}if("reset"===l){e=!1!==g._29(n,6).onReset()&&e}return e},null,null)),g._15(5,16384,null,0,en.w,[],null,null),g._15(6,4210688,null,0,en.p,[[8,null],[8,null]],null,null),g._35(2048,null,en.b,null,[en.p]),g._15(8,16384,null,0,en.o,[en.b],null,null),(n()(),g._40(-1,null,["\n    "])),(n()(),g._16(10,0,null,null,11,"core-loading",[],null,null,null,hn.b,hn.a)),g._15(11,638976,null,0,gn.a,[C.a,g.p],{hideUntil:[0,"hideUntil"]},null),(n()(),g._40(-1,0,["\n        "])),(n()(),g._11(16777216,null,0,1,null,e)),g._15(14,16384,null,0,j.k,[g.W,g.T],{ngIf:[0,"ngIf"]},null),(n()(),g._40(-1,0,["\n\n        "])),(n()(),g._11(16777216,null,0,1,null,a)),g._15(17,16384,null,0,j.k,[g.W,g.T],{ngIf:[0,"ngIf"]},null),(n()(),g._40(-1,0,["\n\n        "])),(n()(),g._11(16777216,null,0,1,null,p)),g._15(20,16384,null,0,j.k,[g.W,g.T],{ngIf:[0,"ngIf"]},null),(n()(),g._40(-1,0,["\n    "])),(n()(),g._40(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,11,0,u.assessmentStrategyLoaded);n(l,14,0,u.componentClass&&u.assessmentStrategyLoaded);n(l,17,0,u.notSupported);n(l,20,0,u.assessmentStrategyLoaded&&u.overallFeedkback&&(u.edit||u.data.assessment.feedbackauthor||u.data.assessment.feedbackattachmentfiles.length))},function(n,l){n(l,1,0,g._41(l,1,0,g._29(l,2).transform("addon.mod_workshop.assessmentform")));n(l,4,0,g._29(l,8).ngClassUntouched,g._29(l,8).ngClassTouched,g._29(l,8).ngClassPristine,g._29(l,8).ngClassDirty,g._29(l,8).ngClassValid,g._29(l,8).ngClassInvalid,g._29(l,8).ngClassPending)})}u.d(l,"a",function(){return bn}),l.b=h;var g=u(1),b=u(1299),v=u(195),k=u(5),I=u(22),w=u(4),y=u(28),C=u(17),P=u(87),S=u(77),x=u(34),T=u(21),A=u(19),D=u(7),K=u(29),E=u(33),W=u(81),O=u(59),L=u(70),F=u(11),U=u(3),M=u(269),G=u(213),B=u(164),$=u(24),H=u(2),V=u(16),N=u(25),R=u(20),j=u(9),q=u(429),z=u(272),J=u(12),Y=u(74),Q=u(122),X=u(98),Z=u(113),nn=u(99),ln=u(27),un=u(48),en=u(18),an=u(38),sn=u(14),on=u(23),tn=u(194),rn=u(161),_n=u(120),cn=u(69),dn=u(336),mn=u(246),fn=u(41),pn=u(88),hn=u(55),gn=u(49),bn=(u(139),u(83),u(150),u(165),u(148),u(182),g._14({encapsulation:2,styles:[],data:{}}))},1911:function(n,l,u){"use strict";(function(n){u.d(l,"a",function(){return i});var e=u(0),a=u(1),s=(u(10),u(18)),o=(u(6),u(20),u(2),u(83),u(4),u(11),u(15),u(44),u(162),u(1306),u(150)),t=(u(165),u(148),u(282)),i=function(){function l(n,l,u,e,a,i,r,_,c,d,m,f,p,h,g,b){var v=this;this.workshopProvider=u,this.workshopOffline=e,this.syncProvider=a,this.workshopHelper=i,this.navCtrl=r,this.textUtils=_,this.domUtils=c,this.fb=d,this.translate=m,this.eventsProvider=f,this.courseProvider=p,this.content=h,this.gradesHelper=g,this.userProvider=b,this.loaded=!1,this.ownAssessment=!1,this.canAddFeedback=!1,this.canEdit=!1,this.canDelete=!1,this.originalEvaluation={published:"",text:"",grade:""},this.hasOffline=!1,this.component=o.a.COMPONENT,this.forceLeave=!1,this.isDestroyed=!1,this.module=n.get("module"),this.workshop=n.get("workshop"),this.access=n.get("access"),this.courseId=n.get("courseId"),this.profile=n.get("profile"),this.submissionInfo=n.get("submission")||{},this.assessment=n.get("assessment")||null,this.title=this.module.name,this.workshopId=this.module.instance,this.currentUserId=l.getCurrentSiteUserId(),this.siteId=l.getCurrentSiteId(),this.submissionId=this.submissionInfo.submissionid||this.submissionInfo.id,this.userId=this.submissionInfo.userid||null,this.strategy=this.assessment&&this.assessment.strategy||this.workshop&&this.workshop.strategy,this.assessmentId=this.assessment&&(this.assessment.assessmentid||this.assessment.id),this.assessmentUserId=this.assessment&&(this.assessment.reviewerid||this.assessment.userid),this.feedbackForm=new s.g({}),this.feedbackForm.addControl("published",this.fb.control("")),this.feedbackForm.addControl("grade",this.fb.control("")),this.feedbackForm.addControl("text",this.fb.control("")),this.obsAssessmentSaved=this.eventsProvider.on(o.a.ASSESSMENT_SAVED,function(n){v.eventReceived(n)},this.siteId),this.syncObserver=this.eventsProvider.on(t.a.AUTO_SYNCED,function(n){v.eventReceived(n)},this.siteId)}return l.prototype.ngOnInit=function(){var n=this;this.fetchSubmissionData().then(function(){n.workshopProvider.logViewSubmission(n.submissionId).then(function(){n.courseProvider.checkModuleCompletion(n.courseId,n.module.completionstatus)})})},l.prototype.ionViewCanLeave=function(){var n=this.assessmentStrategy&&this.assessmentStrategy.hasDataChanged();return!(!this.forceLeave&&(this.hasEvaluationChanged()||n))||this.domUtils.showConfirm(this.translate.instant("core.confirmcanceledit"))},l.prototype.editSubmission=function(){this.navCtrl.push("AddonModWorkshopEditSubmissionPage",{module:n,access:this.access,courseid:this.courseId,submissionId:this.submission.id})},l.prototype.eventReceived=function(n){this.workshopId===n.workshopId&&(this.content&&this.content.scrollToTop(),this.loaded=!1,this.refreshAllData())},l.prototype.fetchSubmissionData=function(){var n=this;return this.workshopHelper.getSubmissionById(this.workshopId,this.submissionId).then(function(l){var u=[];if(n.submission=l,n.submission.attachmentfiles=l.attachmentfiles||[],n.submission.submissiongrade=n.submissionInfo&&n.submissionInfo.submissiongrade,n.submission.gradinggrade=n.submissionInfo&&n.submissionInfo.gradinggrade,n.submission.submissiongradeover=n.submissionInfo&&n.submissionInfo.submissiongradeover,n.userId=l.authorid||n.userId,n.canEdit=n.currentUserId==n.userId&&n.access.cansubmit&&n.access.modifyingsubmissionallowed,n.canDelete=n.access.candeletesubmissions,n.canAddFeedback=!n.assessmentId&&n.workshop.phase>o.a.PHASE_ASSESSMENT&&n.workshop.phase<o.a.PHASE_CLOSED&&n.access.canoverridegrades,n.ownAssessment=!1,n.access.canviewallassessments?u.push(n.workshopProvider.getSubmissionAssessments(n.workshopId,n.submissionId).then(function(l){n.canDelete&&(n.canDelete=!l.length),n.submissionInfo.reviewedby=l,n.submissionInfo.reviewedby.forEach(function(l){l.userid=l.reviewerid,l=n.workshopHelper.realGradeValue(n.workshop,l),n.currentUserId==l.userid&&(n.ownAssessment=l,l.ownAssessment=!0)})})):n.currentUserId==n.userId&&n.assessmentId&&u.push(n.workshopProvider.getAssessment(n.workshopId,n.assessmentId).then(function(l){n.canDelete&&(n.canDelete=!l),l.userid=l.reviewerid,l=n.workshopHelper.realGradeValue(n.workshop,l),n.currentUserId==l.userid&&(n.ownAssessment=l,l.ownAssessment=!0),n.submissionInfo.reviewedby=[l]})),(n.canAddFeedback||n.workshop.phase==o.a.PHASE_CLOSED)&&(n.evaluate={published:l.published,text:l.feedbackauthor||""}),n.canAddFeedback){n.isDestroyed||n.syncProvider.blockOperation(n.component,n.workshopId);var e=n.translate.instant("addon.mod_workshop.notoverridden");u.push(n.gradesHelper.makeGradesMenu(n.workshop.grade,n.workshopId,e,-1).then(function(l){return n.evaluationGrades=l,n.evaluate.grade={label:n.gradesHelper.getGradeLabelFromValue(l,n.submissionInfo.submissiongradeover)||e,value:n.submissionInfo.submissiongradeover||-1},n.workshopOffline.getEvaluateSubmission(n.workshopId,n.submissionId).then(function(u){n.hasOffline=!0,n.evaluate.published=u.published,n.evaluate.text=u.feedbacktext,n.evaluate.grade={label:n.gradesHelper.getGradeLabelFromValue(l,u.gradeover)||e,value:u.gradeover||-1}}).catch(function(){n.hasOffline=!1}).finally(function(){n.originalEvaluation.published=n.evaluate.published,n.originalEvaluation.text=n.evaluate.text,n.originalEvaluation.grade=n.evaluate.grade.value,n.feedbackForm.controls.published.setValue(n.evaluate.published),n.feedbackForm.controls.grade.setValue(n.evaluate.grade.value),n.feedbackForm.controls.text.setValue(n.evaluate.text)})}))}else n.workshop.phase==o.a.PHASE_CLOSED&&l.gradeoverby&&u.push(n.userProvider.getProfile(l.gradeoverby,n.courseId,!0).then(function(l){n.evaluateByProfile=l}));return n.assessmentId&&!n.access.assessingallowed&&n.assessment.feedbackreviewer&&n.assessment.gradinggradeoverby&&u.push(n.userProvider.getProfile(n.assessment.gradinggradeoverby,n.courseId,!0).then(function(l){n.evaluateGradingByProfile=l})),Promise.all(u)}).then(function(){return n.workshopOffline.getSubmissions(n.workshopId).then(function(l){var u=n.workshopHelper.filterSubmissionActions(l,n.submissionId);return n.workshopHelper.applyOfflineData(n.submission,u).then(function(l){n.submission=l})})}).catch(function(l){n.domUtils.showErrorModalDefault(l,"core.course.errorgetmodule",!0)}).finally(function(){n.loaded=!0})},l.prototype.forceLeavePage=function(){this.forceLeave=!0,this.navCtrl.pop()},l.prototype.hasEvaluationChanged=function(){if(!this.loaded||!this.access.canoverridegrades)return!1;var n=this.feedbackForm.value;return this.originalEvaluation.published!=n.published||(this.originalEvaluation.text!=n.text||this.originalEvaluation.grade!=n.grade)},l.prototype.refreshAllData=function(){var n=this,l=[];return l.push(this.workshopProvider.invalidateSubmissionData(this.workshopId,this.submissionId)),l.push(this.workshopProvider.invalidateSubmissionsData(this.workshopId)),l.push(this.workshopProvider.invalidateSubmissionAssesmentsData(this.workshopId,this.submissionId)),this.assessmentId&&(l.push(this.workshopProvider.invalidateAssessmentFormData(this.workshopId,this.assessmentId)),l.push(this.workshopProvider.invalidateAssessmentData(this.workshopId,this.assessmentId))),Promise.all(l).finally(function(){return n.eventsProvider.trigger(o.a.ASSESSMENT_INVALIDATED,n.siteId),n.fetchSubmissionData()})},l.prototype.refreshSubmission=function(n){this.loaded&&this.refreshAllData().finally(function(){n.complete()})},l.prototype.saveAssessment=function(){var n=this;this.assessmentStrategy&&this.assessmentStrategy.hasDataChanged()?this.assessmentStrategy.saveAssessment().then(function(){n.forceLeavePage()}).catch(function(){}):this.forceLeavePage()},l.prototype.saveEvaluation=function(){var n=this;this.hasEvaluationChanged()?this.sendEvaluation().then(function(){n.forceLeavePage()}):this.forceLeavePage()},l.prototype.sendEvaluation=function(){var n=this,l=this.domUtils.showModalLoading("core.sending",!0),u=this.feedbackForm.value;return u.grade=u.grade>=0?u.grade:"",u.text=this.textUtils.formatHtmlLines(u.text),this.workshopProvider.evaluateSubmission(this.workshopId,this.submissionId,this.courseId,u.text,u.published,u.grade).then(function(){var l={workshopId:n.workshopId,cmId:n.module.cmid,submissionId:n.submissionId};return n.workshopProvider.invalidateSubmissionData(n.workshopId,n.submissionId).finally(function(){n.eventsProvider.trigger(o.a.SUBMISSION_CHANGED,l,n.siteId)})}).catch(function(l){n.domUtils.showErrorModalDefault(l,"Cannot save submission evaluation")}).finally(function(){l.dismiss()})},l.prototype.deleteSubmission=function(){var n=this;this.domUtils.showConfirm(this.translate.instant("addon.mod_workshop.submissiondeleteconfirm")).then(function(){var l=n.domUtils.showModalLoading("core.deleting",!0),u=!1;n.workshopProvider.deleteSubmission(n.workshopId,n.submissionId,n.courseId).then(function(){return u=!0,n.workshopProvider.invalidateSubmissionData(n.workshopId,n.submissionId)}).catch(function(l){n.domUtils.showErrorModalDefault(l,"Cannot delete submission")}).finally(function(){if(l.dismiss(),u){n.eventsProvider.trigger(o.a.SUBMISSION_CHANGED,{workshopId:n.workshopId,cmId:n.module.cmid,submissionId:n.submissionId},n.siteId),n.forceLeavePage()}})})},l.prototype.undoDeleteSubmission=function(){var n=this;return this.workshopOffline.deleteSubmissionAction(this.workshopId,this.submissionId,"delete").finally(function(){return n.eventsProvider.trigger(o.a.SUBMISSION_CHANGED,{workshopId:n.workshopId,cmId:n.module.cmid,submissionId:n.submissionId},n.siteId),n.refreshAllData()})},l.prototype.ngOnDestroy=function(){this.isDestroyed=!0,this.syncObserver&&this.syncObserver.off(),this.obsAssessmentSaved&&this.obsAssessmentSaved.off(),this.syncProvider.unblockOperation(this.component,this.workshopId)},l=Object(e.__decorate)([Object(e.__param)(13,Object(a.E)())],l)}()}).call(l,u(1914)(n))},1914:function(n,l){n.exports=function(n){if(!n.webpackPolyfill){var l=Object.create(n);l.children||(l.children=[]),Object.defineProperty(l,"loaded",{enumerable:!0,get:function(){return l.l}}),Object.defineProperty(l,"id",{enumerable:!0,get:function(){return l.i}}),Object.defineProperty(l,"exports",{enumerable:!0}),l.webpackPolyfill=1}return l}}});
+webpackJsonp([5],{
+
+/***/ 1841:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModQuizPlayerPageModule", function() { return AddonModQuizPlayerPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_question_components_components_module__ = __webpack_require__(939);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__player__ = __webpack_require__(1966);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModQuizPlayerPageModule = /** @class */ (function () {
+    function AddonModQuizPlayerPageModule() {
+    }
+    AddonModQuizPlayerPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__player__["a" /* AddonModQuizPlayerPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__core_question_components_components_module__["a" /* CoreQuestionComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__player__["a" /* AddonModQuizPlayerPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModQuizPlayerPageModule);
+    return AddonModQuizPlayerPageModule;
+}());
+
+//# sourceMappingURL=player.module.js.map
+
+/***/ }),
+
+/***/ 1966:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModQuizPlayerPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_logger__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_time__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_question_providers_helper__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_quiz__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_quiz_sync__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_helper__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__classes_auto_save__ = __webpack_require__(1967);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that allows attempting a quiz.
+ */
+var AddonModQuizPlayerPage = /** @class */ (function () {
+    function AddonModQuizPlayerPage(navParams, logger, translate, eventsProvider, sitesProvider, syncProvider, domUtils, popoverCtrl, timeUtils, quizProvider, quizHelper, quizSync, questionHelper, cdr, modalCtrl, navCtrl) {
+        this.translate = translate;
+        this.eventsProvider = eventsProvider;
+        this.sitesProvider = sitesProvider;
+        this.syncProvider = syncProvider;
+        this.domUtils = domUtils;
+        this.timeUtils = timeUtils;
+        this.quizProvider = quizProvider;
+        this.quizHelper = quizHelper;
+        this.quizSync = quizSync;
+        this.questionHelper = questionHelper;
+        this.cdr = cdr;
+        this.navCtrl = navCtrl;
+        this.component = __WEBPACK_IMPORTED_MODULE_10__providers_quiz__["a" /* AddonModQuizProvider */].COMPONENT; // Component to link the files to.
+        this.preflightData = {}; // Preflight data to attempt the quiz.
+        this.forceLeave = false; // If true, don't perform any check when leaving the view.
+        this.quizId = navParams.get('quizId');
+        this.courseId = navParams.get('courseId');
+        this.moduleUrl = navParams.get('moduleUrl');
+        // Block the quiz so it cannot be synced.
+        this.syncProvider.blockOperation(__WEBPACK_IMPORTED_MODULE_10__providers_quiz__["a" /* AddonModQuizProvider */].COMPONENT, this.quizId);
+        // Create the auto save instance.
+        this.autoSave = new __WEBPACK_IMPORTED_MODULE_13__classes_auto_save__["a" /* AddonModQuizAutoSave */]('addon-mod_quiz-player-form', '#addon-mod_quiz-connection-error-button', logger, popoverCtrl, questionHelper, quizProvider);
+        // Create the navigation modal.
+        this.navigationModal = modalCtrl.create('AddonModQuizNavigationModalPage', {
+            page: this
+        });
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModQuizPlayerPage.prototype.ngOnInit = function () {
+        var _this = this;
+        // Start the player when the page is loaded.
+        this.start();
+        // Listen for errors on auto-save.
+        this.autoSaveErrorSubscription = this.autoSave.onError().subscribe(function (error) {
+            _this.autoSaveError = error;
+            _this.cdr.detectChanges();
+        });
+    };
+    /**
+     * Component being destroyed.
+     */
+    AddonModQuizPlayerPage.prototype.ngOnDestroy = function () {
+        // Stop auto save.
+        this.autoSave.cancelAutoSave();
+        this.autoSave.stopCheckChangesProcess();
+        this.autoSaveErrorSubscription && this.autoSaveErrorSubscription.unsubscribe();
+        // Unblock the quiz so it can be synced.
+        this.syncProvider.unblockOperation(__WEBPACK_IMPORTED_MODULE_10__providers_quiz__["a" /* AddonModQuizProvider */].COMPONENT, this.quizId);
+    };
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
+     */
+    AddonModQuizPlayerPage.prototype.ionViewCanLeave = function () {
+        var _this = this;
+        if (this.forceLeave) {
+            return true;
+        }
+        if (this.questions && this.questions.length && !this.showSummary) {
+            // Save answers.
+            var modal_1 = this.domUtils.showModalLoading('core.sending', true);
+            return this.processAttempt(false, false).catch(function () {
+                // Save attempt failed. Show confirmation.
+                modal_1.dismiss();
+                return _this.domUtils.showConfirm(_this.translate.instant('addon.mod_quiz.confirmleavequizonerror'));
+            }).finally(function () {
+                modal_1.dismiss();
+            });
+        }
+        return Promise.resolve();
+    };
+    /**
+     * Abort the quiz.
+     */
+    AddonModQuizPlayerPage.prototype.abortQuiz = function () {
+        this.quizAborted = true;
+    };
+    /**
+     * A behaviour button in a question was clicked (Check, Redo, ...).
+     *
+     * @param {any} button Clicked button.
+     */
+    AddonModQuizPlayerPage.prototype.behaviourButtonClicked = function (button) {
+        var _this = this;
+        // Confirm that the user really wants to do it.
+        this.domUtils.showConfirm(this.translate.instant('core.areyousure')).then(function () {
+            var modal = _this.domUtils.showModalLoading('core.sending', true), answers = _this.getAnswers();
+            // Add the clicked button data.
+            answers[button.name] = button.value;
+            // Behaviour checks are always in online.
+            return _this.quizProvider.processAttempt(_this.quiz, _this.attempt, answers, _this.preflightData).then(function () {
+                // Reload the current page.
+                var scrollElement = _this.content.getScrollElement(), scrollTop = scrollElement.scrollTop || 0, scrollLeft = scrollElement.scrollLeft || 0;
+                _this.loaded = false;
+                _this.content.scrollToTop(); // Scroll top so the spinner is seen.
+                return _this.loadPage(_this.attempt.currentpage).finally(function () {
+                    _this.loaded = true;
+                    _this.content.scrollTo(scrollLeft, scrollTop);
+                });
+            }).finally(function () {
+                modal.dismiss();
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error performing action.');
+        });
+    };
+    /**
+     * Change the current page. If slot is supplied, try to scroll to that question.
+     *
+     * @param {number} page Page to load. -1 means summary.
+     * @param {boolean} [fromModal] Whether the page was selected using the navigation modal.
+     * @param {number} [slot] Slot of the question to scroll to.
+     */
+    AddonModQuizPlayerPage.prototype.changePage = function (page, fromModal, slot) {
+        var _this = this;
+        if (page != -1 && (this.attempt.state == __WEBPACK_IMPORTED_MODULE_10__providers_quiz__["a" /* AddonModQuizProvider */].ATTEMPT_OVERDUE || this.attempt.finishedOffline)) {
+            // We can't load a page if overdue or the local attempt is finished.
+            return;
+        }
+        else if (page == this.attempt.currentpage && !this.showSummary && typeof slot != 'undefined') {
+            // Navigating to a question in the current page.
+            this.scrollToQuestion(slot);
+            return;
+        }
+        else if ((page == this.attempt.currentpage && !this.showSummary) || (fromModal && this.quiz.isSequential && page != -1)) {
+            // If the user is navigating to the current page we do nothing.
+            // Also, in sequential quizzes we don't allow navigating using the modal except for finishing the quiz (summary).
+            return;
+        }
+        else if (page === -1 && this.showSummary) {
+            // Summary already shown.
+            return;
+        }
+        this.loaded = false;
+        this.content.scrollToTop();
+        // First try to save the attempt data. We only save it if we're not seeing the summary.
+        var promise = this.showSummary ? Promise.resolve() : this.processAttempt(false, false);
+        promise.then(function () {
+            // Attempt data successfully saved, load the page or summary.
+            // Attempt data successfully saved, load the page or summary.
+            var subPromise;
+            // Stop checking for changes during page change.
+            _this.autoSave.stopCheckChangesProcess();
+            if (page === -1) {
+                subPromise = _this.loadSummary();
+            }
+            else {
+                subPromise = _this.loadPage(page);
+            }
+            return subPromise.catch(function (error) {
+                // If the user isn't seeing the summary, start the check again.
+                if (!_this.showSummary) {
+                    _this.autoSave.startCheckChangesProcess(_this.quiz, _this.attempt, _this.preflightData, _this.offline);
+                }
+                _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorgetquestions', true);
+            });
+        }, function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorsaveattempt', true);
+        }).finally(function () {
+            _this.loaded = true;
+            if (typeof slot != 'undefined') {
+                // Scroll to the question. Give some time to the questions to render.
+                setTimeout(function () {
+                    _this.scrollToQuestion(slot);
+                }, 2000);
+            }
+        });
+    };
+    /**
+     * Convenience function to get the quiz data.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.fetchData = function () {
+        var _this = this;
+        // Wait for any ongoing sync to finish. We won't sync a quiz while it's being played.
+        return this.quizSync.waitForSync(this.quizId).then(function () {
+            // Sync finished, now get the quiz.
+            return _this.quizProvider.getQuizById(_this.courseId, _this.quizId);
+        }).then(function (quizData) {
+            _this.quiz = quizData;
+            _this.quiz.isSequential = _this.quizProvider.isNavigationSequential(_this.quiz);
+            if (_this.quizProvider.isQuizOffline(_this.quiz)) {
+                // Quiz supports offline.
+                return true;
+            }
+            else {
+                // Quiz doesn't support offline right now, but maybe it did and then the setting was changed.
+                // If we have an unfinished offline attempt then we'll use offline mode.
+                return _this.quizProvider.isLastAttemptOfflineUnfinished(_this.quiz);
+            }
+        }).then(function (offlineMode) {
+            _this.offline = offlineMode;
+            if (_this.quiz.timelimit > 0) {
+                _this.quiz.readableTimeLimit = _this.timeUtils.formatTime(_this.quiz.timelimit);
+            }
+            // Get access information for the quiz.
+            return _this.quizProvider.getQuizAccessInformation(_this.quiz.id, _this.offline, true);
+        }).then(function (info) {
+            _this.quizAccessInfo = info;
+            // Get user attempts to determine last attempt.
+            return _this.quizProvider.getUserAttempts(_this.quiz.id, 'all', true, _this.offline, true);
+        }).then(function (attempts) {
+            if (!attempts.length) {
+                // There are no attempts, start a new one.
+                _this.newAttempt = true;
+            }
+            else {
+                var promises = [];
+                // Get the last attempt. If it's finished, start a new one.
+                _this.lastAttempt = attempts[attempts.length - 1];
+                _this.newAttempt = _this.quizProvider.isAttemptFinished(_this.lastAttempt.state);
+                // Load quiz last sync time.
+                promises.push(_this.quizSync.getSyncTime(_this.quiz.id).then(function (time) {
+                    _this.quiz.syncTime = time;
+                    _this.quiz.syncTimeReadable = _this.quizSync.getReadableTimeFromTimestamp(time);
+                }));
+                // Load flag to show if attempts are finished but not synced.
+                promises.push(_this.quizProvider.loadFinishedOfflineData(attempts));
+                return Promise.all(promises);
+            }
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorgetquiz', true);
+        });
+    };
+    /**
+     * Finish an attempt, either by timeup or because the user clicked to finish it.
+     *
+     * @param {boolean} [userFinish] Whether the user clicked to finish the attempt.
+     * @param {boolean} [timeUp] Whether the quiz time is up.
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.finishAttempt = function (userFinish, timeUp) {
+        var _this = this;
+        var promise;
+        // Show confirm if the user clicked the finish button and the quiz is in progress.
+        if (!timeUp && this.attempt.state == __WEBPACK_IMPORTED_MODULE_10__providers_quiz__["a" /* AddonModQuizProvider */].ATTEMPT_IN_PROGRESS) {
+            promise = this.domUtils.showConfirm(this.translate.instant('addon.mod_quiz.confirmclose'));
+        }
+        else {
+            promise = Promise.resolve();
+        }
+        return promise.then(function () {
+            var modal = _this.domUtils.showModalLoading('core.sending', true);
+            return _this.processAttempt(userFinish, timeUp).then(function () {
+                // Trigger an event to notify the attempt was finished.
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_10__providers_quiz__["a" /* AddonModQuizProvider */].ATTEMPT_FINISHED_EVENT, {
+                    quizId: _this.quizId,
+                    attemptId: _this.attempt.id,
+                    synced: !_this.offline
+                }, _this.sitesProvider.getCurrentSiteId());
+                // Leave the player.
+                _this.forceLeave = true;
+                _this.navCtrl.pop();
+            }).finally(function () {
+                modal.dismiss();
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorsaveattempt', true);
+        });
+    };
+    /**
+     * Get the input answers.
+     *
+     * @return {any} Object with the answers.
+     */
+    AddonModQuizPlayerPage.prototype.getAnswers = function () {
+        return this.questionHelper.getAnswersFromForm(document.forms['addon-mod_quiz-player-form']);
+    };
+    /**
+     * Initializes the timer if enabled.
+     */
+    AddonModQuizPlayerPage.prototype.initTimer = function () {
+        if (this.attemptAccessInfo.endtime > 0) {
+            // Quiz has an end time. Check if time left should be shown.
+            if (this.quizProvider.shouldShowTimeLeft(this.quizAccessInfo.activerulenames, this.attempt, this.attemptAccessInfo.endtime)) {
+                this.endTime = this.attemptAccessInfo.endtime;
+            }
+            else {
+                delete this.endTime;
+            }
+        }
+    };
+    /**
+     * Load a page questions.
+     *
+     * @param {number} page The page to load.
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.loadPage = function (page) {
+        var _this = this;
+        return this.quizProvider.getAttemptData(this.attempt.id, page, this.preflightData, this.offline, true).then(function (data) {
+            // Update attempt, status could change during the execution.
+            _this.attempt = data.attempt;
+            _this.attempt.currentpage = page;
+            _this.questions = data.questions;
+            _this.nextPage = data.nextpage;
+            _this.previousPage = _this.quiz.isSequential ? -1 : page - 1;
+            _this.showSummary = false;
+            _this.questions.forEach(function (question) {
+                // Get the readable mark for each question.
+                question.readableMark = _this.quizHelper.getQuestionMarkFromHtml(question.html);
+                // Extract the question info box.
+                _this.questionHelper.extractQuestionInfoBox(question, '.info');
+                // Set the preferred behaviour.
+                question.preferredBehaviour = _this.quiz.preferredbehaviour;
+                // Check if the question is blocked. If it is, treat it as a description question.
+                if (_this.quizProvider.isQuestionBlocked(question)) {
+                    question.type = 'description';
+                }
+            });
+            // Mark the page as viewed. We'll ignore errors in this call.
+            _this.quizProvider.logViewAttempt(_this.attempt.id, page, _this.preflightData, _this.offline).catch(function (error) {
+                // Ignore errors.
+            });
+            // Start looking for changes.
+            _this.autoSave.startCheckChangesProcess(_this.quiz, _this.attempt, _this.preflightData, _this.offline);
+        });
+    };
+    /**
+     * Load attempt summary.
+     *
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.loadSummary = function () {
+        var _this = this;
+        this.summaryQuestions = [];
+        return this.quizProvider.getAttemptSummary(this.attempt.id, this.preflightData, this.offline, true, true).then(function (qs) {
+            _this.showSummary = true;
+            _this.summaryQuestions = qs;
+            _this.canReturn = _this.attempt.state == __WEBPACK_IMPORTED_MODULE_10__providers_quiz__["a" /* AddonModQuizProvider */].ATTEMPT_IN_PROGRESS && !_this.attempt.finishedOffline;
+            _this.preventSubmitMessages = _this.quizProvider.getPreventSubmitMessages(_this.summaryQuestions);
+            _this.attempt.dueDateWarning = _this.quizProvider.getAttemptDueDateWarning(_this.quiz, _this.attempt);
+            // Log summary as viewed.
+            _this.quizProvider.logViewAttemptSummary(_this.attempt.id, _this.preflightData).catch(function (error) {
+                // Ignore errors.
+            });
+        });
+    };
+    /**
+     * Load data to navigate the questions using the navigation modal.
+     *
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.loadNavigation = function () {
+        var _this = this;
+        // We use the attempt summary to build the navigation because it contains all the questions.
+        return this.quizProvider.getAttemptSummary(this.attempt.id, this.preflightData, this.offline).then(function (questions) {
+            _this.navigation = questions;
+        });
+    };
+    // Prepare the answers to be sent for the attempt.
+    AddonModQuizPlayerPage.prototype.prepareAnswers = function () {
+        return this.questionHelper.prepareAnswers(this.questions, this.getAnswers(), this.offline);
+    };
+    /**
+     * Process attempt.
+     *
+     * @param {boolean} [userFinish] Whether the user clicked to finish the attempt.
+     * @param {boolean} [timeUp] Whether the quiz time is up.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModQuizPlayerPage.prototype.processAttempt = function (userFinish, timeUp) {
+        var _this = this;
+        // Get the answers to send.
+        return this.prepareAnswers().then(function (answers) {
+            // Send the answers.
+            return _this.quizProvider.processAttempt(_this.quiz, _this.attempt, answers, _this.preflightData, userFinish, timeUp, _this.offline);
+        }).then(function () {
+            // Answers saved, cancel auto save.
+            _this.autoSave.cancelAutoSave();
+            _this.autoSave.hideAutoSaveError();
+        });
+    };
+    /**
+     * Scroll to a certain question.
+     *
+     * @param {number} slot Slot of the question to scroll to.
+     */
+    AddonModQuizPlayerPage.prototype.scrollToQuestion = function (slot) {
+        this.domUtils.scrollToElementBySelector(this.content, '#addon-mod_quiz-question-' + slot);
+    };
+    /**
+     * Show connection error.
+     *
+     * @param {Event} ev Click event.
+     */
+    AddonModQuizPlayerPage.prototype.showConnectionError = function (ev) {
+        this.autoSave.showAutoSaveError(ev);
+    };
+    /**
+     * Convenience function to start the player.
+     */
+    AddonModQuizPlayerPage.prototype.start = function () {
+        var _this = this;
+        var promise;
+        this.loaded = false;
+        if (this.quizDataLoaded) {
+            // Quiz data has been loaded, try to start or continue.
+            promise = this.startOrContinueAttempt();
+        }
+        else {
+            // Fetch data.
+            promise = this.fetchData().then(function () {
+                _this.quizDataLoaded = true;
+                return _this.startOrContinueAttempt();
+            });
+        }
+        promise.finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Start or continue an attempt.
+     *
+     * @return {Promise<any>} [description]
+     */
+    AddonModQuizPlayerPage.prototype.startOrContinueAttempt = function () {
+        var _this = this;
+        var attempt = this.newAttempt ? undefined : this.lastAttempt;
+        // Get the preflight data and start attempt if needed.
+        return this.quizHelper.getAndCheckPreflightData(this.quiz, this.quizAccessInfo, this.preflightData, attempt, this.offline, false, 'addon.mod_quiz.startattempt').then(function (attempt) {
+            // Re-fetch attempt access information with the right attempt (might have changed because a new attempt was created).
+            return _this.quizProvider.getAttemptAccessInformation(_this.quiz.id, attempt.id, _this.offline, true).then(function (info) {
+                _this.attemptAccessInfo = info;
+                _this.attempt = attempt;
+                return _this.loadNavigation();
+            }).then(function () {
+                if (_this.attempt.state != __WEBPACK_IMPORTED_MODULE_10__providers_quiz__["a" /* AddonModQuizProvider */].ATTEMPT_OVERDUE && !_this.attempt.finishedOffline) {
+                    // Attempt not overdue and not finished in offline, load page.
+                    return _this.loadPage(_this.attempt.currentpage).then(function () {
+                        _this.initTimer();
+                    });
+                }
+                else {
+                    // Attempt is overdue or finished in offline, we can only load the summary.
+                    return _this.loadSummary();
+                }
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_quiz.errorgetquestions', true);
+        });
+    };
+    /**
+     * Quiz time has finished.
+     */
+    AddonModQuizPlayerPage.prototype.timeUp = function () {
+        if (this.timeUpCalled) {
+            return;
+        }
+        this.timeUpCalled = true;
+        this.finishAttempt(false, true);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonModQuizPlayerPage.prototype, "content", void 0);
+    AddonModQuizPlayerPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-quiz-player',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/quiz/pages/player/player.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title><core-format-text *ngIf="quiz" [text]="quiz.name"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <button id="addon-mod_quiz-connection-error-button" ion-button icon-only [hidden]="!autoSaveError" (click)="showConnectionError($event)" [attr.aria-label]="\'core.error\' | translate">\n                <ion-icon name="alert"></ion-icon>\n            </button>\n            <button *ngIf="navigation && navigation.length" ion-button icon-only [attr.aria-label]="\'addon.mod_quiz.opentoc\' | translate" (click)="navigationModal.present()">\n                <ion-icon name="bookmark"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <!-- Navigation arrows and time left. -->\n    <ion-toolbar *ngIf="loaded && endTime && questions && questions.length && !quizAborted && !showSummary" color="light" ion-fixed>\n        <ion-title>\n            <core-timer [endTime]="endTime" (finished)="timeUp()" [timerText]="\'addon.mod_quiz.timeleft\' | translate" align="center"></core-timer>\n        </ion-title>\n        <ion-buttons end>\n            <a ion-button icon-only *ngIf="previousPage >= 0" (click)="changePage(previousPage)" [title]="\'core.previous\' | translate">\n                <ion-icon name="arrow-back" md="ios-arrow-back"></ion-icon>\n            </a>\n            <a ion-button icon-only *ngIf="nextPage >= -1" (click)="changePage(nextPage)" [title]="\'core.next\' | translate">\n                <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n            </a>\n        </ion-buttons>\n    </ion-toolbar>\n    <core-loading [hideUntil]="loaded" [class.core-has-fixed-timer]="endTime">\n        <!-- Navigation arrows and time left. -->\n        <ion-toolbar *ngIf="!endTime && questions && questions.length && !quizAborted && !showSummary" color="light">\n            <ion-buttons end>\n                <a ion-button icon-only *ngIf="previousPage >= 0" (click)="changePage(previousPage)" [title]="\'core.previous\' | translate">\n                    <ion-icon name="arrow-back" md="ios-arrow-back"></ion-icon>\n                </a>\n                <a ion-button icon-only *ngIf="nextPage >= -1" (click)="changePage(nextPage)" [title]="\'core.next\' | translate">\n                    <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n                </a>\n            </ion-buttons>\n        </ion-toolbar>\n        <!-- Button to start attempting. -->\n        <div padding *ngIf="!attempt">\n            <button ion-button block (click)="start()">{{ \'addon.mod_quiz.startattempt\' | translate }}</button>\n        </div>\n\n        <!-- Questions -->\n        <form name="addon-mod_quiz-player-form" *ngIf="questions && questions.length && !quizAborted && !showSummary">\n            <div *ngFor="let question of questions">\n                <ion-card id="addon-mod_quiz-question-{{question.slot}}">\n                    <!-- "Header" of the question. -->\n                    <ion-item-divider color="light">\n                        <h2 *ngIf="question.number" class="inline">{{ \'core.question.questionno\' | translate:{$a: question.number} }}</h2>\n                        <h2 *ngIf="!question.number" class="inline">{{ \'core.question.information\' | translate }}</h2>\n                        <ion-note text-wrap item-end *ngIf="question.status || question.readableMark">\n                            <p *ngIf="question.status" class="block">{{question.status}}</p>\n                            <p *ngIf="question.readableMark"><core-format-text [text]="question.readableMark"></core-format-text></p>\n                        </ion-note>\n                    </ion-item-divider>\n                    <!-- Body of the question. -->\n                    <core-question text-wrap [question]="question" [component]="component" [componentId]="quiz.coursemodule" [attemptId]="attempt.id" [offlineEnabled]="offline" (onAbort)="abortQuiz()" (buttonClicked)="behaviourButtonClicked($event)"></core-question>\n                </ion-card>\n            </div>\n        </form>\n\n        <!-- Go to next or previous page. -->\n        <ion-grid text-wrap *ngIf="questions && questions.length && !quizAborted && !showSummary">\n            <ion-row>\n                <ion-col *ngIf="previousPage >= 0" >\n                    <button ion-button block icon-start (click)="changePage(previousPage)">\n                        <ion-icon name="arrow-back" md="ios-arrow-back"></ion-icon>\n                        {{ \'core.previous\' | translate }}\n                    </button>\n                </ion-col>\n                <ion-col *ngIf="nextPage >= -1">\n                    <button ion-button block icon-end (click)="changePage(nextPage)">\n                        {{ \'core.next\' | translate }}\n                        <ion-icon name="arrow-forward" md="ios-arrow-forward"></ion-icon>\n                    </button>\n                </ion-col>\n            </ion-row>\n        </ion-grid>\n\n        <!-- Summary -->\n        <ion-card *ngIf="!quizAborted && showSummary && summaryQuestions && summaryQuestions.length" class="addon-mod_quiz-table">\n            <ion-card-header text-wrap>\n                <h2>{{ \'addon.mod_quiz.summaryofattempt\' | translate }}</h2>\n            </ion-card-header>\n            <!-- "Header" of the summary table. -->\n            <ion-item text-wrap>\n                <ion-row align-items-center>\n                    <ion-col col-3 text-center><b>{{ \'addon.mod_quiz.question\' | translate }}</b></ion-col>\n                    <ion-col col-9 text-center><b>{{ \'addon.mod_quiz.status\' | translate }}</b></ion-col>\n                </ion-row>\n            </ion-item>\n            <!-- Lift of questions of the summary table. -->\n            <ng-container *ngFor="let question of summaryQuestions">\n                <a ion-item (click)="changePage(question.page, false, question.slot)" *ngIf="question.number" [attr.aria-label]="\'core.question.questionno\' | translate:{$a: question.number}" [attr.detail-push]="!quiz.isSequential && canReturn ? true : null">\n                    <ion-row align-items-center>\n                        <ion-col col-3 text-center>{{ question.number }}</ion-col>\n                        <ion-col col-9 text-center>{{ question.status }}</ion-col>\n                    </ion-row>\n                </a>\n            </ng-container>\n            <!-- Button to return to last page seen. -->\n            <ion-item *ngIf="canReturn">\n                <a ion-button block (click)="changePage(attempt.currentpage)">{{ \'addon.mod_quiz.returnattempt\' | translate }}</a>\n            </ion-item>\n            <!-- Due date warning. -->\n            <ion-item text-wrap *ngIf="attempt.dueDateWarning">\n                {{ attempt.dueDateWarning }}\n            </ion-item>\n            <!-- Time left (if quiz is timed). -->\n            <core-timer *ngIf="endTime" [endTime]="endTime" (finished)="timeUp()" [timerText]="\'addon.mod_quiz.timeleft\' | translate"></core-timer>\n            <!-- List of messages explaining why the quiz cannot be submitted. -->\n            <ion-item text-wrap *ngIf="preventSubmitMessages.length">\n                <p class="item-heading">{{ \'addon.mod_quiz.cannotsubmitquizdueto\' | translate }}</p>\n                <p *ngFor="let message of preventSubmitMessages">{{message}}</p>\n                <a ion-button block icon-end [href]="moduleUrl" core-link>\n                    <ion-icon name="open"></ion-icon>\n                    {{ \'core.openinbrowser\' | translate }}\n                </a>\n            </ion-item>\n            <!-- Button to submit the quiz. -->\n            <ion-item *ngIf="!attempt.finishedOffline && !preventSubmitMessages.length">\n                <a ion-button block (click)="finishAttempt(true)">{{ \'addon.mod_quiz.submitallandfinish\' | translate }}</a>\n            </ion-item>\n        </ion-card>\n\n        <!-- Quiz aborted -->\n        <ion-card *ngIf="attempt && (((!questions || !questions.length) && !showSummary) || quizAborted)">\n            <ion-item text-wrap>\n                <p>{{ \'addon.mod_quiz.errorparsequestions\' | translate }}</p>\n            </ion-item>\n            <ion-item>\n                <a ion-button block icon-end [href]="moduleUrl" core-link>\n                    <ion-icon name="open"></ion-icon>\n                    {{ \'core.openinbrowser\' | translate }}\n                </a>\n            </ion-item>\n        </ion-card>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/quiz/pages/player/player.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_logger__["a" /* CoreLoggerProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* CoreSyncProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* PopoverController */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_utils_time__["a" /* CoreTimeUtilsProvider */], __WEBPACK_IMPORTED_MODULE_10__providers_quiz__["a" /* AddonModQuizProvider */],
+            __WEBPACK_IMPORTED_MODULE_12__providers_helper__["a" /* AddonModQuizHelperProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_quiz_sync__["a" /* AddonModQuizSyncProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__core_question_providers_helper__["a" /* CoreQuestionHelperProvider */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectorRef */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */]])
+    ], AddonModQuizPlayerPage);
+    return AddonModQuizPlayerPage;
+}());
+
+//# sourceMappingURL=player.js.map
+
+/***/ }),
+
+/***/ 1967:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModQuizAutoSave; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_connection_error_connection_error__ = __webpack_require__(962);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+
+/**
+ * Class to support auto-save in quiz. Every certain seconds, it will check if there are changes in the current page answers
+ * and, if so, it will save them automatically.
+ */
+var AddonModQuizAutoSave = /** @class */ (function () {
+    /**
+     * Constructor.
+     *
+     * @param {string} formName Name of the form where the answers are stored.
+     * @param {string} buttonSelector Selector to find the button to show the connection error.
+     * @param {CoreLoggerProvider} loggerProvider CoreLoggerProvider instance.
+     * @param {PopoverController} popoverCtrl PopoverController instance.
+     * @param {CoreQuestionHelperProvider} questionHelper CoreQuestionHelperProvider instance.
+     * @param {AddonModQuizProvider} quizProvider AddonModQuizProvider instance.
+     */
+    function AddonModQuizAutoSave(formName, buttonSelector, loggerProvider, popoverCtrl, questionHelper, quizProvider) {
+        var _this = this;
+        this.formName = formName;
+        this.buttonSelector = buttonSelector;
+        this.popoverCtrl = popoverCtrl;
+        this.questionHelper = questionHelper;
+        this.quizProvider = quizProvider;
+        this.CHECK_CHANGES_INTERVAL = 5000;
+        this.popoverShown = false; // Whether the popover is shown.
+        this.logger = loggerProvider.getInstance('AddonModQuizAutoSave');
+        // Create the popover.
+        this.popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_0__components_connection_error_connection_error__["a" /* AddonModQuizConnectionErrorComponent */]);
+        this.popover.onDidDismiss(function () {
+            _this.popoverShown = false;
+        });
+        // Create the observable to notify if an error happened.
+        this.errorObservable = new __WEBPACK_IMPORTED_MODULE_1_rxjs__["BehaviorSubject"](false);
+    }
+    /**
+     * Cancel a pending auto save.
+     */
+    AddonModQuizAutoSave.prototype.cancelAutoSave = function () {
+        clearTimeout(this.autoSaveTimeout);
+        this.autoSaveTimeout = undefined;
+    };
+    /**
+     * Check if the answers have changed in a page.
+     *
+     * @param {any} quiz Quiz.
+     * @param {any} attempt Attempt.
+     * @param {any} preflightData Preflight data.
+     * @param {boolean} [offline] Whether the quiz is being attempted in offline mode.
+     */
+    AddonModQuizAutoSave.prototype.checkChanges = function (quiz, attempt, preflightData, offline) {
+        if (this.autoSaveTimeout) {
+            // We already have an auto save pending, no need to check changes.
+            return;
+        }
+        var answers = this.getAnswers();
+        if (!this.previousAnswers) {
+            // Previous answers isn't set, set it now.
+            this.previousAnswers = answers;
+        }
+        else {
+            // Check if answers have changed.
+            var equal = true;
+            for (var name_1 in answers) {
+                if (this.previousAnswers[name_1] != answers[name_1]) {
+                    equal = false;
+                    break;
+                }
+            }
+            if (!equal) {
+                this.setAutoSaveTimer(quiz, attempt, preflightData, offline);
+            }
+            this.previousAnswers = answers;
+        }
+    };
+    /**
+     * Get answers from a form.
+     *
+     * @return {any} Answers.
+     */
+    AddonModQuizAutoSave.prototype.getAnswers = function () {
+        return this.questionHelper.getAnswersFromForm(document.forms[this.formName]);
+    };
+    /**
+     * Hide the auto save error.
+     */
+    AddonModQuizAutoSave.prototype.hideAutoSaveError = function () {
+        this.errorObservable.next(false);
+        this.popover.dismiss();
+    };
+    /**
+     * Returns an observable that will notify when an error happens or stops.
+     * It will send true when there's an error, and false when the error has been ammended.
+     *
+     * @return {BehaviorSubject<boolean>} Observable.
+     */
+    AddonModQuizAutoSave.prototype.onError = function () {
+        return this.errorObservable;
+    };
+    /**
+     * Schedule an auto save process if it's not scheduled already.
+     *
+     * @param {any} quiz Quiz.
+     * @param {any} attempt Attempt.
+     * @param {any} preflightData Preflight data.
+     * @param {boolean} [offline] Whether the quiz is being attempted in offline mode.
+     */
+    AddonModQuizAutoSave.prototype.setAutoSaveTimer = function (quiz, attempt, preflightData, offline) {
+        var _this = this;
+        // Don't schedule if already shceduled or quiz is almost closed.
+        if (quiz.autosaveperiod && !this.autoSaveTimeout && !this.quizProvider.isAttemptTimeNearlyOver(quiz, attempt)) {
+            // Schedule save.
+            this.autoSaveTimeout = setTimeout(function () {
+                var answers = _this.getAnswers();
+                _this.cancelAutoSave();
+                _this.previousAnswers = answers; // Update previous answers to match what we're sending to the server.
+                _this.quizProvider.saveAttempt(quiz, attempt, answers, preflightData, offline).then(function () {
+                    // Save successful, we can hide the connection error if it was shown.
+                    _this.hideAutoSaveError();
+                }).catch(function (error) {
+                    // Error auto-saving. Show error and set timer again.
+                    _this.logger.warn('Error auto-saving data.', error);
+                    // If there was no error already, show the error message.
+                    if (!_this.errorObservable.getValue()) {
+                        _this.errorObservable.next(true);
+                        _this.showAutoSaveError();
+                    }
+                    // Try again.
+                    _this.setAutoSaveTimer(quiz, attempt, preflightData, offline);
+                });
+            }, quiz.autosaveperiod * 1000);
+        }
+    };
+    /**
+     * Show an error popover due to an auto save error.
+     */
+    AddonModQuizAutoSave.prototype.showAutoSaveError = function (ev) {
+        // Don't show popover if it was already shown.
+        if (!this.popoverShown) {
+            this.popoverShown = true;
+            // If no event is provided, simulate it targeting the button.
+            this.popover.present({
+                ev: ev || { target: document.querySelector(this.buttonSelector) }
+            });
+        }
+    };
+    /**
+     * Start a process to periodically check changes in answers.
+     *
+     * @param {any} quiz Quiz.
+     * @param {any} attempt Attempt.
+     * @param {any} preflightData Preflight data.
+     * @param {boolean} [offline] Whether the quiz is being attempted in offline mode.
+     */
+    AddonModQuizAutoSave.prototype.startCheckChangesProcess = function (quiz, attempt, preflightData, offline) {
+        var _this = this;
+        if (this.checkChangesInterval || !quiz.autosaveperiod) {
+            // We already have the interval in place or the quiz has autosave disabled.
+            return;
+        }
+        this.previousAnswers = undefined;
+        // Load initial answers in 2.5 seconds so the first check interval finds them already loaded.
+        this.loadPreviousAnswersTimeout = setTimeout(function () {
+            _this.checkChanges(quiz, attempt, preflightData, offline);
+        }, 2500);
+        // Check changes every certain time.
+        this.checkChangesInterval = setInterval(function () {
+            _this.checkChanges(quiz, attempt, preflightData, offline);
+        }, this.CHECK_CHANGES_INTERVAL);
+    };
+    /**
+     * Stops the periodical check for changes.
+     */
+    AddonModQuizAutoSave.prototype.stopCheckChangesProcess = function () {
+        clearTimeout(this.loadPreviousAnswersTimeout);
+        clearInterval(this.checkChangesInterval);
+        this.loadPreviousAnswersTimeout = undefined;
+        this.checkChangesInterval = undefined;
+    };
+    return AddonModQuizAutoSave;
+}());
+
+//# sourceMappingURL=auto-save.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=5.js.map

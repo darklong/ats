@@ -1,1 +1,330 @@
-webpackJsonp([44],{1875:function(l,n,u){"use strict";function i(l){return c._42(0,[(l()(),c._16(0,0,null,null,21,"div",[],null,null,null,null,null)),(l()(),c._40(-1,null,["\n                "])),(l()(),c._16(2,0,null,null,2,"p",[["padding",""]],null,null,null,null,null)),(l()(),c._40(3,null,["",""])),c._32(131072,T.a,[L.a,c.i]),(l()(),c._40(-1,null,["\n                "])),(l()(),c._16(6,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,H.b,H.a)),c._15(7,1097728,null,3,O.a,[A.a,B.a,c.p,c.K,[2,M.a]],null,null),c._37(335544320,2,{contentLabel:0}),c._37(603979776,3,{_buttons:1}),c._37(603979776,4,{_icons:1}),c._15(11,16384,null,0,W.a,[],null,null),(l()(),c._40(-1,2,["\n                    "])),(l()(),c._16(13,0,null,3,6,"ion-input",[["formControlName","siteUrl"],["name","url"],["type","url"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,D.b,D.a)),c._15(14,81920,null,0,E.a,[c.p,p.a,$.a,[2,N.a]],{coreAutoFocus:[0,"coreAutoFocus"]},null),c._15(15,671744,null,0,h.f,[[3,h.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),c._35(2048,null,h.m,null,[h.f]),c._15(17,16384,null,0,h.n,[h.m],null,null),c._15(18,5423104,null,0,j.a,[B.a,V.a,A.a,q.a,c.p,c.K,[2,R.a],[2,O.a],[2,h.m],J.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),c._32(131072,T.a,[L.a,c.i]),(l()(),c._40(-1,2,["\n                "])),(l()(),c._40(-1,null,["\n            "]))],function(l,n){l(n,14,0,n.component.showKeyboard);l(n,15,0,"siteUrl");l(n,18,0,"url",c._19(1,"",c._41(n,18,1,c._29(n,19).transform("core.login.siteaddress")),""))},function(l,n){l(n,3,0,c._41(n,3,0,c._29(n,4).transform("core.login.newsitedescription")));l(n,13,0,c._29(n,17).ngClassUntouched,c._29(n,17).ngClassTouched,c._29(n,17).ngClassPristine,c._29(n,17).ngClassDirty,c._29(n,17).ngClassValid,c._29(n,17).ngClassInvalid,c._29(n,17).ngClassPending)})}function e(l){return c._42(0,[(l()(),c._16(0,0,null,null,2,"ion-option",[],null,null,null,null,null)),c._15(1,16384,[[8,4]],0,z.a,[c.p],{value:[0,"value"]},null),(l()(),c._40(2,null,["",""]))],function(l,n){l(n,1,0,n.context.$implicit.url)},function(l,n){l(n,2,0,n.context.$implicit.name)})}function t(l){return c._42(0,[(l()(),c._16(0,0,null,null,24,"ion-item",[["class","item item-block"],["margin-vertical",""]],null,null,null,H.b,H.a)),c._15(1,1097728,null,3,O.a,[A.a,B.a,c.p,c.K,[2,M.a]],null,null),c._37(335544320,5,{contentLabel:0}),c._37(603979776,6,{_buttons:1}),c._37(603979776,7,{_icons:1}),c._15(5,16384,null,0,W.a,[],null,null),(l()(),c._40(-1,2,["\n                    "])),(l()(),c._16(7,0,null,1,3,"ion-label",[["for","siteSelect"],["stacked",""]],null,null,null,null,null)),c._15(8,16384,[[5,4]],0,G.a,[B.a,c.p,c.K,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),c._40(9,null,["",""])),c._32(131072,T.a,[L.a,c.i]),(l()(),c._40(-1,2,["\n                    "])),(l()(),c._16(12,0,null,3,11,"ion-select",[["formControlName","siteUrl"],["interface","popover"],["name","url"]],[[2,"select-disabled",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"click"],[null,"keyup.space"]],function(l,n,u){var i=!0;if("click"===n){i=!1!==c._29(l,13)._click(u)&&i}if("keyup.space"===n){i=!1!==c._29(l,13)._keyup()&&i}return i},Q.b,Q.a)),c._15(13,1228800,null,1,X.a,[q.a,A.a,B.a,c.p,c.K,[2,O.a],Y.a],{placeholder:[0,"placeholder"],interface:[1,"interface"]},null),c._37(603979776,8,{options:1}),c._32(131072,T.a,[L.a,c.i]),c._35(1024,null,h.l,function(l){return[l]},[X.a]),c._15(17,671744,null,0,h.f,[[3,h.b],[8,null],[8,null],[2,h.l]],{name:[0,"name"]},null),c._35(2048,null,h.m,null,[h.f]),c._15(19,16384,null,0,h.n,[h.m],null,null),(l()(),c._40(-1,null,["\n                        "])),(l()(),c._11(16777216,null,null,1,null,e)),c._15(22,802816,null,0,Z.j,[c.W,c.T,c.v],{ngForOf:[0,"ngForOf"]},null),(l()(),c._40(-1,null,["\n                    "])),(l()(),c._40(-1,2,["\n                "]))],function(l,n){var u=n.component;l(n,13,0,c._19(1,"",c._41(n,13,0,c._29(n,15).transform("core.login.siteaddress")),""),"popover");l(n,17,0,"siteUrl");l(n,22,0,u.fixedSites)},function(l,n){l(n,9,0,c._41(n,9,0,c._29(n,10).transform("core.login.selectsite")));l(n,12,0,c._29(n,13)._disabled,c._29(n,19).ngClassUntouched,c._29(n,19).ngClassTouched,c._29(n,19).ngClassPristine,c._29(n,19).ngClassDirty,c._29(n,19).ngClassValid,c._29(n,19).ngClassInvalid,c._29(n,19).ngClassPending)})}function o(l){return c._42(0,[(l()(),c._16(0,0,null,null,2,"a",[["block",""],["ion-button",""],["margin-bottom",""]],[[8,"title",0]],[[null,"click"]],function(l,n,u){var i=!0;if("click"===n){i=!1!==l.component.connect(l.context.$implicit.url)&&i}return i},ll.b,ll.a)),c._15(1,1097728,null,0,nl.a,[[8,""],B.a,c.p,c.K],{block:[0,"block"]},null),(l()(),c._40(2,0,["",""]))],function(l,n){l(n,1,0,"")},function(l,n){l(n,0,0,c._19(1,"",n.context.$implicit.name,""));l(n,2,0,n.context.$implicit.name)})}function a(l){return c._42(0,[(l()(),c._16(0,0,null,null,8,"div",[],null,null,null,null,null)),(l()(),c._40(-1,null,["\n                    "])),(l()(),c._16(2,0,null,null,2,"p",[["class","padding no-padding-bottom"]],null,null,null,null,null)),(l()(),c._40(3,null,["",""])),c._32(131072,T.a,[L.a,c.i]),(l()(),c._40(-1,null,["\n                    "])),(l()(),c._11(16777216,null,null,1,null,o)),c._15(7,802816,null,0,Z.j,[c.W,c.T,c.v],{ngForOf:[0,"ngForOf"]},null),(l()(),c._40(-1,null,["\n                "]))],function(l,n){l(n,7,0,n.component.fixedSites)},function(l,n){l(n,3,0,c._41(n,3,0,c._29(n,4).transform("core.login.selectsite")))})}function s(l){return c._42(0,[(l()(),c._16(0,0,null,null,9,"div",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._40(-1,null,["\n                "])),(l()(),c._40(-1,null,["\n                "])),(l()(),c._11(16777216,null,null,1,null,t)),c._15(4,16384,null,0,Z.k,[c.W,c.T],{ngIf:[0,"ngIf"]},null),(l()(),c._40(-1,null,["\n\n                "])),(l()(),c._40(-1,null,["\n                "])),(l()(),c._11(16777216,null,null,1,null,a)),c._15(8,16384,null,0,Z.k,[c.W,c.T],{ngIf:[0,"ngIf"]},null),(l()(),c._40(-1,null,["\n            "]))],function(l,n){var u=n.component;l(n,4,0,!u.displayAsButtons);l(n,8,0,u.displayAsButtons)},null)}function r(l){return c._42(0,[(l()(),c._16(0,0,null,null,3,"button",[["block",""],["ion-button",""]],[[8,"disabled",0]],null,null,ll.b,ll.a)),c._15(1,1097728,null,0,nl.a,[[8,""],B.a,c.p,c.K],{block:[0,"block"]},null),(l()(),c._40(2,0,["",""])),c._32(131072,T.a,[L.a,c.i])],function(l,n){l(n,1,0,"")},function(l,n){l(n,0,0,!n.component.siteForm.valid);l(n,2,0,c._41(n,2,0,c._29(n,3).transform("core.login.connect")))})}function _(l){return c._42(0,[(l()(),c._16(0,0,null,null,24,"ion-header",[],null,null,null,null,null)),c._15(1,16384,null,0,ul.a,[B.a,c.p,c.K,[2,il.a]],null,null),(l()(),c._40(-1,null,["\n    "])),(l()(),c._16(3,0,null,null,20,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,el.b,el.a)),c._15(4,49152,null,0,tl.a,[q.a,[2,il.a],[2,N.a],B.a,c.p,c.K],null,null),(l()(),c._40(-1,3,["\n        "])),(l()(),c._16(6,0,null,3,3,"ion-title",[],null,null,null,ol.b,ol.a)),c._15(7,49152,null,0,al.a,[B.a,c.p,c.K,[2,sl.a],[2,tl.a]],null,null),(l()(),c._40(8,0,["",""])),c._32(131072,T.a,[L.a,c.i]),(l()(),c._40(-1,3,["\n\n        "])),(l()(),c._16(11,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),c._15(12,16384,null,1,rl.a,[B.a,c.p,c.K,[2,sl.a],[2,tl.a]],null,null),c._37(603979776,1,{_buttons:1}),(l()(),c._40(-1,null,["\n            "])),(l()(),c._16(15,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,u){var i=!0;if("click"===n){i=!1!==l.component.showHelp()&&i}return i},ll.b,ll.a)),c._15(16,1097728,[[1,4]],0,nl.a,[[8,""],B.a,c.p,c.K],null,null),c._32(131072,T.a,[L.a,c.i]),(l()(),c._40(-1,0,["\n                "])),(l()(),c._16(19,0,null,0,1,"ion-icon",[["name","help-circle"],["role","img"]],[[2,"hide",null]],null,null,null,null)),c._15(20,147456,null,0,_l.a,[B.a,c.p,c.K],{name:[0,"name"]},null),(l()(),c._40(-1,0,["\n            "])),(l()(),c._40(-1,null,["\n        "])),(l()(),c._40(-1,3,["\n    "])),(l()(),c._40(-1,null,["\n"])),(l()(),c._40(-1,null,["\n"])),(l()(),c._16(26,0,null,null,28,"ion-content",[["class","core-center-view"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,cl.b,cl.a)),c._15(27,4374528,null,0,R.a,[B.a,V.a,J.a,c.p,c.K,q.a,dl.a,c.D,[2,il.a],[2,N.a]],null,null),(l()(),c._40(-1,1,["\n    "])),(l()(),c._16(29,0,null,1,24,"div",[["class","box"]],null,null,null,null,null)),(l()(),c._40(-1,null,["\n        "])),(l()(),c._16(31,0,null,null,3,"div",[["padding",""],["text-center",""]],null,null,null,null,null)),(l()(),c._40(-1,null,["\n            "])),(l()(),c._16(33,0,null,null,0,"img",[["class","avatar-full login-logo"],["role","presentation"],["src","assets/img/login_logo.png"]],null,null,null,null,null)),(l()(),c._40(-1,null,["\n        "])),(l()(),c._40(-1,null,["\n        "])),(l()(),c._16(36,0,null,null,16,"form",[["ion-list",""],["no-lines",""],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,u){var i=!0,e=l.component;if("submit"===n){i=!1!==c._29(l,38).onSubmit(u)&&i}if("reset"===n){i=!1!==c._29(l,38).onReset()&&i}if("ngSubmit"===n){i=!1!==e.connect(e.siteForm.value.siteUrl)&&i}return i},null,null)),c._15(37,16384,null,0,h.w,[],null,null),c._15(38,540672,null,0,h.h,[[8,null],[8,null]],{form:[0,"form"]},{ngSubmit:"ngSubmit"}),c._35(2048,null,h.b,null,[h.h]),c._15(40,16384,null,0,h.o,[h.b],null,null),(l()(),c._40(-1,null,["\n            "])),(l()(),c._40(-1,null,["\n            "])),(l()(),c._11(16777216,null,null,1,null,i)),c._15(44,16384,null,0,Z.k,[c.W,c.T],{ngIf:[0,"ngIf"]},null),(l()(),c._40(-1,null,["\n\n            "])),(l()(),c._40(-1,null,["\n            "])),(l()(),c._11(16777216,null,null,1,null,s)),c._15(48,16384,null,0,Z.k,[c.W,c.T],{ngIf:[0,"ngIf"]},null),(l()(),c._40(-1,null,["\n\n            "])),(l()(),c._11(16777216,null,null,1,null,r)),c._15(51,16384,null,0,Z.k,[c.W,c.T],{ngIf:[0,"ngIf"]},null),(l()(),c._40(-1,null,["\n        "])),(l()(),c._40(-1,null,["\n    "])),(l()(),c._40(-1,1,["\n"])),(l()(),c._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,20,0,"help-circle");l(n,38,0,u.siteForm);l(n,44,0,!u.fixedSites);l(n,48,0,u.fixedSites);l(n,51,0,!u.fixedSites||!u.displayAsButtons)},function(l,n){l(n,3,0,c._29(n,4)._hidden,c._29(n,4)._sbPadding);l(n,8,0,c._41(n,8,0,c._29(n,9).transform("core.login.connecttomoodle")));l(n,15,0,c._41(n,15,0,c._29(n,17).transform("core.help")));l(n,19,0,c._29(n,20)._hidden);l(n,26,0,c._29(n,27).statusbarPadding,c._29(n,27)._hasRefresher);l(n,36,0,c._29(n,40).ngClassUntouched,c._29(n,40).ngClassTouched,c._29(n,40).ngClassPristine,c._29(n,40).ngClassDirty,c._29(n,40).ngClassValid,c._29(n,40).ngClassInvalid,c._29(n,40).ngClassPending)})}Object.defineProperty(n,"__esModule",{value:!0});var c=u(1),d=(u(0),u(10),u(12)),g=u(2),p=u(4),f=u(124),m=u(121),h=u(18),b=function(){function l(l,n,u,i,e,t,o,a){this.navCtrl=n,this.appProvider=i,this.sitesProvider=e,this.loginHelper=t,this.modalCtrl=o,this.domUtils=a,this.displayAsButtons=!1,this.showKeyboard=!1,this.showKeyboard=!!l.get("showKeyboard");var s="";this.loginHelper.hasSeveralFixedSites()&&(this.fixedSites=this.loginHelper.getFixedSites(),this.displayAsButtons="buttons"==f.a.multisitesdisplay,s=this.fixedSites[0].url),this.siteForm=u.group({siteUrl:[s,h.u.required]})}return l.prototype.connect=function(l){var n=this;if(this.appProvider.closeKeyboard(),l)if(this.appProvider.isOnline()){var u=this.domUtils.showModalLoading(),i=this.sitesProvider.getDemoSiteData(l);i?this.sitesProvider.getUserToken(i.url,i.username,i.password).then(function(l){return n.sitesProvider.newSite(l.siteUrl,l.token,l.privateToken).then(function(){return n.loginHelper.goToSiteInitialPage()},function(l){n.domUtils.showErrorModal(l)})},function(l){n.loginHelper.treatUserTokenError(i.url,l)}).finally(function(){u.dismiss()}):this.sitesProvider.checkSite(l).then(function(l){l.warning&&n.domUtils.showErrorModal(l.warning,!0,4e3),n.loginHelper.isSSOLoginNeeded(l.code)?n.loginHelper.confirmAndOpenBrowserForSSOLogin(l.siteUrl,l.code,l.service,l.config&&l.config.launchurl):n.navCtrl.push("CoreLoginIntroductionPage",{siteUrl:l.siteUrl,siteConfig:l.config})},function(u){n.showLoginIssue(l,u)}).finally(function(){u.dismiss()})}else this.domUtils.showErrorModal("core.networkerrormsg",!0);else this.domUtils.showErrorModal("core.login.siteurlrequired",!0)},l.prototype.showHelp=function(){this.modalCtrl.create("CoreLoginSiteHelpPage").present()},l.prototype.showLoginIssue=function(l,n){this.modalCtrl.create("CoreLoginSiteErrorPage",{siteUrl:l,issue:n}).present()},l}(),v=u(6),C=u(31),y=function(){return function(){}}(),k=u(1284),S=u(1285),w=u(1286),P=u(1287),U=u(1288),x=u(1289),K=u(1290),I=u(1291),F=u(1292),T=u(28),L=u(17),H=u(34),O=u(21),A=u(19),B=u(7),M=u(29),W=u(33),D=u(89),E=u(329),$=u(3),N=u(22),j=u(73),V=u(14),q=u(27),R=u(25),J=u(26),z=u(98),G=u(59),Q=u(113),X=u(99),Y=u(48),Z=u(9),ll=u(45),nl=u(39),ul=u(419),il=u(35),el=u(1293),tl=u(191),ol=u(1294),al=u(326),sl=u(237),rl=u(420),_l=u(40),cl=u(176),dl=u(97),gl=u(58),pl=u(196),fl=c._14({encapsulation:2,styles:[],data:{}}),ml=c._12("page-core-login-site",b,function(l){return c._42(0,[(l()(),c._16(0,0,null,null,1,"page-core-login-site",[],null,null,null,_,fl)),c._15(1,49152,null,0,b,[gl.a,N.a,h.d,d.a,g.a,m.a,pl.a,p.a],null,null)],null,null)},{},{},[]),hl=u(322),bl=u(323),vl=u(325),Cl=u(324),yl=u(418),kl=u(638),Sl=u(238);u.d(n,"CoreLoginSitePageModuleNgFactory",function(){return wl});var wl=c._13(y,[],function(l){return c._25([c._26(512,c.n,c._6,[[8,[k.a,S.a,w.a,P.a,U.a,x.a,K.a,I.a,F.a,ml]],[3,c.n],c.B]),c._26(4608,Z.m,Z.l,[c.x,[2,Z.v]]),c._26(4608,h.x,h.x,[]),c._26(4608,h.d,h.d,[]),c._26(4608,hl.b,hl.a,[]),c._26(4608,bl.a,bl.b,[]),c._26(4608,vl.b,vl.a,[]),c._26(4608,Cl.b,Cl.a,[]),c._26(4608,L.a,L.a,[yl.a,hl.b,bl.a,vl.b,Cl.b,L.b,L.c]),c._26(512,C.a,C.a,[]),c._26(512,Z.b,Z.b,[]),c._26(512,h.v,h.v,[]),c._26(512,h.i,h.i,[]),c._26(512,h.s,h.s,[]),c._26(512,kl.a,kl.a,[]),c._26(512,kl.b,kl.b,[]),c._26(512,v.a,v.a,[]),c._26(512,y,y,[]),c._26(256,Sl.a,b,[]),c._26(256,L.c,void 0,[]),c._26(256,L.b,void 0,[])])})}});
+webpackJsonp([44],{
+
+/***/ 1869:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCoursesMyCoursesPageModule", function() { return CoreCoursesMyCoursesPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__my_courses__ = __webpack_require__(1998);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(931);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var CoreCoursesMyCoursesPageModule = /** @class */ (function () {
+    function CoreCoursesMyCoursesPageModule() {
+    }
+    CoreCoursesMyCoursesPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__my_courses__["a" /* CoreCoursesMyCoursesPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* CoreCoursesComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__my_courses__["a" /* CoreCoursesMyCoursesPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], CoreCoursesMyCoursesPageModule);
+    return CoreCoursesMyCoursesPageModule;
+}());
+
+//# sourceMappingURL=my-courses.module.js.map
+
+/***/ }),
+
+/***/ 1998:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCoursesMyCoursesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_utils__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_courses__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__core_course_providers_helper__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__core_course_providers_options_delegate__ = __webpack_require__(104);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays the list of courses the user is enrolled in.
+ */
+var CoreCoursesMyCoursesPage = /** @class */ (function () {
+    function CoreCoursesMyCoursesPage(navCtrl, coursesProvider, domUtils, eventsProvider, sitesProvider, courseHelper, courseOptionsDelegate, utils) {
+        this.navCtrl = navCtrl;
+        this.coursesProvider = coursesProvider;
+        this.domUtils = domUtils;
+        this.eventsProvider = eventsProvider;
+        this.sitesProvider = sitesProvider;
+        this.courseHelper = courseHelper;
+        this.courseOptionsDelegate = courseOptionsDelegate;
+        this.utils = utils;
+        this.filter = '';
+        this.showFilter = false;
+        this.coursesLoaded = false;
+        this.prefetchCoursesData = {};
+        this.prefetchIconInitialized = false;
+        this.isDestroyed = false;
+        this.courseIds = '';
+    }
+    /**
+     * View loaded.
+     */
+    CoreCoursesMyCoursesPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.searchEnabled = !this.coursesProvider.isSearchCoursesDisabledInSite();
+        this.downloadAllCoursesEnabled = !this.coursesProvider.isDownloadCoursesDisabledInSite();
+        this.fetchCourses().finally(function () {
+            _this.coursesLoaded = true;
+        });
+        this.myCoursesObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_6__providers_courses__["a" /* CoreCoursesProvider */].EVENT_MY_COURSES_UPDATED, function () {
+            _this.fetchCourses();
+        }, this.sitesProvider.getCurrentSiteId());
+        // Refresh the enabled flags if site is updated.
+        this.siteUpdatedObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */].SITE_UPDATED, function () {
+            var wasEnabled = _this.downloadAllCoursesEnabled;
+            _this.searchEnabled = !_this.coursesProvider.isSearchCoursesDisabledInSite();
+            _this.downloadAllCoursesEnabled = !_this.coursesProvider.isDownloadCoursesDisabledInSite();
+            if (!wasEnabled && _this.downloadAllCoursesEnabled && _this.coursesLoaded) {
+                // Download all courses is enabled now, initialize it.
+                _this.initPrefetchCoursesIcon();
+            }
+        }, this.sitesProvider.getCurrentSiteId());
+    };
+    /**
+     * Fetch the user courses.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    CoreCoursesMyCoursesPage.prototype.fetchCourses = function () {
+        var _this = this;
+        return this.coursesProvider.getUserCourses().then(function (courses) {
+            var promises = [], courseIds = courses.map(function (course) {
+                return course.id;
+            });
+            _this.courseIds = courseIds.join(',');
+            if (_this.courseIds && _this.coursesProvider.isGetCoursesByFieldAvailable()) {
+                // Load course image of all the courses.
+                promises.push(_this.coursesProvider.getCoursesByField('ids', _this.courseIds).then(function (coursesInfo) {
+                    coursesInfo = _this.utils.arrayToObject(coursesInfo, 'id');
+                    courses.forEach(function (course) {
+                        if (coursesInfo[course.id] && coursesInfo[course.id].overviewfiles &&
+                            coursesInfo[course.id].overviewfiles[0]) {
+                            course.imageThumb = coursesInfo[course.id].overviewfiles[0].fileurl;
+                        }
+                        else {
+                            course.imageThumb = false;
+                        }
+                    });
+                }));
+            }
+            if (_this.coursesProvider.canGetAdminAndNavOptions()) {
+                promises.push(_this.coursesProvider.getCoursesAdminAndNavOptions(courseIds).then(function (options) {
+                    courses.forEach(function (course) {
+                        course.navOptions = options.navOptions[course.id];
+                        course.admOptions = options.admOptions[course.id];
+                    });
+                }));
+            }
+            return Promise.all(promises).then(function () {
+                _this.courses = courses;
+                _this.filteredCourses = _this.courses;
+                _this.filter = '';
+                _this.initPrefetchCoursesIcon();
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'core.courses.errorloadcourses', true);
+        });
+    };
+    /**
+     * Refresh the courses.
+     *
+     * @param {any} refresher Refresher.
+     */
+    CoreCoursesMyCoursesPage.prototype.refreshCourses = function (refresher) {
+        var _this = this;
+        var promises = [];
+        promises.push(this.coursesProvider.invalidateUserCourses());
+        promises.push(this.courseOptionsDelegate.clearAndInvalidateCoursesOptions());
+        if (this.courseIds) {
+            promises.push(this.coursesProvider.invalidateCoursesByField('ids', this.courseIds));
+        }
+        Promise.all(promises).finally(function () {
+            _this.prefetchIconInitialized = false;
+            _this.fetchCourses().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    /**
+     * Show or hide the filter.
+     */
+    CoreCoursesMyCoursesPage.prototype.switchFilter = function () {
+        var _this = this;
+        this.filter = '';
+        this.showFilter = !this.showFilter;
+        this.filteredCourses = this.courses;
+        if (this.showFilter) {
+            setTimeout(function () {
+                _this.searchbar.setFocus();
+            });
+        }
+    };
+    /**
+     * Go to search courses.
+     */
+    CoreCoursesMyCoursesPage.prototype.openSearch = function () {
+        this.navCtrl.push('CoreCoursesSearchPage');
+    };
+    /**
+     * The filter has changed.
+     *
+     * @param {any} Received Event.
+     */
+    CoreCoursesMyCoursesPage.prototype.filterChanged = function (event) {
+        var newValue = event.target.value && event.target.value.trim().toLowerCase();
+        if (!newValue || !this.courses) {
+            this.filteredCourses = this.courses;
+        }
+        else {
+            this.filteredCourses = this.courses.filter(function (course) {
+                return course.fullname.toLowerCase().indexOf(newValue) > -1;
+            });
+        }
+    };
+    /**
+     * Prefetch all the courses.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    CoreCoursesMyCoursesPage.prototype.prefetchCourses = function () {
+        var _this = this;
+        var initialIcon = this.prefetchCoursesData.icon;
+        this.prefetchCoursesData.icon = 'spinner';
+        this.prefetchCoursesData.badge = '';
+        return this.courseHelper.confirmAndPrefetchCourses(this.courses, function (progress) {
+            _this.prefetchCoursesData.badge = progress.count + ' / ' + progress.total;
+        }).then(function () {
+            _this.prefetchCoursesData.icon = 'ion-android-refresh';
+        }).catch(function (error) {
+            if (!_this.isDestroyed) {
+                _this.domUtils.showErrorModalDefault(error, 'core.course.errordownloadingcourse', true);
+                _this.prefetchCoursesData.icon = initialIcon;
+            }
+        }).finally(function () {
+            _this.prefetchCoursesData.badge = '';
+        });
+    };
+    /**
+     * Initialize the prefetch icon for the list of courses.
+     */
+    CoreCoursesMyCoursesPage.prototype.initPrefetchCoursesIcon = function () {
+        var _this = this;
+        if (this.prefetchIconInitialized || !this.downloadAllCoursesEnabled) {
+            // Already initialized.
+            return;
+        }
+        this.prefetchIconInitialized = true;
+        if (!this.courses || this.courses.length < 2) {
+            // Not enough courses.
+            this.prefetchCoursesData.icon = '';
+            return;
+        }
+        this.courseHelper.determineCoursesStatus(this.courses).then(function (status) {
+            var icon = _this.courseHelper.getCourseStatusIconAndTitleFromStatus(status).icon;
+            if (icon == 'spinner') {
+                // It seems all courses are being downloaded, show a download button instead.
+                icon = 'cloud-download';
+            }
+            _this.prefetchCoursesData.icon = icon;
+        });
+    };
+    /**
+     * Page destroyed.
+     */
+    CoreCoursesMyCoursesPage.prototype.ngOnDestroy = function () {
+        this.isDestroyed = true;
+        this.myCoursesObserver && this.myCoursesObserver.off();
+        this.siteUpdatedObserver && this.siteUpdatedObserver.off();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('searchbar'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["v" /* Searchbar */])
+    ], CoreCoursesMyCoursesPage.prototype, "searchbar", void 0);
+    CoreCoursesMyCoursesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-courses-my-courses',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/core/courses/pages/my-courses/my-courses.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ \'core.courses.mycourses\' | translate }}</ion-title>\n\n        <ion-buttons end>\n            <button *ngIf="searchEnabled" ion-button icon-only (click)="openSearch()" [attr.aria-label]="\'core.courses.searchcourses\' | translate">\n                <ion-icon name="search"></ion-icon>\n            </button>\n            <core-context-menu>\n                <core-context-menu-item [hidden]="!downloadAllCoursesEnabled || !courses || courses.length < 2" [priority]="800" [content]="\'core.courses.downloadcourses\' | translate" (action)="prefetchCourses()" [iconAction]="prefetchCoursesData.icon" [closeOnClick]="false" [badge]="prefetchCoursesData.badge"></core-context-menu-item>\n                <core-context-menu-item [hidden]="!courses || courses.length <= 5" [priority]="700" [content]="\'core.courses.filtermycourses\' | translate" (action)="switchFilter()" [iconAction]="\'funnel\'"></core-context-menu-item>\n            </core-context-menu>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n\n    <ion-refresher [enabled]="coursesLoaded" (ionRefresh)="refreshCourses($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-loading [hideUntil]="coursesLoaded">\n        <ion-searchbar #searchbar *ngIf="showFilter" [(ngModel)]="filter" (ionInput)="filterChanged($event)" (ionCancel)="filterChanged()" [placeholder]="\'core.courses.filtermycourses\' | translate">\n        </ion-searchbar>\n        \n        <ion-grid no-padding>\n            <ion-row no-padding>\n                <ion-col *ngFor="let course of filteredCourses" no-padding col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 align-self-stretch>\n                    <core-courses-course-progress [course]="course" class="core-courseoverview"></core-courses-course-progress>\n                </ion-col>\n            </ion-row>\n        </ion-grid>\n        <core-empty-box *ngIf="!courses || !courses.length" icon="ionic" [message]="\'core.courses.nocourses\' | translate">\n            <p *ngIf="searchEnabled">{{ \'core.courses.searchcoursesadvice\' | translate }}</p>\n        </core-empty-box>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/core/courses/pages/my-courses/my-courses.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */], __WEBPACK_IMPORTED_MODULE_6__providers_courses__["a" /* CoreCoursesProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_7__core_course_providers_helper__["a" /* CoreCourseHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_8__core_course_providers_options_delegate__["a" /* CoreCourseOptionsDelegate */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_utils__["a" /* CoreUtilsProvider */]])
+    ], CoreCoursesMyCoursesPage);
+    return CoreCoursesMyCoursesPage;
+}());
+
+//# sourceMappingURL=my-courses.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=44.js.map

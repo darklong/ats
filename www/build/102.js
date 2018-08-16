@@ -1,1 +1,131 @@
-webpackJsonp([102],{1799:function(l,n,u){"use strict";function a(l){return e._42(0,[(l()(),e._16(0,0,null,null,17,null,null,null,null,null,null,null)),(l()(),e._40(-1,null,["\n                "])),(l()(),e._16(2,0,null,null,6,"button",[["clear",""],["icon-left",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.talkTo(l.parent.context.$implicit)&&a}return a},$.b,$.a)),e._15(3,1097728,[[3,4]],0,C.a,[[8,""],M.a,e.p,e.K],{clear:[0,"clear"]},null),(l()(),e._40(-1,0,["\n                    "])),(l()(),e._16(5,0,null,0,1,"ion-icon",[["name","chatboxes"],["role","img"]],[[2,"hide",null]],null,null,null,null)),e._15(6,147456,null,0,D.a,[M.a,e.p,e.K],{name:[0,"name"]},null),(l()(),e._40(7,0,["\n                    ","\n                "])),e._32(131072,L.a,[F.a,e.i]),(l()(),e._40(-1,null,["\n                "])),(l()(),e._16(10,0,null,null,6,"button",[["clear",""],["icon-left",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.beepTo(l.parent.context.$implicit)&&a}return a},$.b,$.a)),e._15(11,1097728,[[3,4]],0,C.a,[[8,""],M.a,e.p,e.K],{clear:[0,"clear"]},null),(l()(),e._40(-1,0,["\n                    "])),(l()(),e._16(13,0,null,0,1,"ion-icon",[["name","notifications"],["role","img"]],[[2,"hide",null]],null,null,null,null)),e._15(14,147456,null,0,D.a,[M.a,e.p,e.K],{name:[0,"name"]},null),(l()(),e._40(15,0,["\n                    ","\n                "])),e._32(131072,L.a,[F.a,e.i]),(l()(),e._40(-1,null,["\n            "]))],function(l,n){l(n,3,0,"");l(n,6,0,"chatboxes");l(n,11,0,"");l(n,14,0,"notifications")},function(l,n){l(n,5,0,e._29(n,6)._hidden);l(n,7,0,e._41(n,7,0,e._29(n,8).transform("addon.mod_chat.talk")));l(n,13,0,e._29(n,14)._hidden);l(n,15,0,e._41(n,15,0,e._29(n,16).transform("addon.mod_chat.beep")))})}function t(l){return e._42(0,[(l()(),e._16(0,0,null,null,22,"ion-item",[["class","item item-block"],["text-wrap",""]],[[2,"addon-mod-chat-user",null]],null,null,j.b,j.a)),e._15(1,1097728,null,3,E.a,[W.a,M.a,e.p,e.K,[2,A.a]],null,null),e._37(335544320,2,{contentLabel:0}),e._37(603979776,3,{_buttons:1}),e._37(603979776,4,{_icons:1}),e._15(5,16384,null,0,B.a,[],null,null),(l()(),e._40(-1,2,["\n            "])),(l()(),e._16(7,0,null,0,7,"ion-avatar",[["item-start",""]],null,null,null,null,null)),e._15(8,16384,null,0,J.a,[],null,null),(l()(),e._40(-1,null,["\n                "])),(l()(),e._16(10,0,null,null,3,"img",[["core-external-content",""],["onError","this.src='assets/img/user-avatar.png'"],["role","presentation"]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),e._15(11,4210688,null,0,N.a,[e.p,R.a,S.a,V.a,d.a,p.a,q.a,c.a],null,null),e._33(12,{$a:0}),e._32(131072,L.a,[F.a,e.i]),(l()(),e._40(-1,null,["\n            "])),(l()(),e._40(-1,2,["\n            "])),(l()(),e._16(16,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),e._16(17,0,null,null,1,"core-format-text",[],null,null,null,null,null)),e._15(18,540672,null,0,z.a,[e.p,d.a,p.a,G.a,F.a,V.a,H.a,q.a,R.a,S.a,c.a,Q.a,[2,X.a],[2,Y.a]],{text:[0,"text"]},null),(l()(),e._40(-1,2,["\n            "])),(l()(),e._11(16777216,null,2,1,null,a)),e._15(21,16384,null,0,Z.k,[e.W,e.T],{ngIf:[0,"ngIf"]},null),(l()(),e._40(-1,2,["\n        "]))],function(l,n){var u=n.component;l(n,18,0,n.context.$implicit.fullname);l(n,21,0,u.currentUserId!=n.context.$implicit.id&&u.isOnline)},function(l,n){var u=n.component;l(n,0,0,u.currentUserId!=n.context.$implicit.id&&u.isOnline);l(n,10,0,n.context.$implicit.profileimageurl,e._41(n,10,1,e._29(n,13).transform("core.pictureof",l(n,12,0,n.context.$implicit.fullname))))})}function i(l){return e._42(0,[(l()(),e._16(0,0,null,null,24,"ion-header",[],null,null,null,null,null)),e._15(1,16384,null,0,ll.a,[M.a,e.p,e.K,[2,nl.a]],null,null),(l()(),e._40(-1,null,["\n    "])),(l()(),e._16(3,0,null,null,20,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ul.b,ul.a)),e._15(4,49152,null,0,al.a,[tl.a,[2,nl.a],[2,X.a],M.a,e.p,e.K],null,null),(l()(),e._40(-1,3,["\n        "])),(l()(),e._16(6,0,null,3,3,"ion-title",[],null,null,null,il.b,il.a)),e._15(7,49152,null,0,el.a,[M.a,e.p,e.K,[2,ol.a],[2,al.a]],null,null),(l()(),e._40(8,0,["",""])),e._32(131072,L.a,[F.a,e.i]),(l()(),e._40(-1,3,["\n        "])),(l()(),e._16(11,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),e._15(12,16384,null,1,rl.a,[M.a,e.p,e.K,[2,ol.a],[2,al.a]],null,null),e._37(603979776,1,{_buttons:1}),(l()(),e._40(-1,null,["\n            "])),(l()(),e._16(15,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.closeModal()&&a}return a},$.b,$.a)),e._15(16,1097728,[[1,4]],0,C.a,[[8,""],M.a,e.p,e.K],null,null),e._32(131072,L.a,[F.a,e.i]),(l()(),e._40(-1,0,["\n                "])),(l()(),e._16(19,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),e._15(20,147456,null,0,D.a,[M.a,e.p,e.K],{name:[0,"name"]},null),(l()(),e._40(-1,0,["\n            "])),(l()(),e._40(-1,null,["\n        "])),(l()(),e._40(-1,3,["\n    "])),(l()(),e._40(-1,null,["\n"])),(l()(),e._40(-1,null,["\n"])),(l()(),e._16(26,0,null,null,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,_l.b,_l.a)),e._15(27,4374528,null,0,Y.a,[M.a,V.a,sl.a,e.p,e.K,tl.a,cl.a,e.D,[2,nl.a],[2,X.a]],null,null),(l()(),e._40(-1,1,["\n    "])),(l()(),e._16(29,0,null,1,5,"core-loading",[],null,null,null,dl.b,dl.a)),e._15(30,638976,null,0,pl.a,[F.a,e.p],{hideUntil:[0,"hideUntil"]},null),(l()(),e._40(-1,0,["\n        "])),(l()(),e._11(16777216,null,0,1,null,t)),e._15(33,802816,null,0,Z.j,[e.W,e.T,e.v],{ngForOf:[0,"ngForOf"]},null),(l()(),e._40(-1,0,["\n    "])),(l()(),e._40(-1,1,["\n"])),(l()(),e._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,20,0,"close");l(n,30,0,u.usersLoaded);l(n,33,0,u.users)},function(l,n){l(n,3,0,e._29(n,4)._hidden,e._29(n,4)._sbPadding);l(n,8,0,e._41(n,8,0,e._29(n,9).transform("addon.mod_chat.currentusers")));l(n,15,0,e._41(n,15,0,e._29(n,17).transform("core.close")));l(n,19,0,e._29(n,20)._hidden);l(n,26,0,e._29(n,27).statusbarPadding,e._29(n,27)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var e=u(1),o=(u(0),u(10),u(6)),r=u(32),_=u(31),s=u(107),c=u(12),d=u(2),p=u(4),h=u(332),f=u(199),b=function(){function l(l,n,u,a,t,i,e,o){var r=this;this.appProvider=a,this.sitesProvider=t,this.viewCtrl=i,this.domUtils=e,this.chatProvider=o,this.users=[],this.usersLoaded=!1,this.sessionId=l.get("sessionId"),this.isOnline=this.appProvider.isOnline(),this.currentUserId=this.sitesProvider.getCurrentSiteUserId(),this.onlineObserver=n.onchange().subscribe(function(l){u.run(function(){r.isOnline=r.appProvider.isOnline()})})}return l.prototype.ionViewDidLoad=function(){var l=this;this.chatProvider.getChatUsers(this.sessionId).then(function(n){l.users=n.users}).catch(function(n){l.domUtils.showErrorModalDefault(n,"addon.mod_chat.errorwhilegettingchatusers",!0)}).finally(function(){l.usersLoaded=!0})},l.prototype.closeModal=function(){this.viewCtrl.dismiss()},l.prototype.talkTo=function(l){this.viewCtrl.dismiss({talkTo:l.fullname})},l.prototype.beepTo=function(l){this.viewCtrl.dismiss({beepTo:l.id})},l.prototype.ngOnDestroy=function(){this.onlineObserver&&this.onlineObserver.unsubscribe()},l}(),m=function(){return function(){}}(),v=u(1284),g=u(1285),x=u(1286),k=u(1287),O=u(1288),K=u(1289),y=u(1290),P=u(1291),U=u(1292),w=u(1295),I=u(1296),T=u(1297),$=u(45),C=u(39),M=u(7),D=u(40),L=u(28),F=u(17),j=u(34),E=u(21),W=u(19),A=u(29),B=u(33),J=u(177),N=u(158),R=u(5),S=u(16),V=u(14),q=u(24),z=u(38),G=u(11),H=u(3),Q=u(23),X=u(22),Y=u(25),Z=u(9),ll=u(419),nl=u(35),ul=u(1293),al=u(191),tl=u(27),il=u(1294),el=u(326),ol=u(237),rl=u(420),_l=u(176),sl=u(26),cl=u(97),dl=u(55),pl=u(49),hl=u(58),fl=e._14({encapsulation:2,styles:[],data:{}}),bl=e._12("page-addon-mod-chat-users",b,function(l){return e._42(0,[(l()(),e._16(0,0,null,null,1,"page-addon-mod-chat-users",[],null,null,null,i,fl)),e._15(1,180224,null,0,b,[hl.a,f.a,e.D,c.a,d.a,nl.a,p.a,h.a],null,null)],null,null)},{},{},[]),ml=u(18),vl=u(322),gl=u(323),xl=u(325),kl=u(324),Ol=u(418),Kl=u(638),yl=u(238);u.d(n,"AddonModChatUsersPageModuleNgFactory",function(){return Pl});var Pl=e._13(m,[],function(l){return e._25([e._26(512,e.n,e._6,[[8,[v.a,g.a,x.a,k.a,O.a,K.a,y.a,P.a,U.a,w.a,I.a,T.a,bl]],[3,e.n],e.B]),e._26(4608,Z.m,Z.l,[e.x,[2,Z.v]]),e._26(4608,ml.x,ml.x,[]),e._26(4608,ml.d,ml.d,[]),e._26(4608,vl.b,vl.a,[]),e._26(4608,gl.a,gl.b,[]),e._26(4608,xl.b,xl.a,[]),e._26(4608,kl.b,kl.a,[]),e._26(4608,F.a,F.a,[Ol.a,vl.b,gl.a,xl.b,kl.b,F.b,F.c]),e._26(512,Z.b,Z.b,[]),e._26(512,ml.v,ml.v,[]),e._26(512,ml.i,ml.i,[]),e._26(512,ml.s,ml.s,[]),e._26(512,Kl.a,Kl.a,[]),e._26(512,o.a,o.a,[]),e._26(512,_.a,_.a,[]),e._26(512,s.a,s.a,[]),e._26(512,r.a,r.a,[]),e._26(512,Kl.b,Kl.b,[]),e._26(512,m,m,[]),e._26(256,F.c,void 0,[]),e._26(256,F.b,void 0,[]),e._26(256,yl.a,b,[])])})}});
+webpackJsonp([102],{
+
+/***/ 1806:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModAssignIndexPageModule", function() { return AddonModAssignIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(933);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1931);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModAssignIndexPageModule = /** @class */ (function () {
+    function AddonModAssignIndexPageModule() {
+    }
+    AddonModAssignIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModAssignIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModAssignComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModAssignIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModAssignIndexPageModule);
+    return AddonModAssignIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 1931:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModAssignIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(400);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays an assign.
+ */
+var AddonModAssignIndexPage = /** @class */ (function () {
+    function AddonModAssignIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the assign instance.
+     *
+     * @param {any} assign Assign instance.
+     */
+    AddonModAssignIndexPage.prototype.updateData = function (assign) {
+        this.title = assign.name || this.title;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModAssignIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModAssignIndexComponent */])
+    ], AddonModAssignIndexPage.prototype, "assignComponent", void 0);
+    AddonModAssignIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-assign-index',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/assign/pages/index/index.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="assignComponent.loaded" (ionRefresh)="assignComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-assign-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-assign-index>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/assign/pages/index/index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */]])
+    ], AddonModAssignIndexPage);
+    return AddonModAssignIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=102.js.map

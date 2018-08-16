@@ -1,1 +1,220 @@
-webpackJsonp([115],{1780:function(n,l,e){"use strict";function t(n){return c._42(0,[(n()(),c._16(0,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.openCourseFilter(e)&&t}return t},H.b,H.a)),c._15(1,1097728,[[3,4]],0,W.a,[[8,""],U.a,c.p,c.K],null,null),c._32(131072,j.a,[V.a,c.i]),(n()(),c._40(-1,0,["\n                "])),(n()(),c._16(4,0,null,0,1,"ion-icon",[["name","funnel"],["role","img"]],[[2,"hide",null]],null,null,null,null)),c._15(5,147456,null,0,Y.a,[U.a,c.p,c.K],{name:[0,"name"]},null),(n()(),c._40(-1,0,["\n            "]))],function(n,l){n(l,5,0,"funnel")},function(n,l){n(l,0,0,c._41(l,0,0,c._29(l,2).transform("core.courses.filter")));n(l,4,0,c._29(l,5)._hidden)})}function i(n){return c._42(0,[(n()(),c._16(0,0,null,null,3,"core-empty-box",[["icon","calendar"]],null,null,null,z.b,z.a)),c._15(1,49152,null,0,B.a,[],{message:[0,"message"],icon:[1,"icon"]},null),c._32(131072,j.a,[V.a,c.i]),(n()(),c._40(-1,0,["\n            "]))],function(n,l){n(l,1,0,c._41(l,1,0,c._29(l,2).transform("addon.calendar.noevents")),"calendar")},null)}function a(n){return c._42(0,[(n()(),c._16(0,0,null,null,0,"img",[["class","core-module-icon"],["item-start",""]],[[8,"src",4]],null,null,null,null))],null,function(n,l){n(l,0,0,c._19(1,"",l.parent.context.$implicit.moduleIcon,""))})}function u(n){return c._42(0,[(n()(),c._16(0,0,null,null,1,"core-icon",[["item-start",""]],null,null,null,G.b,G.a)),c._15(1,114688,null,0,J.a,[c.p],{name:[0,"name"]},null)],function(n,l){n(l,1,0,l.parent.context.$implicit.icon)},null)}function o(n){return c._42(0,[(n()(),c._16(0,0,null,null,20,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0],[2,"core-split-item-selected",null]],[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.gotoEvent(n.context.$implicit.id)&&t}return t},q.b,q.a)),c._15(1,1097728,null,3,Q.a,[X.a,U.a,c.p,c.K,[2,Z.a]],null,null),c._37(335544320,4,{contentLabel:0}),c._37(603979776,5,{_buttons:1}),c._37(603979776,6,{_icons:1}),c._15(5,16384,null,0,nn.a,[],null,null),(n()(),c._40(-1,2,["\n                    "])),(n()(),c._11(16777216,null,0,1,null,a)),c._15(8,16384,null,0,ln.k,[c.W,c.T],{ngIf:[0,"ngIf"]},null),(n()(),c._40(-1,2,["\n                    "])),(n()(),c._11(16777216,null,0,1,null,u)),c._15(11,16384,null,0,ln.k,[c.W,c.T],{ngIf:[0,"ngIf"]},null),(n()(),c._40(-1,2,["\n                    "])),(n()(),c._16(13,0,null,2,2,"h2",[],null,null,null,null,null)),(n()(),c._16(14,0,null,null,1,"core-format-text",[],null,null,null,null,null)),c._15(15,540672,null,0,en.a,[c.p,y.a,m.a,tn.a,V.a,an.a,b.a,un.a,on.a,rn.a,L.a,sn.a,[2,cn.a],[2,dn.a]],{text:[0,"text"]},null),(n()(),c._40(-1,2,["\n                    "])),(n()(),c._16(17,0,null,2,2,"p",[],null,null,null,null,null)),(n()(),c._40(18,null,["",""])),c._34(19,1),(n()(),c._40(-1,2,["\n                "]))],function(n,l){n(l,8,0,l.context.$implicit.moduleIcon);n(l,11,0,l.context.$implicit.icon&&!l.context.$implicit.moduleIcon);n(l,15,0,l.context.$implicit.name)},function(n,l){n(l,0,0,l.context.$implicit.name,l.context.$implicit.id==l.component.eventId);n(l,18,0,c._41(l,18,0,n(l,19,0,c._29(l.parent.parent,0),l.context.$implicit.timestart)))})}function r(n){return c._42(0,[(n()(),c._16(0,0,null,null,5,"ion-list",[["no-margin",""]],null,null,null,null,null)),c._15(1,16384,null,0,_n.a,[U.a,c.p,c.K,an.a,fn.l,hn.a],null,null),(n()(),c._40(-1,null,["\n                "])),(n()(),c._11(16777216,null,null,1,null,o)),c._15(4,802816,null,0,ln.j,[c.W,c.T,c.v],{ngForOf:[0,"ngForOf"]},null),(n()(),c._40(-1,null,["\n            "]))],function(n,l){n(l,4,0,l.component.filteredEvents)},null)}function s(n){return c._42(0,[c._32(0,pn.a,[on.a]),c._37(402653184,1,{content:0}),c._37(402653184,2,{splitviewCtrl:0}),(n()(),c._16(3,0,null,null,27,"ion-header",[],null,null,null,null,null)),c._15(4,16384,null,0,vn.a,[U.a,c.p,c.K,[2,gn.a]],null,null),(n()(),c._40(-1,null,["\n    "])),(n()(),c._16(6,0,null,null,23,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,mn.b,mn.a)),c._15(7,49152,null,0,bn.a,[yn.a,[2,gn.a],[2,cn.a],U.a,c.p,c.K],null,null),(n()(),c._40(-1,3,["\n        "])),(n()(),c._16(9,0,null,3,3,"ion-title",[],null,null,null,En.b,En.a)),c._15(10,49152,null,0,Cn.a,[U.a,c.p,c.K,[2,In.a],[2,bn.a]],null,null),(n()(),c._40(11,0,["",""])),c._32(131072,j.a,[V.a,c.i]),(n()(),c._40(-1,3,["\n        "])),(n()(),c._16(14,0,null,2,14,"ion-buttons",[["end",""]],null,null,null,null,null)),c._15(15,16384,null,1,Ln.a,[U.a,c.p,c.K,[2,In.a],[2,bn.a]],null,null),c._37(603979776,3,{_buttons:1}),(n()(),c._40(-1,null,["\n            "])),(n()(),c._11(16777216,null,null,1,null,t)),c._15(19,16384,null,0,ln.k,[c.W,c.T],{ngIf:[0,"ngIf"]},null),(n()(),c._40(-1,null,["\n            "])),(n()(),c._16(21,0,null,null,6,"core-context-menu",[],null,null,null,Tn.b,Tn.a)),c._15(22,245760,null,0,xn.a,[V.a,Dn.a,c.p,m.a,[2,Pn.a]],null,null),(n()(),c._40(-1,0,["\n                "])),(n()(),c._16(24,0,null,0,2,"core-context-menu-item",[],null,[[null,"action"]],function(n,l,e){var t=!0;if("action"===l){t=!1!==n.component.openSettings()&&t}return t},An.b,An.a)),c._15(25,770048,null,0,kn.a,[xn.a],{content:[0,"content"],iconAction:[1,"iconAction"],priority:[2,"priority"],hidden:[3,"hidden"]},{action:"action"}),c._32(131072,j.a,[V.a,c.i]),(n()(),c._40(-1,0,["\n            "])),(n()(),c._40(-1,null,["\n        "])),(n()(),c._40(-1,3,["\n    "])),(n()(),c._40(-1,null,["\n"])),(n()(),c._40(-1,null,["\n"])),(n()(),c._16(32,0,null,null,31,"core-split-view",[],null,null,null,Rn.b,Rn.a)),c._15(33,114688,[[2,4]],0,T.a,[[2,cn.a],c.p],null,null),(n()(),c._40(-1,0,["\n    "])),(n()(),c._16(35,0,null,0,27,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Fn.b,Fn.a)),c._15(36,4374528,[[1,4]],0,dn.a,[U.a,an.a,hn.a,c.p,c.K,yn.a,$n.a,c.D,[2,gn.a],[2,cn.a]],null,null),(n()(),c._40(-1,1,["\n        "])),(n()(),c._16(38,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,e){var t=!0;if("ionRefresh"===l){t=!1!==n.component.refreshEvents(e)&&t}return t},null,null)),c._15(39,212992,null,0,wn.a,[an.a,dn.a,c.D,fn.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),c._40(-1,null,["\n            "])),(n()(),c._16(41,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Kn.b,Kn.a)),c._15(42,114688,null,0,Mn.a,[wn.a,U.a],{pullingText:[0,"pullingText"]},null),c._32(131072,j.a,[V.a,c.i]),(n()(),c._40(-1,null,["\n        "])),(n()(),c._40(-1,1,["\n        "])),(n()(),c._16(46,0,null,1,15,"core-loading",[],null,null,null,Nn.b,Nn.a)),c._15(47,638976,null,0,On.a,[V.a,c.p],{hideUntil:[0,"hideUntil"]},null),(n()(),c._40(-1,0,["\n            "])),(n()(),c._11(16777216,null,0,1,null,i)),c._15(50,16384,null,0,ln.k,[c.W,c.T],{ngIf:[0,"ngIf"]},null),(n()(),c._40(-1,0,["\n\n            "])),(n()(),c._11(16777216,null,0,1,null,r)),c._15(53,16384,null,0,ln.k,[c.W,c.T],{ngIf:[0,"ngIf"]},null),(n()(),c._40(-1,0,["\n\n            "])),(n()(),c._16(55,0,null,0,5,"ion-infinite-scroll",[],null,[[null,"ionInfinite"]],function(n,l,e){var t=!0;if("ionInfinite"===l){t=!1!==e.waitFor(n.component.fetchEvents())&&t}return t},null,null)),c._15(56,1196032,null,0,Sn.a,[dn.a,c.D,c.p,hn.a],{enabled:[0,"enabled"]},{ionInfinite:"ionInfinite"}),(n()(),c._40(-1,null,["\n               "])),(n()(),c._16(58,0,null,null,1,"ion-infinite-scroll-content",[],[[1,"state",0]],null,null,Hn.b,Hn.a)),c._15(59,114688,null,0,Wn.a,[Sn.a,U.a],null,null),(n()(),c._40(-1,null,["\n            "])),(n()(),c._40(-1,0,["\n        "])),(n()(),c._40(-1,1,["\n    "])),(n()(),c._40(-1,0,["\n"]))],function(n,l){var e=l.component;n(l,19,0,e.courses&&e.courses.length),n(l,22,0);n(l,25,0,c._41(l,25,0,c._29(l,26).transform("core.settings.settings")),"cog",600,!e.notificationsEnabled),n(l,33,0);n(l,39,0,e.eventsLoaded);n(l,42,0,c._19(1,"",c._41(l,42,0,c._29(l,43).transform("core.pulltorefresh")),""));n(l,47,0,e.eventsLoaded);n(l,50,0,!e.filteredEvents||!e.filteredEvents.length);n(l,53,0,e.filteredEvents&&e.filteredEvents.length);n(l,56,0,e.canLoadMore),n(l,59,0)},function(n,l){n(l,6,0,c._29(l,7)._hidden,c._29(l,7)._sbPadding);n(l,11,0,c._41(l,11,0,c._29(l,12).transform("addon.calendar.calendarevents")));n(l,35,0,c._29(l,36).statusbarPadding,c._29(l,36)._hasRefresher);n(l,38,0,"inactive"!==c._29(l,39).state,c._29(l,39)._top);n(l,41,0,c._29(l,42).r.state);n(l,58,0,c._29(l,59).inf.state)})}Object.defineProperty(l,"__esModule",{value:!0});var c=e(1),d=(e(0),e(10),e(6)),_=e(32),f=e(31),h=e(107),p=e(330),v=e(647),g=e(72),m=e(4),b=e(3),y=e(2),E=e(128),C=e(683),I=e(20),L=e(12),T=e(131),x=function(){function n(n,l,e,t,i,a,u,o,r,s,c,d,_){var f=this;this.translate=n,this.calendarProvider=l,this.domUtils=t,this.coursesProvider=i,this.utils=a,this.calendarHelper=u,this.popoverCtrl=s,this.navCtrl=d,this.daysLoaded=0,this.emptyEventsTimes=0,this.categoriesRetrieved=!1,this.getCategories=!1,this.allCourses={id:-1,fullname:this.translate.instant("core.fulllistofcourses"),category:-1},this.categories={},this.eventsLoaded=!1,this.events=[],this.notificationsEnabled=!1,this.filteredEvents=[],this.canLoadMore=!1,this.filter={course:this.allCourses},this.siteHomeId=o.getCurrentSite().getSiteHomeId(),this.notificationsEnabled=r.isAvailable(),this.notificationsEnabled&&(this.obsDefaultTimeChange=c.on(p.a.DEFAULT_NOTIFICATION_TIME_CHANGED,function(){l.scheduleEventsNotifications(f.events)},o.getCurrentSiteId())),this.eventId=e.get("eventId")||!1}return n.prototype.ionViewDidLoad=function(){var n=this;this.eventId&&this.gotoEvent(this.eventId),this.fetchData().then(function(){!n.eventId&&n.splitviewCtrl.isOn()&&n.events.length>0&&n.gotoEvent(n.events[0].id)}).finally(function(){n.eventsLoaded=!0})},n.prototype.fetchData=function(n){var l=this;return void 0===n&&(n=!1),this.daysLoaded=0,this.emptyEventsTimes=0,this.coursesProvider.getUserCourses(!1).then(function(e){return e.unshift(l.allCourses),l.courses=e,l.fetchEvents(n)})},n.prototype.fetchEvents=function(n){var l=this;return void 0===n&&(n=!1),this.calendarProvider.getEventsList(this.daysLoaded,p.a.DAYS_INTERVAL).then(function(e){if(l.daysLoaded+=p.a.DAYS_INTERVAL,0===e.length){if(l.emptyEventsTimes++,!(l.emptyEventsTimes>5))return l.fetchEvents();l.canLoadMore=!1,n&&(l.events=[],l.filteredEvents=[])}else e.sort(function(n,l){return n.timestart-l.timestart}),e.forEach(l.calendarHelper.formatEventData.bind(l.calendarHelper)),l.getCategories=l.shouldLoadCategories(e),l.events=n?e:l.utils.mergeArraysWithoutDuplicates(l.events,e,"id"),l.filteredEvents=l.getFilteredEvents(),l.canLoadMore=!0,l.calendarProvider.scheduleEventsNotifications(l.events);l.content.resize()}).catch(function(n){l.domUtils.showErrorModalDefault(n,"addon.calendar.errorloadevents",!0),l.canLoadMore=!1}).then(function(){if(l.getCategories)return l.getCategories=!1,l.loadCategories()})},n.prototype.getFilteredEvents=function(){return-1==this.filter.course.id?this.events:this.events.filter(this.shouldDisplayEvent.bind(this))},n.prototype.shouldDisplayEvent=function(n){if("user"==n.eventtype||"site"==n.eventtype)return!0;if("category"==n.eventtype){if(!n.categoryid||!Object.keys(this.categories).length)return!0;if(n.categoryid==this.filter.course.category)return!0;for(var l=this.categories[this.filter.course.category];l&&l.parent;){if(n.categoryid==l.parent)return!0;l=this.categories[l.parent]}return!1}return n.courseid===this.siteHomeId||n.courseid==this.filter.course.id},n.prototype.shouldLoadCategories=function(n){if(this.categoriesRetrieved||this.getCategories)return this.getCategories;return n.some(function(n){return"undefined"!=n.categoryid&&n.categoryid>0})||this.getCategories},n.prototype.loadCategories=function(){var n=this;return this.coursesProvider.getCategories(0,!0).then(function(l){n.categoriesRetrieved=!0,n.categories={},l.forEach(function(l){n.categories[l.id]=l})}).catch(function(){})},n.prototype.refreshEvents=function(n){var l=this,e=[];e.push(this.calendarProvider.invalidateEventsList(this.courses)),this.categoriesRetrieved&&(e.push(this.coursesProvider.invalidateCategories(0,!0)),this.categoriesRetrieved=!1),Promise.all(e).finally(function(){l.fetchData(!0).finally(function(){n.complete()})})},n.prototype.openCourseFilter=function(n){var l=this,e=this.popoverCtrl.create(C.a,{courses:this.courses,courseId:this.filter.course.id});e.onDidDismiss(function(n){n&&(l.filter.course=n,l.content.scrollToTop(),l.filteredEvents=l.getFilteredEvents())}),e.present({ev:n})},n.prototype.openSettings=function(){this.navCtrl.push("AddonCalendarSettingsPage")},n.prototype.gotoEvent=function(n){this.eventId=n,this.splitviewCtrl.push("AddonCalendarEventPage",{id:n})},n.prototype.ngOnDestroy=function(){this.obsDefaultTimeChange&&this.obsDefaultTimeChange.off()},n}(),D=function(){return function(){}}(),P=e(1284),A=e(1285),k=e(1286),R=e(1287),F=e(1288),$=e(1289),w=e(1290),K=e(1291),M=e(1292),N=e(1295),O=e(1296),S=e(1297),H=e(45),W=e(39),U=e(7),j=e(28),V=e(17),Y=e(40),z=e(160),B=e(132),G=e(239),J=e(197),q=e(34),Q=e(21),X=e(19),Z=e(29),nn=e(33),ln=e(9),en=e(38),tn=e(11),an=e(14),un=e(24),on=e(5),rn=e(16),sn=e(23),cn=e(22),dn=e(25),_n=e(79),fn=e(36),hn=e(26),pn=e(643),vn=e(419),gn=e(35),mn=e(1293),bn=e(191),yn=e(27),En=e(1294),Cn=e(326),In=e(237),Ln=e(420),Tn=e(84),xn=e(67),Dn=e(65),Pn=e(66),An=e(85),kn=e(75),Rn=e(423),Fn=e(176),$n=e(97),wn=e(130),Kn=e(192),Mn=e(144),Nn=e(55),On=e(49),Sn=e(218),Hn=e(430),Wn=e(245),Un=e(58),jn=c._14({encapsulation:2,styles:[],data:{}}),Vn=c._12("page-addon-calendar-list",x,function(n){return c._42(0,[(n()(),c._16(0,0,null,null,1,"page-addon-calendar-list",[],null,null,null,s,jn)),c._15(1,180224,null,0,x,[V.a,p.a,Un.a,m.a,g.a,b.a,v.a,y.a,E.a,Dn.a,I.a,cn.a,L.a],null,null)],null,null)},{},{},[]),Yn=e(18),zn=e(322),Bn=e(323),Gn=e(325),Jn=e(324),qn=e(418),Qn=e(638),Xn=e(238);e.d(l,"AddonCalendarListPageModuleNgFactory",function(){return Zn});var Zn=c._13(D,[],function(n){return c._25([c._26(512,c.n,c._6,[[8,[P.a,A.a,k.a,R.a,F.a,$.a,w.a,K.a,M.a,N.a,O.a,S.a,Vn]],[3,c.n],c.B]),c._26(4608,ln.m,ln.l,[c.x,[2,ln.v]]),c._26(4608,Yn.x,Yn.x,[]),c._26(4608,Yn.d,Yn.d,[]),c._26(4608,zn.b,zn.a,[]),c._26(4608,Bn.a,Bn.b,[]),c._26(4608,Gn.b,Gn.a,[]),c._26(4608,Jn.b,Jn.a,[]),c._26(4608,V.a,V.a,[qn.a,zn.b,Bn.a,Gn.b,Jn.b,V.b,V.c]),c._26(512,ln.b,ln.b,[]),c._26(512,Yn.v,Yn.v,[]),c._26(512,Yn.i,Yn.i,[]),c._26(512,Yn.s,Yn.s,[]),c._26(512,Qn.a,Qn.a,[]),c._26(512,d.a,d.a,[]),c._26(512,f.a,f.a,[]),c._26(512,h.a,h.a,[]),c._26(512,_.a,_.a,[]),c._26(512,Qn.b,Qn.b,[]),c._26(512,D,D,[]),c._26(256,V.c,void 0,[]),c._26(256,V.b,void 0,[]),c._26(256,Xn.a,x,[])])})}});
+webpackJsonp([115],{
+
+/***/ 1791:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCompetencyCompetenciesPageModule", function() { return AddonCompetencyCompetenciesPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__competencies__ = __webpack_require__(1916);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var AddonCompetencyCompetenciesPageModule = /** @class */ (function () {
+    function AddonCompetencyCompetenciesPageModule() {
+    }
+    AddonCompetencyCompetenciesPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_4__competencies__["a" /* AddonCompetencyCompetenciesPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__competencies__["a" /* AddonCompetencyCompetenciesPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonCompetencyCompetenciesPageModule);
+    return AddonCompetencyCompetenciesPageModule;
+}());
+
+//# sourceMappingURL=competencies.module.js.map
+
+/***/ }),
+
+/***/ 1916:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCompetencyCompetenciesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_split_view_split_view__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_competency__ = __webpack_require__(162);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page that displays the list of competencies of a learning plan.
+ */
+var AddonCompetencyCompetenciesPage = /** @class */ (function () {
+    function AddonCompetencyCompetenciesPage(navParams, translate, domUtils, competencyProvider) {
+        this.translate = translate;
+        this.domUtils = domUtils;
+        this.competencyProvider = competencyProvider;
+        this.competenciesLoaded = false;
+        this.competencies = [];
+        this.planId = navParams.get('planId');
+        this.courseId = navParams.get('courseId');
+        this.competencyId = navParams.get('competencyId');
+        this.userId = navParams.get('userId');
+    }
+    /**
+     * View loaded.
+     */
+    AddonCompetencyCompetenciesPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        if (this.competencyId) {
+            // There is a competency to load.
+            this.openCompetency(this.competencyId);
+        }
+        this.fetchCompetencies().then(function () {
+            if (!_this.competencyId && _this.splitviewCtrl.isOn() && _this.competencies.length > 0) {
+                // Take first and load it.
+                _this.openCompetency(_this.competencies[0].id);
+            }
+        }).finally(function () {
+            _this.competenciesLoaded = true;
+        });
+    };
+    /**
+     * Fetches the competencies and updates the view.
+     *
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonCompetencyCompetenciesPage.prototype.fetchCompetencies = function () {
+        var _this = this;
+        var promise;
+        if (this.planId) {
+            promise = this.competencyProvider.getLearningPlan(this.planId);
+        }
+        else if (this.courseId) {
+            promise = this.competencyProvider.getCourseCompetencies(this.courseId, this.userId);
+        }
+        else {
+            promise = Promise.reject(null);
+        }
+        return promise.then(function (response) {
+            if (response.competencycount <= 0) {
+                return Promise.reject(_this.translate.instant('addon.competency.errornocompetenciesfound'));
+            }
+            if (_this.planId) {
+                _this.title = response.plan.name;
+                _this.userId = response.plan.userid;
+            }
+            else {
+                _this.title = _this.translate.instant('addon.competency.coursecompetencies');
+            }
+            _this.competencies = response.competencies;
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'Error getting competencies data.');
+        });
+    };
+    /**
+     * Opens a competency.
+     *
+     * @param {number} competencyId
+     */
+    AddonCompetencyCompetenciesPage.prototype.openCompetency = function (competencyId) {
+        this.competencyId = competencyId;
+        var params;
+        if (this.planId) {
+            params = { competencyId: competencyId, planId: this.planId };
+        }
+        else {
+            params = { competencyId: competencyId, courseId: this.courseId, userId: this.userId };
+        }
+        this.splitviewCtrl.push('AddonCompetencyCompetencyPage', params);
+    };
+    /**
+     * Refreshes the competencies.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonCompetencyCompetenciesPage.prototype.refreshCompetencies = function (refresher) {
+        var _this = this;
+        var promise;
+        if (this.planId) {
+            promise = this.competencyProvider.invalidateLearningPlan(this.planId);
+        }
+        else {
+            promise = this.competencyProvider.invalidateCourseCompetencies(this.courseId, this.userId);
+        }
+        return promise.finally(function () {
+            _this.fetchCompetencies().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_4__components_split_view_split_view__["a" /* CoreSplitViewComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_4__components_split_view_split_view__["a" /* CoreSplitViewComponent */])
+    ], AddonCompetencyCompetenciesPage.prototype, "splitviewCtrl", void 0);
+    AddonCompetencyCompetenciesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-competency-competencies',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/competency/pages/competencies/competencies.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ title }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<core-split-view>\n    <ion-content>\n        <ion-refresher [enabled]="competenciesLoaded" (ionRefresh)="refreshCompetencies($event)">\n            <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n        </ion-refresher>\n        <core-loading [hideUntil]="competenciesLoaded">\n            <ion-list>\n                <a ion-item text-wrap *ngFor="let competency of competencies" [title]="competency.competency.shortname" (click)="openCompetency(competency.competency.id)" [class.core-split-item-selected]="competency.competency.id == competencyId">\n                    {{ competency.competency.shortname }} <small>{{competency.competency.idnumber}}</small>\n                    <ion-badge item-end *ngIf="competency.usercompetency" [color]="competency.usercompetency.proficiency ? \'success\' : \'danger\'">{{ competency.usercompetency.gradename }}</ion-badge>\n                    <ion-badge item-end *ngIf="competency.usercompetencycourse" [color]="competency.usercompetencycourse.proficiency ? \'success\' : \'danger\'">{{ competency.usercompetencycourse.gradename }}</ion-badge>\n                </a>\n            </ion-list>\n        </core-loading>\n    </ion-content>\n</core-split-view>'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/competency/pages/competencies/competencies.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_competency__["a" /* AddonCompetencyProvider */]])
+    ], AddonCompetencyCompetenciesPage);
+    return AddonCompetencyCompetenciesPage;
+}());
+
+//# sourceMappingURL=competencies.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=115.js.map

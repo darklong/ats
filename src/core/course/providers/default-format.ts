@@ -62,9 +62,10 @@ export class CoreCourseFormatDefaultHandler implements CoreCourseFormatHandler {
      *
      * @param {any} course The course to check.
      * @return {boolean} Whether the option to enable section/module download should be displayed
+     * default is true but customize is false
      */
     displayEnableDownload(course: any): boolean {
-        return true;
+        return false;
     }
 
     /**

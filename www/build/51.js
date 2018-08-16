@@ -1,1 +1,200 @@
-webpackJsonp([51],{1868:function(l,n,u){"use strict";function a(l){return e._42(0,[(l()(),e._16(0,0,null,null,11,"ion-header",[],null,null,null,null,null)),e._15(1,16384,null,0,w.a,[y.a,e.p,e.K,[2,K.a]],null,null),(l()(),e._40(-1,null,["\n    "])),(l()(),e._16(3,0,null,null,7,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,k.b,k.a)),e._15(4,49152,null,0,P.a,[U.a,[2,K.a],[2,x.a],y.a,e.p,e.K],null,null),(l()(),e._40(-1,3,["\n        "])),(l()(),e._16(6,0,null,3,3,"ion-title",[],null,null,null,L.b,L.a)),e._15(7,49152,null,0,F.a,[y.a,e.p,e.K,[2,M.a],[2,P.a]],null,null),(l()(),e._40(8,0,["",""])),e._32(131072,E.a,[S.a,e.i]),(l()(),e._40(-1,3,["\n    "])),(l()(),e._40(-1,null,["\n"])),(l()(),e._40(-1,null,["\n"])),(l()(),e._16(13,0,null,null,105,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,D.b,D.a)),e._15(14,4374528,null,0,q.a,[y.a,I.a,N.a,e.p,e.K,U.a,R.a,e.D,[2,K.a],[2,x.a]],null,null),(l()(),e._40(-1,1,["\n    "])),(l()(),e._16(16,0,null,1,11,"ion-list",[],null,null,null,null,null)),e._15(17,16384,null,0,T.a,[y.a,e.p,e.K,I.a,V.l,N.a],null,null),(l()(),e._40(-1,null,["\n        "])),(l()(),e._16(19,0,null,null,7,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,H.b,H.a)),e._15(20,1097728,null,3,j.a,[z.a,y.a,e.p,e.K,[2,A.a]],null,null),e._37(335544320,1,{contentLabel:0}),e._37(603979776,2,{_buttons:1}),e._37(603979776,3,{_icons:1}),e._15(24,16384,null,0,B.a,[],null,null),(l()(),e._40(25,2,["\n            ","\n        "])),e._32(131072,E.a,[S.a,e.i]),(l()(),e._40(-1,null,["\n    "])),(l()(),e._40(-1,1,["\n    "])),(l()(),e._16(29,0,null,1,88,"ion-card",[],null,null,null,null,null)),e._15(30,16384,null,0,J.a,[y.a,e.p,e.K],null,null),(l()(),e._40(-1,null,["\n        "])),(l()(),e._16(32,0,null,null,84,"form",[["ion-list",""],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,u){var a=!0,o=l.component;if("submit"===n){a=!1!==e._29(l,34).onSubmit(u)&&a}if("reset"===n){a=!1!==e._29(l,34).onReset()&&a}if("ngSubmit"===n){a=!1!==o.resetPassword()&&a}return a},null,null)),e._15(33,16384,null,0,r.w,[],null,null),e._15(34,540672,null,0,r.h,[[8,null],[8,null]],{form:[0,"form"]},{ngSubmit:"ngSubmit"}),e._35(2048,null,r.b,null,[r.h]),e._15(36,16384,null,0,r.o,[r.b],null,null),(l()(),e._40(-1,null,["\n            "])),(l()(),e._16(38,0,null,null,7,"ion-item-divider",[["class","item item-divider"],["color","light"],["text-wrap",""]],null,null,null,H.b,H.a)),e._15(39,1097728,null,3,j.a,[z.a,y.a,e.p,e.K,[2,A.a]],{color:[0,"color"]},null),e._37(335544320,4,{contentLabel:0}),e._37(603979776,5,{_buttons:1}),e._37(603979776,6,{_icons:1}),e._15(43,16384,null,0,O.a,[y.a,e.p,e.K],{color:[0,"color"]},null),(l()(),e._40(44,2,["\n                ","\n            "])),e._32(131072,E.a,[S.a,e.i]),(l()(),e._40(-1,null,["\n            "])),(l()(),e._16(47,0,null,null,39,"div",[["formControlName","field"],["radio-group",""],["role","radiogroup"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,null,null)),e._15(48,1064960,null,1,G.a,[e.K,e.p,e.i],null,null),e._37(335544320,7,{_header:0}),e._35(1024,null,r.l,function(l){return[l]},[G.a]),e._15(51,671744,null,0,r.f,[[3,r.b],[8,null],[8,null],[2,r.l]],{name:[0,"name"]},null),e._35(2048,null,r.m,null,[r.f]),e._15(53,16384,null,0,r.n,[r.m],null,null),(l()(),e._40(-1,null,["\n                "])),(l()(),e._16(55,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,H.b,H.a)),e._15(56,1097728,null,3,j.a,[z.a,y.a,e.p,e.K,[2,A.a]],null,null),e._37(335544320,8,{contentLabel:0}),e._37(603979776,9,{_buttons:1}),e._37(603979776,10,{_icons:1}),e._15(60,16384,null,0,B.a,[],null,null),(l()(),e._40(-1,2,["\n                    "])),(l()(),e._16(62,0,null,1,3,"ion-label",[],null,null,null,null,null)),e._15(63,16384,[[8,4]],0,Q.a,[y.a,e.p,e.K,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),e._40(64,null,["",""])),e._32(131072,E.a,[S.a,e.i]),(l()(),e._40(-1,2,["\n                    "])),(l()(),e._16(67,0,null,4,1,"ion-radio",[["value","username"]],[[2,"radio-disabled",null]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==e._29(l,68)._click(u)&&a}return a},W.b,W.a)),e._15(68,245760,null,0,X.a,[z.a,y.a,e.p,e.K,[2,j.a],[2,G.a]],{value:[0,"value"]},null),(l()(),e._40(-1,2,["\n                "])),(l()(),e._40(-1,null,["\n                "])),(l()(),e._16(71,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,H.b,H.a)),e._15(72,1097728,null,3,j.a,[z.a,y.a,e.p,e.K,[2,A.a]],null,null),e._37(335544320,11,{contentLabel:0}),e._37(603979776,12,{_buttons:1}),e._37(603979776,13,{_icons:1}),e._15(76,16384,null,0,B.a,[],null,null),(l()(),e._40(-1,2,["\n                    "])),(l()(),e._16(78,0,null,1,3,"ion-label",[],null,null,null,null,null)),e._15(79,16384,[[11,4]],0,Q.a,[y.a,e.p,e.K,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),e._40(80,null,["",""])),e._32(131072,E.a,[S.a,e.i]),(l()(),e._40(-1,2,["\n                    "])),(l()(),e._16(83,0,null,4,1,"ion-radio",[["value","email"]],[[2,"radio-disabled",null]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==e._29(l,84)._click(u)&&a}return a},W.b,W.a)),e._15(84,245760,null,0,X.a,[z.a,y.a,e.p,e.K,[2,j.a],[2,G.a]],{value:[0,"value"]},null),(l()(),e._40(-1,2,["\n                "])),(l()(),e._40(-1,null,["\n            "])),(l()(),e._40(-1,null,["\n            "])),(l()(),e._16(88,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,H.b,H.a)),e._15(89,1097728,null,3,j.a,[z.a,y.a,e.p,e.K,[2,A.a]],null,null),e._37(335544320,14,{contentLabel:0}),e._37(603979776,15,{_buttons:1}),e._37(603979776,16,{_icons:1}),e._15(93,16384,null,0,B.a,[],null,null),(l()(),e._40(-1,2,["\n                "])),(l()(),e._16(95,0,null,3,6,"ion-input",[["autocapitalize","none"],["autocorrect","off"],["formControlName","value"],["name","value"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,Y.b,Y.a)),e._15(96,81920,null,0,Z.a,[e.p,i.a,$.a,[2,x.a]],null,null),e._15(97,671744,null,0,r.f,[[3,r.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),e._35(2048,null,r.m,null,[r.f]),e._15(99,16384,null,0,r.n,[r.m],null,null),e._15(100,5423104,null,0,ll.a,[y.a,I.a,z.a,U.a,e.p,e.K,[2,q.a],[2,j.a],[2,r.m],N.a],{type:[0,"type"],autocorrect:[1,"autocorrect"],placeholder:[2,"placeholder"]},null),e._32(131072,E.a,[S.a,e.i]),(l()(),e._40(-1,2,["\n            "])),(l()(),e._40(-1,null,["\n            "])),(l()(),e._16(104,0,null,null,11,"ion-item",[["class","item item-block"]],null,null,null,H.b,H.a)),e._15(105,1097728,null,3,j.a,[z.a,y.a,e.p,e.K,[2,A.a]],null,null),e._37(335544320,17,{contentLabel:0}),e._37(603979776,18,{_buttons:1}),e._37(603979776,19,{_icons:1}),e._15(109,16384,null,0,B.a,[],null,null),(l()(),e._40(-1,2,["\n                "])),(l()(),e._16(111,0,null,2,3,"button",[["block",""],["ion-button",""],["text-wrap",""]],[[8,"disabled",0]],null,null,nl.b,nl.a)),e._15(112,1097728,[[18,4]],0,ul.a,[[8,""],y.a,e.p,e.K],{block:[0,"block"]},null),(l()(),e._40(113,0,["",""])),e._32(131072,E.a,[S.a,e.i]),(l()(),e._40(-1,2,["\n            "])),(l()(),e._40(-1,null,["\n        "])),(l()(),e._40(-1,null,["\n    "])),(l()(),e._40(-1,1,["\n"])),(l()(),e._40(-1,null,["\n"]))],function(l,n){l(n,34,0,n.component.myForm);l(n,39,0,"light");l(n,43,0,"light");l(n,51,0,"field");l(n,68,0,"username");l(n,84,0,"email"),l(n,96,0);l(n,97,0,"value");l(n,100,0,"text","off",e._19(1,"",e._41(n,100,2,e._29(n,101).transform("core.login.usernameoremail")),""));l(n,112,0,"")},function(l,n){var u=n.component;l(n,3,0,e._29(n,4)._hidden,e._29(n,4)._sbPadding);l(n,8,0,e._41(n,8,0,e._29(n,9).transform("core.login.passwordforgotten")));l(n,13,0,e._29(n,14).statusbarPadding,e._29(n,14)._hasRefresher);l(n,25,0,e._41(n,25,0,e._29(n,26).transform("core.login.passwordforgotteninstructions2")));l(n,32,0,e._29(n,36).ngClassUntouched,e._29(n,36).ngClassTouched,e._29(n,36).ngClassPristine,e._29(n,36).ngClassDirty,e._29(n,36).ngClassValid,e._29(n,36).ngClassInvalid,e._29(n,36).ngClassPending);l(n,44,0,e._41(n,44,0,e._29(n,45).transform("core.login.searchby")));l(n,47,0,e._29(n,53).ngClassUntouched,e._29(n,53).ngClassTouched,e._29(n,53).ngClassPristine,e._29(n,53).ngClassDirty,e._29(n,53).ngClassValid,e._29(n,53).ngClassInvalid,e._29(n,53).ngClassPending);l(n,64,0,e._41(n,64,0,e._29(n,65).transform("core.login.username")));l(n,67,0,e._29(n,68)._disabled);l(n,80,0,e._41(n,80,0,e._29(n,81).transform("core.user.email")));l(n,83,0,e._29(n,84)._disabled);l(n,95,0,e._29(n,99).ngClassUntouched,e._29(n,99).ngClassTouched,e._29(n,99).ngClassPristine,e._29(n,99).ngClassDirty,e._29(n,99).ngClassValid,e._29(n,99).ngClassInvalid,e._29(n,99).ngClassPending);l(n,111,0,!u.myForm.valid);l(n,113,0,e._41(n,113,0,e._29(n,114).transform("core.courses.search")))})}Object.defineProperty(n,"__esModule",{value:!0});var e=u(1),o=(u(0),u(10),u(31)),t=u(6),i=u(4),_=u(121),r=u(18),s=function(){function l(l,n,u,a,e,o){this.navCtrl=l,this.translate=a,this.loginHelper=e,this.domUtils=o,this.siteUrl=n.get("siteUrl"),this.myForm=u.group({field:["username",r.u.required],value:[n.get("username")||"",r.u.required]})}return l.prototype.resetPassword=function(){var l=this,n=this.myForm.value.field,u=this.myForm.value.value;if(u){var a=this.domUtils.showModalLoading("core.sending",!0),e="email"==n;this.loginHelper.requestPasswordReset(this.siteUrl,e?"":u,e?u:"").then(function(n){"dataerror"==n.status?l.showError(e,n.warnings):"emailpasswordconfirmnotsent"==n.status||"emailpasswordconfirmnoemail"==n.status?l.domUtils.showErrorModal(n.notice):(l.domUtils.showAlert(l.translate.instant("core.success"),n.notice),l.navCtrl.pop())}).catch(function(n){l.domUtils.showErrorModal(n.error)}).finally(function(){a.dismiss()})}else this.domUtils.showErrorModal("core.login.usernameoremail",!0)},l.prototype.showError=function(l,n){for(var u=0;u<n.length;u++){var a=n[u];if("email"==a.item&&l||"username"==a.item&&!l){this.domUtils.showErrorModal(a.message);break}}},l}(),c=function(){return function(){}}(),d=u(1284),m=u(1285),g=u(1286),b=u(1287),p=u(1288),f=u(1289),h=u(1290),v=u(1291),C=u(1292),w=u(419),y=u(7),K=u(35),k=u(1293),P=u(191),U=u(27),x=u(22),L=u(1294),F=u(326),M=u(237),E=u(28),S=u(17),D=u(176),q=u(25),I=u(14),N=u(26),R=u(97),T=u(79),V=u(36),H=u(34),j=u(21),z=u(19),A=u(29),B=u(33),J=u(88),O=u(159),G=u(115),Q=u(59),W=u(151),X=u(123),Y=u(89),Z=u(329),$=u(3),ll=u(73),nl=u(45),ul=u(39),al=u(58),el=e._14({encapsulation:2,styles:[],data:{}}),ol=e._12("page-core-login-forgotten-password",s,function(l){return e._42(0,[(l()(),e._16(0,0,null,null,1,"page-core-login-forgotten-password",[],null,null,null,a,el)),e._15(1,49152,null,0,s,[x.a,al.a,r.d,S.a,_.a,i.a],null,null)],null,null)},{},{},[]),tl=u(9),il=u(322),_l=u(323),rl=u(325),sl=u(324),cl=u(418),dl=u(638),ml=u(238);u.d(n,"CoreLoginForgottenPasswordPageModuleNgFactory",function(){return gl});var gl=e._13(c,[],function(l){return e._25([e._26(512,e.n,e._6,[[8,[d.a,m.a,g.a,b.a,p.a,f.a,h.a,v.a,C.a,ol]],[3,e.n],e.B]),e._26(4608,tl.m,tl.l,[e.x,[2,tl.v]]),e._26(4608,r.x,r.x,[]),e._26(4608,r.d,r.d,[]),e._26(4608,il.b,il.a,[]),e._26(4608,_l.a,_l.b,[]),e._26(4608,rl.b,rl.a,[]),e._26(4608,sl.b,sl.a,[]),e._26(4608,S.a,S.a,[cl.a,il.b,_l.a,rl.b,sl.b,S.b,S.c]),e._26(512,o.a,o.a,[]),e._26(512,tl.b,tl.b,[]),e._26(512,r.v,r.v,[]),e._26(512,r.i,r.i,[]),e._26(512,r.s,r.s,[]),e._26(512,dl.a,dl.a,[]),e._26(512,dl.b,dl.b,[]),e._26(512,t.a,t.a,[]),e._26(512,c,c,[]),e._26(256,ml.a,s,[]),e._26(256,S.c,void 0,[]),e._26(256,S.b,void 0,[])])})}});
+webpackJsonp([51],{
+
+/***/ 1861:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCommentsViewerPageModule", function() { return CoreCommentsViewerPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__viewer__ = __webpack_require__(1991);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(392);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var CoreCommentsViewerPageModule = /** @class */ (function () {
+    function CoreCommentsViewerPageModule() {
+    }
+    CoreCommentsViewerPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__viewer__["a" /* CoreCommentsViewerPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* CoreCommentsComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__viewer__["a" /* CoreCommentsViewerPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], CoreCommentsViewerPageModule);
+    return CoreCommentsViewerPageModule;
+}());
+
+//# sourceMappingURL=viewer.module.js.map
+
+/***/ }),
+
+/***/ 1991:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCommentsViewerPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_user_providers_user__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_comments__ = __webpack_require__(139);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+/**
+ * Page that displays comments.
+ */
+var CoreCommentsViewerPage = /** @class */ (function () {
+    function CoreCommentsViewerPage(navParams, sitesProvider, userProvider, domUtils, translate, commentsProvider) {
+        this.userProvider = userProvider;
+        this.domUtils = domUtils;
+        this.translate = translate;
+        this.commentsProvider = commentsProvider;
+        this.comments = [];
+        this.commentsLoaded = false;
+        this.contextLevel = navParams.get('contextLevel');
+        this.instanceId = navParams.get('instanceId');
+        this.component = navParams.get('component');
+        this.itemId = navParams.get('itemId');
+        this.area = navParams.get('area') || '';
+        this.page = navParams.get('page') || 0;
+        this.title = navParams.get('title') || this.translate.instant('core.comments');
+    }
+    /**
+     * View loaded.
+     */
+    CoreCommentsViewerPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchComments().finally(function () {
+            _this.commentsLoaded = true;
+        });
+    };
+    /**
+     * Fetches the comments.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    CoreCommentsViewerPage.prototype.fetchComments = function () {
+        var _this = this;
+        // Get comments data.
+        return this.commentsProvider.getComments(this.contextLevel, this.instanceId, this.component, this.itemId, this.area, this.page).then(function (comments) {
+            _this.comments = comments;
+            _this.comments.sort(function (a, b) { return b.timecreated - a.timecreated; });
+            _this.comments.forEach(function (comment) {
+                // Get the user profile image.
+                _this.userProvider.getProfile(comment.userid, undefined, true).then(function (user) {
+                    comment.profileimageurl = user.profileimageurl;
+                });
+            });
+        }).catch(function (error) {
+            if (error) {
+                if (_this.component == 'assignsubmission_comments') {
+                    _this.domUtils.showAlertTranslated('core.notice', 'core.commentsnotworking');
+                }
+                else {
+                    _this.domUtils.showErrorModal(error);
+                }
+            }
+            else {
+                _this.domUtils.showErrorModal(_this.translate.instant('core.error') + ': get_comments');
+            }
+            return Promise.reject(null);
+        });
+    };
+    /**
+     * Refresh the comments.
+     *
+     * @param {any} refresher Refresher.
+     */
+    CoreCommentsViewerPage.prototype.refreshComments = function (refresher) {
+        var _this = this;
+        this.commentsProvider.invalidateCommentsData(this.contextLevel, this.instanceId, this.component, this.itemId, this.area, this.page).finally(function () {
+            return _this.fetchComments().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], CoreCommentsViewerPage.prototype, "content", void 0);
+    CoreCommentsViewerPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-comments-viewer',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/core/comments/pages/viewer/viewer.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="commentsLoaded" (ionRefresh)="refreshComments($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="commentsLoaded">\n        <core-empty-box *ngIf="!comments || !comments.length" icon="chatbubbles" [message]="\'core.nocomments\' | translate"></core-empty-box>\n\n        <ion-card *ngFor="let comment of comments">\n            <ion-item text-wrap>\n                <ion-avatar item-start>\n                    <img [src]="comment.profileimageurl" onError="this.src=\'assets/img/user-avatar.png\'" core-external-content core-user-link [userId]="comment.userid" [alt]="\'core.pictureof\' | translate:{$a: comment.fullname}" role="presentation">\n                </ion-avatar>\n                <h2>{{ comment.fullname }}</h2>\n                <p>{{ comment.time }}</p>\n            </ion-item>\n            <ion-item text-wrap>\n                <core-format-text clean="true" [text]="comment.content"></core-format-text>\n            </ion-item>\n        </ion-card>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/core/comments/pages/viewer/viewer.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_5__core_user_providers_user__["a" /* CoreUserProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_comments__["a" /* CoreCommentsProvider */]])
+    ], CoreCommentsViewerPage);
+    return CoreCommentsViewerPage;
+}());
+
+//# sourceMappingURL=viewer.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=51.js.map

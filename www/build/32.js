@@ -1,1 +1,194 @@
-webpackJsonp([32],{1891:function(l,n,u){"use strict";function e(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"ion-icon",[["class","core-icon-foreground"],["name","create"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.changeProfilePicture()&&e}return e},null,null)),P._15(1,147456,[[3,4]],0,z.a,[Q.a,P.p,P.K],{name:[0,"name"]},null)],function(l,n){l(n,1,0,"create")},function(l,n){l(n,0,0,P._29(n,1)._hidden)})}function t(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"core-format-text",[],null,null,null,null,null)),P._15(1,540672,null,0,X.a,[P.p,L.a,C.a,Z.a,ll.a,nl.a,ul.a,el.a,tl.a,al.a,il.a,rl.a,[2,ol.a],[2,sl.a]],{text:[0,"text"]},null)],function(l,n){l(n,1,0,n.component.user.address)},null)}function a(l){return P._42(0,[(l()(),P._16(0,0,null,null,9,"p",[],null,null,null,null,null)),(l()(),P._40(-1,null,["\n                    "])),(l()(),P._16(2,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),P._40(3,null,["",""])),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._40(5,null,["","\n                    "])),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._16(7,0,null,null,1,"core-format-text",[],null,null,null,null,null)),P._15(8,540672,null,0,X.a,[P.p,L.a,C.a,Z.a,ll.a,nl.a,ul.a,el.a,tl.a,al.a,il.a,rl.a,[2,ol.a],[2,sl.a]],{text:[0,"text"]},null),(l()(),P._40(-1,null,["\n                "]))],function(l,n){l(n,8,0,n.component.user.roles)},function(l,n){l(n,3,0,P._41(n,3,0,P._29(n,4).transform("core.user.roles")));l(n,5,0,P._41(n,5,0,P._29(n,6).transform("core.labelsep")))})}function i(l){return P._42(0,[(l()(),P._16(0,0,null,null,15,"ion-col",[["align-self-center",""],["class","col"],["text-center",""]],null,null,null,null,null)),P._15(1,16384,null,0,_l.a,[],null,null),(l()(),P._40(-1,null,["\n                        "])),(l()(),P._16(3,0,null,null,11,"a",[["tappable",""]],[[8,"title",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.handlerClicked(u,l.context.$implicit)&&e}return e},null,null)),P._15(4,278528,null,0,dl.i,[P.v,P.w,P.p,P.L],{ngClass:[0,"ngClass"]},null),P._31(5,2),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._40(-1,null,["\n                            "])),(l()(),P._16(8,0,null,null,1,"core-icon",[],null,null,null,fl.b,fl.a)),P._15(9,114688,null,0,pl.a,[P.p],{name:[0,"name"]},null),(l()(),P._40(-1,null,["\n                            "])),(l()(),P._16(11,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),P._40(12,null,["",""])),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._40(-1,null,["\n                        "])),(l()(),P._40(-1,null,["\n                    "]))],function(l,n){l(n,4,0,l(n,5,0,"core-user-profile-handler",n.context.$implicit.class));l(n,9,0,n.context.$implicit.icon)},function(l,n){l(n,3,0,P._19(1,"",P._41(n,3,0,P._29(n,6).transform(n.context.$implicit.title)),""));l(n,12,0,P._41(n,12,0,P._29(n,13).transform(n.context.$implicit.title)))})}function r(l){return P._42(0,[(l()(),P._16(0,0,null,null,5,"ion-row",[["class","row"],["justify-content-between",""],["no-padding",""]],null,null,null,null,null)),P._15(1,16384,null,0,ml.a,[],null,null),(l()(),P._40(-1,null,["\n                    "])),(l()(),P._11(16777216,null,null,1,null,i)),P._15(4,802816,null,0,dl.j,[P.W,P.T,P.v],{ngForOf:[0,"ngForOf"]},null),(l()(),P._40(-1,null,["\n                "]))],function(l,n){l(n,4,0,n.component.communicationHandlers)},null)}function o(l){return P._42(0,[(l()(),P._16(0,0,null,null,5,"ion-col",[["class","core-loading-handlers col"],["text-center",""]],null,null,null,null,null)),P._15(1,16384,null,0,_l.a,[],null,null),(l()(),P._40(-1,null,["\n                        "])),(l()(),P._16(3,0,null,null,1,"ion-spinner",[],[[2,"spinner-paused",null]],null,null,hl.b,hl.a)),P._15(4,114688,null,0,gl.a,[Q.a,P.p,P.K],null,null),(l()(),P._40(-1,null,["\n                    "]))],function(l,n){l(n,4,0)},function(l,n){l(n,3,0,P._29(n,4)._paused)})}function s(l){return P._42(0,[(l()(),P._16(0,0,null,null,12,"ion-grid",[["class","core-user-communication-handlers grid"]],null,null,null,null,null)),P._15(1,16384,null,0,bl.a,[],null,null),(l()(),P._40(-1,null,["\n                "])),(l()(),P._11(16777216,null,null,1,null,r)),P._15(4,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n                "])),(l()(),P._16(6,0,null,null,5,"ion-row",[["class","row"],["no-padding",""]],null,null,null,null,null)),P._15(7,16384,null,0,ml.a,[],null,null),(l()(),P._40(-1,null,["\n                    "])),(l()(),P._11(16777216,null,null,1,null,o)),P._15(10,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n                "])),(l()(),P._40(-1,null,["\n            "]))],function(l,n){var u=n.component;l(n,4,0,u.communicationHandlers&&u.communicationHandlers.length);l(n,10,0,u.isLoadingHandlers)},null)}function c(l){return P._42(0,[(l()(),P._16(0,0,null,null,9,"ion-item",[["class","core-loading-handlers item item-block"],["text-center",""]],null,null,null,vl.b,vl.a)),P._15(1,1097728,null,3,Il.a,[Pl.a,Q.a,P.p,P.K,[2,xl.a]],null,null),P._37(335544320,7,{contentLabel:0}),P._37(603979776,8,{_buttons:1}),P._37(603979776,9,{_icons:1}),P._15(5,16384,null,0,kl.a,[],null,null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(7,0,null,2,1,"ion-spinner",[],[[2,"spinner-paused",null]],null,null,hl.b,hl.a)),P._15(8,114688,null,0,gl.a,[Q.a,P.p,P.K],null,null),(l()(),P._40(-1,2,["\n            "]))],function(l,n){l(n,8,0)},function(l,n){l(n,7,0,P._29(n,8)._paused)})}function _(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"core-icon",[["item-start",""]],null,null,null,fl.b,fl.a)),P._15(1,114688,null,0,pl.a,[P.p],{name:[0,"name"]},null)],function(l,n){l(n,1,0,n.parent.context.$implicit.icon)},null)}function d(l){return P._42(0,[(l()(),P._16(0,0,null,null,16,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[8,"hidden",0],[8,"title",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.handlerClicked(u,l.context.$implicit)&&e}return e},vl.b,vl.a)),P._15(1,278528,null,0,dl.i,[P.v,P.w,P.p,P.L],{ngClass:[0,"ngClass"]},null),P._31(2,2),P._15(3,1097728,null,3,Il.a,[Pl.a,Q.a,P.p,P.K,[2,xl.a]],null,null),P._37(335544320,10,{contentLabel:0}),P._37(603979776,11,{_buttons:1}),P._37(603979776,12,{_icons:1}),P._15(7,16384,null,0,kl.a,[],null,null),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._40(-1,2,["\n                "])),(l()(),P._11(16777216,null,0,1,null,_)),P._15(11,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(13,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),P._40(14,null,["",""])),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._40(-1,2,["\n            "]))],function(l,n){l(n,1,0,l(n,2,0,"core-user-profile-handler",n.context.$implicit.class));l(n,11,0,n.context.$implicit.icon)},function(l,n){l(n,0,0,n.context.$implicit.hidden,P._19(1,"",P._41(n,0,1,P._29(n,8).transform(n.context.$implicit.title)),""));l(n,14,0,P._41(n,14,0,P._29(n,15).transform(n.context.$implicit.title)))})}function f(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"core-icon",[["start",""]],null,null,null,fl.b,fl.a)),P._15(1,114688,null,0,pl.a,[P.p],{name:[0,"name"]},null)],function(l,n){l(n,1,0,n.parent.context.$implicit.icon)},null)}function p(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"ion-spinner",[],[[2,"spinner-paused",null]],null,null,hl.b,hl.a)),P._15(1,114688,null,0,gl.a,[Q.a,P.p,P.K],null,null)],function(l,n){l(n,1,0)},function(l,n){l(n,0,0,P._29(n,1)._paused)})}function m(l){return P._42(0,[(l()(),P._16(0,0,null,null,15,"button",[["block",""],["icon-start",""],["ion-button",""],["outline",""]],[[8,"hidden",0],[8,"title",0],[8,"disabled",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.handlerClicked(u,l.context.$implicit)&&e}return e},Hl.b,Hl.a)),P._15(1,278528,null,0,dl.i,[P.v,P.w,P.p,P.L],{ngClass:[0,"ngClass"]},null),P._31(2,2),P._15(3,1097728,[[14,4]],0,Ul.a,[[8,""],Q.a,P.p,P.K],{outline:[0,"outline"],block:[1,"block"]},null),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._40(-1,0,["\n                    "])),(l()(),P._11(16777216,null,0,1,null,f)),P._15(7,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,0,["\n                    "])),(l()(),P._16(9,0,null,0,2,"span",[],null,null,null,null,null)),(l()(),P._40(10,null,["",""])),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._40(-1,0,["\n                    "])),(l()(),P._11(16777216,null,0,1,null,p)),P._15(14,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,0,["\n                "]))],function(l,n){l(n,1,0,l(n,2,0,"core-user-profile-handler",n.context.$implicit.class));l(n,3,0,"","");l(n,7,0,n.context.$implicit.icon);l(n,14,0,n.context.$implicit.spinner)},function(l,n){l(n,0,0,n.context.$implicit.hidden,P._19(1,"",P._41(n,0,1,P._29(n,4).transform(n.context.$implicit.title)),""),n.context.$implicit.spinner);l(n,10,0,P._41(n,10,0,P._29(n,11).transform(n.context.$implicit.title)))})}function h(l){return P._42(0,[(l()(),P._16(0,0,null,null,9,"ion-item",[["class","item item-block"]],null,null,null,vl.b,vl.a)),P._15(1,1097728,null,3,Il.a,[Pl.a,Q.a,P.p,P.K,[2,xl.a]],null,null),P._37(335544320,13,{contentLabel:0}),P._37(603979776,14,{_buttons:1}),P._37(603979776,15,{_icons:1}),P._15(5,16384,null,0,kl.a,[],null,null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._11(16777216,null,2,1,null,m)),P._15(8,802816,null,0,dl.j,[P.W,P.T,P.v],{ngForOf:[0,"ngForOf"]},null),(l()(),P._40(-1,2,["\n            "]))],function(l,n){l(n,8,0,n.component.actionHandlers)},null)}function g(l){return P._42(0,[(l()(),P._16(0,0,null,null,60,"ion-list",[],null,null,null,null,null)),P._15(1,16384,null,0,Cl.a,[Q.a,P.p,P.K,nl.a,yl.l,Tl.a],null,null),(l()(),P._40(-1,null,["\n            "])),(l()(),P._16(3,0,null,null,28,"ion-item",[["class","item item-block"],["text-center",""]],null,null,null,vl.b,vl.a)),P._15(4,1097728,null,3,Il.a,[Pl.a,Q.a,P.p,P.K,[2,xl.a]],null,null),P._37(335544320,1,{contentLabel:0}),P._37(603979776,2,{_buttons:1}),P._37(603979776,3,{_icons:1}),P._15(8,16384,null,0,kl.a,[],null,null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(10,0,null,2,9,"div",[["class","item-avatar-center"]],null,null,null,null,null)),(l()(),P._40(-1,null,["\n                    "])),(l()(),P._16(12,0,null,null,3,"img",[["class","avatar"],["core-external-content",""],["onError","this.src='assets/img/user-avatar.png'"],["role","presentation"]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),P._15(13,4210688,null,0,Ll.a,[P.p,tl.a,al.a,nl.a,L.a,C.a,el.a,il.a],null,null),P._33(14,{$a:0}),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._40(-1,null,["\n                    "])),(l()(),P._11(16777216,null,null,1,null,e)),P._15(18,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n                "])),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(21,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),P._16(22,0,null,null,1,"core-format-text",[],null,null,null,null,null)),P._15(23,540672,null,0,X.a,[P.p,L.a,C.a,Z.a,ll.a,nl.a,ul.a,el.a,tl.a,al.a,il.a,rl.a,[2,ol.a],[2,sl.a]],{text:[0,"text"]},null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(25,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),P._11(16777216,null,null,1,null,t)),P._15(27,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._11(16777216,null,2,1,null,a)),P._15(30,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,2,["\n            "])),(l()(),P._40(-1,null,["\n\n            "])),(l()(),P._11(16777216,null,null,1,null,s)),P._15(34,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n\n            "])),(l()(),P._16(36,0,null,null,14,"a",[["class","core-user-profile-handler item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.openUserDetails()&&e}return e},vl.b,vl.a)),P._15(37,1097728,null,3,Il.a,[Pl.a,Q.a,P.p,P.K,[2,xl.a]],null,null),P._37(335544320,4,{contentLabel:0}),P._37(603979776,5,{_buttons:1}),P._37(603979776,6,{_icons:1}),P._15(41,16384,null,0,kl.a,[],null,null),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(44,0,null,0,1,"ion-icon",[["item-start",""],["name","person"],["role","img"]],[[2,"hide",null]],null,null,null,null)),P._15(45,147456,[[6,4]],0,z.a,[Q.a,P.p,P.K],{name:[0,"name"]},null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(47,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),P._40(48,null,["",""])),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._40(-1,2,["\n            "])),(l()(),P._40(-1,null,["\n            "])),(l()(),P._11(16777216,null,null,1,null,c)),P._15(53,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n\n            "])),(l()(),P._11(16777216,null,null,1,null,d)),P._15(56,802816,null,0,dl.j,[P.W,P.T,P.v],{ngForOf:[0,"ngForOf"]},null),(l()(),P._40(-1,null,["\n\n            "])),(l()(),P._11(16777216,null,null,1,null,h)),P._15(59,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n        "]))],function(l,n){var u=n.component;l(n,18,0,u.canChangeProfilePicture);l(n,23,0,u.user.fullname);l(n,27,0,u.user.address);l(n,30,0,u.user.roles);l(n,34,0,u.communicationHandlers&&u.communicationHandlers.length||u.isLoadingHandlers);l(n,45,0,"person");l(n,53,0,u.isLoadingHandlers);l(n,56,0,u.newPageHandlers);l(n,59,0,u.actionHandlers&&u.actionHandlers.length)},function(l,n){var u=n.component;l(n,12,0,u.user.profileimageurl,P._19(1,"",P._41(n,12,1,P._29(n,15).transform("core.pictureof",l(n,14,0,u.user.fullname))),""));l(n,36,0,P._19(1,"",P._41(n,36,0,P._29(n,42).transform("core.user.details")),""));l(n,44,0,P._29(n,45)._hidden);l(n,48,0,P._41(n,48,0,P._29(n,49).transform("core.user.details")))})}function b(l){return P._42(0,[(l()(),P._16(0,0,null,null,2,"core-empty-box",[["icon","person"]],null,null,null,wl.b,wl.a)),P._15(1,49152,null,0,$l.a,[],{message:[0,"message"],icon:[1,"icon"]},null),P._32(131072,cl.a,[ll.a,P.i])],function(l,n){l(n,1,0,P._41(n,1,0,P._29(n,2).transform("core.user.detailsnotavailable")),"person")},null)}function v(l){return P._42(0,[(l()(),P._16(0,0,null,null,2,"core-empty-box",[["icon","person"]],null,null,null,wl.b,wl.a)),P._15(1,49152,null,0,$l.a,[],{message:[0,"message"],icon:[1,"icon"]},null),P._32(131072,cl.a,[ll.a,P.i])],function(l,n){l(n,1,0,P._41(n,1,0,P._29(n,2).transform("core.userdeleted")),"person")},null)}function I(l){return P._42(0,[(l()(),P._16(0,0,null,null,11,"ion-header",[],null,null,null,null,null)),P._15(1,16384,null,0,El.a,[Q.a,P.p,P.K,[2,Dl.a]],null,null),(l()(),P._40(-1,null,["\n    "])),(l()(),P._16(3,0,null,null,7,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Ol.b,Ol.a)),P._15(4,49152,null,0,Wl.a,[Rl.a,[2,Dl.a],[2,ol.a],Q.a,P.p,P.K],null,null),(l()(),P._40(-1,3,["\n        "])),(l()(),P._16(6,0,null,3,3,"ion-title",[],null,null,null,Kl.b,Kl.a)),P._15(7,49152,null,0,Fl.a,[Q.a,P.p,P.K,[2,Al.a],[2,Wl.a]],null,null),(l()(),P._16(8,0,null,0,1,"core-format-text",[],null,null,null,null,null)),P._15(9,540672,null,0,X.a,[P.p,L.a,C.a,Z.a,ll.a,nl.a,ul.a,el.a,tl.a,al.a,il.a,rl.a,[2,ol.a],[2,sl.a]],{text:[0,"text"]},null),(l()(),P._40(-1,3,["\n    "])),(l()(),P._40(-1,null,["\n"])),(l()(),P._40(-1,null,["\n"])),(l()(),P._16(13,0,null,null,23,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ml.b,Ml.a)),P._15(14,4374528,null,0,sl.a,[Q.a,nl.a,Tl.a,P.p,P.K,Rl.a,jl.a,P.D,[2,Dl.a],[2,ol.a]],null,null),(l()(),P._40(-1,1,["\n    "])),(l()(),P._16(16,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,u){var e=!0;if("ionRefresh"===n){e=!1!==l.component.refreshUser(u)&&e}return e},null,null)),P._15(17,212992,null,0,Nl.a,[nl.a,sl.a,P.D,yl.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),P._40(-1,null,["\n        "])),(l()(),P._16(19,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Sl.b,Sl.a)),P._15(20,114688,null,0,Yl.a,[Nl.a,Q.a],{pullingText:[0,"pullingText"]},null),P._32(131072,cl.a,[ll.a,P.i]),(l()(),P._40(-1,null,["\n    "])),(l()(),P._40(-1,1,["\n    "])),(l()(),P._16(24,0,null,1,11,"core-loading",[],null,null,null,Gl.b,Gl.a)),P._15(25,638976,null,0,Vl.a,[ll.a,P.p],{hideUntil:[0,"hideUntil"]},null),(l()(),P._40(-1,0,["\n        "])),(l()(),P._11(16777216,null,0,1,null,g)),P._15(28,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,0,["\n        "])),(l()(),P._11(16777216,null,0,1,null,b)),P._15(31,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,0,["\n\n        "])),(l()(),P._11(16777216,null,0,1,null,v)),P._15(34,16384,null,0,dl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,0,["\n    "])),(l()(),P._40(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,9,0,u.title);l(n,17,0,u.userLoaded);l(n,20,0,P._19(1,"",P._41(n,20,0,P._29(n,21).transform("core.pulltorefresh")),""));l(n,25,0,u.userLoaded);l(n,28,0,u.user&&!u.isDeleted);l(n,31,0,!u.user&&!u.isDeleted);l(n,34,0,u.isDeleted)},function(l,n){l(n,3,0,P._29(n,4)._hidden,P._29(n,4)._sbPadding);l(n,13,0,P._29(n,14).statusbarPadding,P._29(n,14)._hasRefresher);l(n,16,0,"inactive"!==P._29(n,17).state,P._29(n,17)._top);l(n,19,0,P._29(n,20).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var P=u(1),x=u(0),k=(u(10),u(6)),H=u(44),U=u(650),C=u(4),y=u(72),T=u(20),L=u(2),w=u(69),$=u(122),E=u(93),D=u(131),O=function(){function l(l,n,u,e,t,a,i,r,o,s,c,_,d){var f=this;this.userProvider=n,this.userHelper=u,this.domUtils=e,this.translate=t,this.eventsProvider=a,this.coursesProvider=i,this.sitesProvider=r,this.mimetypeUtils=o,this.fileUploaderHelper=s,this.userDelegate=c,this.navCtrl=_,this.svComponent=d,this.userLoaded=!1,this.isLoadingHandlers=!1,this.isDeleted=!1,this.canChangeProfilePicture=!1,this.actionHandlers=[],this.newPageHandlers=[],this.communicationHandlers=[],this.userId=l.get("userId"),this.courseId=l.get("courseId"),this.site=this.sitesProvider.getCurrentSite(),this.canChangeProfilePicture=(!this.courseId||this.courseId==this.site.getSiteHomeId())&&this.userId==this.site.getUserId()&&this.site.canUploadFiles()&&this.site.wsAvailable("core_user_update_picture")&&!this.userProvider.isUpdatePictureDisabledInSite(this.site),this.obsProfileRefreshed=a.on(H.a.PROFILE_REFRESHED,function(l){f.user&&void 0!==l.user&&(f.user.email=l.user.email,f.user.address=f.userHelper.formatAddress("",l.user.city,l.user.country))},r.getCurrentSiteId())}return l.prototype.ionViewDidLoad=function(){var l=this;this.fetchUser().then(function(){return l.userProvider.logView(l.userId,l.courseId).catch(function(n){l.isDeleted="userdeleted"===n.errorcode})}).finally(function(){l.userLoaded=!0})},l.prototype.fetchUser=function(){var l=this;return this.userProvider.getProfile(this.userId,this.courseId).then(function(n){n.address=l.userHelper.formatAddress("",n.city,n.country),n.roles=l.userHelper.formatRoleList(n.roles),l.user=n,l.title=n.fullname,l.subscription=l.userDelegate.getProfileHandlersFor(n,l.courseId).subscribe(function(n){l.actionHandlers=[],l.newPageHandlers=[],l.communicationHandlers=[],n.forEach(function(n){switch(n.type){case E.a.TYPE_COMMUNICATION:l.communicationHandlers.push(n.data);break;case E.a.TYPE_ACTION:l.actionHandlers.push(n.data);break;case E.a.TYPE_NEW_PAGE:default:l.newPageHandlers.push(n.data)}}),l.isLoadingHandlers=!l.userDelegate.areHandlersLoaded()})}).catch(function(n){n&&l.domUtils.showErrorModal(n)})},l.prototype.changeProfilePicture=function(){var l=this,n=this.translate.instant("core.user.newpicture"),u=this.mimetypeUtils.getGroupMimeInfo("image","mimetypes");return this.fileUploaderHelper.selectAndUploadFile(-1,n,u).then(function(n){var u=l.domUtils.showModalLoading("core.sending",!0);return l.userProvider.changeProfilePicture(n.itemid,l.userId).then(function(n){l.eventsProvider.trigger(H.a.PROFILE_PICTURE_UPDATED,{userId:l.userId,picture:n}),l.sitesProvider.updateSiteInfo(l.site.getId()),l.refreshUser()}).finally(function(){u.dismiss()})}).catch(function(n){n&&l.domUtils.showErrorModal(n)})},l.prototype.refreshUser=function(l){var n=this,u=[];u.push(this.userProvider.invalidateUserCache(this.userId)),u.push(this.coursesProvider.invalidateUserNavigationOptions()),u.push(this.coursesProvider.invalidateUserAdministrationOptions()),Promise.all(u).finally(function(){n.fetchUser().finally(function(){n.eventsProvider.trigger(H.a.PROFILE_REFRESHED,{courseId:n.courseId,userId:n.userId,user:n.user},n.site.getId()),l&&l.complete()})})},l.prototype.openUserDetails=function(){(this.svComponent?this.svComponent.getMasterNav():this.navCtrl).push("CoreUserAboutPage",{courseId:this.courseId,userId:this.userId})},l.prototype.handlerClicked=function(l,n){var u=this.svComponent?this.svComponent.getMasterNav():this.navCtrl;n.action(l,u,this.user,this.courseId)},l.prototype.ngOnDestroy=function(){this.subscription&&this.subscription.unsubscribe(),this.obsProfileRefreshed&&this.obsProfileRefreshed.off(),this.userDelegate.clearUserHandlers()},l=Object(x.__decorate)([Object(x.__param)(12,Object(P.E)())],l)}(),W=u(31),R=u(32),K=function(){return function(){}}(),F=u(1284),A=u(1285),M=u(1286),j=u(1287),N=u(1288),S=u(1289),Y=u(1290),G=u(1291),V=u(1292),B=u(1295),J=u(1296),q=u(1297),z=u(40),Q=u(7),X=u(38),Z=u(11),ll=u(17),nl=u(14),ul=u(3),el=u(24),tl=u(5),al=u(16),il=u(12),rl=u(23),ol=u(22),sl=u(25),cl=u(28),_l=u(108),dl=u(9),fl=u(239),pl=u(197),ml=u(109),hl=u(178),gl=u(134),bl=u(135),vl=u(34),Il=u(21),Pl=u(19),xl=u(29),kl=u(33),Hl=u(45),Ul=u(39),Cl=u(79),yl=u(36),Tl=u(26),Ll=u(158),wl=u(160),$l=u(132),El=u(419),Dl=u(35),Ol=u(1293),Wl=u(191),Rl=u(27),Kl=u(1294),Fl=u(326),Al=u(237),Ml=u(176),jl=u(97),Nl=u(130),Sl=u(192),Yl=u(144),Gl=u(55),Vl=u(49),Bl=u(58),Jl=P._14({encapsulation:2,styles:[],data:{}}),ql=P._12("page-core-user-profile",O,function(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"page-core-user-profile",[],null,null,null,I,Jl)),P._15(1,180224,null,0,O,[Bl.a,H.a,U.a,C.a,ll.a,T.a,y.a,L.a,w.a,$.a,E.a,ol.a,[2,D.a]],null,null)],null,null)},{},{},[]),zl=u(18),Ql=u(322),Xl=u(323),Zl=u(325),ln=u(324),nn=u(418),un=u(638),en=u(107),tn=u(238);u.d(n,"CoreUserProfilePageModuleNgFactory",function(){return an});var an=P._13(K,[],function(l){return P._25([P._26(512,P.n,P._6,[[8,[F.a,A.a,M.a,j.a,N.a,S.a,Y.a,G.a,V.a,B.a,J.a,q.a,ql]],[3,P.n],P.B]),P._26(4608,dl.m,dl.l,[P.x,[2,dl.v]]),P._26(4608,zl.x,zl.x,[]),P._26(4608,zl.d,zl.d,[]),P._26(4608,Ql.b,Ql.a,[]),P._26(4608,Xl.a,Xl.b,[]),P._26(4608,Zl.b,Zl.a,[]),P._26(4608,ln.b,ln.a,[]),P._26(4608,ll.a,ll.a,[nn.a,Ql.b,Xl.a,Zl.b,ln.b,ll.b,ll.c]),P._26(512,W.a,W.a,[]),P._26(512,dl.b,dl.b,[]),P._26(512,zl.v,zl.v,[]),P._26(512,zl.i,zl.i,[]),P._26(512,zl.s,zl.s,[]),P._26(512,un.a,un.a,[]),P._26(512,k.a,k.a,[]),P._26(512,en.a,en.a,[]),P._26(512,R.a,R.a,[]),P._26(512,un.b,un.b,[]),P._26(512,K,K,[]),P._26(256,ll.c,void 0,[]),P._26(256,ll.b,void 0,[]),P._26(256,tn.a,O,[])])})}});
+webpackJsonp([32],{
+
+/***/ 1882:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginInitPageModule", function() { return CoreLoginInitPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__init__ = __webpack_require__(2011);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var CoreLoginInitPageModule = /** @class */ (function () {
+    function CoreLoginInitPageModule() {
+    }
+    CoreLoginInitPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__init__["a" /* CoreLoginInitPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__init__["a" /* CoreLoginInitPage */]),
+            ],
+        })
+    ], CoreLoginInitPageModule);
+    return CoreLoginInitPageModule;
+}());
+
+//# sourceMappingURL=init.module.js.map
+
+/***/ }),
+
+/***/ 2011:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreLoginInitPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_splash_screen__ = __webpack_require__(954);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_init__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__constants__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_helper__ = __webpack_require__(71);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+/**
+ * Page that displays a "splash screen" while the app is being initialized.
+ */
+var CoreLoginInitPage = /** @class */ (function () {
+    function CoreLoginInitPage(navCtrl, appProvider, initDelegate, sitesProvider, loginHelper, splashScreen) {
+        this.navCtrl = navCtrl;
+        this.appProvider = appProvider;
+        this.initDelegate = initDelegate;
+        this.sitesProvider = sitesProvider;
+        this.loginHelper = loginHelper;
+        this.splashScreen = splashScreen;
+    }
+    /**
+     * View loaded.
+     */
+    CoreLoginInitPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        // Wait for the app to be ready.
+        this.initDelegate.ready().then(function () {
+            // Check if there was a pending redirect.
+            var redirectData = _this.appProvider.getRedirect();
+            if (redirectData.siteId && redirectData.page) {
+                // Unset redirect data.
+                _this.appProvider.storeRedirect('', '', '');
+                // Only accept the redirect if it was stored less than 20 seconds ago.
+                if (Date.now() - redirectData.timemodified < 20000) {
+                    if (redirectData.siteId != __WEBPACK_IMPORTED_MODULE_6__constants__["a" /* CoreConstants */].NO_SITE_ID) {
+                        // The redirect is pointing to a site, load it.
+                        return _this.sitesProvider.loadSite(redirectData.siteId).then(function () {
+                            if (!_this.loginHelper.isSiteLoggedOut(redirectData.page, redirectData.params)) {
+                                return _this.navCtrl.setRoot(redirectData.page, redirectData.params, { animate: false });
+                            }
+                        }).catch(function () {
+                            // Site doesn't exist.
+                            return _this.loadPage();
+                        });
+                    }
+                    else {
+                        // No site to load, just open the state.
+                        return _this.navCtrl.setRoot(redirectData.page, redirectData.params, { animate: false });
+                    }
+                }
+            }
+            return _this.loadPage();
+        }).then(function () {
+            // If we hide the splash screen now, the init view is still seen for an instant. Wait a bit to make sure it isn't seen.
+            setTimeout(function () {
+                _this.splashScreen.hide();
+            }, 100);
+        });
+    };
+    /**
+     * Load the right page.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    CoreLoginInitPage.prototype.loadPage = function () {
+        var _this = this;
+        if (this.sitesProvider.isLoggedIn()) {
+            if (!this.loginHelper.isSiteLoggedOut()) {
+                // User is logged in, go to site initial page.
+                return this.loginHelper.goToSiteInitialPage();
+            }
+            else {
+                // The site is marked as logged out. Logout and try again.
+                return this.sitesProvider.logout().then(function () {
+                    return _this.loadPage();
+                });
+            }
+        }
+        else {
+            return this.sitesProvider.hasSites().then(function (hasSites) {
+                if (hasSites) {
+                    return _this.navCtrl.setRoot('CoreLoginSitesPage');
+                }
+                else {
+                    return _this.loginHelper.goToAddSite(true);
+                }
+            });
+        }
+    };
+    CoreLoginInitPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-login-init',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/core/login/pages/init/init.html"*/'<ion-content>\n    <div class="core-bglogo">\n        <div class="core-logo">\n            <img src="assets/img/splash_logo.png"/>\n            <ion-spinner></ion-spinner>\n        </div>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/core/login/pages/init/init.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_init__["a" /* CoreInitDelegate */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_helper__["a" /* CoreLoginHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], CoreLoginInitPage);
+    return CoreLoginInitPage;
+}());
+
+//# sourceMappingURL=init.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=32.js.map

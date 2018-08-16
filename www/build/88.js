@@ -1,1 +1,133 @@
-webpackJsonp([88],{1818:function(l,n,a){"use strict";function u(l){return t._42(0,[t._37(402653184,1,{glossaryComponent:0}),(l()(),t._16(1,0,null,null,17,"ion-header",[],null,null,null,null,null)),t._15(2,16384,null,0,P.a,[D.a,t.p,t.K,[2,j.a]],null,null),(l()(),t._40(-1,null,["\n    "])),(l()(),t._16(4,0,null,null,13,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,k.b,k.a)),t._15(5,49152,null,0,w.a,[A.a,[2,j.a],[2,B.a],D.a,t.p,t.K],null,null),(l()(),t._40(-1,3,["\n        "])),(l()(),t._16(7,0,null,3,3,"ion-title",[],null,null,null,C.b,C.a)),t._15(8,49152,null,0,F.a,[D.a,t.p,t.K,[2,G.a],[2,w.a]],null,null),(l()(),t._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),t._15(10,540672,null,0,J.a,[t.p,N.a,O.a,q.a,z.a,E.a,H.a,L.a,Q.a,S.a,T.a,U.a,[2,B.a],[2,V.a]],{text:[0,"text"]},null),(l()(),t._40(-1,3,["\n\n        "])),(l()(),t._16(12,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),t._15(13,16384,null,1,W.a,[D.a,t.p,t.K,[2,G.a],[2,w.a]],null,null),t._37(603979776,2,{_buttons:1}),(l()(),t._40(-1,null,["\n            "])),(l()(),t._40(-1,null,["\n        "])),(l()(),t._40(-1,3,["\n    "])),(l()(),t._40(-1,null,["\n"])),(l()(),t._40(-1,null,["\n\n"])),(l()(),t._16(20,0,null,null,1,"addon-mod-glossary-index",[],null,[[null,"dataRetrieved"]],function(l,n,a){var u=!0;if("dataRetrieved"===n){u=!1!==l.component.updateData(a)&&u}return u},R.c,R.b)),t._15(21,245760,[[1,4]],0,d.a,[t.u,X.a,Y.a,Z.a,$.a],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(l()(),t._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,10,0,a.title);l(n,21,0,a.module,a.courseId)},function(l,n){l(n,4,0,t._29(n,5)._hidden,t._29(n,5)._sbPadding)})}Object.defineProperty(n,"__esModule",{value:!0});var t=a(1),e=(a(0),a(10),a(6)),_=a(31),o=a(670),d=a(446),i=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},l}(),r=function(){return function(){}}(),s=a(1284),c=a(1285),b=a(1286),p=a(1287),f=a(1288),m=a(1289),v=a(1290),g=a(1291),x=a(1292),h=a(1295),y=a(1296),I=a(1297),K=a(1298),R=a(1345),M=a(1370),P=a(419),D=a(7),j=a(35),k=a(1293),w=a(191),A=a(27),B=a(22),C=a(1294),F=a(326),G=a(237),J=a(38),N=a(2),O=a(4),q=a(11),z=a(17),E=a(14),H=a(3),L=a(24),Q=a(5),S=a(16),T=a(12),U=a(23),V=a(25),W=a(420),X=a(65),Y=a(180),Z=a(220),$=a(286),ll=a(58),nl=t._14({encapsulation:2,styles:[],data:{}}),al=t._12("page-addon-mod-glossary-index",i,function(l){return t._42(0,[(l()(),t._16(0,0,null,null,1,"page-addon-mod-glossary-index",[],null,null,null,u,nl)),t._15(1,49152,null,0,i,[ll.a],null,null)],null,null)},{},{},[]),ul=a(9),tl=a(18),el=a(322),_l=a(323),ol=a(325),dl=a(324),il=a(418),rl=a(638),sl=a(107),cl=a(32),bl=a(71),pl=a(238);a.d(n,"AddonModGlossaryIndexPageModuleNgFactory",function(){return fl});var fl=t._13(r,[],function(l){return t._25([t._26(512,t.n,t._6,[[8,[s.a,c.a,b.a,p.a,f.a,m.a,v.a,g.a,x.a,h.a,y.a,I.a,K.a,R.a,M.a,al]],[3,t.n],t.B]),t._26(4608,ul.m,ul.l,[t.x,[2,ul.v]]),t._26(4608,tl.x,tl.x,[]),t._26(4608,tl.d,tl.d,[]),t._26(4608,el.b,el.a,[]),t._26(4608,_l.a,_l.b,[]),t._26(4608,ol.b,ol.a,[]),t._26(4608,dl.b,dl.a,[]),t._26(4608,z.a,z.a,[il.a,el.b,_l.a,ol.b,dl.b,z.b,z.c]),t._26(512,_.a,_.a,[]),t._26(512,ul.b,ul.b,[]),t._26(512,tl.v,tl.v,[]),t._26(512,tl.i,tl.i,[]),t._26(512,tl.s,tl.s,[]),t._26(512,rl.a,rl.a,[]),t._26(512,e.a,e.a,[]),t._26(512,sl.a,sl.a,[]),t._26(512,cl.a,cl.a,[]),t._26(512,bl.a,bl.a,[]),t._26(512,o.a,o.a,[]),t._26(512,rl.b,rl.b,[]),t._26(512,r,r,[]),t._26(256,z.c,void 0,[]),t._26(256,z.b,void 0,[]),t._26(256,pl.a,i,[])])})}});
+webpackJsonp([88],{
+
+/***/ 1820:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackIndexPageModule", function() { return AddonModFeedbackIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(932);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1945);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModFeedbackIndexPageModule = /** @class */ (function () {
+    function AddonModFeedbackIndexPageModule() {
+    }
+    AddonModFeedbackIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModFeedbackIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModFeedbackIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModFeedbackIndexPageModule);
+    return AddonModFeedbackIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 1945:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(407);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays a feedback.
+ */
+var AddonModFeedbackIndexPage = /** @class */ (function () {
+    function AddonModFeedbackIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.selectedGroup = navParams.get('group') || 0;
+        this.selectedTab = navParams.get('tab') || 'overview';
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the feedback instance.
+     *
+     * @param {any} feedback Feedback instance.
+     */
+    AddonModFeedbackIndexPage.prototype.updateData = function (feedback) {
+        this.title = feedback.name || this.title;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModFeedbackIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModFeedbackIndexComponent */])
+    ], AddonModFeedbackIndexPage.prototype, "feedbackComponent", void 0);
+    AddonModFeedbackIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-feedback-index',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/feedback/pages/index/index.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="feedbackComponent.loaded" (ionRefresh)="feedbackComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-feedback-index [module]="module" [courseId]="courseId" [group]="selectedGroup" [tab]="selectedTab" (dataRetrieved)="updateData($event)"></addon-mod-feedback-index>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/feedback/pages/index/index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */]])
+    ], AddonModFeedbackIndexPage);
+    return AddonModFeedbackIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=88.js.map

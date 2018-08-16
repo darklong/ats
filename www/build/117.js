@@ -1,1 +1,427 @@
-webpackJsonp([117],{1777:function(l,n,a){"use strict";function u(l){return o._42(0,[(l()(),o._16(0,0,null,null,3,"core-empty-box",[["icon","trophy"]],null,null,null,R.b,R.a)),o._15(1,49152,null,0,C.a,[],{message:[0,"message"],icon:[1,"icon"]},null),o._32(131072,D.a,[H.a,o.i]),(l()(),o._40(-1,0,["\n            "]))],function(l,n){l(n,1,0,o._41(n,1,0,o._29(n,2).transform("addon.badges.nobadges")),"trophy")},null)}function e(l){return o._42(0,[(l()(),o._16(0,0,null,null,3,"ion-badge",[["color","danger"],["item-end",""]],null,null,null,null,null)),o._15(1,16384,null,0,O.a,[W.a,o.p,o.K],{color:[0,"color"]},null),(l()(),o._40(2,null,["\n                        ","\n                    "])),o._32(131072,D.a,[H.a,o.i])],function(l,n){l(n,1,0,"danger")},function(l,n){l(n,2,0,o._41(n,2,0,o._29(n,3).transform("addon.badges.expired")))})}function t(l){return o._42(0,[(l()(),o._16(0,0,null,null,24,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0],[2,"core-split-item-selected",null]],[[null,"click"]],function(l,n,a){var u=!0;if("click"===n){u=!1!==l.component.loadIssuedBadge(l.context.$implicit.uniquehash)&&u}return u},q.b,q.a)),o._15(1,1097728,null,3,F.a,[M.a,W.a,o.p,o.K,[2,j.a]],null,null),o._37(335544320,3,{contentLabel:0}),o._37(603979776,4,{_buttons:1}),o._37(603979776,5,{_icons:1}),o._15(5,16384,null,0,A.a,[],null,null),(l()(),o._40(-1,2,["\n                    "])),(l()(),o._16(7,0,null,0,5,"ion-avatar",[["item-start",""]],null,null,null,null,null)),o._15(8,16384,null,0,E.a,[],null,null),(l()(),o._40(-1,null,["\n                        "])),(l()(),o._16(10,0,null,null,1,"img",[["core-external-content",""],["item-start",""]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),o._15(11,4210688,null,0,J.a,[o.p,N.a,S.a,V.a,h.a,f.a,z.a,G.a],null,null),(l()(),o._40(-1,null,["\n                    "])),(l()(),o._40(-1,2,["\n                    "])),(l()(),o._16(14,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),o._16(15,0,null,null,1,"core-format-text",[],null,null,null,null,null)),o._15(16,540672,null,0,Q.a,[o.p,h.a,f.a,X.a,H.a,V.a,Y.a,z.a,N.a,S.a,G.a,Z.a,[2,ll.a],[2,nl.a]],{text:[0,"text"]},null),(l()(),o._40(-1,2,["\n                    "])),(l()(),o._16(18,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),o._40(19,null,["",""])),o._34(20,1),(l()(),o._40(-1,2,["\n                    "])),(l()(),o._11(16777216,null,4,1,null,e)),o._15(23,16384,null,0,al.k,[o.W,o.T],{ngIf:[0,"ngIf"]},null),(l()(),o._40(-1,2,["\n                "]))],function(l,n){var a=n.component;l(n,16,0,n.context.$implicit.name);l(n,23,0,n.context.$implicit.dateexpire&&a.currentTime>=n.context.$implicit.dateexpire)},function(l,n){l(n,0,0,n.context.$implicit.name,n.context.$implicit.uniquehash==n.component.badgeHash);l(n,10,0,n.context.$implicit.badgeurl,n.context.$implicit.name);l(n,19,0,o._41(n,19,0,l(n,20,0,o._29(n.parent.parent,0),n.context.$implicit.dateissued)))})}function i(l){return o._42(0,[(l()(),o._16(0,0,null,null,5,"ion-list",[["no-margin",""]],null,null,null,null,null)),o._15(1,16384,null,0,ul.a,[W.a,o.p,o.K,V.a,el.l,tl.a],null,null),(l()(),o._40(-1,null,["\n                "])),(l()(),o._11(16777216,null,null,1,null,t)),o._15(4,802816,null,0,al.j,[o.W,o.T,o.v],{ngForOf:[0,"ngForOf"]},null),(l()(),o._40(-1,null,["\n            "]))],function(l,n){l(n,4,0,n.component.badges)},null)}function s(l){return o._42(0,[o._32(0,il.a,[N.a]),o._37(402653184,1,{content:0}),o._37(402653184,2,{splitviewCtrl:0}),(l()(),o._16(3,0,null,null,11,"ion-header",[],null,null,null,null,null)),o._15(4,16384,null,0,sl.a,[W.a,o.p,o.K,[2,ol.a]],null,null),(l()(),o._40(-1,null,["\n    "])),(l()(),o._16(6,0,null,null,7,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,rl.b,rl.a)),o._15(7,49152,null,0,_l.a,[dl.a,[2,ol.a],[2,ll.a],W.a,o.p,o.K],null,null),(l()(),o._40(-1,3,["\n        "])),(l()(),o._16(9,0,null,3,3,"ion-title",[],null,null,null,cl.b,cl.a)),o._15(10,49152,null,0,gl.a,[W.a,o.p,o.K,[2,bl.a],[2,_l.a]],null,null),(l()(),o._40(11,0,["",""])),o._32(131072,D.a,[H.a,o.i]),(l()(),o._40(-1,3,["\n    "])),(l()(),o._40(-1,null,["\n"])),(l()(),o._40(-1,null,["\n"])),(l()(),o._16(16,0,null,null,24,"core-split-view",[],null,null,null,fl.b,fl.a)),o._15(17,114688,[[2,4]],0,p.a,[[2,ll.a],o.p],null,null),(l()(),o._40(-1,0,["\n    "])),(l()(),o._16(19,0,null,0,20,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,hl.b,hl.a)),o._15(20,4374528,[[1,4]],0,nl.a,[W.a,V.a,tl.a,o.p,o.K,dl.a,pl.a,o.D,[2,ol.a],[2,ll.a]],null,null),(l()(),o._40(-1,1,["\n        "])),(l()(),o._16(22,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,a){var u=!0;if("ionRefresh"===n){u=!1!==l.component.refreshBadges(a)&&u}return u},null,null)),o._15(23,212992,null,0,ml.a,[V.a,nl.a,o.D,el.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),o._40(-1,null,["\n            "])),(l()(),o._16(25,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,vl.b,vl.a)),o._15(26,114688,null,0,xl.a,[ml.a,W.a],{pullingText:[0,"pullingText"]},null),o._32(131072,D.a,[H.a,o.i]),(l()(),o._40(-1,null,["\n        "])),(l()(),o._40(-1,1,["\n        "])),(l()(),o._16(30,0,null,1,8,"core-loading",[],null,null,null,Il.b,Il.a)),o._15(31,638976,null,0,Bl.a,[H.a,o.p],{hideUntil:[0,"hideUntil"]},null),(l()(),o._40(-1,0,["\n            "])),(l()(),o._11(16777216,null,0,1,null,u)),o._15(34,16384,null,0,al.k,[o.W,o.T],{ngIf:[0,"ngIf"]},null),(l()(),o._40(-1,0,["\n\n            "])),(l()(),o._11(16777216,null,0,1,null,i)),o._15(37,16384,null,0,al.k,[o.W,o.T],{ngIf:[0,"ngIf"]},null),(l()(),o._40(-1,0,["\n        "])),(l()(),o._40(-1,1,["\n    "])),(l()(),o._40(-1,0,["\n"]))],function(l,n){var a=n.component;l(n,17,0);l(n,23,0,a.badgesLoaded);l(n,26,0,o._19(1,"",o._41(n,26,0,o._29(n,27).transform("core.pulltorefresh")),""));l(n,31,0,a.badgesLoaded);l(n,34,0,!a.badges||0==a.badges.length);l(n,37,0,a.badges&&a.badges.length)},function(l,n){l(n,6,0,o._29(n,7)._hidden,o._29(n,7)._sbPadding);l(n,11,0,o._41(n,11,0,o._29(n,12).transform("addon.badges.badges")));l(n,19,0,o._29(n,20).statusbarPadding,o._29(n,20)._hasRefresher);l(n,22,0,"inactive"!==o._29(n,23).state,o._29(n,23)._top);l(n,25,0,o._29(n,26).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var o=a(1),r=(a(0),a(10),a(6)),_=a(32),d=a(31),c=a(107),g=a(276),b=a(42),f=a(4),h=a(2),p=a(131),m=function(){function l(l,n,a,u,e){this.badgesProvider=a,this.domUtils=u,this.timeUtils=e,this.badgesLoaded=!1,this.badges=[],this.currentTime=0,this.courseId=l.get("courseId")||0,this.userId=l.get("userId")||n.getCurrentSite().getUserId()}return l.prototype.ionViewDidLoad=function(){var l=this;this.fetchBadges().finally(function(){!l.badgeHash&&l.splitviewCtrl.isOn()&&l.badges.length>0&&l.loadIssuedBadge(l.badges[0].uniquehash),l.badgesLoaded=!0})},l.prototype.fetchBadges=function(){var l=this;return this.currentTime=this.timeUtils.timestamp(),this.badgesProvider.getUserBadges(this.courseId,this.userId).then(function(n){l.badges=n}).catch(function(n){l.domUtils.showErrorModalDefault(n,"Error getting badges data.")})},l.prototype.refreshBadges=function(l){var n=this;this.badgesProvider.invalidateUserBadges(this.courseId,this.userId).finally(function(){n.fetchBadges().finally(function(){l.complete()})})},l.prototype.loadIssuedBadge=function(l){this.badgeHash=l;this.splitviewCtrl.push("AddonBadgesIssuedBadgePage",{courseId:this.courseId,userId:this.userId,badgeHash:l})},l}(),v=function(){return function(){}}(),x=a(1284),I=a(1285),B=a(1286),y=a(1287),U=a(1288),T=a(1289),$=a(1290),w=a(1291),P=a(1292),k=a(1295),K=a(1296),L=a(1297),R=a(160),C=a(132),D=a(28),H=a(17),O=a(212),W=a(7),q=a(34),F=a(21),M=a(19),j=a(29),A=a(33),E=a(177),J=a(158),N=a(5),S=a(16),V=a(14),z=a(24),G=a(12),Q=a(38),X=a(11),Y=a(3),Z=a(23),ll=a(22),nl=a(25),al=a(9),ul=a(79),el=a(36),tl=a(26),il=a(643),sl=a(419),ol=a(35),rl=a(1293),_l=a(191),dl=a(27),cl=a(1294),gl=a(326),bl=a(237),fl=a(423),hl=a(176),pl=a(97),ml=a(130),vl=a(192),xl=a(144),Il=a(55),Bl=a(49),yl=a(58),Ul=o._14({encapsulation:2,styles:[],data:{}}),Tl=o._12("page-addon-badges-user-badges",m,function(l){return o._42(0,[(l()(),o._16(0,0,null,null,1,"page-addon-badges-user-badges",[],null,null,null,s,Ul)),o._15(1,49152,null,0,m,[yl.a,h.a,g.a,f.a,b.a],null,null)],null,null)},{},{},[]),$l=a(18),wl=a(322),Pl=a(323),kl=a(325),Kl=a(324),Ll=a(418),Rl=a(638),Cl=a(238);a.d(n,"AddonBadgesUserBadgesPageModuleNgFactory",function(){return Dl});var Dl=o._13(v,[],function(l){return o._25([o._26(512,o.n,o._6,[[8,[x.a,I.a,B.a,y.a,U.a,T.a,$.a,w.a,P.a,k.a,K.a,L.a,Tl]],[3,o.n],o.B]),o._26(4608,al.m,al.l,[o.x,[2,al.v]]),o._26(4608,$l.x,$l.x,[]),o._26(4608,$l.d,$l.d,[]),o._26(4608,wl.b,wl.a,[]),o._26(4608,Pl.a,Pl.b,[]),o._26(4608,kl.b,kl.a,[]),o._26(4608,Kl.b,Kl.a,[]),o._26(4608,H.a,H.a,[Ll.a,wl.b,Pl.a,kl.b,Kl.b,H.b,H.c]),o._26(512,al.b,al.b,[]),o._26(512,$l.v,$l.v,[]),o._26(512,$l.i,$l.i,[]),o._26(512,$l.s,$l.s,[]),o._26(512,Rl.a,Rl.a,[]),o._26(512,r.a,r.a,[]),o._26(512,d.a,d.a,[]),o._26(512,c.a,c.a,[]),o._26(512,_.a,_.a,[]),o._26(512,Rl.b,Rl.b,[]),o._26(512,v,v,[]),o._26(256,H.c,void 0,[]),o._26(256,H.b,void 0,[]),o._26(256,Cl.a,m,[])])})}});
+webpackJsonp([117],{
+
+/***/ 1790:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCalendarListPageModule", function() { return AddonCalendarListPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__list__ = __webpack_require__(1915);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonCalendarListPageModule = /** @class */ (function () {
+    function AddonCalendarListPageModule() {
+    }
+    AddonCalendarListPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__list__["a" /* AddonCalendarListPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__list__["a" /* AddonCalendarListPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonCalendarListPageModule);
+    return AddonCalendarListPageModule;
+}());
+
+//# sourceMappingURL=list.module.js.map
+
+/***/ }),
+
+/***/ 1915:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCalendarListPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_calendar__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_helper__ = __webpack_require__(934);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_courses_providers_courses__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_local_notifications__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_course_picker_menu_course_picker_menu_popover__ = __webpack_require__(945);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__ = __webpack_require__(133);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays the list of calendar events.
+ */
+var AddonCalendarListPage = /** @class */ (function () {
+    function AddonCalendarListPage(translate, calendarProvider, navParams, domUtils, coursesProvider, utils, calendarHelper, sitesProvider, localNotificationsProvider, popoverCtrl, eventsProvider, navCtrl, appProvider) {
+        var _this = this;
+        this.translate = translate;
+        this.calendarProvider = calendarProvider;
+        this.domUtils = domUtils;
+        this.coursesProvider = coursesProvider;
+        this.utils = utils;
+        this.calendarHelper = calendarHelper;
+        this.popoverCtrl = popoverCtrl;
+        this.navCtrl = navCtrl;
+        this.daysLoaded = 0;
+        this.emptyEventsTimes = 0; // Variable to identify consecutive calls returning 0 events.
+        this.categoriesRetrieved = false;
+        this.getCategories = false;
+        this.allCourses = {
+            id: -1,
+            fullname: this.translate.instant('core.fulllistofcourses'),
+            category: -1
+        };
+        this.categories = {};
+        this.eventsLoaded = false;
+        this.events = [];
+        this.notificationsEnabled = false;
+        this.filteredEvents = [];
+        this.canLoadMore = false;
+        this.filter = {
+            course: this.allCourses
+        };
+        this.siteHomeId = sitesProvider.getCurrentSite().getSiteHomeId();
+        this.notificationsEnabled = localNotificationsProvider.isAvailable();
+        if (this.notificationsEnabled) {
+            // Re-schedule events if default time changes.
+            this.obsDefaultTimeChange = eventsProvider.on(__WEBPACK_IMPORTED_MODULE_3__providers_calendar__["a" /* AddonCalendarProvider */].DEFAULT_NOTIFICATION_TIME_CHANGED, function () {
+                calendarProvider.scheduleEventsNotifications(_this.events);
+            }, sitesProvider.getCurrentSiteId());
+        }
+        this.eventId = navParams.get('eventId') || false;
+    }
+    /**
+     * View loaded.
+     */
+    AddonCalendarListPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        if (this.eventId) {
+            // There is an event to load, open the event in a new state.
+            this.gotoEvent(this.eventId);
+        }
+        this.fetchData().then(function () {
+            if (!_this.eventId && _this.splitviewCtrl.isOn() && _this.events.length > 0) {
+                // Take first and load it.
+                _this.gotoEvent(_this.events[0].id);
+            }
+        }).finally(function () {
+            _this.eventsLoaded = true;
+        });
+    };
+    /**
+     * Fetch all the data required for the view.
+     *
+     * @param {boolean} [refresh] Empty events array first.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonCalendarListPage.prototype.fetchData = function (refresh) {
+        var _this = this;
+        if (refresh === void 0) { refresh = false; }
+        this.daysLoaded = 0;
+        this.emptyEventsTimes = 0;
+        // Load courses for the popover.
+        return this.coursesProvider.getUserCourses(false).then(function (courses) {
+            // Add "All courses".
+            courses.unshift(_this.allCourses);
+            _this.courses = courses;
+            return _this.fetchEvents(refresh);
+        });
+    };
+    /**
+     * Fetches the events and updates the view.
+     *
+     * @param {boolean} [refresh] Empty events array first.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonCalendarListPage.prototype.fetchEvents = function (refresh) {
+        var _this = this;
+        if (refresh === void 0) { refresh = false; }
+        return this.calendarProvider.getEventsList(this.daysLoaded, __WEBPACK_IMPORTED_MODULE_3__providers_calendar__["a" /* AddonCalendarProvider */].DAYS_INTERVAL).then(function (events) {
+            _this.daysLoaded += __WEBPACK_IMPORTED_MODULE_3__providers_calendar__["a" /* AddonCalendarProvider */].DAYS_INTERVAL;
+            if (events.length === 0) {
+                _this.emptyEventsTimes++;
+                if (_this.emptyEventsTimes > 5) {
+                    _this.canLoadMore = false;
+                    if (refresh) {
+                        _this.events = [];
+                        _this.filteredEvents = [];
+                    }
+                }
+                else {
+                    // No events returned, load next events.
+                    return _this.fetchEvents();
+                }
+            }
+            else {
+                // Sort the events by timestart, they're ordered by id.
+                events.sort(function (a, b) {
+                    return a.timestart - b.timestart;
+                });
+                events.forEach(_this.calendarHelper.formatEventData.bind(_this.calendarHelper));
+                _this.getCategories = _this.shouldLoadCategories(events);
+                if (refresh) {
+                    _this.events = events;
+                }
+                else {
+                    // Filter events with same ID. Repeated events are returned once per WS call, show them only once.
+                    _this.events = _this.utils.mergeArraysWithoutDuplicates(_this.events, events, 'id');
+                }
+                _this.filteredEvents = _this.getFilteredEvents();
+                _this.canLoadMore = true;
+                // Schedule notifications for the events retrieved (might have new events).
+                _this.calendarProvider.scheduleEventsNotifications(_this.events);
+            }
+            // Resize the content so infinite loading is able to calculate if it should load more items or not.
+            // @todo: Infinite loading is not working if content is not high enough.
+            _this.content.resize();
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.calendar.errorloadevents', true);
+            _this.canLoadMore = false; // Set to false to prevent infinite calls with infinite-loading.
+        }).then(function () {
+            // Success retrieving events. Get categories if needed.
+            if (_this.getCategories) {
+                _this.getCategories = false;
+                return _this.loadCategories();
+            }
+        });
+    };
+    /**
+     * Get filtered events.
+     *
+     * @return {any[]} Filtered events.
+     */
+    AddonCalendarListPage.prototype.getFilteredEvents = function () {
+        if (this.filter.course.id == -1) {
+            // No filter, display everything.
+            return this.events;
+        }
+        return this.events.filter(this.shouldDisplayEvent.bind(this));
+    };
+    /**
+     * Check if an event should be displayed based on the filter.
+     *
+     * @param {any} event Event object.
+     * @return {boolean} Whether it should be displayed.
+     */
+    AddonCalendarListPage.prototype.shouldDisplayEvent = function (event) {
+        if (event.eventtype == 'user' || event.eventtype == 'site') {
+            // User or site event, display it.
+            return true;
+        }
+        if (event.eventtype == 'category') {
+            if (!event.categoryid || !Object.keys(this.categories).length) {
+                // We can't tell if the course belongs to the category, display them all.
+                return true;
+            }
+            if (event.categoryid == this.filter.course.category) {
+                // The event is in the same category as the course, display it.
+                return true;
+            }
+            // Check parent categories.
+            var category = this.categories[this.filter.course.category];
+            while (category) {
+                if (!category.parent) {
+                    // Category doesn't have parent, stop.
+                    break;
+                }
+                if (event.categoryid == category.parent) {
+                    return true;
+                }
+                category = this.categories[category.parent];
+            }
+            return false;
+        }
+        // Show the event if it is from site home or if it matches the selected course.
+        return event.courseid === this.siteHomeId || event.courseid == this.filter.course.id;
+    };
+    /**
+     * Returns if the current state should load categories or not.
+     * @param {any[]} events Events to parse.
+     * @return {boolean}  True if categories should be loaded.
+     */
+    AddonCalendarListPage.prototype.shouldLoadCategories = function (events) {
+        if (this.categoriesRetrieved || this.getCategories) {
+            // Use previous value
+            return this.getCategories;
+        }
+        // Categories not loaded yet. We should get them if there's any category event.
+        var found = events.some(function (event) { return event.categoryid != 'undefined' && event.categoryid > 0; });
+        return found || this.getCategories;
+    };
+    /**
+     * Load categories to be able to filter events.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonCalendarListPage.prototype.loadCategories = function () {
+        var _this = this;
+        return this.coursesProvider.getCategories(0, true).then(function (cats) {
+            _this.categoriesRetrieved = true;
+            _this.categories = {};
+            // Index categories by ID.
+            cats.forEach(function (category) {
+                _this.categories[category.id] = category;
+            });
+        }).catch(function () {
+            // Ignore errors.
+        });
+    };
+    /**
+     * Refresh the events.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonCalendarListPage.prototype.refreshEvents = function (refresher) {
+        var _this = this;
+        var promises = [];
+        promises.push(this.calendarProvider.invalidateEventsList(this.courses));
+        if (this.categoriesRetrieved) {
+            promises.push(this.coursesProvider.invalidateCategories(0, true));
+            this.categoriesRetrieved = false;
+        }
+        Promise.all(promises).finally(function () {
+            _this.fetchData(true).finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    /**
+     * Show the context menu.
+     *
+     * @param {MouseEvent} event Event.
+     */
+    AddonCalendarListPage.prototype.openCourseFilter = function (event) {
+        var _this = this;
+        var popover = this.popoverCtrl.create(__WEBPACK_IMPORTED_MODULE_10__components_course_picker_menu_course_picker_menu_popover__["a" /* CoreCoursePickerMenuPopoverComponent */], {
+            courses: this.courses,
+            courseId: this.filter.course.id
+        });
+        popover.onDidDismiss(function (course) {
+            if (course) {
+                _this.filter.course = course;
+                _this.content.scrollToTop();
+                _this.filteredEvents = _this.getFilteredEvents();
+            }
+        });
+        popover.present({
+            ev: event
+        });
+    };
+    /**
+     * Open calendar events settings.
+     */
+    AddonCalendarListPage.prototype.openSettings = function () {
+        this.navCtrl.push('AddonCalendarSettingsPage');
+    };
+    /**
+     * Navigate to a particular event.
+     *
+     * @param {number} eventId Event to load.
+     */
+    AddonCalendarListPage.prototype.gotoEvent = function (eventId) {
+        this.eventId = eventId;
+        this.splitviewCtrl.push('AddonCalendarEventPage', { id: eventId });
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonCalendarListPage.prototype.ngOnDestroy = function () {
+        this.obsDefaultTimeChange && this.obsDefaultTimeChange.off();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonCalendarListPage.prototype, "content", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__["a" /* CoreSplitViewComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__["a" /* CoreSplitViewComponent */])
+    ], AddonCalendarListPage.prototype, "splitviewCtrl", void 0);
+    AddonCalendarListPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-calendar-list',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/calendar/pages/list/list.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ \'addon.calendar.calendarevents\' | translate }}</ion-title>\n        <ion-buttons end>\n            <button *ngIf="courses && courses.length" ion-button icon-only (click)="openCourseFilter($event)" [attr.aria-label]="\'core.courses.filter\' | translate">\n                <ion-icon name="funnel"></ion-icon>\n            </button>\n            <core-context-menu>\n                <core-context-menu-item [hidden]="!notificationsEnabled" [priority]="600" [content]="\'core.settings.settings\' | translate" (action)="openSettings()" [iconAction]="\'cog\'"></core-context-menu-item>\n            </core-context-menu>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<core-split-view>\n    <ion-content>\n        <ion-refresher [enabled]="eventsLoaded" (ionRefresh)="refreshEvents($event)">\n            <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n        </ion-refresher>\n        <core-loading [hideUntil]="eventsLoaded">\n            <core-empty-box *ngIf="!filteredEvents || !filteredEvents.length" icon="calendar" [message]="\'addon.calendar.noevents\' | translate">\n            </core-empty-box>\n\n            <ion-list *ngIf="filteredEvents && filteredEvents.length" no-margin>\n                <a ion-item text-wrap *ngFor="let event of filteredEvents" [title]="event.name" (click)="gotoEvent(event.id)" [class.core-split-item-selected]="event.id == eventId">\n                    <img *ngIf="event.moduleIcon" src="{{event.moduleIcon}}" item-start class="core-module-icon">\n                    <core-icon *ngIf="event.icon && !event.moduleIcon" [name]="event.icon" item-start></core-icon>\n                    <h2><core-format-text [text]="event.name"></core-format-text></h2>\n                    <p>{{ event.timestart | coreToLocaleString }}</p>\n                </a>\n            </ion-list>\n\n            <ion-infinite-scroll [enabled]="canLoadMore" (ionInfinite)="$event.waitFor(fetchEvents())">\n               <ion-infinite-scroll-content></ion-infinite-scroll-content>\n            </ion-infinite-scroll>\n        </core-loading>\n    </ion-content>\n</core-split-view>'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/calendar/pages/list/list.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_3__providers_calendar__["a" /* AddonCalendarProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_5__core_courses_providers_courses__["a" /* CoreCoursesProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__["a" /* CoreUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_helper__["a" /* AddonCalendarHelperProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_local_notifications__["a" /* CoreLocalNotificationsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["t" /* PopoverController */],
+            __WEBPACK_IMPORTED_MODULE_11__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */], __WEBPACK_IMPORTED_MODULE_12__providers_app__["a" /* CoreAppProvider */]])
+    ], AddonCalendarListPage);
+    return AddonCalendarListPage;
+}());
+
+//# sourceMappingURL=list.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=117.js.map

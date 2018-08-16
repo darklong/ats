@@ -1,1 +1,178 @@
-webpackJsonp([50],{1869:function(n,l,e){"use strict";function t(n){return i._42(0,[(n()(),i._16(0,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,I.b,I.a)),i._15(1,4374528,null,0,y.a,[C.a,D.a,L.a,i.p,i.K,R.a,H.a,i.D,[2,O.a],[2,T.a]],null,null),(n()(),i._40(-1,1,["\n    "])),(n()(),i._16(3,0,null,1,9,"div",[["class","core-bglogo"]],null,null,null,null,null)),(n()(),i._40(-1,null,["\n        "])),(n()(),i._16(5,0,null,null,6,"div",[["class","core-logo"]],null,null,null,null,null)),(n()(),i._40(-1,null,["\n            "])),(n()(),i._16(7,0,null,null,0,"img",[["src","assets/img/splash_logo.png"]],null,null,null,null,null)),(n()(),i._40(-1,null,["\n            "])),(n()(),i._16(9,0,null,null,1,"ion-spinner",[],[[2,"spinner-paused",null]],null,null,w.b,w.a)),i._15(10,114688,null,0,x.a,[C.a,i.p,i.K],null,null),(n()(),i._40(-1,null,["\n        "])),(n()(),i._40(-1,null,["\n    "])),(n()(),i._40(-1,1,["\n"])),(n()(),i._40(-1,null,["\n"]))],function(n,l){n(l,10,0)},function(n,l){n(l,0,0,i._29(l,1).statusbarPadding,i._29(l,1)._hasRefresher);n(l,9,0,i._29(l,10)._paused)})}Object.defineProperty(l,"__esModule",{value:!0});var i=e(1),a=(e(0),e(10),e(668)),u=e(12),o=e(152),r=e(2),s=e(56),_=e(121),d=function(){function n(n,l,e,t,i,a){this.navCtrl=n,this.appProvider=l,this.initDelegate=e,this.sitesProvider=t,this.loginHelper=i,this.splashScreen=a}return n.prototype.ionViewDidLoad=function(){var n=this;this.initDelegate.ready().then(function(){var l=n.appProvider.getRedirect();return l.siteId&&l.page&&(n.appProvider.storeRedirect("","",""),Date.now()-l.timemodified<2e4)?l.siteId!=s.a.NO_SITE_ID?n.sitesProvider.loadSite(l.siteId).then(function(){if(!n.loginHelper.isSiteLoggedOut(l.page,l.params))return n.navCtrl.setRoot(l.page,l.params,{animate:!1})}).catch(function(){return n.loadPage()}):n.navCtrl.setRoot(l.page,l.params,{animate:!1}):n.loadPage()}).then(function(){setTimeout(function(){n.splashScreen.hide()},100)})},n.prototype.loadPage=function(){var n=this;return this.sitesProvider.isLoggedIn()?this.loginHelper.isSiteLoggedOut()?this.sitesProvider.logout().then(function(){return n.loadPage()}):this.loginHelper.goToSiteInitialPage():this.sitesProvider.hasSites().then(function(l){return l?n.navCtrl.setRoot("CoreLoginSitesPage"):n.loginHelper.goToAddSite(!0)})},n}(),g=function(){return function(){}}(),c=e(1284),p=e(1285),h=e(1286),f=e(1287),v=e(1288),P=e(1289),b=e(1290),m=e(1291),S=e(1292),I=e(176),y=e(25),C=e(7),D=e(14),L=e(26),R=e(27),H=e(97),O=e(35),T=e(22),w=e(178),x=e(134),K=i._14({encapsulation:2,styles:[],data:{}}),M=i._12("page-core-login-init",d,function(n){return i._42(0,[(n()(),i._16(0,0,null,null,1,"page-core-login-init",[],null,null,null,t,K)),i._15(1,49152,null,0,d,[T.a,u.a,o.a,r.a,_.a,a.a],null,null)],null,null)},{},{},[]),N=e(9),j=e(18),k=e(638),A=e(238);e.d(l,"CoreLoginInitPageModuleNgFactory",function(){return B});var B=i._13(g,[],function(n){return i._25([i._26(512,i.n,i._6,[[8,[c.a,p.a,h.a,f.a,v.a,P.a,b.a,m.a,S.a,M]],[3,i.n],i.B]),i._26(4608,N.m,N.l,[i.x,[2,N.v]]),i._26(4608,j.x,j.x,[]),i._26(4608,j.d,j.d,[]),i._26(512,N.b,N.b,[]),i._26(512,j.v,j.v,[]),i._26(512,j.i,j.i,[]),i._26(512,j.s,j.s,[]),i._26(512,k.a,k.a,[]),i._26(512,k.b,k.b,[]),i._26(512,g,g,[]),i._26(256,A.a,d,[])])})}});
+webpackJsonp([50],{
+
+/***/ 1862:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreContentLinksChooseSitePageModule", function() { return CoreContentLinksChooseSitePageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__choose_site__ = __webpack_require__(1992);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(15);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var CoreContentLinksChooseSitePageModule = /** @class */ (function () {
+    function CoreContentLinksChooseSitePageModule() {
+    }
+    CoreContentLinksChooseSitePageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__choose_site__["a" /* CoreContentLinksChooseSitePage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__choose_site__["a" /* CoreContentLinksChooseSitePage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], CoreContentLinksChooseSitePageModule);
+    return CoreContentLinksChooseSitePageModule;
+}());
+
+//# sourceMappingURL=choose-site.module.js.map
+
+/***/ }),
+
+/***/ 1992:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreContentLinksChooseSitePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_delegate__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_helper__ = __webpack_require__(32);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page to display the list of sites to choose one to perform a content link action.
+ */
+var CoreContentLinksChooseSitePage = /** @class */ (function () {
+    function CoreContentLinksChooseSitePage(navCtrl, navParams, contentLinksDelegate, sitesProvider, domUtils, contentLinksHelper) {
+        this.navCtrl = navCtrl;
+        this.contentLinksDelegate = contentLinksDelegate;
+        this.sitesProvider = sitesProvider;
+        this.domUtils = domUtils;
+        this.contentLinksHelper = contentLinksHelper;
+        this.url = navParams.get('url');
+    }
+    /**
+     * Component being initialized.
+     */
+    CoreContentLinksChooseSitePage.prototype.ngOnInit = function () {
+        var _this = this;
+        if (!this.url) {
+            return this.leaveView();
+        }
+        // Get the action to perform.
+        this.contentLinksDelegate.getActionsFor(this.url).then(function (actions) {
+            _this.action = _this.contentLinksHelper.getFirstValidAction(actions);
+            if (!_this.action) {
+                return Promise.reject(null);
+            }
+            // Get the sites that can perform the action.
+            return _this.sitesProvider.getSites(_this.action.sites).then(function (sites) {
+                _this.sites = sites;
+            });
+        }).catch(function () {
+            _this.domUtils.showErrorModal('core.contentlinks.errornosites', true);
+            _this.leaveView();
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Cancel.
+     */
+    CoreContentLinksChooseSitePage.prototype.cancel = function () {
+        this.leaveView();
+    };
+    /**
+     * Perform the action on a certain site.
+     *
+     * @param {string} siteId Site ID.
+     */
+    CoreContentLinksChooseSitePage.prototype.siteClicked = function (siteId) {
+        this.action.action(siteId, this.navCtrl);
+    };
+    /**
+     * Cancel and leave the view.
+     */
+    CoreContentLinksChooseSitePage.prototype.leaveView = function () {
+        var _this = this;
+        this.sitesProvider.logout().finally(function () {
+            _this.navCtrl.setRoot('CoreLoginSitesPage');
+        });
+    };
+    CoreContentLinksChooseSitePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-content-links-choose-site',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/core/contentlinks/pages/choose-site/choose-site.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ \'core.contentlinks.chooseaccount\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="loaded">\n        <ion-list>\n            <ion-item text-wrap>\n                <p class="item-heading">{{ \'core.contentlinks.chooseaccounttoopenlink\' | translate }}</p>\n                <p>{{ url }}</p>\n            </ion-item>\n            <a ion-item *ngFor="let site of sites" (click)="siteClicked(site.id)">\n                <img [src]="site.avatar" item-start>\n                <h2>{{site.fullName}}</h2>\n                <p><core-format-text clean="true" [text]="site.siteName"></core-format-text></p>\n                <p>{{site.siteUrl}}</p>\n            </a>\n            <ion-item>\n                <button ion-button block (click)="cancel()">{{ \'core.login.cancel\' | translate }}</button>\n            </ion-item>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/core/contentlinks/pages/choose-site/choose-site.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_delegate__["a" /* CoreContentLinksDelegate */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_helper__["a" /* CoreContentLinksHelperProvider */]])
+    ], CoreContentLinksChooseSitePage);
+    return CoreContentLinksChooseSitePage;
+}());
+
+//# sourceMappingURL=choose-site.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=50.js.map

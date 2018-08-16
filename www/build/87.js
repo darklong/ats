@@ -1,1 +1,238 @@
-webpackJsonp([87],{1819:function(l,n,a){"use strict";function u(l){return t._42(0,[t._37(402653184,1,{imscpComponent:0}),(l()(),t._16(1,0,null,null,17,"ion-header",[],null,null,null,null,null)),t._15(2,16384,null,0,D.a,[M.a,t.p,t.K,[2,j.a]],null,null),(l()(),t._40(-1,null,["\n    "])),(l()(),t._16(4,0,null,null,13,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,k.b,k.a)),t._15(5,49152,null,0,w.a,[A.a,[2,j.a],[2,B.a],M.a,t.p,t.K],null,null),(l()(),t._40(-1,3,["\n        "])),(l()(),t._16(7,0,null,3,3,"ion-title",[],null,null,null,C.b,C.a)),t._15(8,49152,null,0,F.a,[M.a,t.p,t.K,[2,J.a],[2,w.a]],null,null),(l()(),t._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),t._15(10,540672,null,0,N.a,[t.p,O.a,q.a,z.a,E.a,G.a,H.a,L.a,Q.a,S.a,T.a,U.a,[2,B.a],[2,V.a]],{text:[0,"text"]},null),(l()(),t._40(-1,3,["\n\n        "])),(l()(),t._16(12,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),t._15(13,16384,null,1,W.a,[M.a,t.p,t.K,[2,J.a],[2,w.a]],null,null),t._37(603979776,2,{_buttons:1}),(l()(),t._40(-1,null,["\n            "])),(l()(),t._40(-1,null,["\n        "])),(l()(),t._40(-1,3,["\n    "])),(l()(),t._40(-1,null,["\n"])),(l()(),t._40(-1,null,["\n"])),(l()(),t._16(20,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,X.b,X.a)),t._15(21,4374528,null,0,V.a,[M.a,G.a,Y.a,t.p,t.K,A.a,Z.a,t.D,[2,j.a],[2,B.a]],null,null),(l()(),t._40(-1,1,["\n    "])),(l()(),t._16(23,0,null,1,1,"addon-mod-imscp-index",[],null,[[null,"dataRetrieved"]],function(l,n,a){var u=!0;if("dataRetrieved"===n){u=!1!==l.component.updateData(a)&&u}return u},y.c,y.b)),t._15(24,245760,[[1,4]],0,o.a,[t.u,$.a,ll.a,T.a,nl.a,al.a],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(l()(),t._40(-1,1,["\n"])),(l()(),t._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,10,0,a.title);l(n,24,0,a.module,a.courseId)},function(l,n){l(n,4,0,t._29(n,5)._hidden,t._29(n,5)._sbPadding);l(n,20,0,t._29(n,21).statusbarPadding,t._29(n,21)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var t=a(1),e=(a(0),a(10),a(6)),_=a(31),d=a(671),o=a(447),i=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},l}(),r=function(){return function(){}}(),s=a(1284),c=a(1285),b=a(1286),p=a(1287),m=a(1288),f=a(1289),v=a(1290),h=a(1291),g=a(1292),x=a(1295),I=a(1296),K=a(1297),R=a(1298),y=a(1346),P=a(1372),D=a(419),M=a(7),j=a(35),k=a(1293),w=a(191),A=a(27),B=a(22),C=a(1294),F=a(326),J=a(237),N=a(38),O=a(2),q=a(4),z=a(11),E=a(17),G=a(14),H=a(3),L=a(24),Q=a(5),S=a(16),T=a(12),U=a(23),V=a(25),W=a(420),X=a(176),Y=a(26),Z=a(97),$=a(257),ll=a(15),nl=a(65),al=a(353),ul=a(58),tl=t._14({encapsulation:2,styles:[],data:{}}),el=t._12("page-addon-mod-imscp-index",i,function(l){return t._42(0,[(l()(),t._16(0,0,null,null,1,"page-addon-mod-imscp-index",[],null,null,null,u,tl)),t._15(1,49152,null,0,i,[ul.a],null,null)],null,null)},{},{},[]),_l=a(9),dl=a(18),ol=a(322),il=a(323),rl=a(325),sl=a(324),cl=a(418),bl=a(638),pl=a(107),ml=a(32),fl=a(71),vl=a(238);a.d(n,"AddonModImscpIndexPageModuleNgFactory",function(){return hl});var hl=t._13(r,[],function(l){return t._25([t._26(512,t.n,t._6,[[8,[s.a,c.a,b.a,p.a,m.a,f.a,v.a,h.a,g.a,x.a,I.a,K.a,R.a,y.a,P.a,el]],[3,t.n],t.B]),t._26(4608,_l.m,_l.l,[t.x,[2,_l.v]]),t._26(4608,dl.x,dl.x,[]),t._26(4608,dl.d,dl.d,[]),t._26(4608,ol.b,ol.a,[]),t._26(4608,il.a,il.b,[]),t._26(4608,rl.b,rl.a,[]),t._26(4608,sl.b,sl.a,[]),t._26(4608,E.a,E.a,[cl.a,ol.b,il.a,rl.b,sl.b,E.b,E.c]),t._26(512,_.a,_.a,[]),t._26(512,_l.b,_l.b,[]),t._26(512,dl.v,dl.v,[]),t._26(512,dl.i,dl.i,[]),t._26(512,dl.s,dl.s,[]),t._26(512,bl.a,bl.a,[]),t._26(512,e.a,e.a,[]),t._26(512,pl.a,pl.a,[]),t._26(512,ml.a,ml.a,[]),t._26(512,fl.a,fl.a,[]),t._26(512,d.a,d.a,[]),t._26(512,bl.b,bl.b,[]),t._26(512,r,r,[]),t._26(256,E.c,void 0,[]),t._26(256,E.b,void 0,[]),t._26(256,vl.a,i,[])])})}});
+webpackJsonp([87],{
+
+/***/ 1821:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackNonRespondentsPageModule", function() { return AddonModFeedbackNonRespondentsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(932);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__nonrespondents__ = __webpack_require__(1946);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModFeedbackNonRespondentsPageModule = /** @class */ (function () {
+    function AddonModFeedbackNonRespondentsPageModule() {
+    }
+    AddonModFeedbackNonRespondentsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__nonrespondents__["a" /* AddonModFeedbackNonRespondentsPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__nonrespondents__["a" /* AddonModFeedbackNonRespondentsPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModFeedbackNonRespondentsPageModule);
+    return AddonModFeedbackNonRespondentsPageModule;
+}());
+
+//# sourceMappingURL=nonrespondents.module.js.map
+
+/***/ }),
+
+/***/ 1946:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackNonRespondentsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_feedback__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_helper__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_groups__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page that displays feedback non respondents.
+ */
+var AddonModFeedbackNonRespondentsPage = /** @class */ (function () {
+    function AddonModFeedbackNonRespondentsPage(navParams, feedbackProvider, groupsProvider, domUtils, feedbackHelper, navCtrl) {
+        this.feedbackProvider = feedbackProvider;
+        this.groupsProvider = groupsProvider;
+        this.domUtils = domUtils;
+        this.feedbackHelper = feedbackHelper;
+        this.navCtrl = navCtrl;
+        this.page = 0;
+        this.groupInfo = {
+            groups: [],
+            separateGroups: false,
+            visibleGroups: false
+        };
+        this.users = [];
+        this.total = 0;
+        this.canLoadMore = false;
+        this.feedbackLoaded = false;
+        this.loadingMore = false;
+        var module = navParams.get('module');
+        this.moduleId = module.id;
+        this.feedbackId = module.instance;
+        this.courseId = navParams.get('courseId');
+        this.selectedGroup = navParams.get('group') || 0;
+    }
+    /**
+     * View loaded.
+     */
+    AddonModFeedbackNonRespondentsPage.prototype.ionViewDidLoad = function () {
+        this.fetchData();
+    };
+    /**
+     * Fetch all the data required for the view.
+     *
+     * @param {boolean} [refresh] Empty events array first.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModFeedbackNonRespondentsPage.prototype.fetchData = function (refresh) {
+        var _this = this;
+        if (refresh === void 0) { refresh = false; }
+        this.page = 0;
+        this.total = 0;
+        this.users = [];
+        return this.groupsProvider.getActivityGroupInfo(this.moduleId).then(function (groupInfo) {
+            _this.groupInfo = groupInfo;
+            return _this.loadGroupUsers(_this.selectedGroup);
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            if (!refresh) {
+                // Some call failed on first fetch, go back.
+                _this.navCtrl.pop();
+            }
+            return Promise.reject(null);
+        });
+    };
+    /**
+     * Load Group responses.
+     *
+     * @param  {number} [groupId]   If defined it will change group if not, it will load more users for the same group.
+     * @return {Promise<any>}       Resolved with the attempts loaded.
+     */
+    AddonModFeedbackNonRespondentsPage.prototype.loadGroupUsers = function (groupId) {
+        var _this = this;
+        if (typeof groupId == 'undefined') {
+            this.page++;
+            this.loadingMore = true;
+        }
+        else {
+            this.selectedGroup = groupId;
+            this.page = 0;
+            this.total = 0;
+            this.users = [];
+            this.feedbackLoaded = false;
+        }
+        return this.feedbackHelper.getNonRespondents(this.feedbackId, this.selectedGroup, this.page).then(function (response) {
+            _this.total = response.total;
+            if (_this.users.length < response.total) {
+                _this.users = _this.users.concat(response.users);
+            }
+            _this.canLoadMore = _this.users.length < response.total;
+            return response;
+        }).finally(function () {
+            _this.loadingMore = false;
+            _this.feedbackLoaded = true;
+        });
+    };
+    /**
+     * Change selected group or load more users.
+     *
+     * @param {number} [groupId] Group ID selected. If not defined, it will load more users.
+     */
+    AddonModFeedbackNonRespondentsPage.prototype.loadAttempts = function (groupId) {
+        var _this = this;
+        this.loadGroupUsers(groupId).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+        });
+    };
+    /**
+     * Refresh the attempts.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonModFeedbackNonRespondentsPage.prototype.refreshFeedback = function (refresher) {
+        var _this = this;
+        if (this.feedbackLoaded) {
+            var promises = [];
+            promises.push(this.feedbackProvider.invalidateNonRespondentsData(this.feedbackId));
+            promises.push(this.groupsProvider.invalidateActivityGroupInfo(this.moduleId));
+            Promise.all(promises).finally(function () {
+                return _this.fetchData(true);
+            }).finally(function () {
+                refresher.complete();
+            });
+        }
+    };
+    AddonModFeedbackNonRespondentsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-feedback-nonrespondents',template:/*ion-inline-start:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/feedback/pages/nonrespondents/nonrespondents.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{ \'addon.mod_feedback.responses\' |translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="feedbackLoaded" (ionRefresh)="refreshFeedback($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="feedbackLoaded">\n        <ion-list no-margin>\n            <ion-item text-wrap *ngIf="groupInfo.separateGroups || groupInfo.visibleGroups">\n                <ion-label id="addon-feedback-groupslabel" *ngIf="groupInfo.separateGroups">{{ \'core.groupsseparate\' | translate }}</ion-label>\n                <ion-label id="addon-feedback-groupslabel" *ngIf="groupInfo.visibleGroups">{{ \'core.groupsvisible\' | translate }}</ion-label>\n                <ion-select [(ngModel)]="selectedGroup" (ionChange)="loadAttempts(selectedGroup)" aria-labelledby="addon-feedback-groupslabel" interface="popover">\n                    <ion-option *ngFor="let groupOpt of groupInfo.groups" [value]="groupOpt.id">{{groupOpt.name}}</ion-option>\n                </ion-select>\n            </ion-item>\n            <ion-item-divider color="light">\n                {{ \'addon.mod_feedback.non_respondents_students\' | translate : {$a: total } }}\n            </ion-item-divider>\n            <ng-container *ngIf="total > 0">\n                <ion-item *ngFor="let user of users" text-wrap>\n                    <ion-avatar item-start>\n                        <img [src]="user.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: user.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n                    </ion-avatar>\n                    <h2><core-format-text [text]="user.fullname"></core-format-text></h2>\n                    <p>\n                        <ion-badge color="success" *ngIf="user.started">\n                            {{ \'addon.mod_feedback.started\' | translate}}\n                        </ion-badge>\n                        <ion-badge color="danger" *ngIf="!user.started">\n                            {{ \'addon.mod_feedback.not_started\' | translate}}\n                        </ion-badge>\n                    </p>\n                </ion-item>\n            </ng-container>\n            <ion-item padding text-center *ngIf="canLoadMore">\n                <!-- Button and spinner to show more attempts. -->\n                <button ion-button block *ngIf="!loadingMore" (click)="loadAttempts()">{{ \'core.loadmore\' | translate }}</button>\n                <ion-spinner *ngIf="loadingMore"></ion-spinner>\n            </ion-item>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/Users/danglong/Desktop/phonegap/ats2/src/addon/mod/feedback/pages/nonrespondents/nonrespondents.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_groups__["a" /* CoreGroupsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_helper__["a" /* AddonModFeedbackHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["q" /* NavController */]])
+    ], AddonModFeedbackNonRespondentsPage);
+    return AddonModFeedbackNonRespondentsPage;
+}());
+
+//# sourceMappingURL=nonrespondents.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=87.js.map

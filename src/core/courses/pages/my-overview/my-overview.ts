@@ -76,11 +76,13 @@ export class CoreCoursesMyOverviewPage implements OnDestroy {
     };
     downloadAllCoursesEnabled: boolean;
     siteName: string;
+    categoryType = 0;
 
     protected prefetchIconsInitialized = false;
     protected isDestroyed;
     protected updateSiteObserver;
     protected courseIds = '';
+    
 
     constructor(private navCtrl: NavController, private coursesProvider: CoreCoursesProvider,
             private domUtils: CoreDomUtilsProvider, private myOverviewProvider: CoreCoursesMyOverviewProvider,
@@ -242,7 +244,7 @@ export class CoreCoursesMyOverviewPage implements OnDestroy {
      * @return {Promise<any>} Promise resolved when done.
      */
     protected fetchUserCourses(): Promise<any> {
-        return this.coursesProvider.getUserCourses(null, null, 0).then((courses) => {
+        return this.coursesProvider.getUserCourses(null, null, this.categoryType).then((courses) => {
             const promises = [],
                 courseIds = courses.map((course) => {
                 return course.id;

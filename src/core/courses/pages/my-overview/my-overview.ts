@@ -83,7 +83,6 @@ export class CoreCoursesMyOverviewPage implements OnDestroy {
     protected updateSiteObserver;
     protected courseIds = '';
     
-
     constructor(private navCtrl: NavController, private coursesProvider: CoreCoursesProvider,
             private domUtils: CoreDomUtilsProvider, private myOverviewProvider: CoreCoursesMyOverviewProvider,
             private courseHelper: CoreCourseHelperProvider, private sitesProvider: CoreSitesProvider,
@@ -504,7 +503,7 @@ export class CoreCoursesMyOverviewPage implements OnDestroy {
     /**
      * Load the site name.
      */
-    protected loadSiteName(): void {
+    loadSiteName(): void {
         this.siteName = this.sitesProvider.getCurrentSite().getInfo().sitename;
     }
 

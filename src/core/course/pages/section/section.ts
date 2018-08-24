@@ -227,6 +227,7 @@ export class CoreCourseSectionPage implements OnDestroy {
                 handlers.forEach((handler) => {
                     handler.data.componentData = handler.data.componentData || {};
                     handler.data.componentData.courseId = this.course.id;
+                    handler.data.componentData.progress = this.course.progress;
                 });
 
                 this.courseHandlers = handlers;

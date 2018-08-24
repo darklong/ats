@@ -26,7 +26,7 @@ export class AddonMandatoryProvider {
     }
 
     /**
-     * Check if Calendar is disabled in a certain site.
+     * Check if Mandatory is disabled in a certain site.
      *
      * @param {CoreSite} [site] Site. If not defined, use current site.
      * @return {boolean} Whether it's disabled.
@@ -38,7 +38,7 @@ export class AddonMandatoryProvider {
     }
 
     /**
-     * Check if Calendar is disabled in a certain site.
+     * Check if Mandatory is disabled in a certain site.
      *
      * @param  {string} [siteId] Site Id. If not defined, use current site.
      * @return {Promise<boolean>}     Promise resolved with true if disabled, rejected or resolved with false otherwise.

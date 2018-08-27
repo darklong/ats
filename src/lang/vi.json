@@ -180,7 +180,7 @@
     "previous": "Trước",
     "proceed": "Tiến hành",
     "pulltorefresh": "Kéo để làm mới",
-    "quotausage": "Bạn hiện đã sử dụng {{$ a.used}} trong giới hạn {{$ a.total}} của mình.",
+    "quotausage": "Bạn hiện đã sử dụng {{$a.used}} trong giới hạn {{$a.total}} của mình.",
     "redirectingtosite": "Bạn sẽ được chuyển đến trang.",
     "refresh": "Làm mới",
     "required": "Yêu cầu",

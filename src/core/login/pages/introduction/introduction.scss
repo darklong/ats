@@ -4,6 +4,8 @@ page-core-login-introduction {
         padding: 16px;
         /*margin: 8px;*/
         background: $white;
+        max-width: unset !important;
+        width: 100%;
         /*border: 1px solid $gray;*/
         height: 100%;
         ion-slides {

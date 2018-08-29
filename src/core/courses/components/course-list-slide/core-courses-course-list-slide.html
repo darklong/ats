@@ -4,7 +4,7 @@
 
                 <ion-slide class="common first-el">
                     <ion-card class="card-category-title category-title-background-{{category.id % 10}}" >
-                        <h2 text-uppercase >{{ category.name }}</h2>
+                        <h5 text-uppercase >{{ category.name }}</h5>
                     </ion-card>
                 </ion-slide>
                 <ion-slide *ngFor="let course of category.courses" class="common" >

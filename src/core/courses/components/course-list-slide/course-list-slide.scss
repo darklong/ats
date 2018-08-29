@@ -14,13 +14,14 @@ core-courses-course-list-slide {
   				background: nth($color-list, $i+1);
   			}
 		}	
-    	h2{ 
-			font-size: x-large;
+    	h5{ 
 			color: white;
 			vertical-align: middle;
     		display: table-cell;
     		margin: 0 !important;
     		padding: 5px !important;
+    		word-wrap: break-word;
+    		word-break: break-word;
 		}
 	}
 	div.item-category {

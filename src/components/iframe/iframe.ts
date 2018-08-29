@@ -108,7 +108,11 @@ export class CoreIframeComponent implements OnInit, OnChanges {
         if (!contentWindow && element.getSVGDocument) {
             // It's probably an <embed>. Try to get the window and the document.
             /*contentDocument = element.getSVGDocument();*/
-            contentDocument = null;
+            try {
+                contentDocument = element.getSVGDocument();
+            } catch (ex) {
+                // Ignore errors.
+            }
             if (contentDocument && contentDocument.defaultView) {
                 contentWindow = contentDocument.defaultView;
             } else if (element.window) {

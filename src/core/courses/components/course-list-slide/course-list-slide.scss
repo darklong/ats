@@ -8,7 +8,7 @@ core-courses-course-list-slide {
     	height: 212px;
     	width: 100%;
     	text-align: center !important;
-    	padding-top: 50%;
+    	display: table;
     	@for $i from 0 to length($color-list){
   			&.category-title-background-#{$i} {
   				background: nth($color-list, $i+1);
@@ -17,6 +17,10 @@ core-courses-course-list-slide {
     	h2{ 
 			font-size: x-large;
 			color: white;
+			vertical-align: middle;
+    		display: table-cell;
+    		margin: 0 !important;
+    		padding: 5px !important;
 		}
 	}
 	div.item-category {

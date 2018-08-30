@@ -1,5 +1,5 @@
 <div [class.core-loading-container]="loading">
-    <iframe #iframe [hidden]="loading" class="core-iframe" [ngStyle]="{'width': iframeWidth, 'height': iframeHeight}" [src]="safeUrl"></iframe>
+    <iframe #iframe [hidden]="loading" class="core-iframe" [src]="safeUrl" seamless frameborder="0" scrolling="no" style="width: 1px;min-width: 100%;*width: 100%;height: 1px;min-height: 100%;*height: 100%;"></iframe>
     <span class="core-loading-spinner">
         <ion-spinner *ngIf="loading"></ion-spinner>
     </span>

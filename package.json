@@ -82,6 +82,7 @@
     "cordova-plugin-camera": "2.4.1",
     "cordova-plugin-customurlscheme": "4.3.0",
     "cordova-plugin-device": "1.1.6",
+    "cordova-plugin-document-viewer": "^0.9.10",
     "cordova-plugin-file": "4.3.3",
     "cordova-plugin-file-opener2": "~2.0.19",
     "cordova-plugin-file-transfer": "1.6.3",

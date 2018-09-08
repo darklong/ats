@@ -130,6 +130,6 @@
     <plugin name="cordova-sqlite-evcore-extbuild-free" spec="~0.9.7" />
     <plugin name="cordova-plugin-badge" spec="~0.8.7" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
-    <engine name="ios" spec="4.3.1" />
     <engine name="osx" spec="^4.0.1" />
+    <engine name="android" spec="~7.0.0" />
 </widget>

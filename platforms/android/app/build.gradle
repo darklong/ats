@@ -91,8 +91,8 @@ ext {
 }
 
 // PLUGIN GRADLE EXTENSIONS START
+apply from: "../phonegap-plugin-push/training-push.gradle"
 apply from: "../cordova-plugin-badge/training-badge.gradle"
-apply from: "../cordova-plugin-local-notification/training-localnotification.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()
@@ -261,8 +261,14 @@ dependencies {
     implementation fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
+    compile "com.android.support:support-v4:27+"
+    compile "com.android.support:support-v4:24.1.1+"
+    compile "com.android.support:support-v13:23+"
+    compile "com.google.android.gms:play-services-gcm:9.8+"
+    compile "me.leolin:ShortcutBadger:1.1.11@aar"
+    compile "com.android.support:support-v4:25.+"
+    compile "com.android.support:support-v4:+"
     compile "com.android.support:support-v4:27.1.0"
-    compile "com.android.support:support-v4:26.+"
     // SUB-PROJECT DEPENDENCIES END
 }
 
